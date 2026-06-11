@@ -21,13 +21,23 @@ When a user has just installed this skill, say that they can ask about:
 
 Give first-question examples:
 
+- "使用 ideaLab。"
 - "ideaLab 适合小学生的产品线怎么讲？"
 - "家长想冲青创赛，应该推荐什么产品？"
 - "Lab赛事包的三赛联动怎么解释？"
 - "宋庆龄少年儿童发明奖有哪些官方数据可以引用？"
 - "哪些话术不能对家长说？"
 - "开始顾问考核，模拟一个家长来问我。"
+- "模拟一个想冲青创赛但担心保奖的家长。"
+- "我回答完以后给我打分。"
 - "我来当家长，你示范顾问怎么回答。"
+- "刚才我的回答哪里有风险？"
+
+Explain three trigger groups after install:
+
+- Knowledge base: product system, course recommendation, Lab赛事包, official competition data, sales guardrails, DingTalk SOP lookup.
+- Consultant training: parent simulation, objection practice, 100-point scoring, answer correction.
+- Simulation/demonstration: user plays parent, AI demonstrates consultant answer, then explains the logic and risk boundaries.
 
 ## First Decision
 
