@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no"> 
+    <link rel="stylesheet" href="/static/player/player.min.css">      <title>上海科技馆行政网</title>
+<link rel="shortcut icon" href="/assets/favicon.ico"><link href="/assets/style/vendors.css?32bc5ac279c10f4c3775" rel="stylesheet"></head>
+<script type="text/javascript" src="/static/jquery/jquery.min.js"></script>
+<body class="">
+    <!-- 手机导航 -->
+<nav class="pushy pushy-right">
+    <div class="pushy-content">
+        <ul>
+            <li class="pushy-submenu">
+                <a href="/" class="direct-link">
+                    <button>首页</button>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="pushy-submenu">
+                <button><a href="/know/about/article/3">走近我们</a></button>
+                <ul>
+                    <li class="pushy-link">
+                        <a href="/know/about/article/3">关于我们</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/know/framework/article/16">组织架构</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/know/history/canvas">历史档案</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li class="pushy-submenu">
+                <button><a href="/publicity">馆务公开</a></button>
+                <ul>
+                    <li class="pushy-link">
+                        <a href="/publicity/dynamic">我馆动态</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/publicity/media">媒体声音</a>
+                    </li>
+                    <li class="pushy-link"> 
+                        <a href="/publicity/purchase">采购中心</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/publicity/standardization">标准化</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li class="pushy-submenu">
+                <button><a href="/party">党务公开</a></button>
+                <ul>
+                    <li class="pushy-link">
+                        <a href="/party/construction">党建之窗</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/party/home">温馨家园</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/party/youth">火热青春</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/party/woman">巾帼风采</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/party/incorrupt">清风廉政</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/party/interview">处长访谈录</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li class="pushy-submenu">
+                <button><a href="/communication/cooperation">跨界交流</a></button>
+                <ul>
+                    <li class="pushy-link">
+                        <a href="/communication/cooperation">合作交流</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/communication/achievement">交流成果</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li class="pushy-submenu">
+                <button><a href="/pioneer">科普先锋</a></button>
+                <ul>
+                    <li class="pushy-link">
+                        <a href="/pioneer/gallary/model">身边典型</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/pioneer/gallary/scientific-master">科学诠释者</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/pioneer/gallary/touch-everyone">感动你我他</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/pioneer/gallary/volunteer">志愿队伍</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li class="pushy-submenu">
+                <a href="/special" class="direct-link">
+                    <button>焦点专题</button>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="pushy-submenu">
+                <button> <a href="/business/contact">业务联系</a></button>
+                <ul>
+                    <li class="pushy-link">
+                        <a href="/business/contact">联系我们</a>
+                    </li>
+                    <li class="pushy-link">
+                        <a href="/business/consult">会务咨询</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav><div class="love-wish">
+    <ul>
+    </ul>
+</div> <div class="navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-target="#nav-t-c">
+                <span class="sr-only"></span><i class="fa fa-bars" aria-hidden="true" id="openBtn"></i>
+            </button>
+            <div>
+                <form class="nav-search" action="/search" method="get">
+                    <input type="text" name="keywords" placeholder="站内搜索">
+                    <button class=""><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+                <a href="/search" class="navsh-link"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+            <a class="navbar-brand" href="/">
+                    <img src="/assets/images/6e6555cd.logo.png" alt="logo" class="img-responsive">
+                </a>
+        </div>
+        <div class="collapse navbar-collapse" id="nav-t-c">
+            <ul class="nav navbar-nav navbar-right">
+                <li class=""><a href="/" class="active-color">首页</a></li>
+                <li class="has-page ">
+                    <a href="/know/about/article/3">走近我们</a>
+                    <div>
+                        <a href="/know/about/article/3">关于我们</a>
+                        <a href="/know/framework/article/16">组织架构</a>
+                        <a href="/know/history/canvas">历史档案</a>
+                    </div>
+                </li>
+                <li class="has-page ">
+                    <a href="/publicity">馆务公开</a>
+                    <div>
+                        <a href="/publicity/dynamic">我馆动态</a>
+                        <a href="/publicity/media">媒体声音</a>
+                        <a href="/publicity/purchase">采购中心</a>
+                        <a href="/publicity/standardization">标准化</a>
+                    </div>
+                </li>
+                <li class="has-page ">
+                    <a href="/party">党务公开</a>
+                    <div>
+                        <a href="/party/construction">党建之窗</a>
+                        <a href="/party/home">温馨家园</a>
+                        <a href="/party/youth">火热青春</a>
+                        <a href="/party/woman">巾帼风采</a>
+                        <a href="/party/incorrupt">清风廉政</a>
+                        <a href="/party/interview">处长访谈录</a>
+                    </div>
+                </li>
+                <li class="has-page ">
+                    <a href="/communication/cooperation">跨界交流</a>
+                    <div>
+                        <a href="/communication/cooperation">合作交流</a>
+                        <a href="/communication/achievement">交流成果</a>
+                    </div>
+                </li>
+                <li class="has-page ">
+                    <a href="/pioneer">科普先锋</a>
+                    <div>
+                        <a href="/pioneer/gallary/model">身边典型</a>
+                        <a href="/pioneer/gallary/scientific-master">科学诠释者</a>
+                        <a href="/pioneer/gallary/touch-everyone">感动你我他</a>
+                        <a href="/pioneer/gallary/volunteer">志愿队伍</a>
+                    </div>
+                </li>
+                <li class="has-page ">
+                    <a href="/special">焦点专题</a>
+                </li>
+                <li class="has-page ">
+                    <a href="/business/contact">业务联系</a>
+                    <div>
+                        <a href="/business/contact">联系我们</a>
+                        <a href="/business/consult">会务咨询</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <div id="main-container">
+        <div class="saffair-list-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 saffair-detail-page text-center">
+                <div>
+                    <h1 class="tittle">喜报 | 上海自然博物馆选送两名选手荣获第二十二届上海少年科学院“小院士”</h1>
+                    <span class="time">2025-01-08</span> <section style="color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; text-wrap: wrap; background-color: rgb(255, 255, 255);"><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: inherit; font-size: inherit; line-height: 28.8px; clear: both; word-break: normal; text-indent: 2em;"><br/></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: inherit; font-size: inherit; line-height: 28.8px; clear: both; word-break: normal; text-indent: 2em; text-align: left;">2024年12月28日，“雏鹰杯”红领巾科创达人挑战赛暨第二十二届上海少年科学院“小院士”评选活动总决选及颁奖仪式在上海市青少年活动中心举行。由上海自然博物馆（上海科技馆分馆）选送的自然生态板块学生黄博和周奕呈获得“小院士”称号。</p></section></section></section><section><section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: inherit; font-size: inherit; line-height: 28.8px; clear: both; word-break: normal; text-align: center;"><img src="http://sstm1000000-1253956799.cossh.myqcloud.com/sdktest/6387195332724637478726766.jpg" alt="-365096550"/></p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: inherit; font-size: inherit; line-height: 28.8px; clear: both; word-break: normal; text-indent: 2em; text-align: left;"><span style="color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; text-wrap: wrap; background-color: rgb(255, 255, 255);">市少工委主任、市少先队总辅导员赵国强，中国科学院院士陈凯先、金亚秋、陈晓亚等领导与嘉宾出席总决选及颁奖仪式。本次活动由共青团上海市委员会、上海市教育委员会、少先队上海市工作委员会联合主办，上海市青少年活动中心、上海自然博物馆、中国福利会少年宫、上海航宇科普中心联合承办。</span></p></section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: inherit; font-size: inherit; line-height: 28.8px; clear: both; word-break: normal; text-align: left;">　　本次评选共有10位队员荣获特等奖，并被授予上海少年科学院“小院士”称号。其中，上海自然博物馆选送的自然生态板块两名参赛学生均获得“小院士”称号，他们分别是来自上海市民办尚德实验学校黄博和上海市实验学校周奕呈，课题分别是《小文具，大浪费——基于小学生文具浪费调查与分析》和《一种用于江海油污处理的植物基吸附材料制备》。截至2024年年底，自博馆选送的学员中，共有15人获得了上海市少年科学院“小院士”称号。</p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: inherit; font-size: inherit; line-height: 28.8px; clear: both; word-break: normal; text-align: center;">&nbsp;<img src="http://sstm1000000-1253956799.cossh.myqcloud.com/sdktest/6387195332524753061071111.jpg" alt="1521038069"/><img src="http://sstm1000000-1253956799.cossh.myqcloud.com/sdktest/6387195344934675598693562.jpg" alt="559405720"/></p></section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: inherit; font-size: inherit; line-height: 28.8px; clear: both; word-break: normal; text-align: left;">　　为更好地提升青少年的科学素养和科创能力，上海自然博物馆在“馆校合作”项目之下特设“青少年科学诠释者”子项目。该项目自2018年起，被纳入团市委组织的上海市“雏鹰杯”红领巾科创达人挑战赛自然生态类暑期孵化活动。通过馆方设计的标准化、模块化、个性化定制培训，结合馆内导师、高校老师、科研院所专家等辅导，让青少年在系统化的培训与项目化的学习过程中培养科学的思维方式与探究能力，找到适合自己的诠释平台。</p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: inherit; font-size: inherit; line-height: 28.8px; clear: both; word-break: normal; text-align: center;"><img src="http://sstm1000000-1253956799.cossh.myqcloud.com/sdktest/6387195332513196885870050.jpg" alt="-676971855"/></p></section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: inherit; font-size: inherit; line-height: 28.8px; clear: both; word-break: normal; text-align: left;">　　在2024年“雏鹰杯”比赛中，上海自然博物馆负责孵化的39个课题入围复评，最终2名学员获得一等奖，11名学员获得二等奖，26名学员获得三等奖。此外，还有8名学员在上海市“小小科普讲解员大赛”“进馆有益”优秀微论文征集活动中取得优异成绩，分别获得一等奖1名，二等奖2名，三等奖5名。</p><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: inherit; font-size: inherit; line-height: 28.8px; clear: both; word-break: normal; text-align: center;"><img src="http://sstm1000000-1253956799.cossh.myqcloud.com/sdktest/6387195332504758718127479.png" alt="803020488"/></p></section><section style="text-align: left;">　　未来，上海自然博物馆将继续致力于青少年科创教育，通过不断创新和优化活动内容，激发青少年的科学兴趣和创新精神，培养未来的科学领袖。</section></section></section></section><p><br/></p><section style="color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; text-wrap: wrap; background-color: rgb(255, 255, 255);"><section><section>&nbsp;</section></section><section><p style="margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: inherit; font-size: inherit; line-height: 28.8px; clear: both; word-break: normal; text-align: right;">文/图&nbsp;自然博物馆展教中心</p></section></section><p><br/></p><p><br/></p>
+                </div>
+            </div>
+            <div class="col-sm-3 saffair-sidebar-wrapper">
+                <div class="saffair-sidebar">
+                    <a href="/publicity/media">媒体声音</a>
+                    <div class="saffair-sidebar-item">
+                        <img src="http://sstm1000000-1253956799.cossh.myqcloud.com/sdktest/6391515068128082376351911.jpg" alt="文汇报：从极大到极小的宇宙尺度漫游，“无尽宇宙”科学艺术展在上海天文馆开幕" class="img-responsive">
+                        <div>
+                            <p>文汇报：从极大到极小的宇宙尺度漫游，“无尽宇宙”科学艺术展在上海天文馆开幕</p>
+                            <div class="first-tittle">
+                                <span>2026-05-23</span>
+                                <span>&nbsp;|&nbsp;</span>
+                                <a href="/article/17192237/33">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="saffair-sidebar-item">
+                        <a href="/article/88517825/33" class="clamp-one-line">澎湃新闻：国际博物馆日，60岁奶奶与孙子各玩各的，她玩起了“跳伞”</a>
+                    </div>
+                    <div class="saffair-sidebar-item">
+                        <a href="/article/86205875/33" class="clamp-one-line">央视新闻：大科学装置对外开放，上海科技节拉开近2000场次活动序幕</a>
+                    </div>
+                    <div class="saffair-sidebar-item">
+                        <a href="/article/98686908/33" class="clamp-one-line">劳动报：在恐龙化石、动物标本间搭帐篷过夜？上海自然博物馆“趣玩·博物馆奇妙夜”特别活动举办</a>
+                    </div>
+                    <div class="saffair-sidebar-item">
+                        <a href="/article/93197941/33" class="clamp-one-line">中国新闻网：上海自然博物馆探索科普“夜生态”</a>
+                    </div>
+                    <div class="saffair-sidebar-item">
+                        <a href="/article/34628047/33" class="clamp-one-line">新华社：全新沉浸式科普作品解密恐龙如何演化为鸟类</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <div class="footer">
+    <div class="container">
+        <div class="footer-top clearfix">
+            <div class="footer-left-btn">
+                <a href="/map" class="map">网站地图</a>
+            </div>
+            <div class="dropdown footer-right-btn">
+                <button class="btn dropdown-toggle" type="button" id="blogroll" data-toggle="dropdown">
+                    友情链接
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="blogroll">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.ssedf.org.cn/portal/index/index.htm">上海科普教育发展基金会</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="http://sstmwork.sstm.org.cn">上海科技馆协同办公平台</a></li>
+                </ul>
+            </div>
+            <!-- 手机友情链接 -->
+            <div class="panel-group" id="fpgroup" aria-multiselectable="true">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a data-toggle="collapse" href="#fp1" data-parent="#fpgroup" aria-expanded="true" aria-controls="fp1" class="fp-btn clearfix">
+                                <span>友情链接</span>
+                                <span class="glyphicon glyphicon-chevron-down">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="fp1" class="panel-collapse collapse">
+                        <ul class="panel-body">
+                            <li>
+                                <a href="http://www.ssedf.org.cn/portal/index/index.htm" title="上海科普教育发展基金会" target="_blank" rel="noopener noreferrer">上海科普教育发展基金会</a>
+                            </li>
+                            <li>
+                                <a href="http://www.sstm.org.cn/kjg_Web/html/VolunteerServiceSite/portal/index/index.htm" title="上海科技馆志愿者服务总队" target="_blank" rel="noopener noreferrer">上海科技馆志愿者服务总队</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- END手机友情链接 -->
+        </div>
+        <div class="row footer-bottom">
+            <div class="footer-icon-item ft-l">
+                <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery">
+                    <img src="/assets/images/80f652d5.unknow.png" alt="">
+                    <div class="footer-bottom-note">
+                        <p>沪ICP备</p>
+                        <p>05019056</p>
+                    </div>
+                </a>
+                <a href="https://beian.mps.gov.cn/#/query/webSearch?code=31011502403658">
+                    <img src="/assets/images/a1ba0f22.beian.png" style="height:48px">
+                    <div class="footer-bottom-note">
+                        <p>沪公网安备</p>
+                        <p>31011502403658号</p>
+                    </div>
+                </a>
+                <a href="http://bszs.conac.cn/sitename?method=show&id=319C91929FDB2662E053012819AC1CAE">
+                    <img src="/assets/images/2f91541c.sydw.png" alt="">
+                </a>
+                <a href="http://www.cyberpolice.cn/wfjb/">
+                    <img src="/assets/images/7bf1c3d0.police.png" alt="">
+                </a>
+                <a href="http://www.zx110.org/">
+                    <img src="/assets/images/ba8c52a4.32.png" alt="">
+                    <div class="footer-bottom-note">
+                        <p>网络社会</p>
+                        <p>征信网</p>
+                    </div>
+                </a>
+            </div>
+            <div class="ft-r">
+                <div>
+                    <p>&nbsp;</p>
+                    <p>上海科技馆版权所有2000-2018 COPYRIGHT @ ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sidebar">
+    <!-- <div class="sidebar-item overflow-show" id="sidebar-goTop">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </div> -->
+    <div class="sidebar-item overflow-show" id="sidebar-weibo">
+        <div>
+            <img src="/assets/images/eefe42fd.weibo-qc.jpg" alt="上海科技馆微博">
+            <p>上海科技馆微博</p>
+        </div>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADtElEQVRYR+2Wa8jfcxjGPxc55XwYr8wp5JBTE2KSkGnDNPHClCaH5tCkSDLmjbWUVhNZMhTeyNQ8FpszSxRWsq0cFpbzKbHNXOt6fH9Pv+fb///8Hjz1vNld/zff//d339f3vq/rvm8xzqZxjs82AGOeAds7AscBuwHrJX06UpnHFIDtI4F3gL1bQb8FHgfukvRHDWasAUwDnu/z4i+AGZLea/8/1gC2Ay4DNgBvl1LMAK4D9gR+B86RtKoBMWoAtvcCbgVOBQyskHRfr9faPhDYIunr/G97H+B14Bjge2BiU45OALa3B64B7gX2rQJOl/Rc+8x2AIYHsY+AGyS9UR6wHtgdmCPpgVwYEYDtw4FngBP71HW+pNsrABOA2eXs3PLt8ZLW2V4MzAJWSTptRAC2TwFeLnLqp6SbJS20fRYwBTgZ+BhYJmnA9s7Ab8ACSXfYvgJ4AvhB0n59AdieBLzSETzfrwH+Bo6qEG5JvSWtsf0jsETSHNsziyT7A7B9EBCpDCL8H5baL7L9FPCIpJW2Q9rb+pagdLEPeryowRH2fwV8Vl4eZRwN7NAD6OmSIsUhs/1CKVWaUkg9nIS27wduqZxtBB4GngRWS/qzcroLcGnR+iCxWgR8TdLmIfT/8OoqYK6kb4YBKHV/twUqH94JLJaUOkbPCXYssFbSL/WrbV8LPNQ6Tx+4UdKz/Uo5JEPbeWX0HkvwaZKWl8BpLPOBS4Cdyp38d5OktVVGFiZoFXCKpBd7gWgDiKPoPjZb0oMleEgZXqTetX0ZDkiK1AbN9h5ABlADNMfLJZ3fBWBTIdPnwGGSIq84zHDJkGks5ViZwVIOZkl6tMpCRvAhrbO3JJ3RBSCk2D/TTNJFJXhe8SvwPnAlEEIuBb4DzisO50ma28rArsBPlTIiw6a8w3C0S7AMuCBLBHCwJBdZJujlktKSk5EPy5RrHE2VlG+bElwd3VevnSzpza4MpEYD5dJMSZFdAoYbYfM9wJnA3S1HATNJ0l/l7qElW22+LJV0ca/gORs2jGyHeNcDPwMXlimWLedp4ITKSaZgyNqM3PAkfT5zv7HI+mxJ2QN6Wg0gozcdKu0yliBLSmbSZI4A0gvCk2w4yVDIFtDZFdr+HktzkpQS9rWe49h2XjsPmFqcpulEx5+0PGXSZdyeVHl/tXS6LCCd1rUPHABkguWXbSYZqi0bzurSKwYkvdQZtXWhcyNq7tqOJDN4UuOQLs1mQ7sJ/ZvAzd1RA/gvzkfzzTYA456BrfzHWDCvA4jKAAAAAElFTkSuQmCC" alt="上海科技馆微博">
+    </div>
+    <div class="sidebar-item" id="sidebar-report" style="display: block;">
+        <a href="/static/reporting/reporting.html" target="_blank" rel="noopener noreferrer" title="信访举报" data-width='130px' class="splink">信访举报</a>
+        <a href="/static/reporting/reporting.html" target="_blank" rel="noopener noreferrer">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAoVJREFUWEe9lwtxFEEQhvtXACgAFEAUQBQQFEAUAAoIDoICEgUhCsgpICgACURBU9+lZ2u29zWwe3TV1lXdPPrvv58jaxR3f2VmL83seXwP4+hN/N6a2aUkfptFczvdHSXvzOy9mRWFS5cD4FzS5dJG1icBuPuJmX2ZUbyLtWcTimDmwxIjowDcHcVv08VY9NXMbiT9rtfc/Um4hzMv0rlTSRdTbAwAjCi/xgWSfrVQ6u7EyVkCMgmiB2BE+Sz6hfjB6jfVntG7OgDh86vqwNGS/5YYcXdcgjuLPM1M7gFEtH83M3yJ/LPlGZS710wQP8f1ngIAn32MhWtJZMBm4u7Ez+O48FhSqR33aejuPyvrBzStRZJc0WNByfdUspx+a/XvzycWHpVUBkDto9eSyPXNxd3Po6pyd6cHAPijFI8O2dYIEtOfJBF3BgCinwZjkmZ7wxpQ7o4OdCFdoAPA48+dJKrYwWRMVw3gVtLRwbTfB+LAWAB0OXpgF8DutzCwy7YchJvXgMLoXBDWVXCzEpxdmdK9q4YwUEfnoFZvERPRa6i2+6mqdnUpxZO1eiMANcu9alsA1G1zUxay9WbWa/P1PMAwWea7z5IYRFdLXehiau71mhpAnSYoXh2QacK6o+PmeTKPZHmCuZB0+rc0BO3k/L7EhzDIEv29d8PYUJpBEKBnLXN+wztiAGJqLAcE7fNBZQFAaNV8d8USd6eTkl5MUXz1AwbakfqeHoi5hwnzIbNCnvNbPcI7gkDmHlr+KIjF9htzPhfxNmwRFPM063wdxW4cRMuN7An/QjEWlY8lKEUZ9aMbNkdKMQGZQewWGWgF2LIvMfGD59x/BRBMwgQBfkJN+AMEmTYnJSShPgAAAABJRU5ErkJggg==" alt="信访举报"></a>
+        </a>
+    </div>
+    <div class="sidebar-item" id="sidebar-job" style="display: block;">
+        <a href="http://sstmwork.sstm.org.cn/seeyon/shkkRecruitController.do?method&#x3D;recruit" target="_blank" rel="noopener noreferrer" title="招聘专栏" data-width='130px' class="splink">招聘专栏</a>
+        <a href="http://sstmwork.sstm.org.cn/seeyon/shkkRecruitController.do?method&#x3D;recruit" target="_blank" rel="noopener noreferrer">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC5ElEQVRYR+2XS4iOYRTHf3/3a5IIRbKQkCY0snEtZGOhKJRCpBg0okiYFCGXUGIxK8klG8lipCmN60LjunCLKXJdSEJ0dPS8X493vu9738+l2TjL7z2X33PO85xzPtHGojaOz3+AzAyYWVdgBTAfGAx0B1qAG0CdpEdeRjNrD6wGXN+/35J0J6vEZQHMrAfQBIwu4egzMFbS/QCxHDgS6Z4CFklyvaKSBbAHqM04RbOkqkTHzG4C4yKb05Lm/i7AC2BAVhqBCZKuhSx4GfZHNgYMkfS8mJ+SGTCznsCHHMFdpUbSwQAwBbiUslso6XilAH7hnuUE2CKpLgBUA9dTdusl7a4UoA/wNifARkk7AsAkoDFlt1ZSXJbC53Il6A+8/A2AEcBd+KXJ1UraW2kG1gFF01bE0X1JI6OX8AAYHundlOSlaSXlMrAG2JczA/ckjQol6AS8BnpFtg2SplcK0A+4CgzNAVFIsZkdA5ZGNg4zVdK9igDCaSYAVzIADklaFfS9Yzan9PdKKtnMsjqhf38H9C4DUS3Ju5/Pg53AhpTuFEnpV5H9CqILVQMcKAFQaLNmNhDwmRDXvlGSN6aSkmcatgPOAbNSXt4DIyS9Cqe/AMyMdLyNV0l680cAwfk04GLKUb2kxVGmvgMOm8gNSeOzLnBmBsrU9jYwRpIH9vqfAOYAHUPQb8Bm4KSkp6VAyvWBvuE5+SgtjNsijp4A/vR8GHUONkuAYUHXp+F5v5zJ3hD7aAVgZh7Yu6A/Ld9u8orfiY3AUUlmZjMAfxUJvIOcATZJepg4/QXAzNYD24AueaMW0bsMLJDUYmYdgO2A+01ifQJWSqp3258/BsXDwLI/CBybfgRmS/q5F4RsnAW6RUq7JG3wXDllAzD5LwVP3HwBJkry5dUh/C6dTMWY5wBbgS1/OXji7nHoFV8DhHdE3xcSaXIA39UG/SMAd1toxWbmW1Y83L7m6gP/EO7/X7O2z8APTVcDe4zjW6kAAAAASUVORK5CYII=" alt="招聘专栏">
+        </a>
+    </div>
+    <div class="sidebar-item" id="sidebar-mail">
+        <a href="mailto:president@sstm.org.cn" title="president@sstm.org.cn" data-width='130px' class="splink">馆领导信箱</a>
+        <a href="mailto:president@sstm.org.cn">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACJElEQVRYR+2XPWgUURSFv+MfooggCEIECwsLGwsbGy0MaDSgCIIoWAgiVloJaS0kloLYCAFR00QkWhiVWGhjk0KEFBYWAYVgQNCoLAZz5MqbsLs6mZl1lzTzmoXde8/99r573psRK7y0wvWpAVo6YPsScBx61hkD45JuZFvfDvAJ2NrjufgqaXMewCngHrC6RxC/gLOSRpcAbF8FtgGXJf2w3Q88BDZ1GWIeOCFp0vaGqAe8le0FYA3wBhiQNGt7NzCZwLrBMQv0S5q2HX92AtgDNAIgBiNbH4GDkt7Z3p4gdv0nwTRwWNIH26H1Auhr3oJmgPj+C3BM0kvbMSyPgf0dQrwCBiXN2z4APAKWBjA02zuQ1YltOSNpzPZa4D5wsiLEWNJYsB25oRFaLSsPIIKiM0OSrtsOuw4DV0pCDEsa+iNix+e1vLzlALKcEeC8pEXbF4GbwKocwcUUO2I7Ym4D55aDLgMQ+TG1YaGG7YFk0/Vtwo0UM5Fs9iBcVdSxsgChMwUckTRney/wDNiSCsyl36Zsx0n6PNmsqH7uEOYlziSbvre9E3gKxOl2SNJMslmA7SisnAKqdCDT/Jys9bq5iO19aatabFYE0glAaP5MFot9jkmPO+QOsK6oYBUbltGKgyUursEywf+K6bQDndb7K68GqDsQHfgGbOzaVFUT+h4AcU2erpbXtei7ARDPfheAoz18HG8njlvzCXCrfjOqO/Abj77stUmjqmgAAAAASUVORK5CYII=" alt="馆长信箱">
+        </a>
+    </div>
+    <div class="sidebar-item" id="sidebar-phone">
+        <a href="https://group.sstm.org.cn/business/contact" data-width='130px' class="splink">联系我们</a>
+        <a href="https://group.sstm.org.cn/business/contact">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACWUlEQVRYR8WXTahNURTHf38foV4GJCYyQkpCUepNjNQbCEm+ivAGLwOUEWMZKOTjZUAxYOArgyeSKEUZKIWBogwkklI+Xk/vWVrar87bb59z7rn33Hf35Hbv3Wv9f2evtddaR3R4qcP65AKY2WRgFTAdeCPpaztgkwBmthU4D8wKov2S9k8IgJktBl4DUzKCv4E5kvyz1jXuBMzsMrArodIn6UKt6jA+B8zsMzA3IeR5sLStAGbmCTdYINIt6WmdEGNCYGaTgJECgauSdrYNwB2b2Q+gK0dkGJgn6VtdEKkkfAasKRDolXSxnQCngIM5Ap4fyyS9ayfAWuBRQsCALZJu1iXuflIh8N+87M7OCPmTb5d0p07xJEBIxMPAiUisR9K9iQKYCrwH5mcEPwKLJBXVicp8Rd1wG3At8nhJ0r7KKgUGhfOAmT0HVkf2OyTFYE0zlQEsAV4AMzIKXozWSUrdlMogpRORmW0Abkc3ZgjYLGmgsmJkUAoQbsUR4Fhk+xc4JOlMDGFmM4FeYEDS2yLIhgAChJffvQlnng97JPmpeC/x+vEAWOlfgfvASUkPUyBVALxT3gA2JRx9Ak4DdwEvVgsTe14BXua9o/4Z/b9hgPB0PqbdAta3EPsvQL+HVNJIJYAMxHVgYwsQHq4uScOVAQKEh+Mc0NckxBVJu3N7QaNOzewAcDyqE2XmH4AVkr63DBBOY0GIaU+ZMvDEJ25JDvF/NRWClJCZdQNHAZ8npmX2/ArX8qykx7FtbQCjjsNkvTy80v0EXnqy5Z1O7QANhGHMlo4D/APYFq8hBSgCwAAAAABJRU5ErkJggg==" alt="联系我们">
+        </a>
+    </div>
+    <!-- <div class="sidebar-item overflow-show" id="sidebar-wechat">
+        <div>
+            <img src="/assets/images/b1d3f695.keji.jpg" alt="上海科技馆">
+            <p>上海科技馆</p>
+            <img src="/assets/images/e1088ea3.ziran.jpg" alt="上海自然博物馆">
+            <p>上海自然博物馆</p>
+            <img src="/assets/images/e6b5d672.kepu.jpg" alt="科普先锋">
+            <p>科普先锋</p>
+        </div>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADBklEQVRYR82WWYiOYRTHf39LsiVbYkSWCxJqGJElFEqumMK4QBpLoexRFGVvmJI12ZfEuNFcoCQUMY3cWCYXbih7UoQ4OtPz6fV65/veb2bCc/PV9/7PeX7POed5zhH/eOkf708qADNrCXQHugJNgE/AfUnfGnqARAAz8/8nAMXAKKB/wkYOcQU44L+SrD4wfwCYmW94AuiVh8OnwEZJp/KwqZX+BmBmK4AdIcz5+nL9EaBU0o+0xr8AzGwOcDStYRbdWWBW2pTUAphZIXAvdvIqYDcwDFgajxZQCRwDpgEzYkBrJHkkcy6FgqsB+sbUnSW9CYAVwNTI91d+IzKhNrOHsUL1Au0lyXVZlwNMBC4nqDpKelcHwEugWxYAN1ssaW8agD0uThB6CsqBoiwp8NvikZke7KuBJ8AzoFrShTQAl4ApuYRZvn8FNocb0A8YC/QOj5bX2ItQLxclfY778RRcA8bVE+ABsDAcwKPYLouf9+GK75T0PaNzAL+7c+sBcA44CJwECvKwvwtMlvTWbRxgGbArDwcuvRU2d/jmedq63CM3WtJHB+gQ8tQipSMP36SQ16jNI+A8sAjoHPHlegceCrSO/F8hqTjzEJUBy1MC+AP0HJgf0xdJqjKz9cCmyLd1kraa2YLQuKJmRRkAD+MNYHgKiCXAtthp3Kw0POVe1GMifsokrTSz1cD2mP/yaC/oBPiVzAXhJz+UAjQq+QC0AZrG7Crj3bBZaMUzs2wwGzieJ0Bd8utJ84A3kVVZNigBzjQSwOEkAH9Ge4bK9Wd6QEhLpuK9YPeFEa2hHCXxFAwOlbpB0tW6vJvZWmBLA3f3mbIwDtDWH4dcjs3Ma+UOMCSXto7v3j8GSqpJNRUnOTGzLoA/qz3yhPCHaZ6k2kKuN4Abm5lf3dOAzxRp1heftiXdzIgbBJBxYmY+wvtAOz6hN/i4/jgyMRVI8hZduxoFIALSChgB9AHaA94fbkt6bWYjAZ+Q9kvyLtr4ALlyEObPQZK8G/59gCTARk1Brgj8lwA/AdBW8DkzUnsQAAAAAElFTkSuQmCC" alt="上海科技馆">
+    </div> -->
+</div>
+
+    </div>
+    <div class="site-overlay"></div>
+<script type="text/javascript" src="/assets/js/vendors.js?32bc5ac279c10f4c3775"></script><script type="text/javascript" src="/assets/js/main.js?32bc5ac279c10f4c3775"></script></body>
+
+<script type="text/javascript" src="/static/player/format.js"></script>
+<script type="text/javascript" src="/static/player/player.min.js"></script> 
+<script>
+    //统计
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement('script');
+        hm.src = 'https://hm.baidu.com/hm.js?8fc0bf883bab64b79acf786208f56ef5';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+        var u = '//xzwtj.sstm.org.cn/';
+        _paq.push(['setTrackerUrl', u + 'piwik.php']);
+        _paq.push(['setSiteId', '1']);
+        var d = document,
+            g = d.createElement('script'),
+            s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript';
+        g.async = true;
+        g.defer = true;
+        g.src = u + 'piwik.js';
+        s.parentNode.insertBefore(g, s);
+    })();
+</script>
+
+</html>

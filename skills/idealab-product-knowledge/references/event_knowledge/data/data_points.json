@@ -1,0 +1,100 @@
+[
+  {
+    "id": "DP_QCS_38_SUBMISSIONS",
+    "event_id": "qingchuang",
+    "label": "第38届青创赛申报规模",
+    "year": "2023",
+    "value": "第38届大赛共收到14205份申报材料，其中青少年科技创新成果板块11346项。",
+    "source_ids": [
+      "SRC_QCS_SHITALENT_38"
+    ],
+    "public_use": "可公开使用，适合写成“参赛作品超1.4万件”。",
+    "agent_use": "用于说明青创赛不是小范围展示，而是全市级大规模筛选。"
+  },
+  {
+    "id": "DP_QCS_38_FINALIST",
+    "event_id": "qingchuang",
+    "label": "第38届青创赛终审问辩入围",
+    "year": "2023",
+    "value": "青少年科技创新成果板块11346项申报中，700项入围终审问辩，约6.17%。",
+    "source_ids": [
+      "SRC_QCS_SHITALENT_38",
+      "SRC_QCS_SHSID_38_AWARD"
+    ],
+    "public_use": "可公开使用，但引用入围率时建议标注来源；SHSID为学校公开喜报，不能替代赛事组委会。",
+    "agent_use": "用于说明“终评入围更低”，比只说获奖率更能体现筛选强度。"
+  },
+  {
+    "id": "DP_QCS_40_SCALE",
+    "event_id": "qingchuang",
+    "label": "第40届青创赛现行规模",
+    "year": "2025",
+    "value": "第40届大赛收到来自全市700余所中小学5000余名参赛选手提交的4200余件作品，近400件科创作品及100余幅科幻画作品入围现场活动。",
+    "source_ids": [
+      "SRC_QCS_CAST_40"
+    ],
+    "public_use": "可公开使用，适合近年口径。",
+    "agent_use": "用于说明规则近年更加注重学生本人能力和现场活动。"
+  },
+  {
+    "id": "DP_CHUYING_2023_SCALE",
+    "event_id": "chuying",
+    "label": "2023雏鹰杯申报和获奖规模",
+    "year": "2023",
+    "value": "2023年活动收到16个区800余所中小学申报的4300余个项目，评出各奖项课题1300余件，最终10位队员获特等奖并被授予上海少年科学院小院士称号。",
+    "source_ids": [
+      "SRC_CHUYING_CYOL_2024"
+    ],
+    "public_use": "可公开使用，适合视频数据页。",
+    "agent_use": "用于说明“项目数量大、评审层级多、最终小院士非常稀缺”。"
+  },
+  {
+    "id": "DP_CHUYING_HISTORY",
+    "event_id": "chuying",
+    "label": "上海少年科学院小院士历史沉淀",
+    "year": "2003-2023",
+    "value": "自2003年首届上海少年科学院小院士命名以来，已产生244名上海小院士、616名全国小院士、12名全国十佳小院士以及9名市长奖获得者。",
+    "source_ids": [
+      "SRC_CHUYING_CYOL_2024"
+    ],
+    "public_use": "可公开使用，但建议作为背景小字，不要堆在主口播里。",
+    "agent_use": "用于说明赛事背后有长期培养体系。"
+  },
+  {
+    "id": "DP_SCLACI_NATIONAL_STATUS",
+    "event_id": "sclaci",
+    "label": "宋庆龄发明奖官方定位",
+    "year": "2023修订章程",
+    "value": "宋庆龄少年儿童发明奖设立于2001年，是经科技部批准的公益性国家级青少年科技活动奖项，被列入教育部面向中小学生的全国性竞赛活动名单。",
+    "source_ids": [
+      "SRC_SCLACI_CHARTER"
+    ],
+    "public_use": "可公开使用，适合赛事介绍页。",
+    "agent_use": "用于说明赛事含金量，不建议改写成升学承诺。"
+  },
+  {
+    "id": "DP_SCLACI_20_SCALE",
+    "event_id": "sclaci",
+    "label": "第二十届宋庆龄发明奖参评和获奖规模",
+    "year": "2025",
+    "value": "第二十届共有5.7万余名青少年、4.6万余件作品参评，获奖作品590件，其中发明作品346件、人工智能编程作品183件、创意作品61件。",
+    "source_ids": [
+      "SRC_SCLACI_20_AWARD_NEWS",
+      "SRC_PEOPLE_20"
+    ],
+    "public_use": "可公开使用，适合视频数据页。",
+    "agent_use": "用于说明全国性奖项竞争密度更高；可粗略说“590/4.6万+”，但不要暗示官方公布了获奖率。"
+  },
+  {
+    "id": "DP_LAB_92_INTERNAL",
+    "event_id": "lab_package",
+    "label": "Lab赛事包团队综合上岸率",
+    "year": "内部口径",
+    "value": "Lab赛事包团队综合上岸率：92%+。",
+    "source_ids": [
+      "SRC_INTERNAL_SUPPLEMENT"
+    ],
+    "public_use": "可用于内部颁奖视频，但对外发布前需确认分母、统计期和隐私边界。",
+    "agent_use": "作为产品结果口径使用；禁止展开最低值剔除、具体老师、复杂均值算法。"
+  }
+]

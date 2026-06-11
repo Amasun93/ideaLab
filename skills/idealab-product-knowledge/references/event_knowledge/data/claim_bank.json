@@ -1,0 +1,96 @@
+[
+  {
+    "id": "CLM_LAB_MATRIX",
+    "scope": "Lab赛事包",
+    "claim": "Lab赛事包不是押单场，而是把青创赛、雏鹰杯、宋庆龄少年儿童发明奖放进同一个项目成长矩阵。",
+    "use_context": [
+      "颁奖视频",
+      "家长说明",
+      "老师复盘"
+    ],
+    "source_ids": [
+      "SRC_INTERNAL_SUPPLEMENT"
+    ],
+    "risk_level": "低",
+    "rewrite_guardrail": "可以讲三赛联动；不要讲成官方联合认证或单个赛事保奖。"
+  },
+  {
+    "id": "CLM_LAB_92",
+    "scope": "Lab赛事包",
+    "claim": "Lab赛事包通过三赛联动，把团队综合上岸率稳定做到九成以上；数据展示可写“92%+”。",
+    "use_context": [
+      "内部颁奖视频",
+      "团队复盘"
+    ],
+    "source_ids": [
+      "SRC_INTERNAL_SUPPLEMENT"
+    ],
+    "risk_level": "中",
+    "rewrite_guardrail": "不要写去掉最低值、哪个老师被剔除、复杂计算过程；对外发布需补统计说明。"
+  },
+  {
+    "id": "CLM_QCS_EVALUATION",
+    "scope": "青创赛",
+    "claim": "青创赛看项目，也看学生本人科研潜质、创新素养和现场表达。",
+    "use_context": [
+      "赛事介绍",
+      "家长教育",
+      "视频旁白"
+    ],
+    "source_ids": [
+      "SRC_QCS_SHITALENT_38",
+      "SRC_QCS_CAST_40"
+    ],
+    "risk_level": "低",
+    "rewrite_guardrail": "不要只把青创赛讲成材料包装赛；要强调真实研究过程和评审。"
+  },
+  {
+    "id": "CLM_CHUYING_FILTER",
+    "scope": "雏鹰杯",
+    "claim": "雏鹰杯项目数量大、评审层级多，最终小院士名额非常少。",
+    "use_context": [
+      "赛事介绍",
+      "视频数据页",
+      "社群答疑"
+    ],
+    "source_ids": [
+      "SRC_CHUYING_CYOL_2024"
+    ],
+    "risk_level": "低",
+    "rewrite_guardrail": "可以讲层层筛选；不要把1300余件奖项课题等同于全部高等级奖。"
+  },
+  {
+    "id": "CLM_SCLACI_NATIONAL",
+    "scope": "宋庆龄少年儿童发明奖",
+    "claim": "宋庆龄少年儿童发明奖是全国性青少年科技活动奖项，发明、AI编程和创意作品都要经过入围和终评答辩。",
+    "use_context": [
+      "赛事介绍",
+      "家长说明",
+      "视频数据页"
+    ],
+    "source_ids": [
+      "SRC_SCLACI_CHARTER",
+      "SRC_SCLACI_AWARDS",
+      "SRC_SCLACI_FINAL_NOTICE_20"
+    ],
+    "risk_level": "低",
+    "rewrite_guardrail": "不能写成升学保证，不能把公益性国家级奖项简化为商业背书。"
+  },
+  {
+    "id": "CLM_PUBLIC_SINGLE_RATE",
+    "scope": "公开赛事对比",
+    "claim": "公开赛事里，单项自然获奖率常常只有三成到四成；有些全国性奖项更低。Lab做的是把机会变成可管理的系统。",
+    "use_context": [
+      "颁奖视频",
+      "口播稿"
+    ],
+    "source_ids": [
+      "SRC_QCS_SHSID_38_AWARD",
+      "SRC_CHUYING_CYOL_2024",
+      "SRC_PEOPLE_20",
+      "SRC_INTERNAL_SUPPLEMENT"
+    ],
+    "risk_level": "中",
+    "rewrite_guardrail": "不要用三项赛事不同分母直接计算官方综合概率；不要暗示Lab 92%由官方单项概率推导出来。"
+  }
+]

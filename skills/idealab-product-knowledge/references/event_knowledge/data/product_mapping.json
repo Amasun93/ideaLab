@@ -1,0 +1,44 @@
+[
+  {
+    "competition_need": "真实问题发现",
+    "lab_module": "选题诊断与问题重构",
+    "deliverable": "问题树、用户/场景分析、一句话项目说明",
+    "agent_prompt_hint": "先判断问题是否真实、是否可验证、是否适合孩子年级。"
+  },
+  {
+    "competition_need": "原创性与查新",
+    "lab_module": "查新与竞品/同类方案调研",
+    "deliverable": "查新清单、同类方案表、创新点边界",
+    "agent_prompt_hint": "不要夸大创新，明确已有方案和本项目差异。"
+  },
+  {
+    "competition_need": "研究过程和数据",
+    "lab_module": "研究设计与过程管理",
+    "deliverable": "研究日志、实验记录、数据表、迭代记录",
+    "agent_prompt_hint": "强调孩子参与过程，避免只有最终成品。"
+  },
+  {
+    "competition_need": "实物/模型/程序",
+    "lab_module": "原型搭建与作品拍摄",
+    "deliverable": "作品原型、关键结构图、功能演示照片/视频",
+    "agent_prompt_hint": "把作品功能拆成可演示的3到5个证据点。"
+  },
+  {
+    "competition_need": "报告和申报材料",
+    "lab_module": "赛事材料打磨",
+    "deliverable": "研究报告、申报表、作品摘要、材料清单",
+    "agent_prompt_hint": "按赛事当届规则适配格式，不复用错赛道模板。"
+  },
+  {
+    "competition_need": "现场问辩/表达",
+    "lab_module": "答辩表达训练",
+    "deliverable": "答辩稿、问答库、3分钟讲解、评委追问模拟",
+    "agent_prompt_hint": "训练孩子讲清楚：问题从哪来、怎么做、为什么有效、下一步改什么。"
+  },
+  {
+    "competition_need": "三赛联动",
+    "lab_module": "主赛+备赛矩阵",
+    "deliverable": "赛事匹配表、复用材料清单、申报节奏表",
+    "agent_prompt_hint": "同一项目可不同表达，但不能混淆不同赛事规则和分母。"
+  }
+]

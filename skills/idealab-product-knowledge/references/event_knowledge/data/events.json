@@ -1,0 +1,47 @@
+[
+  {
+    "id": "qingchuang",
+    "name": "上海市青少年科技创新大赛（青创赛）",
+    "short_name": "青创赛",
+    "positioning": "上海市规模大、层次高的青少年科技类赛事，重点考察科研潜质、创新素养和现场表达。",
+    "agent_summary": "适合作为“项目研究能力”和“真实评审问辩”的代表赛事，用来说明学生项目不是只做展示，而要过申报、查新、初审、问辩和综合素养考察。",
+    "audience": "上海中小学生，按届次规则和学科板块参赛。",
+    "evaluation": "近年规则强调资格审查、原创与伦理审查、作品初评、线上问辩、现场问辩、动手实践、科学素质和创新素养考察。",
+    "source_ids": [
+      "SRC_QCS_SHSSP_PORTAL",
+      "SRC_QCS_SHSSP_39_CLOSING",
+      "SRC_QCS_SHITALENT_38",
+      "SRC_QCS_CAST_40",
+      "SRC_QCS_SAST_41_RULES"
+    ]
+  },
+  {
+    "id": "chuying",
+    "name": "“雏鹰杯”红领巾科创达人挑战赛暨上海少年科学院“小院士”评选",
+    "short_name": "雏鹰杯",
+    "positioning": "上海少先队系统下的青少年科创展示和筛选活动，连接红领巾科创达人挑战赛与上海少年科学院小院士评选。",
+    "agent_summary": "适合作为“普惠参与、层层筛选、表达和研究过程并重”的赛事代表。内容里重点讲从项目申报到初评、复评、终评，再到小院士特等奖。",
+    "audience": "上海各区中小学少先队员和科创少年。",
+    "evaluation": "专家不仅看课题，也通过多轮面评看队员如何思考、如何设计课题及研究过程。",
+    "source_ids": [
+      "SRC_CHUYING_CYOL_2024",
+      "SRC_CHUYING_SOHU_MENGDONG_2023",
+      "SRC_CHUYING_SSTM_2025"
+    ]
+  },
+  {
+    "id": "sclaci",
+    "name": "宋庆龄少年儿童发明奖",
+    "short_name": "宋庆龄发明奖",
+    "positioning": "经科技部批准的公益性国家级青少年科技活动奖项，被列入教育部面向中小学生的全国性竞赛活动名单。",
+    "agent_summary": "适合作为“全国性发明创造”和“高密度筛选”的代表赛事，内容里强调发明作品、AI编程、创意作品与终评答辩。",
+    "audience": "主要面向全国在校中小学生，国外授权组织机构也可组织学生参赛。",
+    "evaluation": "初评确定入围并公示，终评以作品展示答辩形式开展，最终获奖名单公示。",
+    "source_ids": [
+      "SRC_SCLACI_HOME",
+      "SRC_SCLACI_CHARTER",
+      "SRC_SCLACI_AWARDS",
+      "SRC_SCLACI_20_AWARD_NEWS"
+    ]
+  }
+]

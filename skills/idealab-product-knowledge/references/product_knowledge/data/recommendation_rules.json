@@ -1,0 +1,77 @@
+[
+  {
+    "condition": "家长目标是低龄启蒙、动手兴趣、长期能力铺垫",
+    "recommend": [
+      "zhizao_wanwu",
+      "myo"
+    ],
+    "avoid": [
+      "competition_camp"
+    ],
+    "reason": "先建立PBL兴趣和基础工程能力，不宜直接承诺赛事结果。"
+  },
+  {
+    "condition": "家长想先低成本体验、要看得见的作品",
+    "recommend": [
+      "myo",
+      "qihang"
+    ],
+    "avoid": [
+      "linghang"
+    ],
+    "reason": "MYO适合短期体验；若愿意长期投入再进入启航。"
+  },
+  {
+    "condition": "小学生希望长期培养原创发明能力",
+    "recommend": [
+      "qihang"
+    ],
+    "avoid": [
+      "future_engineer"
+    ],
+    "reason": "启航是系统性原创能力培养；专项营是短期赛事快线。"
+  },
+  {
+    "condition": "初高中学生希望做科研、论文、数据论证",
+    "recommend": [
+      "linghang",
+      "high_school_research"
+    ],
+    "avoid": [
+      "myo"
+    ],
+    "reason": "领航和高中课题营更贴近科研/论文/综评课题。"
+  },
+  {
+    "condition": "目标明确是参赛冲奖或需要赛事申报服务",
+    "recommend": [
+      "competition_camp",
+      "chuying_cup",
+      "future_engineer",
+      "kechuang_invention_camp"
+    ],
+    "avoid": [
+      "zhizao_wanwu"
+    ],
+    "reason": "赛事服务产品包含申报、退费承诺或专项备赛；基础课程不应被当作冲奖包。"
+  },
+  {
+    "condition": "明确要参加上海未来工程师大赛",
+    "recommend": [
+      "future_engineer"
+    ],
+    "avoid": [
+      "competition_camp"
+    ],
+    "reason": "未来工程师是特定赛事专项；若目标是多个科创发明赛事，再讨论竞赛营。"
+  },
+  {
+    "condition": "明确要参加雏鹰杯",
+    "recommend": [
+      "chuying_cup",
+      "competition_camp"
+    ],
+    "avoid": [],
+    "reason": "先筛禁售对象和年级，再决定专项营或赛事包。"
+  }
+]

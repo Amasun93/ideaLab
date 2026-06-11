@@ -1,0 +1,56 @@
+[
+  {
+    "from": "zhizao_wanwu",
+    "to": "qihang",
+    "type": "foundation_to",
+    "label": "低龄/基础能力可衔接启航"
+  },
+  {
+    "from": "myo",
+    "to": "qihang",
+    "type": "trial_to",
+    "label": "短期体验后可进入长期启航"
+  },
+  {
+    "from": "qihang",
+    "to": "linghang",
+    "type": "upgrade_to",
+    "label": "启航是领航的入门/前置产品"
+  },
+  {
+    "from": "qihang",
+    "to": "competition_camp",
+    "type": "can_feed_into",
+    "label": "原创发明能力可衔接赛事营"
+  },
+  {
+    "from": "linghang",
+    "to": "competition_camp",
+    "type": "can_feed_into",
+    "label": "科研论文/数据论证能力可衔接高阶赛事"
+  },
+  {
+    "from": "competition_camp",
+    "to": "chuying_cup",
+    "type": "covers_competition",
+    "label": "竞赛营覆盖雏鹰杯等赛事"
+  },
+  {
+    "from": "future_engineer",
+    "to": "competition_camp",
+    "type": "parallel_special_track",
+    "label": "专项营是特定赛事快线，不等同竞赛营主线"
+  },
+  {
+    "from": "chuying_cup",
+    "to": "competition_camp",
+    "type": "specialized_subset",
+    "label": "雏鹰杯专项营是单赛事专项"
+  },
+  {
+    "from": "high_school_research",
+    "to": "linghang",
+    "type": "adjacent_research_track",
+    "label": "同属科研/课题履历方向，但面向高中综评"
+  }
+]
