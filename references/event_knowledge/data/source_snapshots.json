@@ -103,5 +103,40 @@
     "local_path": "source_snapshots/SRC_PEOPLE_20.html",
     "status": "downloaded",
     "error": ""
+  },
+  {
+    "source_id": "SRC_QCS_41_CAST",
+    "url": "https://sj.cast.org.cn/xw/dfkx/SH/art/2026/art_67582ff208db790d7dce52925a810fa9.html",
+    "local_path": "source_snapshots/SRC_QCS_41_CAST.html",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "source_id": "SRC_QCS_41_NOTICE",
+    "url": "https://www.ssedf.org.cn/gonggao/577.html",
+    "local_path": "source_snapshots/SRC_QCS_41_NOTICE.html",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "source_id": "SRC_CHUYING_BAOSHAN_2025",
+    "url": "https://bsweb.shmedia.tech/app_bs/bao_tuijian/20260125/10bf7a5af8ef46b6a1b80a8c8bd718cd.html",
+    "local_path": "source_snapshots/SRC_CHUYING_BAOSHAN_2025.html",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "source_id": "SRC_CHUYING_EASTDAY_2025",
+    "url": "https://news.qq.com/rain/a/20260113A03OLI00",
+    "local_path": "source_snapshots/SRC_CHUYING_EASTDAY_2025.html",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "source_id": "SRC_SCLACI_21_NOTICE",
+    "url": "https://sclaci.sclc2017.org/tabid/36/ArticleID/911/frtid/47/Default.aspx",
+    "local_path": "source_snapshots/SRC_SCLACI_21_NOTICE.html",
+    "status": "downloaded",
+    "error": ""
   }
 ]

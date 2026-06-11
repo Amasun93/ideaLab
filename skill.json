@@ -2,7 +2,7 @@
   "name": "ideaLab",
   "display_name": "ideaLab 产品与赛事知识库",
   "description": "查询和表达 ideaLab/斯坦星球课程产品、Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": "Amasun",
   "repository": "https://github.com/Amasun93/ideaLab",
   "category": "产品知识库",
@@ -74,6 +74,12 @@
       "display_name": "模拟家长",
       "description": "读取场景队列，模拟不同目标、年级、预算和风险倾向的家长。",
       "reference": "references/consultant_training/scenario_queue.json"
+    },
+    {
+      "name": "parent_faq_drills",
+      "display_name": "家长常问问题训练",
+      "description": "按产品、赛事、保奖、价格、退费等高频问题训练顾问识别家长意图、回答边界和追问。",
+      "reference": "references/consultant_training/parent_faq_bank.json"
     },
     {
       "name": "demo_consultant_answer",

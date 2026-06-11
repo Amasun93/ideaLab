@@ -39,30 +39,49 @@
     ],
     "source_ids": [
       "SRC_QCS_SHITALENT_38",
-      "SRC_QCS_CAST_40"
+      "SRC_QCS_CAST_40",
+      "SRC_QCS_41_CAST",
+      "SRC_QCS_41_NOTICE"
     ],
     "risk_level": "低",
     "rewrite_guardrail": "不要只把青创赛讲成材料包装赛；要强调真实研究过程和评审。"
   },
   {
+    "id": "CLM_QCS_NO_ZONGPING",
+    "scope": "青创赛",
+    "claim": "第41届青创赛官方通知明确，本赛事不纳入上海市中学生综合素质评价。",
+    "use_context": [
+      "销售边界",
+      "家长答疑",
+      "顾问训练"
+    ],
+    "source_ids": [
+      "SRC_QCS_41_NOTICE"
+    ],
+    "risk_level": "低",
+    "rewrite_guardrail": "当家长追问综评或升学时，用这条做边界提醒；不要把参赛或获奖包装成综评承诺。"
+  },
+  {
     "id": "CLM_CHUYING_FILTER",
     "scope": "雏鹰杯",
-    "claim": "雏鹰杯项目数量大、评审层级多，最终小院士名额非常少。",
+    "claim": "雏鹰杯项目数量大、评审层级多；2025年度公开报道显示按项目类别取前3%入围第23届小院士终评，最终10位少先队员获小院士称号。",
     "use_context": [
       "赛事介绍",
       "视频数据页",
       "社群答疑"
     ],
     "source_ids": [
-      "SRC_CHUYING_CYOL_2024"
+      "SRC_CHUYING_CYOL_2024",
+      "SRC_CHUYING_EASTDAY_2025",
+      "SRC_CHUYING_BAOSHAN_2025"
     ],
     "risk_level": "低",
-    "rewrite_guardrail": "可以讲层层筛选；不要把1300余件奖项课题等同于全部高等级奖。"
+    "rewrite_guardrail": "可以讲层层筛选和名额稀缺；不要把1300余件奖项课题等同于全部高等级奖，也不要把媒体报道当成官方固定规则。"
   },
   {
     "id": "CLM_SCLACI_NATIONAL",
     "scope": "宋庆龄少年儿童发明奖",
-    "claim": "宋庆龄少年儿童发明奖是全国性青少年科技活动奖项，发明、AI编程和创意作品都要经过入围和终评答辩。",
+    "claim": "宋庆龄少年儿童发明奖是全国性青少年科技活动奖项；第二十一届作品类别包括发明、人工智能（编程）、创意作品和科技绘画作品征集，并设置从组织机构选拔推荐到全国初评、终评颁奖的流程。",
     "use_context": [
       "赛事介绍",
       "家长说明",
@@ -71,7 +90,8 @@
     "source_ids": [
       "SRC_SCLACI_CHARTER",
       "SRC_SCLACI_AWARDS",
-      "SRC_SCLACI_FINAL_NOTICE_20"
+      "SRC_SCLACI_FINAL_NOTICE_20",
+      "SRC_SCLACI_21_NOTICE"
     ],
     "risk_level": "低",
     "rewrite_guardrail": "不能写成升学保证，不能把公益性国家级奖项简化为商业背书。"

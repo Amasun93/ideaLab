@@ -1,0 +1,327 @@
+{
+  "version": "2026-06-11",
+  "purpose": "给顾问训练、家长模拟和标准回答示范使用的常见问题库。每个问题都要训练顾问先识别家长真实意图，再匹配产品和边界。",
+  "maintenance_rule": "真实顾问聊天记录进入本库前，应先去除家长姓名、学生姓名、学校、手机号、订单、合同和价格截图等敏感信息。",
+  "question_groups": [
+    {
+      "group_id": "PRODUCT_ENTRY",
+      "group_name": "产品入口与适配",
+      "questions": [
+        {
+          "id": "FAQ_PRODUCT_001",
+          "question": "ideaLab 到底是课程、比赛辅导，还是做项目的？",
+          "parent_intent": "想快速理解产品定位，判断是不是适合自己的孩子。",
+          "consultant_response_logic": [
+            "先用一句话讲清 ideaLab 是科创成长路径，不是单节课程。",
+            "把产品分成兴趣启蒙、原创项目、深度科研和赛事服务四层。",
+            "反问孩子年级、已有基础和家长目标，再进入推荐。"
+          ],
+          "safe_answer": "ideaLab 不是单一课程，它更像一条科创项目成长路径。低龄可以从动手兴趣和小作品开始，小学生可以进入原创发明项目，初高中可以做更深的科研课题；如果目标已经很明确，也有赛事申报和答辩训练类服务。具体选哪条，不是先看价格，而是先看孩子年级、基础和您希望解决的问题。",
+          "follow_up_probe": "孩子现在几年级？您更看重兴趣培养、做出作品，还是明确要冲某个赛事？",
+          "read_refs": [
+            "references/product_knowledge/产品总览.md",
+            "references/product_knowledge/推荐逻辑.md"
+          ],
+          "risk_flags": [
+            "不要直接报价格",
+            "不要把所有产品讲成赛事冲奖服务"
+          ]
+        },
+        {
+          "id": "FAQ_PRODUCT_002",
+          "question": "启航计划、竞赛集训营、专项营到底怎么选？",
+          "parent_intent": "混淆长期培养和短期赛事服务，希望得到清晰选择规则。",
+          "consultant_response_logic": [
+            "先区分长期原创能力、短期集中训练和明确赛事节点。",
+            "说明启航更像项目能力主线，竞赛/专项营更像赛事服务。",
+            "用年级、作品基础、赛事目标和时间节点做选择。"
+          ],
+          "safe_answer": "可以先按目标分三类：启航计划更适合长期培养原创发明能力，重点是发现问题、做项目和表达；竞赛集训营更适合已经明确要做赛事申报和材料打磨的家庭；专项营通常围绕某一个明确赛事节点做准备。孩子如果还没有稳定项目，不建议一上来只看赛事包，要先判断项目基础够不够。",
+          "follow_up_probe": "您现在是已经有作品要申报，还是想从零开始做一个项目？",
+          "read_refs": [
+            "references/product_knowledge/推荐逻辑.md",
+            "references/product_knowledge/产品卡片/科创启航计划.md",
+            "references/product_knowledge/产品卡片/竞赛集训营.md"
+          ],
+          "risk_flags": [
+            "不要把短期营包装成完整长期培养",
+            "不要跳过项目基础判断"
+          ]
+        },
+        {
+          "id": "FAQ_PRODUCT_003",
+          "question": "孩子二三年级，会不会太早？",
+          "parent_intent": "担心低龄孩子理解不了，或者过早卷比赛。",
+          "consultant_response_logic": [
+            "先承认低龄不应急着冲高强度赛事。",
+            "把低龄目标转为兴趣、观察、动手和表达。",
+            "说明后续可自然衔接原创项目和赛事。"
+          ],
+          "safe_answer": "二三年级不算早，但这个阶段不适合一上来就用高压冲奖的方式。更合适的是让孩子从生活里的真实问题出发，做小原型、小实验，把想法讲清楚。这样后面进入原创发明或赛事时，孩子不是临时包装材料，而是真的有观察和表达基础。",
+          "follow_up_probe": "孩子现在更喜欢机械搭建、编程、科学实验，还是生活小发明？",
+          "read_refs": [
+            "references/product_knowledge/推荐逻辑.md",
+            "references/product_knowledge/产品卡片/MYO系列.md",
+            "references/product_knowledge/产品卡片/智造万物.md"
+          ],
+          "risk_flags": [
+            "不要承诺低龄启蒙必然获奖",
+            "不要制造焦虑"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "EVENT_PACKAGE",
+      "group_name": "Lab赛事包与三赛联动",
+      "questions": [
+        {
+          "id": "FAQ_EVENT_001",
+          "question": "三项赛事是不是都要参加？",
+          "parent_intent": "想知道赛事包是不是多报比赛，以及多报是否更容易获奖。",
+          "consultant_response_logic": [
+            "先说不一定都要参加。",
+            "解释三赛联动是项目矩阵，不是盲目多报。",
+            "根据项目类型、年级、时间和表达状态选择主赛。"
+          ],
+          "safe_answer": "不一定三项都参加。Lab赛事包的价值不是盲目多报，而是把青创赛、雏鹰杯、宋庆龄少年儿童发明奖放进同一个项目矩阵里，看孩子的项目更适合哪条赛道、哪个时间节点、哪种表达方式。多报不是目的，项目和赛道匹配才是关键。",
+          "follow_up_probe": "孩子现在有没有成型项目？项目更偏发明实物、AI编程，还是研究报告？",
+          "read_refs": [
+            "references/event_knowledge/三赛联动_Lab赛事包/02_Lab赛事包叙事卡.md",
+            "references/event_knowledge/data/events.json"
+          ],
+          "risk_flags": [
+            "不要承诺多报就一定获奖",
+            "不要计算三赛综合官方概率"
+          ]
+        },
+        {
+          "id": "FAQ_EVENT_002",
+          "question": "青创赛、雏鹰杯、宋庆龄奖哪个含金量最高？",
+          "parent_intent": "想用单一排名做决策。",
+          "consultant_response_logic": [
+            "避免简单排名。",
+            "按能力考察维度说明差异。",
+            "把问题转回孩子项目适配。"
+          ],
+          "safe_answer": "这三个赛事不能简单排一个绝对高低，因为它们考察的能力不完全一样。青创赛更强调研究过程、原创性、问辩和综合创新素养；雏鹰杯更强调少先队系统里的科创展示、研究过程和孩子表达；宋庆龄少年儿童发明奖进入全国性发明创造语境，覆盖发明、AI编程、创意作品和终评。对孩子来说，更重要的是项目适合哪一个评审语境。",
+          "follow_up_probe": "您孩子的项目目前最强的是研究过程、实物发明，还是表达展示？",
+          "read_refs": [
+            "references/event_knowledge/README.md",
+            "references/event_knowledge/data/claim_bank.json"
+          ],
+          "risk_flags": [
+            "不要贬低任何官方赛事",
+            "不要用含金量排名替代适配判断"
+          ]
+        },
+        {
+          "id": "FAQ_EVENT_003",
+          "question": "你们能不能保证拿奖？",
+          "parent_intent": "强结果导向，想把服务购买变成结果承诺。",
+          "consultant_response_logic": [
+            "第一句话明确不能保证官方评审结果。",
+            "把承诺转为可交付过程。",
+            "若涉及退费，回到正式合同和当期SOP。"
+          ],
+          "safe_answer": "官方评审结果我们不能也不会承诺。我们能承诺的是过程交付：帮孩子把选题、研究过程、作品材料、查新、申报和答辩训练做扎实。赛事结果由官方评审决定，如果涉及退费或服务承诺，一定以签约合同和当期销售SOP为准。",
+          "follow_up_probe": "如果您最担心的是投入后没有过程产出，我可以先给您拆一下我们具体交付哪些材料和训练节点。",
+          "read_refs": [
+            "references/product_knowledge/销售与合同边界.md",
+            "references/consultant_training/scoring_rubric.json"
+          ],
+          "risk_flags": [
+            "保奖",
+            "100%拿奖",
+            "把退费承诺说成结果保证"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "QCS",
+      "group_name": "青创赛常见问题",
+      "questions": [
+        {
+          "id": "FAQ_QCS_001",
+          "question": "青创赛到底看什么？是不是材料做漂亮就行？",
+          "parent_intent": "想判断赛事准备的真实重点。",
+          "consultant_response_logic": [
+            "强调真实研究过程和学生本人理解。",
+            "引用第41届现场活动的问辩、动手实践和创新素养考察。",
+            "说明材料只是表达载体，不是替代研究。"
+          ],
+          "safe_answer": "青创赛不是只看材料包装。第41届现场活动除了项目问辩，还设置了动手实践考察、创新素养和综合素质考察。顾问和老师真正要帮孩子做的，是让项目问题、方法、实验、数据和创新点站得住，孩子本人也能讲清楚。",
+          "follow_up_probe": "孩子现在能不能自己讲清楚这个项目为什么做、怎么做、有什么创新点？",
+          "read_refs": [
+            "references/event_knowledge/青创赛/01_官方数据卡.md",
+            "references/event_knowledge/data/data_points.json"
+          ],
+          "risk_flags": [
+            "不要把青创赛讲成材料包装赛",
+            "不要暗示可以代做"
+          ]
+        },
+        {
+          "id": "FAQ_QCS_002",
+          "question": "青创赛对综评有没有用？",
+          "parent_intent": "关心升学和综评价值。",
+          "consultant_response_logic": [
+            "先引用第41届通知边界。",
+            "再说明项目过程对能力表达和材料整理有价值。",
+            "避免升学承诺。"
+          ],
+          "safe_answer": "这里要讲准确：第41届青创赛官方通知明确写了，本赛事不纳入上海市中学生综合素质评价。所以不能把它说成综评承诺。它的价值在于真实项目研究、创新表达和赛事经历本身，孩子如果能把过程和作品讲清楚，对长期科创能力和材料表达是有帮助的，但不能直接承诺升学结果。",
+          "follow_up_probe": "您现在更关心官方赛事结果，还是希望孩子形成一套能长期展示的科创项目材料？",
+          "read_refs": [
+            "references/event_knowledge/data/claim_bank.json",
+            "references/event_knowledge/青创赛/01_官方数据卡.md"
+          ],
+          "risk_flags": [
+            "不要承诺综评",
+            "不要把赛事经历等同升学结果"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "CHUYING",
+      "group_name": "雏鹰杯/小院士常见问题",
+      "questions": [
+        {
+          "id": "FAQ_CHUYING_001",
+          "question": "雏鹰杯和小院士是什么关系？",
+          "parent_intent": "想知道赛事路径和小院士称号来源。",
+          "consultant_response_logic": [
+            "说明雏鹰杯与上海少年科学院小院士交流展示关联。",
+            "引用2025年度前3%入围终评和10位小院士口径。",
+            "强调研究过程和表达。"
+          ],
+          "safe_answer": "可以理解为雏鹰杯是上海少先队系统下的科创展示和筛选路径之一，和上海少年科学院“小院士”交流展示紧密相关。2025年度公开报道显示，按项目类别取前3%的项目入围第23届小院士终评，最终10位少先队员获“小院士”称号。所以它不只是做出作品，还很看孩子能不能讲清研究过程和社会价值。",
+          "follow_up_probe": "孩子目前有没有一个能围绕真实问题展开的项目？能不能自己讲清楚过程？",
+          "read_refs": [
+            "references/event_knowledge/雏鹰杯/01_官方数据卡.md",
+            "references/event_knowledge/data/data_points.json"
+          ],
+          "risk_flags": [
+            "不要承诺小院士",
+            "不要把媒体报道写成官方固定规则"
+          ]
+        },
+        {
+          "id": "FAQ_CHUYING_002",
+          "question": "什么样的项目更适合雏鹰杯？",
+          "parent_intent": "想判断孩子现有项目是否匹配。",
+          "consultant_response_logic": [
+            "强调真实问题、少年表达和社会场景。",
+            "结合2025年度方向说明城市、健康、生态、学习文化等场景。",
+            "提醒每年主题会变。"
+          ],
+          "safe_answer": "雏鹰杯比较适合能从孩子生活经验出发，又能讲清社会价值的项目。2025年度公开报道里，项目聚焦城市治理与公共安全、健康关怀与无障碍、绿色发展与生态保护、学习成长与文化创新等真实场景。我们会先看孩子项目的问题意识、作品完成度和表达能力，再判断是否适合走这条路径。",
+          "follow_up_probe": "孩子的项目是从哪个生活问题出发的？有没有明确服务对象？",
+          "read_refs": [
+            "references/event_knowledge/雏鹰杯/01_官方数据卡.md",
+            "references/event_knowledge/90_长期素材预备/02_公开案例库.md"
+          ],
+          "risk_flags": [
+            "不要把某一届主题当成永久规则",
+            "不要忽视孩子本人表达"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SCLACI",
+      "group_name": "宋庆龄少年儿童发明奖常见问题",
+      "questions": [
+        {
+          "id": "FAQ_SCLACI_001",
+          "question": "宋庆龄少年儿童发明奖是不是国家级？",
+          "parent_intent": "确认赛事定位和权威性。",
+          "consultant_response_logic": [
+            "引用章程定位，避免过度营销。",
+            "说明主办单位和全国性发明创造语境。",
+            "再回到孩子项目类型。"
+          ],
+          "safe_answer": "宋庆龄少年儿童发明奖设立于2001年，是经科技部批准的公益性国家级青少年科技活动奖项，也被列入教育部面向中小学生的全国性竞赛活动名单。面向家长介绍时可以讲它的全国性和发明创造属性，但不能把它说成升学保证。",
+          "follow_up_probe": "孩子目前的项目是实物发明、AI编程，还是创意设计方向？",
+          "read_refs": [
+            "references/event_knowledge/宋庆龄少年儿童发明奖/01_官方数据卡.md",
+            "references/event_knowledge/data/source_registry.json"
+          ],
+          "risk_flags": [
+            "不要说升学通行证",
+            "不要虚构评审关系"
+          ]
+        },
+        {
+          "id": "FAQ_SCLACI_002",
+          "question": "今年宋庆龄奖什么时候准备？有哪些类别？",
+          "parent_intent": "想了解最新时间线和项目类别。",
+          "consultant_response_logic": [
+            "使用第二十一届2026通知。",
+            "讲赛程、类别、年级和作品限制。",
+            "提醒地区组织机构报送要求。"
+          ],
+          "safe_answer": "按第二十一届官方通知，2026年2月至3月是各地组织机构选拔推荐，3月至4月作品申报及形式审核，5月至6月全国初评，6月/7月入围终评名单公示，8月终评颁奖。类别包括发明作品、人工智能（编程）作品、创意作品和科技绘画作品征集。发明、AI、创意作品小学组通常要求四年级及以上，具体报送还要看当地组织机构通知。",
+          "follow_up_probe": "孩子年级和项目形态是什么？如果是小学低年级，需要先看是否符合当届参赛年龄要求。",
+          "read_refs": [
+            "references/event_knowledge/宋庆龄少年儿童发明奖/01_官方数据卡.md",
+            "references/event_knowledge/data/data_points.json"
+          ],
+          "risk_flags": [
+            "不要虚构地区截止日期",
+            "不要替代组织机构通知"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "PRICE_CONTRACT",
+      "group_name": "价格、合同与退费",
+      "questions": [
+        {
+          "id": "FAQ_CONTRACT_001",
+          "question": "不获奖退费是不是等于你们保奖？",
+          "parent_intent": "混淆退费条款和结果承诺。",
+          "consultant_response_logic": [
+            "明确不是保奖。",
+            "区分官方评审结果和服务合同约定。",
+            "提醒以正式合同为准。"
+          ],
+          "safe_answer": "不是。退费承诺是合同里的服务约定，不等于我们能控制官方评审结果。官方评审有不确定性，我们不能说保奖。具体哪些情况下退费、哪些情况不退，一定以正式签约合同和当期销售SOP为准。",
+          "follow_up_probe": "您更关心的是结果不确定，还是担心服务过程不透明？我可以先把我们能交付的过程拆给您看。",
+          "read_refs": [
+            "references/product_knowledge/销售与合同边界.md",
+            "references/consultant_training/dingtalk_internal_docs.md"
+          ],
+          "risk_flags": [
+            "把退费说成结果保证",
+            "口头扩张合同条款"
+          ]
+        },
+        {
+          "id": "FAQ_CONTRACT_002",
+          "question": "价格为什么不同资料里不一样？到底按哪个？",
+          "parent_intent": "发现口径冲突，担心被误导。",
+          "consultant_response_logic": [
+            "承认不同材料可能有历史版本和校区口径。",
+            "不现场编造唯一价格。",
+            "指向最新销售SOP和签约合同。"
+          ],
+          "safe_answer": "这个问题要按最新执行口径来，不能拿旧资料或不同校区口径直接混用。我们内部资料里确实会有历史版本，所以最终价格、课时、优惠和退费都以当期销售SOP和签约合同为准。我可以先帮您确认适合的产品类型，再让顾问按最新口径给您正式报价。",
+          "follow_up_probe": "您现在想先确认产品适配，还是已经进入报价和签约阶段？",
+          "read_refs": [
+            "references/product_knowledge/口径冲突与待确认.md",
+            "references/consultant_training/dingtalk_internal_docs.md"
+          ],
+          "risk_flags": [
+            "虚构价格",
+            "把历史价当当前价",
+            "口头承诺最低价"
+          ]
+        }
+      ]
+    }
+  ]
+}
