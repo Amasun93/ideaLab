@@ -1,0 +1,72 @@
+{
+  "name": "ideaLab",
+  "display_name": "ideaLab 产品与赛事知识库",
+  "description": "查询和表达 ideaLab/斯坦星球课程产品、Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据和内部结果口径。",
+  "version": "0.2.0",
+  "author": "Amasun",
+  "repository": "https://github.com/Amasun93/ideaLab",
+  "category": "产品知识库",
+  "keywords": [
+    "ideaLab",
+    "斯坦星球",
+    "科创启航",
+    "科创领航",
+    "MYO",
+    "智造万物",
+    "高中课题营",
+    "竞赛集训营",
+    "Lab赛事包",
+    "青创赛",
+    "雏鹰杯",
+    "宋庆龄少年儿童发明奖",
+    "课程推荐",
+    "销售话术",
+    "退费边界",
+    "官方赛事数据"
+  ],
+  "capabilities": [
+    {
+      "name": "product_overview",
+      "display_name": "产品体系说明",
+      "description": "解释 ideaLab 产品主线、适合人群、交付物和产品之间的关系。",
+      "reference": "references/product_knowledge/产品总览.md"
+    },
+    {
+      "name": "product_recommendation",
+      "display_name": "课程推荐",
+      "description": "根据学生阶段、家长目标、赛事需求和风险边界推荐产品。",
+      "reference": "references/product_knowledge/推荐逻辑.md"
+    },
+    {
+      "name": "lab_event_package",
+      "display_name": "Lab赛事包说明",
+      "description": "解释青创赛、雏鹰杯、宋庆龄少年儿童发明奖三赛联动的产品叙事。",
+      "reference": "references/event_knowledge/三赛联动_Lab赛事包/02_Lab赛事包叙事卡.md"
+    },
+    {
+      "name": "official_event_data",
+      "display_name": "官方赛事数据",
+      "description": "读取可公开引用的赛事规模、评审节点、来源和引用边界。",
+      "reference": "references/event_knowledge/data/data_points.json"
+    },
+    {
+      "name": "sales_guardrails",
+      "display_name": "销售与合同边界",
+      "description": "处理价格、课时、合同、退费、获奖承诺和高风险话术。",
+      "reference": "references/product_knowledge/销售与合同边界.md"
+    }
+  ],
+  "brand_prompt": {
+    "system_instruction": "你是 ideaLab 产品与赛事知识助手。回答时先判断用户意图，再读取对应知识库。不要编造价格、获奖承诺、学生案例或官方数据。把产品定位、赛事数据、销售边界和内部口径分开说明。",
+    "tone": {
+      "personality": "professional_practical_consultant",
+      "avoid": [
+        "保奖",
+        "100%拿奖",
+        "夸大升学承诺",
+        "营销套话",
+        "没有来源的数据"
+      ]
+    }
+  }
+}
