@@ -1,0 +1,152 @@
+{
+  "version": "2026-06-11",
+  "default_order": [
+    "PARENT_LOW_GRADE_EXPLORATION",
+    "PARENT_COMPARE_PRODUCTS",
+    "PARENT_QIHANG_PRICE_SENSITIVE",
+    "PARENT_COMPETITION_QCS",
+    "PARENT_SONGQINGLING_NATIONAL",
+    "PARENT_CHUYING_XIAOYUANSHI",
+    "PARENT_HIGH_SCHOOL_RESEARCH",
+    "PARENT_RISKY_PROMISE"
+  ],
+  "scenarios": [
+    {
+      "id": "PARENT_LOW_GRADE_EXPLORATION",
+      "level": "basic",
+      "parent_profile": "2-3年级家长，孩子喜欢动手做东西，但家长还不确定是否要走比赛。",
+      "parent_opening": "我家孩子现在二三年级，平时喜欢拆东西、做小制作，但我们也不确定是不是要比赛。ideaLab 适合吗？",
+      "expected_consultant_logic": [
+        "先确认目标是兴趣、作品还是比赛服务。",
+        "不要直接推高强度赛事营。",
+        "比较 MYO、科创启航、竞赛集训营的区别。",
+        "说明低龄阶段更重要的是问题意识、动手表达和原创能力。"
+      ],
+      "must_avoid": [
+        "直接承诺获奖",
+        "把启蒙课程说成必然拿奖",
+        "不问目标就报价格"
+      ]
+    },
+    {
+      "id": "PARENT_COMPARE_PRODUCTS",
+      "level": "basic",
+      "parent_profile": "家长听过启航计划、竞赛营、赛事专项营，但混淆三类产品。",
+      "parent_opening": "我有点分不清启航计划、暑假竞赛营、赛事专项营，它们到底怎么选？",
+      "expected_consultant_logic": [
+        "用三类产品对比解释：长期成长、短期冲刺、单项赛事服务。",
+        "说明启航计划更重原创能力和长期培养，竞赛营更重短期集中训练，专项营更重明确赛事节点。",
+        "把孩子年级、作品基础、是否有明确赛事目标作为推荐变量。"
+      ],
+      "must_avoid": [
+        "只讲价格不讲目标",
+        "把所有产品都说成一样",
+        "把短期营包装成长期培养的完整替代"
+      ]
+    },
+    {
+      "id": "PARENT_QIHANG_PRICE_SENSITIVE",
+      "level": "intermediate",
+      "parent_profile": "价格敏感型家长，担心长期投入，不确定孩子能不能坚持。",
+      "parent_opening": "启航计划两万对我们来说也不算便宜，孩子万一上几次不喜欢怎么办？",
+      "expected_consultant_logic": [
+        "先承认家长对投入产出和孩子坚持度的担心是合理的。",
+        "解释启航计划的价值不是单次课，而是原创作品、跨学科应用、表达和阶段性赛事体验。",
+        "涉及退费和合同只按最新签约条款回答，不现场口头扩张承诺。",
+        "可以建议先确认孩子兴趣、基础和家庭目标，再决定是否进入长期路径。"
+      ],
+      "must_avoid": [
+        "口头承诺无条件退费",
+        "用获奖保证来抵消价格顾虑",
+        "贬低其他机构或其他产品"
+      ]
+    },
+    {
+      "id": "PARENT_COMPETITION_QCS",
+      "level": "intermediate",
+      "parent_profile": "3-8年级家长，明确想冲青创赛，关心上岸和含金量。",
+      "parent_opening": "我们就是想冲青创赛，你们能不能保证拿奖？青创赛到底值不值得做？",
+      "expected_consultant_logic": [
+        "明确不能保证获奖，结果由官方评审决定。",
+        "说明青创赛看重项目研究、原创性、问辩和综合创新素养。",
+        "用官方/公开数据说明赛事规模和竞争密度，但不要包装成升学保证。",
+        "把产品价值转到选题、研究过程、材料、答辩和申报管理。"
+      ],
+      "must_avoid": [
+        "保奖",
+        "把内部上岸率说成官方获奖率",
+        "承诺升学结果"
+      ]
+    },
+    {
+      "id": "PARENT_SONGQINGLING_NATIONAL",
+      "level": "intermediate",
+      "parent_profile": "家长听说宋庆龄少年儿童发明奖是全国性奖项，想知道含金量。",
+      "parent_opening": "宋庆龄少年儿童发明奖是不是国家级？跟普通比赛有什么区别？",
+      "expected_consultant_logic": [
+        "说明该奖项设立于2001年，是经科技部批准的公益性国家级青少年科技活动奖项。",
+        "解释它更偏发明创造、AI/编程、创意作品和终评答辩语境。",
+        "引用可公开数据时要回到 source_registry，不夸大。",
+        "说明它适合已经有发明作品或能进入深度打磨的孩子。"
+      ],
+      "must_avoid": [
+        "说成升学通行证",
+        "虚构当年截止日期",
+        "虚构评审关系"
+      ]
+    },
+    {
+      "id": "PARENT_CHUYING_XIAOYUANSHI",
+      "level": "intermediate",
+      "parent_profile": "家长关注雏鹰杯和小院士，希望知道孩子为什么要参加。",
+      "parent_opening": "雏鹰杯和小院士到底是什么关系？这个比赛是不是参加的人很多？",
+      "expected_consultant_logic": [
+        "说明雏鹰杯强调层层筛选、研究过程和学生表达。",
+        "说明小院士名额稀缺，可以用公开数据说明竞争密度。",
+        "把训练重点放在孩子能不能讲清研究问题、过程和结果。",
+        "不把参赛人数直接换算为获奖概率。"
+      ],
+      "must_avoid": [
+        "直接算官方获奖概率",
+        "承诺小院士",
+        "把公开数据和内部结果混用"
+      ]
+    },
+    {
+      "id": "PARENT_HIGH_SCHOOL_RESEARCH",
+      "level": "advanced",
+      "parent_profile": "高中家长，关心综评、课题、论文和项目深度。",
+      "parent_opening": "高中孩子做 ideaLab，对综评和课题有什么实际帮助？是不是必须比赛？",
+      "expected_consultant_logic": [
+        "先区分科研能力、综评材料、论文/报告和赛事结果。",
+        "推荐科创领航计划或高中课题营时要说明适合已有学科方向和时间投入的学生。",
+        "说明比赛不是唯一出口，课题完整度、数据论证和表达也重要。",
+        "不得承诺录取、综评通过或学校认可结果。"
+      ],
+      "must_avoid": [
+        "升学保证",
+        "虚构学校认可",
+        "把论文包装成必然发表"
+      ]
+    },
+    {
+      "id": "PARENT_RISKY_PROMISE",
+      "level": "advanced",
+      "parent_profile": "强结果导向家长，持续追问保奖、100%、最低价和退款。",
+      "parent_opening": "你就告诉我能不能保证拿奖？如果不能保证，我为什么要花这个钱？",
+      "expected_consultant_logic": [
+        "稳住边界：不能承诺官方评审结果。",
+        "把承诺转为可交付过程：选题、实验、作品、材料、查新、申报、答辩训练。",
+        "若谈退费，必须回到最新合同条款。",
+        "识别这是高风险场景，宁可少说结果，多说服务边界。"
+      ],
+      "must_avoid": [
+        "保奖",
+        "100%拿奖",
+        "把退费说成结果保证",
+        "泄露内部算法或最低价"
+      ]
+    }
+  ]
+}
+

@@ -7,6 +7,7 @@
 1. 怎么讲清 ideaLab 的产品体系，而不是只罗列课程名称。
 2. 怎么把青创赛、雏鹰杯、宋庆龄少年儿童发明奖讲成 Lab 赛事包的“三赛联动”能力模型。
 3. 怎么引用官方数据，同时避开保奖、夸大获奖率、混淆合同边界等高风险表达。
+4. 怎么训练顾问：模拟家长、考核产品介绍能力、给回答打分，并示范更好的表达。
 
 ## 一句话定位
 
@@ -23,6 +24,10 @@ ideaLab 不是单个课程，而是一条从兴趣启蒙、原创项目、深度
 | 官方赛事数据 | "青创赛、雏鹰杯、宋庆龄奖有哪些可引用数据？" | `references/event_knowledge/data/data_points.json` |
 | 销售边界 | "能不能说保奖？退费承诺怎么说？" | `references/product_knowledge/销售与合同边界.md` |
 | 内容生产素材 | "我要做赛事包视频，有哪些案例和时间线？" | `references/event_knowledge/90_长期素材预备/` |
+| 顾问考核 | "开始顾问考核，模拟一个家长来问我" | `references/consultant_training/` |
+| 模拟家长 | "模拟一个想冲青创赛但担心保奖的家长" | `references/consultant_training/scenario_queue.json` |
+| 示范回答 | "我来当家长，你来示范顾问怎么答" | `references/consultant_training/README.md` |
+| 钉钉内部原文 | "这个问题应该看钉钉文档哪里？" | `references/consultant_training/dingtalk_internal_docs.md` |
 
 ## 给同事的表达逻辑
 
@@ -34,6 +39,61 @@ ideaLab 不是单个课程，而是一条从兴趣启蒙、原创项目、深度
 4. 最后再讲交付边界：是否包含申报、查新、报告、答辩、退费承诺，以及哪些不能承诺。
 
 这套顺序很重要。直接从“某个产品多少钱”开始，容易把长期能力培养和赛事服务混在一起，也容易把退费承诺讲成获奖承诺。
+
+## 顾问训练系统怎么用
+
+这个 Skill 不只是给顾问查资料，也可以当成一套训练场。
+
+### 1. 知识查询
+
+顾问可以直接问：
+
+> 青创赛的官方数据有哪些？
+> 三年级孩子适合启航计划还是竞赛营？
+> 宋庆龄少年儿童发明奖怎么介绍给家长？
+
+Agent 会先判断问题属于产品、赛事、推荐还是销售边界，再读取对应知识库。
+
+### 2. 顾问考核
+
+顾问可以说：
+
+> 开始顾问考核，模拟一个家长来问我。
+
+Agent 会从场景队列里扮演不同类型家长，例如低龄启蒙家长、价格敏感家长、想冲青创赛的家长、追问保奖的家长。顾问回答后，Agent 按 100 分制打分，维度包括产品匹配、知识准确、推荐逻辑、风险边界和沟通表达。
+
+### 3. 示范回答
+
+顾问也可以反过来练：
+
+> 我来当家长，你示范顾问怎么答。
+
+这时 Agent 会先给一版面向家长的回答，然后拆解这版回答背后的判断逻辑：为什么这样开口、为什么推荐这个产品、哪些内容不能说。
+
+### 4. 复盘训练
+
+每次考核后，Agent 不只给分，还会给：
+
+- 最关键的问题。
+- 更好的顾问回答示范。
+- 下一轮家长追问。
+
+这样同事不是背一段话术，而是在反复训练“听懂家长目标、匹配产品、守住边界”的能力。
+
+## 钉钉内部产品文档入口
+
+内部最新销售 SOP 已挂入 Skill 索引：
+
+https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeDmDjOslg1lQEQJA7depqY?utm_scene=person_space&dontjump=true
+
+浏览器中已确认该文档为 `ideaLab26年销售SOP-0604更新（上海）`，用于沉淀当月在售产品、赛事获奖数据与工具、师资介绍、合同条款解读、常见问题和竞品/产品对比。
+
+使用规则是：
+
+1. Agent 先用本地知识库给稳定结论。
+2. 涉及最新价格、课时、合同、退费、占座、排班、师资、当月在售时，提醒以钉钉 SOP 和最新签约合同为准。
+3. Agent 会告诉顾问应该去钉钉看哪个主题，例如“当月在售产品”“三类产品对比”“合同条款解读”“相关赛事获奖数据&工具”。
+4. 钉钉材料是内部材料，不默认原文转发给家长。
 
 ## 产品主线
 
@@ -108,6 +168,7 @@ ideaLab/
   references/
     product_knowledge/     # ideaLab 产品结构化知识库
     event_knowledge/       # Lab 赛事包与三项赛事资料库
+    consultant_training/   # 顾问模拟、考核、评分、钉钉 SOP 索引
   README.md
 ```
 
@@ -119,5 +180,7 @@ ideaLab/
 - `references/product_knowledge/产品卡片/*.md`
 - `references/event_knowledge/data/*.json`
 - `references/event_knowledge/90_长期素材预备/*.md`
+- `references/consultant_training/*.json`
+- `references/consultant_training/dingtalk_internal_docs.md`
 
 README 只负责帮助人理解表达逻辑；真正给 Agent 检索和引用的，是 `references` 里的结构化知识库。

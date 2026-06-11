@@ -1,8 +1,8 @@
 {
   "name": "ideaLab",
   "display_name": "ideaLab 产品与赛事知识库",
-  "description": "查询和表达 ideaLab/斯坦星球课程产品、Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据和内部结果口径。",
-  "version": "0.2.0",
+  "description": "查询和表达 ideaLab/斯坦星球课程产品、Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
+  "version": "0.3.0",
   "author": "Amasun",
   "repository": "https://github.com/Amasun93/ideaLab",
   "category": "产品知识库",
@@ -22,7 +22,15 @@
     "课程推荐",
     "销售话术",
     "退费边界",
-    "官方赛事数据"
+    "官方赛事数据",
+    "顾问训练",
+    "顾问考核",
+    "模拟家长",
+    "家长异议",
+    "打分",
+    "话术演练",
+    "钉钉产品文档",
+    "销售SOP"
   ],
   "capabilities": [
     {
@@ -54,10 +62,50 @@
       "display_name": "销售与合同边界",
       "description": "处理价格、课时、合同、退费、获奖承诺和高风险话术。",
       "reference": "references/product_knowledge/销售与合同边界.md"
+    },
+    {
+      "name": "consultant_assessment",
+      "display_name": "顾问考核",
+      "description": "AI 扮演家长提出问题，顾问回答后按100分制评分并复盘。",
+      "reference": "references/consultant_training/scoring_rubric.json"
+    },
+    {
+      "name": "parent_simulation",
+      "display_name": "模拟家长",
+      "description": "读取场景队列，模拟不同目标、年级、预算和风险倾向的家长。",
+      "reference": "references/consultant_training/scenario_queue.json"
+    },
+    {
+      "name": "demo_consultant_answer",
+      "display_name": "示范顾问回答",
+      "description": "当顾问模拟家长时，AI 给出可参考的顾问回答并拆解表达逻辑。",
+      "reference": "references/consultant_training/README.md"
+    },
+    {
+      "name": "dingtalk_internal_reference",
+      "display_name": "钉钉内部SOP索引",
+      "description": "记录 ideaLab26年销售SOP-0604更新（上海）的内部入口、已确认摘要和引用边界。",
+      "reference": "references/consultant_training/dingtalk_internal_docs.md"
+    }
+  ],
+  "internal_links": [
+    {
+      "name": "ideaLab26年销售SOP-0604更新（上海）",
+      "url": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeDmDjOslg1lQEQJA7depqY?utm_scene=person_space&dontjump=true",
+      "requires": "company_dingtalk_access",
+      "use_for": [
+        "当月在售产品",
+        "最新价格与课时",
+        "合同条款与退费",
+        "赛事获奖数据与工具",
+        "师资介绍",
+        "占座与排班",
+        "可外发家长材料"
+      ]
     }
   ],
   "brand_prompt": {
-    "system_instruction": "你是 ideaLab 产品与赛事知识助手。回答时先判断用户意图，再读取对应知识库。不要编造价格、获奖承诺、学生案例或官方数据。把产品定位、赛事数据、销售边界和内部口径分开说明。",
+    "system_instruction": "你是 ideaLab 产品、赛事与顾问训练助手。回答时先判断用户意图：知识查询、产品推荐、内容生产、顾问考核、模拟家长、示范回答或内部SOP索引。再读取对应知识库。不要编造价格、获奖承诺、学生案例或官方数据。把产品定位、赛事数据、销售边界、内部口径和训练评分分开说明。",
     "tone": {
       "personality": "professional_practical_consultant",
       "avoid": [

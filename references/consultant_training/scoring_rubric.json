@@ -1,0 +1,101 @@
+{
+  "version": "2026-06-11",
+  "total_points": 100,
+  "dimensions": [
+    {
+      "id": "product_fit",
+      "name": "产品匹配",
+      "points": 20,
+      "excellent": "能先判断孩子阶段、家长目标和产品边界，再推荐合适产品。",
+      "common_deductions": [
+        "不问目标直接推荐产品",
+        "把启蒙、长期培养、赛事服务混为一谈",
+        "只讲价格不讲适配"
+      ]
+    },
+    {
+      "id": "knowledge_accuracy",
+      "name": "知识准确",
+      "points": 20,
+      "excellent": "产品、赛事、官方数据和内部口径分得清，数字引用有边界。",
+      "common_deductions": [
+        "虚构价格、课时、截止日期或获奖数据",
+        "把内部结果说成官方数据",
+        "把历史数据说成当前通知"
+      ]
+    },
+    {
+      "id": "recommendation_logic",
+      "name": "推荐逻辑",
+      "points": 20,
+      "excellent": "能解释为什么推荐 A、为什么暂不推荐 B，并给下一步确认问题。",
+      "common_deductions": [
+        "只有结论没有理由",
+        "缺少相邻产品对比",
+        "没有下一步动作"
+      ]
+    },
+    {
+      "id": "risk_guardrails",
+      "name": "风险边界",
+      "points": 20,
+      "excellent": "能稳住保奖、退款、升学、隐私、内部数据等高风险点。",
+      "common_deductions": [
+        "说保奖或保证获奖",
+        "把退费承诺说成结果保证",
+        "公开内部上岸率细节或学生隐私",
+        "承诺升学、综评通过、论文发表"
+      ]
+    },
+    {
+      "id": "communication_quality",
+      "name": "沟通表达",
+      "points": 20,
+      "excellent": "先回应家长担心，再用清楚、克制、可信的语言说明产品价值。",
+      "common_deductions": [
+        "过度销售化",
+        "忽视家长担心",
+        "话术堆砌但没有判断",
+        "表达太长或听不懂"
+      ]
+    }
+  ],
+  "automatic_fail_flags": [
+    {
+      "flag": "guaranteed_award",
+      "examples": ["保奖", "保证获奖", "100%拿奖"],
+      "max_score": 59
+    },
+    {
+      "flag": "official_data_confusion",
+      "examples": ["把92%+说成官方赛事获奖率", "用内部结果冒充官方数据"],
+      "max_score": 69
+    },
+    {
+      "flag": "invented_terms",
+      "examples": ["虚构价格", "虚构课时", "虚构合同条款", "虚构退费政策"],
+      "max_score": 69
+    },
+    {
+      "flag": "student_privacy_leak",
+      "examples": ["公开学生姓名", "公开学校", "公开证书或照片但未确认授权"],
+      "max_score": 59
+    },
+    {
+      "flag": "admissions_promise",
+      "examples": ["保证升学", "保证综评通过", "保证录取"],
+      "max_score": 49
+    }
+  ],
+  "scorecard_template": {
+    "sections": [
+      "总分与等级",
+      "五维得分",
+      "关键问题",
+      "更好的顾问回答",
+      "下一轮追问"
+    ],
+    "style": "直接、具体、可复训；不要只给鼓励。"
+  }
+}
+

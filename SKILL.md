@@ -1,6 +1,6 @@
 ---
 name: ideaLab
-description: Use when answering or producing content about ideaLab/斯坦星球 course products, Lab赛事包, 青创赛, 雏鹰杯, 宋庆龄少年儿童发明奖, course recommendations, sales positioning, official event data, parent-facing explanations, consultant scripts, award/result claims, refund boundaries, or competition-service guardrails.
+description: Use when answering, producing content, or training consultants about ideaLab/斯坦星球 course products, Lab赛事包, 青创赛, 雏鹰杯, 宋庆龄少年儿童发明奖, course recommendations, sales positioning, official event data, parent-facing explanations, consultant scripts, parent simulation, consultant assessment, scoring, award/result claims, refund boundaries, DingTalk internal SOP references, or competition-service guardrails.
 ---
 
 # ideaLab · 产品与赛事知识 Skill
@@ -16,6 +16,8 @@ When a user has just installed this skill, say that they can ask about:
 - Lab赛事包：青创赛、雏鹰杯、宋庆龄少年儿童发明奖三赛联动。
 - 官方数据：赛事规模、评审节点、可公开引用的数据和来源。
 - 销售边界：价格、课时、合同、退费、获奖承诺、不能公开的话术。
+- 顾问训练：模拟家长、顾问考核、标准回答示范、100 分制复盘。
+- 内部原文：需要最新价格、合同、当月在售或销售 SOP 时，指向钉钉内部文档。
 
 Give first-question examples:
 
@@ -24,6 +26,8 @@ Give first-question examples:
 - "Lab赛事包的三赛联动怎么解释？"
 - "宋庆龄少年儿童发明奖有哪些官方数据可以引用？"
 - "哪些话术不能对家长说？"
+- "开始顾问考核，模拟一个家长来问我。"
+- "我来当家长，你示范顾问怎么回答。"
 
 ## First Decision
 
@@ -37,6 +41,8 @@ Classify the task before reading details:
 - Official figures or citation-backed copy: read `references/event_knowledge/data/data_points.json`, `references/event_knowledge/data/source_registry.json`, and `references/event_knowledge/data/claim_bank.json`.
 - Visual or logo use: read `references/event_knowledge/data/visual_manifest.json`; only `asset_type=official_logo` can be treated as an official logo.
 - Broader preparation, examples, parent FAQ, or product-to-event mapping: read `references/event_knowledge/90_长期素材预备/README.md`.
+- Consultant training, parent simulation, scoring, or roleplay: read `references/consultant_training/README.md`, `references/consultant_training/scenario_queue.json`, and `references/consultant_training/scoring_rubric.json`.
+- Internal DingTalk SOP, latest sales terms, monthly products, contract/refund details, schedule/seat tables, teacher info, or materials that may require internal access: read `references/consultant_training/dingtalk_internal_docs.md`.
 
 ## 触发场景
 
@@ -50,6 +56,9 @@ Classify the task before reading details:
 | "青创赛/雏鹰杯/宋庆龄发明奖是什么？" | 对应赛事文件夹的 `00_赛事简介.md` 和 `01_官方数据卡.md` |
 | "官方数据有哪些？" | `references/event_knowledge/data/data_points.json` + `source_registry.json` |
 | "能不能用某张图/logo？" | `references/event_knowledge/data/visual_manifest.json` |
+| "开始顾问考核" / "模拟家长问我" / "给我打分" | `references/consultant_training/README.md` + `scenario_queue.json` + `scoring_rubric.json` |
+| "我来当家长，你示范回答" | `references/consultant_training/README.md` + 相关产品/赛事文件 |
+| "这个问题应该看钉钉文档哪里？" | `references/consultant_training/dingtalk_internal_docs.md` |
 
 ## Core Product Logic
 
@@ -89,6 +98,53 @@ For internal planning:
 1. Separate public claims from internal claims.
 2. Mark source IDs when using numbers.
 3. Identify missing authorization, stale dates, or conflicting price/hour terms.
+
+## Consultant Training Modes
+
+When the user asks for training, do not answer as a normal FAQ unless they ask for knowledge lookup. Pick one mode:
+
+### 1. 顾问考核模式
+
+Use this when the user says "考核", "模拟家长问我", "给我打分", "练顾问话术", or "roleplay".
+
+1. Select a scenario from `references/consultant_training/scenario_queue.json`.
+2. Speak only as the parent first. Ask one realistic parent question.
+3. Wait for the consultant's answer.
+4. Score with `references/consultant_training/scoring_rubric.json`.
+5. Output: total score, grade, five dimension scores, key issue, better answer, next parent follow-up.
+
+Do not reveal the standard answer before the user replies.
+
+### 2. 示范回答模式
+
+Use this when the user says "我来当家长，你示范", "标准回答", or "顾问应该怎么答".
+
+1. Answer the parent as a consultant first.
+2. Then add "顾问逻辑拆解": target, product fit, boundaries, and next question.
+3. If the question involves price, hours, refund, contract, or latest sales terms, point to the DingTalk SOP link and say latest execution follows the internal SOP and signed contract.
+
+### 3. 知识查询模式
+
+Use this when the user asks factual product/event questions. Load the relevant product or event references and answer directly.
+
+### 4. 复盘训练模式
+
+Use this after any consultant answer. Be direct: identify what was accurate, what was risky, what should be rephrased, and which scenario should be practiced next.
+
+## Internal DingTalk SOP
+
+For the internal product document, use `references/consultant_training/dingtalk_internal_docs.md`.
+
+Known internal link:
+
+https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeDmDjOslg1lQEQJA7depqY?utm_scene=person_space&dontjump=true
+
+Use it this way:
+
+1. Give the stable conclusion from local knowledge first.
+2. Say which internal topic should be checked in DingTalk: monthly products, three-product comparison, contract/refund, event data/tools, teacher/schedule/seat tables, or parent-facing external materials.
+3. Do not quote internal-only SOP material directly to parents.
+4. Do not invent unread DingTalk section titles or unverified latest terms.
 
 ## 盲区应对
 
@@ -146,3 +202,5 @@ Say that `92%+` is an internal product-result claim, not official competition da
 - Event data: `references/event_knowledge/data/`
 - Long-term event prep: `references/event_knowledge/90_长期素材预备/`
 - Official attachments: `references/event_knowledge/source_attachments/`
+- Consultant training: `references/consultant_training/`
+- DingTalk internal SOP index: `references/consultant_training/dingtalk_internal_docs.md`
