@@ -82,5 +82,12 @@
     "relative_path": "正式课/新启航-课程资料-2026春",
     "use_for": "启航正式课课纲、体验课、能力评价量规、物料",
     "confidence": "course_design_sources"
+  },
+  "S13": {
+    "title": "基地常规课 课程设计总表.xlsx",
+    "type": "智造万物独立课程大纲 Excel",
+    "relative_path": "01_课程产品库/01_智造万物/01_原始材料/基地常规课 课程设计总表.xlsx",
+    "use_for": "智造万物三阶课程大纲、项目清单、课堂交付、复盘记录",
+    "confidence": "course_design_workbook_extracted"
   }
 }
