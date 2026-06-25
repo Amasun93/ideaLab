@@ -1,8 +1,9 @@
 {
-  "version": "2026-06-11",
+  "version": "2026-06-25",
   "default_order": [
     "PARENT_LOW_GRADE_EXPLORATION",
     "PARENT_COMPARE_PRODUCTS",
+    "PARENT_INVENTION_CAMP_BOUNDARY",
     "PARENT_QIHANG_PRICE_SENSITIVE",
     "PARENT_COMPETITION_QCS",
     "PARENT_SONGQINGLING_NATIONAL",
@@ -19,7 +20,7 @@
       "expected_consultant_logic": [
         "先确认目标是兴趣、作品还是比赛服务。",
         "不要直接推高强度赛事营。",
-        "比较 MYO、科创启航、竞赛集训营的区别。",
+        "比较 MYO、科创启航、寒(暑)假竞赛营的区别。",
         "说明低龄阶段更重要的是问题意识、动手表达和原创能力。"
       ],
       "must_avoid": [
@@ -31,8 +32,8 @@
     {
       "id": "PARENT_COMPARE_PRODUCTS",
       "level": "basic",
-      "parent_profile": "家长听过启航计划、竞赛营、赛事专项营，但混淆三类产品。",
-      "parent_opening": "我有点分不清启航计划、暑假竞赛营、赛事专项营，它们到底怎么选？",
+      "parent_profile": "家长听过启航计划、寒(暑)假竞赛营、赛事专项营，但混淆三类产品。",
+      "parent_opening": "我有点分不清启航计划、寒暑假竞赛营、赛事专项营，它们到底怎么选？",
       "expected_consultant_logic": [
         "用三类产品对比解释：长期成长、短期冲刺、单项赛事服务。",
         "说明启航计划更重原创能力和长期培养，竞赛营更重短期集中训练，专项营更重明确赛事节点。",
@@ -42,6 +43,23 @@
         "只讲价格不讲目标",
         "把所有产品都说成一样",
         "把短期营包装成长期培养的完整替代"
+      ]
+    },
+    {
+      "id": "PARENT_INVENTION_CAMP_BOUNDARY",
+      "level": "basic",
+      "parent_profile": "家长看到青少年科创发明营，以为它属于 MYO 或者包含比赛申报。",
+      "parent_opening": "青少年科创发明营是不是 MYO 里面那个？上完以后你们是不是也会帮孩子报比赛、写论文？",
+      "expected_consultant_logic": [
+        "明确青少年科创发明营和科创发明营是同一个产品，但不是 MYO。",
+        "说明它是7天非赛事申报项目营，课内训练与寒(暑)假竞赛营相近。",
+        "讲清只交付上课过程素材和约1000字项目说明，不包含后续比赛申报、论文和正式比赛材料。",
+        "如果家长明确要比赛申报，应转向寒(暑)假竞赛营或专项营。"
+      ],
+      "must_avoid": [
+        "把科创发明营归入 MYO",
+        "承诺比赛申报或论文",
+        "把约1000字项目说明包装成正式比赛论文"
       ]
     },
     {
@@ -149,4 +167,3 @@
     }
   ]
 }
-

@@ -1,8 +1,8 @@
 {
   "name": "ideaLab",
   "display_name": "ideaLab 产品与赛事知识库",
-  "description": "查询和表达 ideaLab/斯坦星球课程产品、Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
-  "version": "0.4.0",
+  "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
+  "version": "0.5.1",
   "author": "Amasun",
   "repository": "https://github.com/Amasun93/ideaLab",
   "category": "产品知识库",
@@ -14,6 +14,9 @@
     "MYO",
     "智造万物",
     "高中课题营",
+    "寒暑假竞赛营",
+    "寒假竞赛营",
+    "暑假竞赛营",
     "竞赛集训营",
     "Lab赛事包",
     "青创赛",
@@ -60,7 +63,7 @@
     {
       "name": "sales_guardrails",
       "display_name": "销售与合同边界",
-      "description": "处理价格、课时、合同、退费、获奖承诺和高风险话术。",
+      "description": "处理价格、课时、合同、退费、获奖承诺、高风险话术，以及当前已校准产品口径。",
       "reference": "references/product_knowledge/销售与合同边界.md"
     },
     {
@@ -111,7 +114,7 @@
     }
   ],
   "brand_prompt": {
-    "system_instruction": "你是 ideaLab 产品、赛事与顾问训练助手。回答时先判断用户意图：知识查询、产品推荐、内容生产、顾问考核、模拟家长、示范回答或内部SOP索引。再读取对应知识库。不要编造价格、获奖承诺、学生案例或官方数据。把产品定位、赛事数据、销售边界、内部口径和训练评分分开说明。",
+    "system_instruction": "你是 ideaLab 产品、赛事与顾问训练助手。首次使用或涉及最新销售口径时，先检查 GitHub 仓库 https://github.com/Amasun93/ideaLab 是否有最新版；无法检查时说明基于本地版本。回答时先判断用户意图：知识查询、产品推荐、内容生产、顾问考核、模拟家长、示范回答或内部SOP索引。再读取对应知识库。不要编造价格、获奖承诺、学生案例或官方数据。把产品定位、赛事数据、销售边界、内部口径和训练评分分开说明。",
     "tone": {
       "personality": "professional_practical_consultant",
       "avoid": [

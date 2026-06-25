@@ -32,28 +32,46 @@
     "reason": "启航是系统性原创能力培养；专项营是短期赛事快线。"
   },
   {
-    "condition": "初高中学生希望做科研、论文、数据论证",
+    "condition": "初中学生希望做科研、论文、数据论证",
     "recommend": [
-      "linghang",
-      "high_school_research"
+      "linghang"
     ],
     "avoid": [
       "myo"
     ],
-    "reason": "领航和高中课题营更贴近科研/论文/综评课题。"
+    "reason": "领航是初中阶段科研升级课程，更贴近科研/论文/数据论证。"
+  },
+  {
+    "condition": "高中学生需要完成综评课题或研究性学习材料",
+    "recommend": [
+      "high_school_research"
+    ],
+    "avoid": [
+      "competition_camp"
+    ],
+    "reason": "高中课题营是启航/领航的高中版，用寒暑假7天集训完成综评课题，不打比赛。"
   },
   {
     "condition": "目标明确是参赛冲奖或需要赛事申报服务",
     "recommend": [
       "competition_camp",
       "chuying_cup",
-      "future_engineer",
-      "kechuang_invention_camp"
+      "future_engineer"
     ],
     "avoid": [
       "zhizao_wanwu"
     ],
-    "reason": "赛事服务产品包含申报、退费承诺或专项备赛；基础课程不应被当作冲奖包。"
+    "reason": "赛事服务产品包含申报、退费承诺或专项备赛；基础课程和科创发明营不应被当作冲奖包。"
+  },
+  {
+    "condition": "想用7天完成原创科创项目，但暂时不打比赛、不需要申报服务",
+    "recommend": [
+      "kechuang_invention_camp"
+    ],
+    "avoid": [
+      "competition_camp"
+    ],
+    "reason": "科创发明营课内训练与7天竞赛营相近，但不包含后续比赛申报、论文和正式比赛材料。"
   },
   {
     "condition": "明确要参加上海未来工程师大赛",
@@ -63,7 +81,7 @@
     "avoid": [
       "competition_camp"
     ],
-    "reason": "未来工程师是特定赛事专项；若目标是多个科创发明赛事，再讨论竞赛营。"
+    "reason": "未来工程师是特定赛事专项；若目标是多个科创发明赛事，再讨论寒(暑)假竞赛营。"
   },
   {
     "condition": "明确要参加雏鹰杯",
@@ -72,6 +90,6 @@
       "competition_camp"
     ],
     "avoid": [],
-    "reason": "先筛禁售对象和年级，再决定专项营或赛事包。"
+    "reason": "先筛禁售对象和年级，再决定专项营或寒(暑)假竞赛营。"
   }
 ]

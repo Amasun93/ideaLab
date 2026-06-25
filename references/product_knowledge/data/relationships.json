@@ -21,7 +21,7 @@
     "from": "qihang",
     "to": "competition_camp",
     "type": "can_feed_into",
-    "label": "原创发明能力可衔接赛事营"
+    "label": "原创发明能力可衔接寒(暑)假竞赛营"
   },
   {
     "from": "linghang",
@@ -30,27 +30,33 @@
     "label": "科研论文/数据论证能力可衔接高阶赛事"
   },
   {
+    "from": "kechuang_invention_camp",
+    "to": "competition_camp",
+    "type": "non_application_variant_of",
+    "label": "7天课内训练相近，但科创发明营不含后续赛事申报、论文和正式比赛材料"
+  },
+  {
     "from": "competition_camp",
     "to": "chuying_cup",
     "type": "covers_competition",
-    "label": "竞赛营覆盖雏鹰杯等赛事"
+    "label": "寒(暑)假竞赛营覆盖多赛事申报服务"
   },
   {
     "from": "future_engineer",
     "to": "competition_camp",
     "type": "parallel_special_track",
-    "label": "专项营是特定赛事快线，不等同竞赛营主线"
+    "label": "专项营是特定赛事快线，不等同完整寒(暑)假竞赛营"
   },
   {
     "from": "chuying_cup",
     "to": "competition_camp",
-    "type": "specialized_subset",
-    "label": "雏鹰杯专项营是单赛事专项"
+    "type": "specialized_track",
+    "label": "雏鹰杯专项营同步投递雏鹰杯和长三角"
   },
   {
-    "from": "high_school_research",
-    "to": "linghang",
-    "type": "adjacent_research_track",
-    "label": "同属科研/课题履历方向，但面向高中综评"
+    "from": "linghang",
+    "to": "high_school_research",
+    "type": "stage_upgrade_to",
+    "label": "初中科研升级后，高中阶段进入综评课题"
   }
 ]

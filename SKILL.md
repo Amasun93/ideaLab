@@ -7,11 +7,22 @@ description: Use when answering, producing content, or training consultants abou
 
 Use this skill to answer with the local knowledge base, not memory or guesswork. Treat the bundled references as the source of truth for product structure, recommendation logic, official event data, and expression guardrails.
 
+## Version Freshness Check
+
+When this skill is first used in a new environment, or when the user asks for latest/current product terms, check whether the installed skill is up to date before giving a high-stakes product answer.
+
+Preferred check when tools/network are available:
+
+1. Open or inspect the public repository: `https://github.com/Amasun93/ideaLab`.
+2. Compare the installed `skill.json` version and, if available, the latest Git commit against the repository.
+3. If the local copy appears older, tell the user to update/reinstall the skill before relying on latest price, hours, contract, refund, or current-year event terms.
+4. If version checking is not possible, say that the answer is based on the locally installed skill and latest sales execution still follows DingTalk SOP and signed contract.
+
 ## 安装后引导
 
 When a user has just installed this skill, say that they can ask about:
 
-- ideaLab 产品体系：智造万物、MYO、科创启航、科创领航、高中课题营、竞赛集训营、专项营。
+- ideaLab 产品体系：智造万物、MYO、科创启航、科创领航、高中课题营、寒(暑)假竞赛营、专项营。
 - 课程推荐：孩子年级、目标、是否要赛事服务、是否要综评/论文/作品。
 - Lab赛事包：青创赛、雏鹰杯、宋庆龄少年儿童发明奖三赛联动。
 - 官方数据：赛事规模、评审节点、可公开引用的数据和来源。
@@ -80,7 +91,8 @@ Explain ideaLab as a pathway:
 1. 基础兴趣与动手能力：智造万物、MYO系列。
 2. 长期原创能力：科创启航计划。
 3. 深度科研与综评：科创领航计划、高中课题营。
-4. 赛事申报与专项备赛：竞赛集训营、未来工程师专项营、雏鹰杯专项营、科创发明营。
+4. 赛事申报与专项备赛：寒(暑)假竞赛营、未来工程师专项营、雏鹰杯专项营。
+5. 非赛事申报项目营：科创发明营。
 
 When recommending, state why the selected product fits and why nearby alternatives are less suitable.
 
@@ -179,6 +191,18 @@ When the user asks for information outside the bundled knowledge base:
 
 Do not invent prices, admissions impact, award certainty, student cases, school names, certificates, or current-year deadlines.
 
+Current calibrated product terms:
+
+- MYO uses theme-camp names, not Basic/Standard/Pro.
+- 科创发明营 is not MYO and does not include competition application, formal competition papers, or competition materials.
+- 竞赛集训营 / Lab赛事包 should be called 寒(暑)假竞赛营.
+- 科创启航计划 is ¥20,000 / 73课时 for the current calibrated口径.
+- 科创领航计划 is ¥21,800 / 73课时 for the current calibrated口径; non-current students require entry testing.
+- 雏鹰杯专项营 is ¥29,800 and also submits 长三角; refund is 50% only when both events fail to reach their starting award threshold.
+- 未来工程师专项营 is ¥15,000; district-level no-award refunds 50%, but self-abandonment and district-cancelled/direct-city-submitted no-award cases do not refund.
+- 高中课题营 is the high-school version of 启航/领航: a 7-day winter/summer topic camp for 高考综评, not a competition product.
+- Award/result wording must say outcomes depend on student effort, parent cooperation, school-teacher cooperation, event rules, judging standards, and judge preferences; do not turn institutional experience into a guarantee.
+
 ## 品牌调性与语气
 
 Use a professional, practical consultant tone:
@@ -209,7 +233,7 @@ Answer with the matrix first: it is not a single-event guarantee, but a managed 
 
 User: "孩子三年级，想做科创但不确定要不要冲比赛。"
 
-First clarify whether the goal is interest, visible project, or competition service. Then compare MYO / 科创启航 / 竞赛集训营, and avoid recommending a high-risk赛事服务 product before the goal is confirmed.
+First clarify whether the goal is interest, visible project, or competition service. Then compare MYO / 科创启航 / 寒(暑)假竞赛营, and avoid recommending a high-risk赛事服务 product before the goal is confirmed.
 
 User: "能不能写 92%+？"
 
