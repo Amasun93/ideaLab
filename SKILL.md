@@ -59,6 +59,8 @@ Classify the task before reading details:
 - Product explanation: read `references/product_knowledge/产品总览.md` and `references/product_knowledge/产品关系图.md`.
 - Product recommendation: also read `references/product_knowledge/推荐逻辑.md` and `references/product_knowledge/data/recommendation_rules.json`.
 - Specific product: read the relevant file in `references/product_knowledge/产品卡片/`.
+- 智造万物 lesson/project question: also read `references/product_knowledge/课节索引/智造万物_课节速查卡.md` and `references/product_knowledge/data/zhizao_wanwu_lesson_index.json`.
+- 智造万物 local素材 question: read `references/product_knowledge/素材索引/智造万物_本地素材索引.md`;素材原件在 `D:/Projects/ideaLab素材库/01_智造万物` and are not stored in GitHub.
 - Price, hours, contract, refund, promise, or sales risk: read `references/product_knowledge/销售与合同边界.md` and `references/product_knowledge/口径冲突与待确认.md`.
 - Lab赛事包 or competition content: read `references/event_knowledge/README.md`, `references/event_knowledge/三赛联动_Lab赛事包/02_Lab赛事包叙事卡.md`, and the relevant event folder.
 - Official figures or citation-backed copy: read `references/event_knowledge/data/data_points.json`, `references/event_knowledge/data/source_registry.json`, and `references/event_knowledge/data/claim_bank.json`.
@@ -74,6 +76,8 @@ Classify the task before reading details:
 | "ideaLab 是什么？" / "产品体系怎么讲？" | `references/product_knowledge/产品总览.md` |
 | "这个孩子适合报什么？" | `references/product_knowledge/推荐逻辑.md` + `data/recommendation_rules.json` |
 | "某个产品怎么介绍？" | `references/product_knowledge/产品卡片/<产品名>.md` |
+| "智造万物第几节课/某个项目讲什么？" | `references/product_knowledge/课节索引/智造万物_课节速查卡.md` + `data/zhizao_wanwu_lesson_index.json` |
+| "智造万物有哪些短视频/讲座素材？" | `references/product_knowledge/素材索引/智造万物_本地素材索引.md` |
 | "价格、课时、退费怎么算？" | `销售与合同边界.md` + `口径冲突与待确认.md` |
 | "Lab赛事包怎么讲？" | `references/event_knowledge/三赛联动_Lab赛事包/02_Lab赛事包叙事卡.md` |
 | "青创赛/雏鹰杯/宋庆龄发明奖是什么？" | 对应赛事文件夹的 `00_赛事简介.md` 和 `01_官方数据卡.md` |
@@ -244,6 +248,8 @@ Say that `92%+` is an internal product-result claim, not official competition da
 - Product overview: `references/product_knowledge/产品总览.md`
 - Product cards: `references/product_knowledge/产品卡片/`
 - Product data: `references/product_knowledge/data/`
+- 智造万物课节索引: `references/product_knowledge/课节索引/智造万物_课节速查卡.md`
+- 智造万物本地素材说明: `references/product_knowledge/素材索引/智造万物_本地素材索引.md`
 - Event overview: `references/event_knowledge/README.md`
 - Three-event story: `references/event_knowledge/三赛联动_Lab赛事包/`
 - Event data: `references/event_knowledge/data/`

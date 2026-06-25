@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-06-26",
+  "raw_archive": "D:\\Projects\\产品介绍更新版20260407\\01_课程产品库\\01_智造万物\\01_原始材料\\2026-06-26_制造万物完整资料",
+  "clean_dir": "D:\\Projects\\产品介绍更新版20260407\\03_AI清洗知识库\\02_清洗文本\\02_常规课程产品\\智造万物\\2026-06-26_完整课程资料清洗",
+  "local_asset_dir": "D:\\Projects\\ideaLab素材库\\01_智造万物",
+  "file_count": 645,
+  "total_size_gb": 17.391,
+  "lesson_record_count_after_dedup": 221,
+  "asset_record_count": 209,
+  "notes": [
+    "lesson_index.json has been normalized for public skill use: duplicate lesson_id records are merged, three-stage logistics records are assigned to S3, and visible student/parent names in index text are anonymized.",
+    "Raw source files remain in the local archive; GitHub skill only includes lightweight knowledge and indexes."
+  ]
+}

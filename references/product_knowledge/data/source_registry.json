@@ -89,5 +89,26 @@
     "relative_path": "01_课程产品库/01_智造万物/01_原始材料/基地常规课 课程设计总表.xlsx",
     "use_for": "智造万物三阶课程大纲、项目清单、课堂交付、复盘记录",
     "confidence": "course_design_workbook_extracted"
+  },
+  "S14": {
+    "title": "2026-06-26_制造万物完整资料",
+    "type": "智造万物完整原始资料归档",
+    "relative_path": "01_课程产品库/01_智造万物/01_原始材料/2026-06-26_制造万物完整资料",
+    "use_for": "完整课件、手册、宣发、反馈、工程文件、迁移清单",
+    "confidence": "raw_archive_migrated"
+  },
+  "S15": {
+    "title": "智造万物完整课程资料清洗",
+    "type": "AI课节级清洗知识库",
+    "relative_path": "03_AI清洗知识库/02_清洗文本/02_常规课程产品/智造万物/2026-06-26_完整课程资料清洗",
+    "use_for": "产品级、阶段级、单元级、课节级问答与项目解释",
+    "confidence": "ai_cleaned_lesson_index"
+  },
+  "S16": {
+    "title": "ideaLab本地素材库/智造万物",
+    "type": "本地精选素材索引",
+    "relative_path": "D:\\Projects\\ideaLab素材库\\01_智造万物",
+    "use_for": "短视频、讲座、课程介绍、家长沟通素材定位",
+    "confidence": "local_asset_index"
   }
 }

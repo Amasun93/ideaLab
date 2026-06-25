@@ -2,7 +2,7 @@
   "name": "ideaLab",
   "display_name": "ideaLab 产品与赛事知识库",
   "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "author": "Amasun",
   "repository": "https://github.com/Amasun93/ideaLab",
   "category": "产品知识库",
@@ -95,6 +95,18 @@
       "display_name": "钉钉内部SOP索引",
       "description": "记录 ideaLab26年销售SOP-0604更新（上海）的内部入口、已确认摘要和引用边界。",
       "reference": "references/consultant_training/dingtalk_internal_docs.md"
+    },
+    {
+      "name": "zhizao_wanwu_lesson_knowledge",
+      "display_name": "智造万物课节级知识",
+      "description": "回答智造万物每一阶、单元、项目和课节的内容、交付物、家长表达和素材位置。",
+      "reference": "references/product_knowledge/课节索引/智造万物_课节速查卡.md"
+    },
+    {
+      "name": "local_asset_index",
+      "display_name": "本地素材库索引",
+      "description": "说明如何在本地 ideaLab素材库中查找智造万物短视频、讲座和口碑素材；不包含素材原件。",
+      "reference": "references/product_knowledge/素材索引/智造万物_本地素材索引.md"
     }
   ],
   "internal_links": [
