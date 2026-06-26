@@ -66,6 +66,7 @@ Classify the task before reading details:
 - Official figures or citation-backed copy: read `references/event_knowledge/data/data_points.json`, `references/event_knowledge/data/source_registry.json`, and `references/event_knowledge/data/claim_bank.json`.
 - Local 学情通知、赛事通知、获奖/入围名单 batch from 2026-06-26: read `references/event_knowledge/data/local_event_sources_20260626.json` and `references/event_knowledge/data/local_event_award_stats_20260626.json`; use them as private aggregated helper data, not as public official statistics.
 - 区域赛事学情 questions such as “浦东新区雏鹰杯什么时候申报、注意事项是什么、哪个区怎么规划”: treat “学情” as region/event intelligence, not individual student records. Answer by year, district, event, application window, entry path, materials, school recommendation mechanism, review stages, reminders, and planning implication. If the current structured data does not yet contain the exact district/event card, say what is confirmed and what needs local notice verification.
+- Pudong regional event intelligence: read `references/event_knowledge/区域赛事学情/浦东新区.md` before answering questions about 浦东学情、浦东科创关注度、竞争强度、重点学校、科技特色学校、公办/民办属性 or浦东 school planning.
 - Visual or logo use: read `references/event_knowledge/data/visual_manifest.json`; only `asset_type=official_logo` can be treated as an official logo.
 - Broader preparation, examples, parent FAQ for content, or product-to-event mapping: read `references/event_knowledge/90_长期素材预备/README.md`.
 - Consultant training, parent simulation, FAQ drills, objection handling, scoring, or roleplay: read `references/consultant_training/README.md`, `references/consultant_training/scenario_queue.json`, `references/consultant_training/parent_faq_bank.json`, and `references/consultant_training/scoring_rubric.json`.
@@ -291,6 +292,7 @@ Say that `92%+` is an internal product-result claim, not official competition da
 - Event data: `references/event_knowledge/data/`
 - Local event batch index: `references/event_knowledge/data/local_event_sources_20260626.json`
 - Local event aggregate helper stats: `references/event_knowledge/data/local_event_award_stats_20260626.json`
+- Regional event intelligence cards: `references/event_knowledge/区域赛事学情/`
 - Long-term event prep: `references/event_knowledge/90_长期素材预备/`
 - Official attachments: `references/event_knowledge/source_attachments/`
 - Consultant training: `references/consultant_training/`
