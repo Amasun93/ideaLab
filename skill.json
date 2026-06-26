@@ -2,7 +2,7 @@
   "name": "ideaLab",
   "display_name": "ideaLab 产品与赛事知识库",
   "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、区域赛事学情、脱敏本地赛事资料索引、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "author": "Amasun",
   "repository": "https://github.com/Amasun93/ideaLab",
   "category": "产品知识库",
@@ -69,8 +69,8 @@
     {
       "name": "regional_event_intelligence",
       "display_name": "区域赛事学情",
-      "description": "围绕年份、区域、赛事、申报时间、报名入口、学校推荐机制、名额/材料限制、评审节点、注意事项和课程规划意义回答区级赛事规划问题。",
-      "reference": "references/event_knowledge/区域赛事学情/浦东新区.md"
+      "description": "围绕上海16区的年份、区域、赛事、申报时间、报名入口、学校推荐机制、名额/材料限制、评审节点、重点学校属性、注意事项和课程规划意义回答区级赛事规划问题。",
+      "reference": "references/event_knowledge/区域赛事学情/README.md"
     },
     {
       "name": "sales_guardrails",
