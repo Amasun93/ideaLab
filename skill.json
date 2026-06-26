@@ -2,7 +2,7 @@
   "name": "ideaLab",
   "display_name": "ideaLab 产品与赛事知识库",
   "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、区域赛事学情、脱敏本地赛事资料索引、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "author": "Amasun",
   "repository": "https://github.com/Amasun93/ideaLab",
   "category": "产品知识库",

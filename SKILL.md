@@ -237,6 +237,7 @@ Current calibrated product terms:
 - 竞赛集训营 / Lab赛事包 should be called 寒(暑)假竞赛营.
 - 科创启航计划 is ¥20,000 / 73课时 for the current calibrated口径; in Shanghai, new recruitment starts at September grade 3, so summer grade 1-to-2 students are no longer accepted.
 - 科创领航计划 is ¥21,800 / 73课时 standard price; students in PY3/PY4 or who have completed 启航 and meet the September grade 6+ requirement may enroll without the entry test at ¥19,800; non-current students require entry testing.
+- 寒(暑)假竞赛营: 小学 ¥49,800 = 项目孵化 ¥29,800 + 竞赛联报 ¥20,000，联报青创赛（区级）、雏鹰杯（区级起）、宋庆龄少年儿童发明奖（市级起），3赛均未获奖退还申报费用一半即 ¥10,000；初中 ¥54,800 = 项目孵化 ¥29,800 + 竞赛联报 ¥25,000，联报青创赛（市级起）、明日科技之星/明科（区级起）、宋赛（市级起）、雏鹰杯（区级起），4赛周期内均未获奖退还 ¥12,500；高中 ¥49,800 = 项目孵化 ¥29,800 + 竞赛联报 ¥20,000，联报青创赛（市级起）、明科（区级起）、宋赛（市级起），3赛周期内均未获奖退还 ¥10,000. Project incubation includes topic selection, project design, implementation guidance, and process materials; it does not include a standalone professional paper, while competition application materials are prepared according to event requirements.
 - 雏鹰杯专项营 switches to the 雏鹰杯&长三角专项营 new plan from 2026-06-29: ¥29,800, both events are submitted, and refund is 50% only when both events fail to reach their starting award threshold.
 - 未来工程师专项营 is ¥15,000; district-level no-award refunds 50%, but self-abandonment and district-cancelled/direct-city-submitted no-award cases do not refund.
 - 高中课题营 is the high-school version of 启航/领航: a 7-day winter/summer topic camp for 高考综评, not a competition product.

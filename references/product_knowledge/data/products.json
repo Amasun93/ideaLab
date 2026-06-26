@@ -222,7 +222,7 @@
     "category": "赛事服务产品",
     "positioning": "面向高含金量白名单赛事/综评赛事的系统化备赛与申报服务；竞赛集训营、Lab赛事包、赛事包都是该产品旧称或别名。",
     "target_students": "总结稿口径：9-18岁，3年级及以上；按小学/初中/高中赛事组别拆分。",
-    "pricing": "价格需按城市、组别、服务范围和当期SOP确认。",
+    "pricing": "小学¥49,800；初中¥54,800；高中¥49,800。具体排班、合同和退费以校区签约为准。",
     "course_hours": "总结稿口径：60课时，线上开题2课时+线上定题2课时+寒暑假集训7天。",
     "contract_type": "Idealab服务合同。",
     "core_outputs": [
@@ -251,12 +251,71 @@
       "S01",
       "S02",
       "S07",
-      "S11"
+      "S11",
+      "S19"
     ],
     "agent_notes": [
       "对外统一叫寒(暑)假竞赛营；遇到旧材料可解释为竞赛集训营/Lab赛事包是同一产品。",
       "销售表达只能说退费承诺，不能说保奖或保证获奖。",
-      "若学生因自身原因未参赛导致未获奖，材料口径显示不退费。"
+      "若学生因自身原因未参赛导致未获奖，材料口径显示不退费。",
+      "费用拆分：项目孵化课程部分统一¥29,800；小学/高中竞赛联报服务¥20,000，初中¥25,000；全部联报赛事周期内均未获奖时退还申报费用的一半。"
+    ],
+    "fee_structure": {
+      "primary": {
+        "total_price": 49800,
+        "project_incubation_fee": 29800,
+        "competition_service_fee": 20000,
+        "competition_count": 3,
+        "competitions": [
+          "青创赛（区级）",
+          "雏鹰杯（区级起）",
+          "宋庆龄少年儿童发明奖（市级起）"
+        ],
+        "refund_if_all_no_award": 10000
+      },
+      "middle_school": {
+        "total_price": 54800,
+        "project_incubation_fee": 29800,
+        "competition_service_fee": 25000,
+        "competition_count": 4,
+        "competitions": [
+          "青创赛（市级起）",
+          "明日科技之星/明科（区级起）",
+          "宋庆龄少年儿童发明奖（市级起）",
+          "雏鹰杯（区级起）"
+        ],
+        "refund_if_all_no_award": 12500
+      },
+      "high_school": {
+        "total_price": 49800,
+        "project_incubation_fee": 29800,
+        "competition_service_fee": 20000,
+        "competition_count": 3,
+        "competitions": [
+          "青创赛（市级起）",
+          "明日科技之星/明科（区级起）",
+          "宋庆龄少年儿童发明奖（市级起）"
+        ],
+        "refund_if_all_no_award": 10000
+      }
+    },
+    "project_incubation_scope": [
+      "开题定题",
+      "项目设计",
+      "项目落地与授课指导",
+      "过程性素材采集"
+    ],
+    "project_incubation_excludes": [
+      "专业论文"
+    ],
+    "application_deliverables": [
+      "项目原型",
+      "符合比赛要求的论文/研究报告",
+      "申报表",
+      "查新报告",
+      "研究日志",
+      "演讲视频",
+      "PPT/答辩材料"
     ]
   },
   {
