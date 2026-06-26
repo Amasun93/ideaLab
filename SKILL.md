@@ -64,6 +64,7 @@ Classify the task before reading details:
 - Price, hours, contract, refund, promise, or sales risk: read `references/product_knowledge/销售与合同边界.md` and `references/product_knowledge/口径冲突与待确认.md`.
 - Lab赛事包 or competition content: read `references/event_knowledge/README.md`, `references/event_knowledge/三赛联动_Lab赛事包/02_Lab赛事包叙事卡.md`, and the relevant event folder.
 - Official figures or citation-backed copy: read `references/event_knowledge/data/data_points.json`, `references/event_knowledge/data/source_registry.json`, and `references/event_knowledge/data/claim_bank.json`.
+- Local 学情通知、赛事通知、获奖/入围名单 batch from 2026-06-26: read `references/event_knowledge/data/local_event_sources_20260626.json` and `references/event_knowledge/data/local_event_award_stats_20260626.json`; use them as private aggregated helper data, not as public official statistics.
 - Visual or logo use: read `references/event_knowledge/data/visual_manifest.json`; only `asset_type=official_logo` can be treated as an official logo.
 - Broader preparation, examples, parent FAQ for content, or product-to-event mapping: read `references/event_knowledge/90_长期素材预备/README.md`.
 - Consultant training, parent simulation, FAQ drills, objection handling, scoring, or roleplay: read `references/consultant_training/README.md`, `references/consultant_training/scenario_queue.json`, `references/consultant_training/parent_faq_bank.json`, and `references/consultant_training/scoring_rubric.json`.
@@ -111,6 +112,13 @@ Use the events this way:
 - 青创赛: project research, originality, inquiry/defense, comprehensive innovation literacy.
 - 雏鹰杯: large participation, layered selection, research process and student expression, 小院士 path.
 - 宋庆龄少年儿童发明奖: national invention context, AI/programming, creative works, finalist and final defense.
+
+For local award lists, student status notices, or school-level materials:
+
+- Treat original files, original filenames, row samples, certificates, names, schools, teacher names, and IDs as private local material.
+- Use the 2026-06-26 local batch only for internal retrieval, planning, and aggregate-level pattern recognition.
+- Do not cite local workbook aggregate counts as official totals. For public copy or parent-facing figures, use verified official/public sources in `data_points.json` and `source_registry.json`.
+- If a user needs a specific student, school, certificate, or row-level lookup, require explicit authorization and handle it from the private local archive, not from the release package.
 
 ## Answer Shape
 
@@ -246,6 +254,8 @@ Use a professional, practical consultant tone:
 - Do not compute a public combined probability across 青创赛、雏鹰杯、宋庆龄少年儿童发明奖.
 - Do not quote internal-only material directly to parents.
 - Do not publish student photos, certificates, names, schools, or case media without authorization.
+- Do not expose student list rows, school rows, teacher names, student IDs, original workbook samples, or local filenames that reveal internal annotations.
+- Do not present machine-counted local award-term aggregates as official event award totals.
 - If price, hours, contract, or refund terms conflict, say the knowledge base has conflicting versions and defer to the latest signed contract or sales SOP.
 
 ## 使用示例
@@ -272,6 +282,8 @@ Say that `92%+` is an internal product-result claim, not official competition da
 - Event overview: `references/event_knowledge/README.md`
 - Three-event story: `references/event_knowledge/三赛联动_Lab赛事包/`
 - Event data: `references/event_knowledge/data/`
+- Local event batch index: `references/event_knowledge/data/local_event_sources_20260626.json`
+- Local event aggregate helper stats: `references/event_knowledge/data/local_event_award_stats_20260626.json`
 - Long-term event prep: `references/event_knowledge/90_长期素材预备/`
 - Official attachments: `references/event_knowledge/source_attachments/`
 - Consultant training: `references/consultant_training/`

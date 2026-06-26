@@ -1,8 +1,8 @@
 {
   "name": "ideaLab",
   "display_name": "ideaLab 产品与赛事知识库",
-  "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
-  "version": "0.5.2",
+  "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、脱敏本地赛事资料索引、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
+  "version": "0.5.3",
   "author": "Amasun",
   "repository": "https://github.com/Amasun93/ideaLab",
   "category": "产品知识库",
@@ -59,6 +59,12 @@
       "display_name": "官方赛事数据",
       "description": "读取可公开引用的赛事规模、评审节点、来源和引用边界。",
       "reference": "references/event_knowledge/data/data_points.json"
+    },
+    {
+      "name": "local_event_materials_index",
+      "display_name": "本地赛事资料脱敏索引",
+      "description": "读取2026-06-26本地学情通知、赛事通知、获奖/入围名单批次的脱敏索引和聚合辅助统计；不包含原始文件和名单明细。",
+      "reference": "references/event_knowledge/data/local_event_sources_20260626.json"
     },
     {
       "name": "sales_guardrails",
