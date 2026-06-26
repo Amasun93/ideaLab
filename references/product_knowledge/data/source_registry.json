@@ -131,5 +131,12 @@
     "relative_path": "conversation:2026-06-26 寒(暑)假竞赛营费用拆分",
     "use_for": "寒(暑)假竞赛营小学/初中/高中价格、项目孵化费、竞赛联报服务费、联报赛事、交付物和未获奖退费边界",
     "confidence": "user_confirmed_current_terms"
+  },
+  "S20": {
+    "title": "2026-06-26 用户补充：ideaLab 产品体系金字塔更新",
+    "type": "用户口径补充 + 旧版图片校准",
+    "relative_path": "conversation:2026-06-26 产品体系金字塔更新",
+    "use_for": "ideaLab六层产品体系金字塔、软实力/硬实力/创新体验/发明挑战/科研探究/顶尖发明家分层、Deepseek AI机器人营移除、卡丁车补充、启航领航/专项营/寒暑假竞赛营与赛事出口映射",
+    "confidence": "user_confirmed_current_terms"
   }
 }

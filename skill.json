@@ -2,7 +2,7 @@
   "name": "ideaLab",
   "display_name": "ideaLab 产品与赛事知识库",
   "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、区域赛事学情、脱敏本地赛事资料索引、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "author": "Amasun",
   "repository": "https://github.com/Amasun93/ideaLab",
   "category": "产品知识库",
@@ -13,6 +13,16 @@
     "科创领航",
     "MYO",
     "智造万物",
+    "产品体系金字塔",
+    "科创产品体系",
+    "软实力",
+    "硬实力",
+    "卡丁车",
+    "ICC",
+    "IEYI",
+    "丘成桐",
+    "英才计划",
+    "ISEF",
     "高中课题营",
     "寒暑假竞赛营",
     "寒假竞赛营",
@@ -41,6 +51,12 @@
       "display_name": "产品体系说明",
       "description": "解释 ideaLab 产品主线、适合人群、交付物和产品之间的关系。",
       "reference": "references/product_knowledge/产品总览.md"
+    },
+    {
+      "name": "product_system_pyramid",
+      "display_name": "产品体系金字塔",
+      "description": "解释 ideaLab 六层科创产品体系：软实力、硬实力、创新体验、发明挑战、科研探究、顶尖发明家，并定位各层当前产品和赛事出口。",
+      "reference": "references/product_knowledge/产品体系金字塔.md"
     },
     {
       "name": "product_recommendation",

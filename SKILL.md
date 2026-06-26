@@ -22,7 +22,7 @@ Preferred check when tools/network are available:
 
 When a user has just installed this skill, say that they can ask about:
 
-- ideaLab 产品体系：智造万物、MYO、科创启航、科创领航、高中课题营、寒(暑)假竞赛营、专项营。
+- ideaLab 产品体系：六层金字塔（软实力、硬实力、创新体验、发明挑战、科研探究、顶尖发明家）、智造万物、MYO、科创启航、科创领航、高中课题营、寒(暑)假竞赛营、专项营。
 - 课程推荐：孩子年级、目标、是否要赛事服务、是否要综评/论文/作品。
 - Lab赛事包：青创赛、雏鹰杯、宋庆龄少年儿童发明奖三赛联动。
 - 官方数据：赛事规模、评审节点、可公开引用的数据和来源。
@@ -56,7 +56,7 @@ Explain three trigger groups after install:
 
 Classify the task before reading details:
 
-- Product explanation: read `references/product_knowledge/产品总览.md` and `references/product_knowledge/产品关系图.md`.
+- Product explanation: read `references/product_knowledge/产品总览.md`, `references/product_knowledge/产品体系金字塔.md`, and `references/product_knowledge/产品关系图.md`.
 - Product recommendation: also read `references/product_knowledge/推荐逻辑.md` and `references/product_knowledge/data/recommendation_rules.json`.
 - Specific product: read the relevant file in `references/product_knowledge/产品卡片/`.
 - 智造万物 lesson/project question: also read `references/product_knowledge/课节索引/智造万物_课节速查卡.md` and `references/product_knowledge/data/zhizao_wanwu_lesson_index.json`.
@@ -76,7 +76,7 @@ Classify the task before reading details:
 
 | 用户可能会问 | 先读什么 |
 |---|---|
-| "ideaLab 是什么？" / "产品体系怎么讲？" | `references/product_knowledge/产品总览.md` |
+| "ideaLab 是什么？" / "产品体系怎么讲？" / "金字塔怎么讲？" | `references/product_knowledge/产品总览.md` + `references/product_knowledge/产品体系金字塔.md` |
 | "这个孩子适合报什么？" | `references/product_knowledge/推荐逻辑.md` + `data/recommendation_rules.json` |
 | "某个产品怎么介绍？" | `references/product_knowledge/产品卡片/<产品名>.md` |
 | "智造万物第几节课/某个项目讲什么？" | `references/product_knowledge/课节索引/智造万物_课节速查卡.md` + `data/zhizao_wanwu_lesson_index.json` |
@@ -95,11 +95,12 @@ Classify the task before reading details:
 
 Explain ideaLab as a pathway:
 
-1. 基础兴趣与动手能力：智造万物、MYO系列。
-2. 长期原创能力：科创启航计划。
-3. 深度科研与综评：科创领航计划、高中课题营。
-4. 赛事申报与专项备赛：寒(暑)假竞赛营、未来工程师专项营、雏鹰杯专项营。
-5. 非赛事申报项目营：科创发明营。
+1. 软实力：公益讲座、大魏老师视频号、公益知识点/政策分享，建立科创意识、政策理解和家庭氛围。
+2. 硬实力：MYO、智造万物、3D 打印、卡丁车，建立工程、建模、制造和实物作品能力；Deepseek AI 机器人营已不作为当前体系产品。
+3. 创新体验：科创启航计划、科创领航计划，沉淀原创能力和科研入门能力，可衔接 ICC、IEYI 等出口。
+4. 发明挑战：雏鹰杯专项营、未来工程师专项营等专项营，围绕明确赛事任务做短周期备赛。
+5. 科研探究：寒(暑)假竞赛营，面向青创赛、明日科技之星、宋庆龄少年儿童发明奖等项目孵化和多赛事申报。
+6. 顶尖发明家：丘成桐中学科学奖、英才计划、ISEF 等高阶科研/发明出口，不对低龄家庭承诺结果。
 
 When recommending, state why the selected product fits and why nearby alternatives are less suitable.
 
@@ -241,6 +242,7 @@ Current calibrated product terms:
 - 雏鹰杯专项营 switches to the 雏鹰杯&长三角专项营 new plan from 2026-06-29: ¥29,800, both events are submitted, and refund is 50% only when both events fail to reach their starting award threshold.
 - 未来工程师专项营 is ¥15,000; district-level no-award refunds 50%, but self-abandonment and district-cancelled/direct-city-submitted no-award cases do not refund.
 - 高中课题营 is the high-school version of 启航/领航: a 7-day winter/summer topic camp for 高考综评, not a competition product.
+- 产品体系金字塔 2026 更新：旧版金字塔形状可沿用，但硬实力层已移除 Deepseek AI 机器人营，更新为 MYO/智造万物/3D 打印/卡丁车；创新体验层以启航/领航为主并有 ICC、IEYI 出口；发明挑战层为雏鹰杯专项营、未来工程师专项营；科研探究层为寒(暑)假竞赛营，对应青创赛、明科、宋赛；顶层出口包括丘成桐、英才计划、ISEF。
 - Award/result wording must say outcomes depend on student effort, parent cooperation, school-teacher cooperation, event rules, judging standards, and judge preferences; do not turn institutional experience into a guarantee.
 
 ## 品牌调性与语气
@@ -284,6 +286,7 @@ Say that `92%+` is an internal product-result claim, not official competition da
 ## Key Reference Map
 
 - Product overview: `references/product_knowledge/产品总览.md`
+- Product system pyramid: `references/product_knowledge/产品体系金字塔.md`
 - Product cards: `references/product_knowledge/产品卡片/`
 - Product data: `references/product_knowledge/data/`
 - 智造万物课节索引: `references/product_knowledge/课节索引/智造万物_课节速查卡.md`

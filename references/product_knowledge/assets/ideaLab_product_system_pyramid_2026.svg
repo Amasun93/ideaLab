@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .title { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 66px; font-weight: 800; fill: #0b3f8a; letter-spacing: 0; }
+      .subtitle { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 25px; font-weight: 500; fill: #4b5f77; letter-spacing: 0; }
+      .small { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 21px; fill: #5d6b7a; letter-spacing: 0; }
+      .label { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 32px; font-weight: 800; letter-spacing: 0; }
+      .band-title { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 31px; font-weight: 800; letter-spacing: 0; }
+      .band-text { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 20px; font-weight: 600; letter-spacing: 0; }
+      .card-title { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 28px; font-weight: 800; letter-spacing: 0; }
+      .card-text { font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; font-size: 21px; font-weight: 500; fill: #31445a; letter-spacing: 0; }
+    </style>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1f365a" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#f7fafc"/>
+  <path d="M0 0H1920V156H0Z" fill="#ffffff"/>
+  <path d="M0 156H1920" stroke="#d9e5f2" stroke-width="2"/>
+
+  <text x="92" y="96" class="title">ideaLab 科创产品体系</text>
+  <text x="96" y="137" class="subtitle">2026 更新版 · 从科创氛围到顶尖发明家路径</text>
+  <text x="1600" y="86" class="small">六层成长金字塔</text>
+  <text x="1600" y="119" class="small">课程产品与赛事出口</text>
+
+  <g filter="url(#softShadow)">
+    <polygon points="390,930 1530,930 1372,790 548,790" fill="#f7bd18"/>
+    <polygon points="510,772 1410,772 1276,650 644,650" fill="#93b955"/>
+    <polygon points="628,632 1292,632 1182,524 738,524" fill="#4e9d60"/>
+    <polygon points="738,506 1182,506 1110,414 810,414" fill="#1fa4aa"/>
+    <polygon points="820,396 1100,396 1044,316 876,316" fill="#236fb1"/>
+    <polygon points="902,296 1018,296 982,222 938,222" fill="#0b3f8a"/>
+
+    <g>
+      <circle cx="464" cy="860" r="34" fill="#ffffff" opacity="0.92"/>
+      <text x="454" y="873" class="label" fill="#a36b00">F</text>
+      <text x="960" y="844" class="band-title" fill="#263238" text-anchor="middle">软实力</text>
+      <text x="960" y="883" class="band-text" fill="#263238" text-anchor="middle">讲座 · 大魏老师视频号 · 公益知识/政策分享</text>
+    </g>
+    <g>
+      <circle cx="590" cy="710" r="31" fill="#ffffff" opacity="0.92"/>
+      <text x="580" y="722" class="label" fill="#56762b">E</text>
+      <text x="960" y="704" class="band-title" fill="#ffffff" text-anchor="middle">硬实力</text>
+      <text x="960" y="742" class="band-text" fill="#ffffff" text-anchor="middle">MYO · 智造万物 · 3D 打印 · 卡丁车</text>
+    </g>
+    <g>
+      <circle cx="704" cy="578" r="29" fill="#ffffff" opacity="0.92"/>
+      <text x="694" y="590" class="label" fill="#2e6c42">D</text>
+      <text x="960" y="570" class="band-title" fill="#ffffff" text-anchor="middle">创新体验</text>
+      <text x="960" y="608" class="band-text" fill="#ffffff" text-anchor="middle">科创启航计划 · 科创领航计划 · ICC / IEYI</text>
+    </g>
+    <g>
+      <circle cx="800" cy="460" r="27" fill="#ffffff" opacity="0.92"/>
+      <text x="791" y="471" class="label" fill="#08777e">C</text>
+      <text x="960" y="454" class="band-title" fill="#ffffff" text-anchor="middle">发明挑战</text>
+      <text x="960" y="489" class="band-text" fill="#ffffff" text-anchor="middle">雏鹰杯专项营 · 未来工程师专项营</text>
+    </g>
+    <g>
+      <circle cx="880" cy="356" r="25" fill="#ffffff" opacity="0.92"/>
+      <text x="872" y="367" class="label" fill="#11568c">B</text>
+      <text x="960" y="350" class="band-title" fill="#ffffff" text-anchor="middle">科研探究</text>
+      <text x="960" y="382" class="band-text" fill="#ffffff" text-anchor="middle">寒(暑)假竞赛营</text>
+    </g>
+    <g>
+      <circle cx="960" cy="262" r="23" fill="#ffffff" opacity="0.92"/>
+      <text x="952" y="272" class="label" fill="#0b3f8a">A</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="96" y="236" width="390" height="160" rx="18" fill="#ffffff" stroke="#d8e4f0" stroke-width="2"/>
+    <text x="126" y="289" class="card-title" fill="#0b3f8a">顶层出口</text>
+    <text x="126" y="330" class="card-text">丘成桐中学科学奖 · 英才计划</text>
+    <text x="126" y="364" class="card-text">ISEF · 高阶科研规划</text>
+    <path d="M486 316H760" stroke="#0b3f8a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M760 316l-22-13v26z" fill="#0b3f8a"/>
+  </g>
+
+  <g>
+    <rect x="96" y="438" width="390" height="160" rx="18" fill="#ffffff" stroke="#d8e4f0" stroke-width="2"/>
+    <text x="126" y="491" class="card-title" fill="#1f8a8f">科研/赛事出口</text>
+    <text x="126" y="532" class="card-text">青创赛 · 明科 · 宋庆龄</text>
+    <text x="126" y="566" class="card-text">雏鹰杯 · 长三角 · 未来工程师</text>
+    <path d="M486 520H690" stroke="#1f8a8f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M690 520l-22-13v26z" fill="#1f8a8f"/>
+  </g>
+
+  <g>
+    <rect x="96" y="654" width="390" height="170" rx="18" fill="#ffffff" stroke="#d8e4f0" stroke-width="2"/>
+    <text x="126" y="707" class="card-title" fill="#6a8f2d">底层能力</text>
+    <text x="126" y="748" class="card-text">公益讲座与政策分享建立认知</text>
+    <text x="126" y="782" class="card-text">MYO / 智造万物形成动手底盘</text>
+    <path d="M486 738H560" stroke="#6a8f2d" stroke-width="5" stroke-linecap="round"/>
+    <path d="M560 738l-22-13v26z" fill="#6a8f2d"/>
+  </g>
+
+  <g>
+    <rect x="1434" y="250" width="390" height="170" rx="18" fill="#ffffff" stroke="#d8e4f0" stroke-width="2"/>
+    <text x="1464" y="303" class="card-title" fill="#0b3f8a">产品迭代</text>
+    <text x="1464" y="344" class="card-text">Deepseek AI 机器人营已移除</text>
+    <text x="1464" y="378" class="card-text">硬实力层更新为卡丁车项目</text>
+    <path d="M1434 338H1208" stroke="#0b3f8a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1208 338l22-13v26z" fill="#0b3f8a"/>
+  </g>
+
+  <g>
+    <rect x="1434" y="470" width="390" height="178" rx="18" fill="#ffffff" stroke="#d8e4f0" stroke-width="2"/>
+    <text x="1464" y="523" class="card-title" fill="#1f8a8f">中段主线</text>
+    <text x="1464" y="564" class="card-text">启航/领航沉淀原创能力</text>
+    <text x="1464" y="598" class="card-text">专项营与竞赛营承接赛事目标</text>
+    <path d="M1434 560H1230" stroke="#1f8a8f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1230 560l22-13v26z" fill="#1f8a8f"/>
+  </g>
+
+  <g>
+    <rect x="1434" y="700" width="390" height="170" rx="18" fill="#ffffff" stroke="#d8e4f0" stroke-width="2"/>
+    <text x="1464" y="753" class="card-title" fill="#a36b00">表达边界</text>
+    <text x="1464" y="794" class="card-text">赛事出口代表规划方向</text>
+    <text x="1464" y="828" class="card-text">不能承诺获奖、升学或录取结果</text>
+    <path d="M1434 784H1364" stroke="#a36b00" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1364 784l22-13v26z" fill="#a36b00"/>
+  </g>
+
+  <g>
+    <rect x="96" y="970" width="1728" height="52" rx="16" fill="#eaf2fb"/>
+    <text x="126" y="1004" class="small">路径理解：软实力氛围 → 工程硬实力 → 原创体验 → 发明挑战 → 科研探究 → 顶尖发明家</text>
+    <text x="1420" y="1004" class="small">ideaLab 产品体系图 · 2026</text>
+  </g>
+</svg>

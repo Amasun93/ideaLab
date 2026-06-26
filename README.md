@@ -28,6 +28,7 @@ ideaLab 不是单个课程，而是一条从兴趣启蒙、原创项目、深度
 | 能力 | 你可以问 | 读取来源 |
 |---|---|---|
 | 产品体系说明 | "ideaLab 是什么？产品线怎么讲？" | `references/product_knowledge/产品总览.md` |
+| 产品体系金字塔 | "新版金字塔怎么讲？老图怎么替换？" | `references/product_knowledge/产品体系金字塔.md` |
 | 课程推荐 | "三年级想做科创，适合报什么？" | `references/product_knowledge/推荐逻辑.md` |
 | 单产品介绍 | "科创启航和科创领航怎么区分？" | `references/product_knowledge/产品卡片/` |
 | Lab赛事包说明 | "三赛联动怎么介绍给家长？" | `references/event_knowledge/三赛联动_Lab赛事包/` |
