@@ -110,5 +110,19 @@
     "relative_path": "D:\\Projects\\ideaLab素材库\\01_智造万物",
     "use_for": "短视频、讲座、课程介绍、家长沟通素材定位",
     "confidence": "local_asset_index"
+  },
+  "S17": {
+    "title": "00_所有产品清理版_人工检查.md",
+    "type": "全产品人工检查与补充整理稿",
+    "relative_path": "03_AI清洗知识库/00_所有产品清理版_人工检查.md",
+    "use_for": "产品归属、待确认问题、科创发明营等薄资料卡的人工校准依据",
+    "confidence": "manual_review_summary"
+  },
+  "S18": {
+    "title": "2026-06-26 启航/雏鹰杯/领航总部宣贯",
+    "type": "总部内部宣贯PPT+逐字稿",
+    "relative_path": "01_课程产品库/00_品牌与产品总览/01_原始材料/2026-06-26_启航雏鹰领航总部宣贯",
+    "use_for": "启航上海区域招募年龄调整、雏鹰杯&长三角专项营新旧方案切换、领航计划价格课时/准入优惠/课程节奏/赛事出口校准",
+    "confidence": "headquarters_training_ppt_and_transcript"
   }
 }
