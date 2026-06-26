@@ -2,7 +2,7 @@
   "name": "ideaLab",
   "display_name": "ideaLab 产品与赛事知识库",
   "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、区域赛事学情、脱敏本地赛事资料索引、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "author": "Amasun",
   "repository": "https://github.com/Amasun93/ideaLab",
   "category": "产品知识库",
@@ -43,7 +43,9 @@
     "打分",
     "话术演练",
     "钉钉产品文档",
-    "销售SOP"
+    "销售SOP",
+    "占座表",
+    "排班表"
   ],
   "capabilities": [
     {
@@ -150,6 +152,43 @@
         "师资介绍",
         "占座与排班",
         "可外发家长材料"
+      ]
+    },
+    {
+      "name": "启航计划占座表",
+      "url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3gngNOCBL2vXakVzN67Mw4?utm_scene=person_space&iframeQuery=sheet_range%3Dkgqie6hm_0_0_1_12",
+      "requires": "company_dingtalk_access",
+      "use_for": [
+        "科创启航计划",
+        "启航计划占座",
+        "启航计划排班",
+        "启航计划剩余名额",
+        "启航计划报名确认"
+      ]
+    },
+    {
+      "name": "竞赛营占座表",
+      "url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WR3jRjXeCge0q4OYVBQEx5rG?utm_scene=person_space&iframeQuery=",
+      "requires": "company_dingtalk_access",
+      "use_for": [
+        "寒(暑)假竞赛营",
+        "竞赛营占座",
+        "竞赛营排班",
+        "竞赛营剩余名额",
+        "竞赛营报名确认"
+      ]
+    },
+    {
+      "name": "雏鹰杯占座表",
+      "url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLr4z4DOcBmMlx3D8lemrZQ3?utm_scene=person_space&iframeQuery=sheet_range%3Dkgqie6hm_0_0_1_1",
+      "requires": "company_dingtalk_access",
+      "use_for": [
+        "雏鹰杯专项营",
+        "雏鹰杯&长三角专项营",
+        "雏鹰杯占座",
+        "雏鹰杯排班",
+        "雏鹰杯剩余名额",
+        "雏鹰杯报名确认"
       ]
     }
   ],

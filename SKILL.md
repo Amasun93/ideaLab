@@ -214,6 +214,12 @@ Known internal link:
 
 https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeDmDjOslg1lQEQJA7depqY?utm_scene=person_space&dontjump=true
 
+Known seat-table links:
+
+- 启航计划占座表: https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3gngNOCBL2vXakVzN67Mw4?utm_scene=person_space&iframeQuery=sheet_range%3Dkgqie6hm_0_0_1_12
+- 竞赛营占座表: https://alidocs.dingtalk.com/i/nodes/R1zknDm0WR3jRjXeCge0q4OYVBQEx5rG?utm_scene=person_space&iframeQuery=
+- 雏鹰杯占座表: https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLr4z4DOcBmMlx3D8lemrZQ3?utm_scene=person_space&iframeQuery=sheet_range%3Dkgqie6hm_0_0_1_1
+
 Use it this way:
 
 1. Give the stable conclusion from local knowledge first.

@@ -6,6 +6,16 @@
 - 链接：https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeDmDjOslg1lQEQJA7depqY?utm_scene=person_space&dontjump=true
 - 权限：需要公司钉钉账号访问。
 
+## 占座表直达链接
+
+以下链接均为内部钉钉文档，需要公司钉钉账号访问。它们用于内部确认排班、占座、剩余名额和报名状态，不应直接发给家长。
+
+| 表格 | 链接 | 用途 |
+|---|---|---|
+| 启航计划占座表 | https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3gngNOCBL2vXakVzN67Mw4?utm_scene=person_space&iframeQuery=sheet_range%3Dkgqie6hm_0_0_1_12 | 科创启航计划占座、排班、剩余名额、报名确认 |
+| 竞赛营占座表 | https://alidocs.dingtalk.com/i/nodes/R1zknDm0WR3jRjXeCge0q4OYVBQEx5rG?utm_scene=person_space&iframeQuery= | 寒(暑)假竞赛营占座、排班、剩余名额、报名确认 |
+| 雏鹰杯占座表 | https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLr4z4DOcBmMlx3D8lemrZQ3?utm_scene=person_space&iframeQuery=sheet_range%3Dkgqie6hm_0_0_1_1 | 雏鹰杯专项营/雏鹰杯&长三角专项营占座、排班、剩余名额、报名确认 |
+
 ## 已确认的文档定位
 
 通过已登录浏览器确认，该文档是 ideaLab 销售 SOP 更新版，页面摘要写明用途：
@@ -45,6 +55,9 @@
    - 合同、退费、承诺：查看"合同条款解读"相关部分。
    - 赛事结果与工具：查看"相关赛事获奖数据&工具"相关部分。
    - 师资与交付：查看"师资介绍"和排班/占座相关表格。
+   - 启航计划占座：使用"启航计划占座表"直达链接。
+   - 寒(暑)假竞赛营占座：使用"竞赛营占座表"直达链接。
+   - 雏鹰杯专项营占座：使用"雏鹰杯占座表"直达链接。
 
 ## 边界
 
