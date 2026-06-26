@@ -95,7 +95,7 @@ Classify the task before reading details:
 
 Explain ideaLab as a pathway:
 
-1. 软实力：公益讲座、大魏老师视频号、公益知识点/政策分享，建立科创意识、政策理解和家庭氛围。
+1. 软实力：公益讲座、大卫老师自媒体矩阵，输出政策、学情、科创知识、比赛通知、教育心得等内容，建立科创意识、政策理解和家庭氛围。
 2. 硬实力：MYO、智造万物、3D 打印、卡丁车，建立工程、建模、制造和实物作品能力；Deepseek AI 机器人营已不作为当前体系产品。
 3. 创新体验：科创启航计划、科创领航计划，沉淀原创能力和科研入门能力，可衔接 ICC、IEYI 等出口。
 4. 发明挑战：雏鹰杯专项营、未来工程师专项营等专项营，围绕明确赛事任务做短周期备赛。
@@ -248,7 +248,7 @@ Current calibrated product terms:
 - 雏鹰杯专项营 switches to the 雏鹰杯&长三角专项营 new plan from 2026-06-29: ¥29,800, both events are submitted, and refund is 50% only when both events fail to reach their starting award threshold.
 - 未来工程师专项营 is ¥15,000; district-level no-award refunds 50%, but self-abandonment and district-cancelled/direct-city-submitted no-award cases do not refund.
 - 高中课题营 is the high-school version of 启航/领航: a 7-day winter/summer topic camp for 高考综评, not a competition product.
-- 产品体系金字塔 2026 更新：旧版金字塔形状可沿用，但硬实力层已移除 Deepseek AI 机器人营，更新为 MYO/智造万物/3D 打印/卡丁车；创新体验层以启航/领航为主并有 ICC、IEYI 出口；发明挑战层为雏鹰杯专项营、未来工程师专项营；科研探究层为寒(暑)假竞赛营，对应青创赛、明科、宋赛；顶层出口包括丘成桐、英才计划、ISEF。
+- 产品体系金字塔 2026 更新：旧版金字塔内部能力阶梯文案保持不变，即 A 自我实现、B 如何优化、C 如何有效解决、D 如何发现身边的问题、E 掌握基础工具与技能、F 培养意识与氛围、提升软实力；课程产品和出口赛事放在金字塔两侧说明。硬实力层已移除 Deepseek AI 机器人营，更新为 MYO/智造万物/3D 打印/卡丁车；创新体验层以启航/领航为主并有 ICC、IEYI 出口；发明挑战层为雏鹰杯专项营、未来工程师专项营；科研探究层为寒(暑)假竞赛营，对应青创赛、明科、宋赛；顶层出口包括丘成桐、英才计划、ISEF。
 - Award/result wording must say outcomes depend on student effort, parent cooperation, school-teacher cooperation, event rules, judging standards, and judge preferences; do not turn institutional experience into a guarantee.
 
 ## 品牌调性与语气
