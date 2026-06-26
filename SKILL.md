@@ -65,6 +65,7 @@ Classify the task before reading details:
 - Lab赛事包 or competition content: read `references/event_knowledge/README.md`, `references/event_knowledge/三赛联动_Lab赛事包/02_Lab赛事包叙事卡.md`, and the relevant event folder.
 - Official figures or citation-backed copy: read `references/event_knowledge/data/data_points.json`, `references/event_knowledge/data/source_registry.json`, and `references/event_knowledge/data/claim_bank.json`.
 - Local 学情通知、赛事通知、获奖/入围名单 batch from 2026-06-26: read `references/event_knowledge/data/local_event_sources_20260626.json` and `references/event_knowledge/data/local_event_award_stats_20260626.json`; use them as private aggregated helper data, not as public official statistics.
+- 区域赛事学情 questions such as “浦东新区雏鹰杯什么时候申报、注意事项是什么、哪个区怎么规划”: treat “学情” as region/event intelligence, not individual student records. Answer by year, district, event, application window, entry path, materials, school recommendation mechanism, review stages, reminders, and planning implication. If the current structured data does not yet contain the exact district/event card, say what is confirmed and what needs local notice verification.
 - Visual or logo use: read `references/event_knowledge/data/visual_manifest.json`; only `asset_type=official_logo` can be treated as an official logo.
 - Broader preparation, examples, parent FAQ for content, or product-to-event mapping: read `references/event_knowledge/90_长期素材预备/README.md`.
 - Consultant training, parent simulation, FAQ drills, objection handling, scoring, or roleplay: read `references/consultant_training/README.md`, `references/consultant_training/scenario_queue.json`, `references/consultant_training/parent_faq_bank.json`, and `references/consultant_training/scoring_rubric.json`.
@@ -119,6 +120,12 @@ For local award lists, student status notices, or school-level materials:
 - Use the 2026-06-26 local batch only for internal retrieval, planning, and aggregate-level pattern recognition.
 - Do not cite local workbook aggregate counts as official totals. For public copy or parent-facing figures, use verified official/public sources in `data_points.json` and `source_registry.json`.
 - If a user needs a specific student, school, certificate, or row-level lookup, require explicit authorization and handle it from the private local archive, not from the release package.
+
+When the user says “学情” in this event context, interpret it as 区域赛事学情:
+
+- Core fields: 年份、区域、赛事、申报/通知时间、报名入口、学校推荐或个人申报、名额/材料限制、初评/复评/终评节点、获奖/入围阶段、注意事项、对课程规划的意义。
+- Useful answers should be concrete, for example: “浦东新区雏鹰杯通常要看当年区级通知；重点确认申报窗口、学校推荐方式、材料提交口径和终评/市级衔接。”
+- Do not answer “学情” by exposing student-level rows. Student names, schools, IDs, certificates, and teacher names remain private unless separately authorized.
 
 ## Answer Shape
 

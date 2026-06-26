@@ -1,8 +1,8 @@
 {
   "name": "ideaLab",
   "display_name": "ideaLab 产品与赛事知识库",
-  "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、脱敏本地赛事资料索引、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
-  "version": "0.5.3",
+  "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、课程推荐、销售边界、官方赛事数据、区域赛事学情、脱敏本地赛事资料索引、内部结果口径，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
+  "version": "0.5.4",
   "author": "Amasun",
   "repository": "https://github.com/Amasun93/ideaLab",
   "category": "产品知识库",
@@ -65,6 +65,12 @@
       "display_name": "本地赛事资料脱敏索引",
       "description": "读取2026-06-26本地学情通知、赛事通知、获奖/入围名单批次的脱敏索引和聚合辅助统计；不包含原始文件和名单明细。",
       "reference": "references/event_knowledge/data/local_event_sources_20260626.json"
+    },
+    {
+      "name": "regional_event_intelligence",
+      "display_name": "区域赛事学情",
+      "description": "围绕年份、区域、赛事、申报时间、报名入口、学校推荐机制、名额/材料限制、评审节点、注意事项和课程规划意义回答区级赛事规划问题。",
+      "reference": "references/event_knowledge/README.md"
     },
     {
       "name": "sales_guardrails",
