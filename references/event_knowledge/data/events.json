@@ -1,0 +1,311 @@
+[
+  {
+    "id": "qingchuang",
+    "name": "上海市青少年科技创新大赛（青创赛）",
+    "short_name": "青创赛",
+    "positioning": "上海市规模大、层次高的青少年科技类赛事，重点考察科研潜质、创新素养和现场表达。",
+    "agent_summary": "适合作为“项目研究能力”和“真实评审问辩”的代表赛事，用来说明学生项目不是只做展示，而要过申报、查新、初审、问辩和综合素养考察。",
+    "audience": "上海中小学生，按届次规则和学科板块参赛。",
+    "evaluation": "近年规则强调资格审查、原创与伦理审查、作品初评、线上问辩、现场问辩、动手实践、科学素质和创新素养考察。",
+    "source_ids": [
+      "SRC_QCS_SHSSP_PORTAL",
+      "SRC_QCS_SHSSP_39_CLOSING",
+      "SRC_QCS_SHITALENT_38",
+      "SRC_QCS_CAST_40",
+      "SRC_QCS_SAST_41_RULES"
+    ],
+    "aliases": [
+      "青创赛",
+      "上海青创赛"
+    ],
+    "event_tier": "core",
+    "business_role": "research_validation",
+    "lab_package_role": "core_event",
+    "product_mapping": [
+      "寒(暑)假竞赛营"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "risk_level": "medium",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "赛事知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "current_year_deadline",
+      "award_promise",
+      "admission_or_zongping_claim",
+      "official_status_change",
+      "private_student_or_school_data"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_source_link",
+      "wording_notes"
+    ]
+  },
+  {
+    "id": "chuying",
+    "name": "“雏鹰杯”红领巾科创达人挑战赛暨上海少年科学院“小院士”评选",
+    "short_name": "雏鹰杯",
+    "positioning": "上海少先队系统下的青少年科创展示和筛选活动，连接红领巾科创达人挑战赛与上海少年科学院小院士评选。",
+    "agent_summary": "适合作为“普惠参与、层层筛选、表达和研究过程并重”的赛事代表。内容里重点讲从项目申报到初评、复评、终评，再到小院士特等奖。",
+    "audience": "上海各区中小学少先队员和科创少年。",
+    "evaluation": "专家不仅看课题，也通过多轮面评看队员如何思考、如何设计课题及研究过程。",
+    "source_ids": [
+      "SRC_CHUYING_CYOL_2024",
+      "SRC_CHUYING_SOHU_MENGDONG_2023",
+      "SRC_CHUYING_SSTM_2025"
+    ],
+    "aliases": [
+      "雏鹰杯",
+      "小院士",
+      "上海少年科学院小院士"
+    ],
+    "event_tier": "core",
+    "business_role": "competition_pathway",
+    "lab_package_role": "core_event",
+    "product_mapping": [
+      "寒(暑)假竞赛营",
+      "雏鹰杯专项营"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "risk_level": "medium",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "赛事知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "current_year_deadline",
+      "award_promise",
+      "admission_or_zongping_claim",
+      "official_status_change",
+      "private_student_or_school_data"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_source_link",
+      "wording_notes"
+    ]
+  },
+  {
+    "id": "sclaci",
+    "name": "宋庆龄少年儿童发明奖",
+    "short_name": "宋庆龄发明奖",
+    "positioning": "经科技部批准的公益性国家级青少年科技活动奖项，被列入教育部面向中小学生的全国性竞赛活动名单。",
+    "agent_summary": "适合作为“全国性发明创造”和“高密度筛选”的代表赛事，内容里强调发明作品、AI编程、创意作品与终评答辩。",
+    "audience": "主要面向全国在校中小学生，国外授权组织机构也可组织学生参赛。",
+    "evaluation": "初评确定入围并公示，终评以作品展示答辩形式开展，最终获奖名单公示。",
+    "source_ids": [
+      "SRC_SCLACI_HOME",
+      "SRC_SCLACI_CHARTER",
+      "SRC_SCLACI_AWARDS",
+      "SRC_SCLACI_20_AWARD_NEWS"
+    ],
+    "aliases": [
+      "宋庆龄发明奖",
+      "宋赛",
+      "宋庆龄奖"
+    ],
+    "event_tier": "core",
+    "business_role": "national_invention_award",
+    "lab_package_role": "core_event",
+    "product_mapping": [
+      "寒(暑)假竞赛营"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "risk_level": "medium",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "赛事知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "current_year_deadline",
+      "award_promise",
+      "admission_or_zongping_claim",
+      "official_status_change",
+      "private_student_or_school_data"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_source_link",
+      "wording_notes"
+    ]
+  },
+  {
+    "id": "saifu_chuangzhi",
+    "name": "“赛复创智杯”上海市青少年科技创意设计展示活动",
+    "short_name": "赛复创智杯",
+    "positioning": "上海老牌青少年科技创意设计赛事，以“我创意、我快乐”为主题，强调创意设计过程的合理性，对作品是否已完成或实施不作具体要求。",
+    "agent_summary": "适合作为“创意为王、落地不限”的代表赛事；可作为科创入门、创意孵化和暑假备赛的补充赛事，不属于Lab赛事包三赛联动核心口径。",
+    "audience": "上海及江浙皖在校中小学生，按当届通知和区/区域选拔要求参赛。",
+    "evaluation": "重点看跨越性、新颖性和可观性；现场展示强调表达效果、创意思路逻辑和学生答问能力。",
+    "source_ids": [
+      "SRC_SAIFU_16_NOTICE",
+      "SRC_SAIFU_SSEDF_15",
+      "SRC_SAIFU_SOHU_14"
+    ],
+    "aliases": [
+      "赛复",
+      "赛复杯",
+      "赛复创智杯",
+      "赛富创智杯"
+    ],
+    "event_tier": "supplemental",
+    "business_role": "creative_incubation",
+    "lab_package_role": "supplemental_event",
+    "product_mapping": [
+      "科创启航计划",
+      "科创发明营",
+      "寒(暑)假竞赛营"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "risk_level": "medium",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "赛事知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "current_year_deadline",
+      "award_promise",
+      "admission_or_zongping_claim",
+      "official_status_change",
+      "private_student_or_school_data"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_source_link",
+      "wording_notes"
+    ]
+  },
+  {
+    "id": "yaioc",
+    "name": "长三角青少年人工智能奥林匹克挑战赛",
+    "short_name": "长三角AI奥林匹克",
+    "aliases": [
+      "长三角AI",
+      "AI奥林匹克",
+      "长三角AI创想家",
+      "AI创想家"
+    ],
+    "event_tier": "supplemental",
+    "business_role": "ai_experience_event",
+    "lab_package_role": "supplemental_event",
+    "product_mapping": [
+      "科创启航计划",
+      "科创领航计划",
+      "科创发明营",
+      "雏鹰杯专项营"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "risk_level": "medium",
+    "positioning": "由上海市教委、上海市委网信办、团上海市委联合主办，面向长三角中小学生的AI综合赛事。第6届设10赛道18项目，以生成式AI、具身智能、智能体等前沿技术为导向。",
+    "agent_summary": "适合作为AI方向体验型首赛或综评积累赛事。在ideaLab体系中与ICC、IEYI同级，属于创新体验层出口，不做高含金量赛事包装。",
+    "audience": "长三角中小学生（含中职校）、高校在校学生。",
+    "evaluation": "各赛道独立评审。除具身探索者、AIGC艺术创生者、AI科学传播者赛道及模塑申城杯专区外，其余项目可记入综评。",
+    "source_ids": [
+      "SRC_YAIOC_6_NOTICE",
+      "SRC_YAIOC_HOME"
+    ],
+    "last_verified": "2026-06-30",
+    "next_review": "2026-09-01",
+    "owner": "赛事知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "current_year_deadline",
+      "award_promise",
+      "admission_or_zongping_claim",
+      "official_status_change",
+      "private_student_or_school_data"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_source_link",
+      "wording_notes"
+    ]
+  },
+  {
+    "id": "icc",
+    "name": "全球发明大会中国区（ICC）",
+    "short_name": "ICC",
+    "positioning": "由中国人民对外友好协会发起的中国友好和平发展基金会主办，教育部白名单赛事（2022-2025学年）。ICW全球母赛事由美国亨利·福特博物馆举办，面向全球K-12学生。",
+    "agent_summary": "创新体验层赛事出口，与IEYI、长三角AI奥林匹克同级。对接启航/领航计划。不做高含金量赛事包装和升学承诺。",
+    "audience": "全国小学、初中、高中、中专和职高学生；可单人或组队（≤4人）。",
+    "evaluation": "三阶段评审：作品合规审查（省赛前15天）→预先评审（7天）→现场评审。参评需提交发明原型、发明日志、查新报告、展板照片、路演视频。",
+    "source_ids": ["SRC_ICC_WECHAT"],
+    "aliases": ["全球发明大会中国区", "ICC", "Invention Convention China"],
+    "event_tier": "experience",
+    "business_role": "innovation_experience_outlet",
+    "lab_package_role": "experience_outlet",
+    "product_mapping": ["科创启航计划", "科创领航计划"],
+    "status": "active",
+    "public_safe": "conditional",
+    "risk_level": "medium",
+    "last_verified": "2026-07-01",
+    "next_review": "2026-09-01",
+    "owner": "赛事知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "current_year_deadline",
+      "award_promise",
+      "official_status_change",
+      "private_student_or_school_data"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_source_link",
+      "wording_notes"
+    ]
+  },
+  {
+    "id": "ieyi",
+    "name": "世界青少年创新发明展（IEYI）",
+    "short_name": "IEYI",
+    "positioning": "2004年创办的国际性青少年创新发明赛事，近40个成员国与地区。中国2016年成为正式成员国。分创新发明制作类和创意艺术绘画类两大类别。",
+    "agent_summary": "创新体验层赛事出口，与ICC、长三角AI奥林匹克同级。对接启航/领航计划。不做高含金量赛事包装和升学承诺。报名需通过IEYI中国区认证合作伙伴统一组织。",
+    "audience": "小学1年级至中学12年级学生。",
+    "evaluation": "三轮：初选（区域展+线上展）→中国展（线下）→国际展（线下）。创新发明制作类评审：创意性40%+市场效益性30%+操作性30%。创意艺术绘画类：综合评估40%+创造力30%+构图30%。",
+    "source_ids": ["SRC_IEYI_WECHAT"],
+    "aliases": ["世界青少年创新发明展", "IEYI", "International Exhibition for Young Inventors", "世界青少年创新发明大会"],
+    "event_tier": "experience",
+    "business_role": "innovation_experience_outlet",
+    "lab_package_role": "experience_outlet",
+    "product_mapping": ["科创启航计划", "科创领航计划"],
+    "status": "active",
+    "public_safe": "conditional",
+    "risk_level": "medium",
+    "last_verified": "2026-07-01",
+    "next_review": "2026-09-01",
+    "owner": "赛事知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "current_year_deadline",
+      "award_promise",
+      "official_status_change",
+      "private_student_or_school_data"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_source_link",
+      "wording_notes"
+    ]
+  }
+]

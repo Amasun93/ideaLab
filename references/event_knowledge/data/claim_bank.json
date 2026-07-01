@@ -1,0 +1,147 @@
+[
+  {
+    "id": "CLM_LAB_MATRIX",
+    "scope": "Lab赛事包",
+    "claim": "Lab赛事包不是押单场，而是把青创赛、雏鹰杯、宋庆龄少年儿童发明奖放进同一个项目成长矩阵。",
+    "use_context": [
+      "颁奖视频",
+      "家长说明",
+      "老师复盘"
+    ],
+    "source_ids": [
+      "SRC_INTERNAL_SUPPLEMENT"
+    ],
+    "risk_level": "低",
+    "rewrite_guardrail": "可以讲三赛联动；不要讲成官方联合认证或单个赛事保奖。"
+  },
+  {
+    "id": "CLM_LAB_92",
+    "scope": "Lab赛事包",
+    "claim": "Lab赛事包通过三赛联动，把团队综合上岸率稳定做到九成以上；数据展示可写“92%+”。",
+    "use_context": [
+      "内部颁奖视频",
+      "团队复盘"
+    ],
+    "source_ids": [
+      "SRC_INTERNAL_SUPPLEMENT"
+    ],
+    "risk_level": "中",
+    "rewrite_guardrail": "不要写去掉最低值、哪个老师被剔除、复杂计算过程；对外发布需补统计说明。"
+  },
+  {
+    "id": "CLM_QCS_EVALUATION",
+    "scope": "青创赛",
+    "claim": "青创赛看项目，也看学生本人科研潜质、创新素养和现场表达。",
+    "use_context": [
+      "赛事介绍",
+      "家长教育",
+      "视频旁白"
+    ],
+    "source_ids": [
+      "SRC_QCS_SHITALENT_38",
+      "SRC_QCS_CAST_40",
+      "SRC_QCS_41_CAST",
+      "SRC_QCS_41_NOTICE"
+    ],
+    "risk_level": "低",
+    "rewrite_guardrail": "不要只把青创赛讲成材料包装赛；要强调真实研究过程和评审。"
+  },
+  {
+    "id": "CLM_QCS_NO_ZONGPING",
+    "scope": "青创赛",
+    "claim": "第41届青创赛官方通知明确，本赛事不纳入上海市中学生综合素质评价。",
+    "use_context": [
+      "销售边界",
+      "家长答疑",
+      "顾问训练"
+    ],
+    "source_ids": [
+      "SRC_QCS_41_NOTICE"
+    ],
+    "risk_level": "低",
+    "rewrite_guardrail": "当家长追问综评或升学时，用这条做边界提醒；不要把参赛或获奖包装成综评承诺。"
+  },
+  {
+    "id": "CLM_CHUYING_FILTER",
+    "scope": "雏鹰杯",
+    "claim": "雏鹰杯项目数量大、评审层级多；2025年度公开报道显示按项目类别取前3%入围第23届小院士终评，最终10位少先队员获小院士称号。",
+    "use_context": [
+      "赛事介绍",
+      "视频数据页",
+      "社群答疑"
+    ],
+    "source_ids": [
+      "SRC_CHUYING_CYOL_2024",
+      "SRC_CHUYING_EASTDAY_2025",
+      "SRC_CHUYING_BAOSHAN_2025"
+    ],
+    "risk_level": "低",
+    "rewrite_guardrail": "可以讲层层筛选和名额稀缺；不要把1300余件奖项课题等同于全部高等级奖，也不要把媒体报道当成官方固定规则。"
+  },
+  {
+    "id": "CLM_SCLACI_NATIONAL",
+    "scope": "宋庆龄少年儿童发明奖",
+    "claim": "宋庆龄少年儿童发明奖是全国性青少年科技活动奖项；第二十一届作品类别包括发明、人工智能（编程）、创意作品和科技绘画作品征集，并设置从组织机构选拔推荐到全国初评、终评颁奖的流程。",
+    "use_context": [
+      "赛事介绍",
+      "家长说明",
+      "视频数据页"
+    ],
+    "source_ids": [
+      "SRC_SCLACI_CHARTER",
+      "SRC_SCLACI_AWARDS",
+      "SRC_SCLACI_FINAL_NOTICE_20",
+      "SRC_SCLACI_21_NOTICE"
+    ],
+    "risk_level": "低",
+    "rewrite_guardrail": "不能写成升学保证，不能把公益性国家级奖项简化为商业背书。"
+  },
+  {
+    "id": "CLM_PUBLIC_SINGLE_RATE",
+    "scope": "公开赛事对比",
+    "claim": "公开赛事里，单项自然获奖率常常只有三成到四成；有些全国性奖项更低。Lab做的是把机会变成可管理的系统。",
+    "use_context": [
+      "颁奖视频",
+      "口播稿"
+    ],
+    "source_ids": [
+      "SRC_QCS_SHSID_38_AWARD",
+      "SRC_CHUYING_CYOL_2024",
+      "SRC_PEOPLE_20",
+      "SRC_INTERNAL_SUPPLEMENT"
+    ],
+    "risk_level": "中",
+    "rewrite_guardrail": "不要用三项赛事不同分母直接计算官方综合概率；不要暗示Lab 92%由官方单项概率推导出来。"
+  },
+  {
+    "id": "CLM_SAIFU_CREATIVE_FIRST",
+    "scope": "赛复创智杯",
+    "claim": "赛复创智杯的核心特点是“创意为王、落地不限”：作品是否完成或实施不是硬性前提，只要创意设计过程合理，未完成作品也可注明条件限制后参赛。",
+    "use_context": [
+      "赛事介绍",
+      "家长说明",
+      "视频开场"
+    ],
+    "source_ids": [
+      "SRC_SAIFU_16_NOTICE"
+    ],
+    "risk_level": "低",
+    "rewrite_guardrail": "可以强调低门槛和创意孵化，但不要说“随便想想就能获奖”；仍需科学逻辑、查新和表达打磨。"
+  },
+  {
+    "id": "CLM_SAIFU_NOT_LAB_CORE",
+    "scope": "赛复创智杯",
+    "claim": "赛复创智杯可作为科创入门和创意孵化的补充赛事，但目前不属于Lab赛事包三赛联动的核心口径。",
+    "use_context": [
+      "内部规划",
+      "产品推荐",
+      "顾问训练"
+    ],
+    "source_ids": [
+      "SRC_INTERNAL_SUPPLEMENT",
+      "SRC_SAIFU_16_NOTICE"
+    ],
+    "risk_level": "低",
+    "rewrite_guardrail": "不要把赛复写进三赛联动或92%+口径；可作为暑假备赛、低门槛首赛或预备项目补充说明。"
+  }
+]

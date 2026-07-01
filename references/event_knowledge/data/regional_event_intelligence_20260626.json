@@ -1,0 +1,2287 @@
+{
+  "batch_id": "REGIONAL_EVENT_INTELLIGENCE_20260626",
+  "created_at": "2026-06-26",
+  "privacy_policy": "District/school aggregate only. No student names, class rows, certificates, teacher names, IDs, project abstracts, or original spreadsheets.",
+  "methodology": "Aggregates local event notices and award/shortlist materials by district, event category, school occurrence, award terms, grade/stage, and project category. Counts are helper signals, not official participation or award totals.",
+  "districts": {
+    "浦东新区": {
+      "evidence_signal_count": 2580,
+      "evidence_strength": "高",
+      "source_file_count": 17,
+      "event_counts": {
+        "其他赛事/待归类": 1310,
+        "青创赛/青少年科技创新大赛": 751,
+        "雏鹰杯": 310,
+        "长三角AI/AI创想家": 176,
+        "未来工程师": 22,
+        "智慧关怀专项": 10,
+        "宋庆龄少年儿童发明奖": 1
+      },
+      "award_counts": {
+        "三等奖": 203,
+        "一等奖": 165,
+        "二等奖": 163,
+        "入围奖": 106,
+        "小院士提名奖": 3,
+        "小院士": 1
+      },
+      "stage_counts": {
+        "初中组": 150,
+        "小学组": 150
+      },
+      "category_counts": {
+        "创造发明": 85,
+        "智慧关怀": 84,
+        "人工智能": 58,
+        "自然生态": 48,
+        "智慧城市": 23,
+        "智学未来": 22,
+        "化学": 18,
+        "航空航天": 12,
+        "智行上海": 8,
+        "创新创意": 8,
+        "其他类别": 2
+      },
+      "grade_counts": {
+        "四年级": 107,
+        "1": 96,
+        "七年级": 94,
+        "3": 85,
+        "2": 80,
+        "4": 78,
+        "六年级": 74,
+        "五年级": 71,
+        "八年级": 71,
+        "5": 69,
+        "三年级": 60,
+        "6": 53,
+        "8": 47,
+        "7": 41,
+        "9": 23,
+        "高一": 14,
+        "九年级": 11,
+        "高二": 8,
+        "7年级": 6,
+        "6年级": 5,
+        "4年级": 4,
+        "3年级": 2,
+        "5年级": 2,
+        "8年级": 2,
+        "初二": 2,
+        "初一": 1
+      },
+      "top_schools": [
+        {
+          "school": "上海市民办尚德实验学校",
+          "local_occurrences": 195,
+          "nature": "民办",
+          "attributes": [
+            "大型民办",
+            "小学-高中贯通"
+          ]
+        },
+        {
+          "school": "华东师范大学第二附属中学",
+          "local_occurrences": 150,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "华二系/头部强校",
+            "科创高活跃"
+          ]
+        },
+        {
+          "school": "上海市建平中学",
+          "local_occurrences": 115,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "浦东头部市重点",
+            "科创高活跃"
+          ]
+        },
+        {
+          "school": "上海市实验学校",
+          "local_occurrences": 90,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "十二年一贯制/综合强校"
+          ]
+        },
+        {
+          "school": "上海市建平中学西校",
+          "local_occurrences": 85,
+          "nature": "公办",
+          "attributes": [
+            "浦东热门公办初中"
+          ]
+        },
+        {
+          "school": "华东师范大学第二附属中学前滩学校",
+          "local_occurrences": 81,
+          "nature": "公办属性需按当年招生公示核对",
+          "attributes": [
+            "华二系新校",
+            "热门新校"
+          ]
+        },
+        {
+          "school": "上海市进才中学北校",
+          "local_occurrences": 75,
+          "nature": "公办",
+          "attributes": [
+            "浦东热门公办初中",
+            "科技教育公开特色"
+          ]
+        },
+        {
+          "school": "上海浦东新区民办宏文学校",
+          "local_occurrences": 69,
+          "nature": "民办",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市民办平和学校",
+          "local_occurrences": 69,
+          "nature": "民办",
+          "attributes": [
+            "浦东头部民办",
+            "国际化/IB"
+          ]
+        },
+        {
+          "school": "上海外国语大学附属浦东外国语学校",
+          "local_occurrences": 65,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "外语特色"
+          ]
+        },
+        {
+          "school": "上海市进才实验中学",
+          "local_occurrences": 60,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海市临港实验中学",
+          "local_occurrences": 58,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/浦东新区.md"
+    },
+    "黄浦区": {
+      "evidence_signal_count": 542,
+      "evidence_strength": "高",
+      "source_file_count": 12,
+      "event_counts": {
+        "其他赛事/待归类": 418,
+        "青创赛/青少年科技创新大赛": 65,
+        "长三角AI/AI创想家": 57,
+        "智慧关怀专项": 1,
+        "未来工程师": 1
+      },
+      "award_counts": {
+        "一等奖": 69,
+        "三等奖": 34,
+        "二等奖": 23
+      },
+      "stage_counts": {},
+      "category_counts": {
+        "智慧关怀": 4,
+        "智学未来": 4
+      },
+      "grade_counts": {
+        "1": 20,
+        "3": 20,
+        "高一": 17,
+        "8": 15,
+        "六年级": 10,
+        "七年级": 8,
+        "三年级": 7,
+        "6": 7,
+        "四年级": 6,
+        "五年级": 5,
+        "2": 5,
+        "八年级": 5,
+        "高二": 4,
+        "7": 4,
+        "4": 3,
+        "5": 3,
+        "7年级": 1,
+        "9": 1
+      },
+      "top_schools": [
+        {
+          "school": "上海市卢湾高级中学",
+          "local_occurrences": 51,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中"
+          ]
+        },
+        {
+          "school": "上海市大同中学",
+          "local_occurrences": 50,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "黄浦头部高中"
+          ]
+        },
+        {
+          "school": "上海市格致中学-黄浦校区",
+          "local_occurrences": 45,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市敬业中学",
+          "local_occurrences": 33,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中"
+          ]
+        },
+        {
+          "school": "上海市格致初级中学",
+          "local_occurrences": 29,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市向明中学-黄浦校区",
+          "local_occurrences": 24,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市大同初级中学",
+          "local_occurrences": 21,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市向明中学-浦江校区",
+          "local_occurrences": 21,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市卢湾中学",
+          "local_occurrences": 17,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市向明初级中学",
+          "local_occurrences": 17,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市黄浦区卢湾二中心小学",
+          "local_occurrences": 10,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市格致中学",
+          "local_occurrences": 10,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "黄浦头部高中"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/黄浦区.md"
+    },
+    "徐汇区": {
+      "evidence_signal_count": 1185,
+      "evidence_strength": "高",
+      "source_file_count": 12,
+      "event_counts": {
+        "其他赛事/待归类": 684,
+        "青创赛/青少年科技创新大赛": 232,
+        "上海中学杯青少年科技论坛": 152,
+        "长三角AI/AI创想家": 61,
+        "未来工程师": 31,
+        "智慧关怀专项": 24,
+        "宋庆龄少年儿童发明奖": 1
+      },
+      "award_counts": {
+        "三等奖": 124,
+        "一等奖": 105,
+        "二等奖": 88
+      },
+      "stage_counts": {
+        "小学组": 1
+      },
+      "category_counts": {
+        "工程学": 50,
+        "智学未来": 22,
+        "智慧关怀": 18,
+        "化学": 8,
+        "智行上海": 6,
+        "环境科学": 6,
+        "物理学": 6,
+        "植物学": 5,
+        "动物学": 4
+      },
+      "grade_counts": {
+        "四年级": 27,
+        "6": 20,
+        "三年级": 16,
+        "五年级": 15,
+        "1": 15,
+        "高一": 14,
+        "2": 12,
+        "六年级": 11,
+        "3": 10,
+        "七年级": 9,
+        "八年级": 7,
+        "8": 7,
+        "7": 5,
+        "4": 5,
+        "7年级": 5,
+        "5": 4,
+        "9": 3,
+        "高二": 2,
+        "3年级": 2,
+        "6年级": 2,
+        "4年级": 2,
+        "5年级": 2
+      },
+      "top_schools": [
+        {
+          "school": "上海市上海中学",
+          "local_occurrences": 108,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市徐汇中学",
+          "local_occurrences": 94,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中"
+          ]
+        },
+        {
+          "school": "上海中学国际部",
+          "local_occurrences": 93,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市南洋模范中学",
+          "local_occurrences": 81,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "徐汇头部高中"
+          ]
+        },
+        {
+          "school": "上海市世外中学",
+          "local_occurrences": 47,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市徐汇区教育学院附属实验中学",
+          "local_occurrences": 43,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市西南位育中学",
+          "local_occurrences": 41,
+          "nature": "民办",
+          "attributes": [
+            "徐汇热门民办"
+          ]
+        },
+        {
+          "school": "上海市徐汇区汇师小学",
+          "local_occurrences": 40,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市徐汇区爱菊小学",
+          "local_occurrences": 31,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市南洋中学",
+          "local_occurrences": 30,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市世外小学",
+          "local_occurrences": 28,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市田林第三中学",
+          "local_occurrences": 28,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/徐汇区.md"
+    },
+    "长宁区": {
+      "evidence_signal_count": 605,
+      "evidence_strength": "高",
+      "source_file_count": 12,
+      "event_counts": {
+        "其他赛事/待归类": 516,
+        "青创赛/青少年科技创新大赛": 62,
+        "长三角AI/AI创想家": 20,
+        "未来工程师": 3,
+        "智慧关怀专项": 2,
+        "宋庆龄少年儿童发明奖": 1,
+        "明日科技之星": 1
+      },
+      "award_counts": {
+        "一等奖": 63,
+        "三等奖": 16,
+        "二等奖": 12
+      },
+      "stage_counts": {},
+      "category_counts": {
+        "智慧关怀": 4,
+        "智学未来": 2
+      },
+      "grade_counts": {
+        "9": 8,
+        "2": 7,
+        "四年级": 5,
+        "八年级": 5,
+        "三年级": 3,
+        "五年级": 3,
+        "3": 3,
+        "高一": 3,
+        "七年级": 2,
+        "六年级": 1,
+        "7": 1,
+        "8年级": 1,
+        "4年级": 1,
+        "1": 1
+      },
+      "top_schools": [
+        {
+          "school": "上海市延安中学",
+          "local_occurrences": 82,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "长宁头部高中"
+          ]
+        },
+        {
+          "school": "上海市延安初级中学",
+          "local_occurrences": 76,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市长宁区江苏路第五小学",
+          "local_occurrences": 33,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市西延安中学",
+          "local_occurrences": 31,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市长宁区绿苑小学",
+          "local_occurrences": 31,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市第三女子中学",
+          "local_occurrences": 30,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中"
+          ]
+        },
+        {
+          "school": "上海市长宁实验小学",
+          "local_occurrences": 28,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海市娄山中学",
+          "local_occurrences": 28,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市第三女子初级中学",
+          "local_occurrences": 22,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市建青实验学校",
+          "local_occurrences": 21,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "华东师范大学附属天山学校",
+          "local_occurrences": 21,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市长宁区愚一小学向红分校",
+          "local_occurrences": 18,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/长宁区.md"
+    },
+    "静安区": {
+      "evidence_signal_count": 481,
+      "evidence_strength": "中高",
+      "source_file_count": 13,
+      "event_counts": {
+        "其他赛事/待归类": 322,
+        "青创赛/青少年科技创新大赛": 89,
+        "长三角AI/AI创想家": 48,
+        "智慧关怀专项": 15,
+        "未来工程师": 7
+      },
+      "award_counts": {
+        "一等奖": 32,
+        "三等奖": 27,
+        "二等奖": 20
+      },
+      "stage_counts": {
+        "小学组": 1
+      },
+      "category_counts": {
+        "智慧关怀": 14,
+        "智行上海": 6,
+        "智学未来": 2
+      },
+      "grade_counts": {
+        "4": 15,
+        "四年级": 14,
+        "三年级": 12,
+        "3": 12,
+        "六年级": 12,
+        "7": 11,
+        "1": 9,
+        "七年级": 8,
+        "5": 7,
+        "2": 6,
+        "八年级": 6,
+        "高一": 6,
+        "9": 4,
+        "6": 4,
+        "3年级": 2,
+        "4年级": 2,
+        "8年级": 2,
+        "高二": 1,
+        "五年级": 1,
+        "九年级": 1,
+        "5年级": 1
+      },
+      "top_schools": [
+        {
+          "school": "同济大学附属七一中学",
+          "local_occurrences": 48,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市市西中学",
+          "local_occurrences": 43,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "静安头部高中"
+          ]
+        },
+        {
+          "school": "上海市市西初级中学",
+          "local_occurrences": 33,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市静安区教育学院附属学校",
+          "local_occurrences": 28,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市育才中学",
+          "local_occurrences": 21,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中"
+          ]
+        },
+        {
+          "school": "上海市风华初级中学",
+          "local_occurrences": 14,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市市北中学",
+          "local_occurrences": 14,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市静安区风华初级中学西校",
+          "local_occurrences": 13,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市新中高级中学",
+          "local_occurrences": 13,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中"
+          ]
+        },
+        {
+          "school": "上海市静安区闸北实验小学",
+          "local_occurrences": 13,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海市市北初级中学",
+          "local_occurrences": 12,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市静安区闸北第二中心小学",
+          "local_occurrences": 11,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/静安区.md"
+    },
+    "普陀区": {
+      "evidence_signal_count": 360,
+      "evidence_strength": "中高",
+      "source_file_count": 12,
+      "event_counts": {
+        "其他赛事/待归类": 239,
+        "青创赛/青少年科技创新大赛": 90,
+        "长三角AI/AI创想家": 28,
+        "未来工程师": 2,
+        "智慧关怀专项": 1
+      },
+      "award_counts": {
+        "三等奖": 26,
+        "一等奖": 22,
+        "二等奖": 8
+      },
+      "stage_counts": {
+        "小学组": 6,
+        "初中组": 3
+      },
+      "category_counts": {
+        "智慧关怀": 4,
+        "智学未来": 2,
+        "智行上海": 2
+      },
+      "grade_counts": {
+        "4": 8,
+        "7": 8,
+        "五年级": 7,
+        "3": 7,
+        "2": 6,
+        "七年级": 6,
+        "三年级": 5,
+        "1": 5,
+        "六年级": 5,
+        "6": 4,
+        "5": 4,
+        "八年级": 3,
+        "高一": 3,
+        "9": 1,
+        "6年级": 1,
+        "8": 1
+      },
+      "top_schools": [
+        {
+          "school": "华东师范大学第二附属中学-普陀校区",
+          "local_occurrences": 34,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海外国语大学尚阳外国语学校",
+          "local_occurrences": 31,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "外语特色/需核对"
+          ]
+        },
+        {
+          "school": "上海市曹杨中学",
+          "local_occurrences": 31,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市宜川中学",
+          "local_occurrences": 29,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市晋元高级中学",
+          "local_occurrences": 27,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中"
+          ]
+        },
+        {
+          "school": "上海市曹杨第二中学",
+          "local_occurrences": 24,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "普陀头部高中"
+          ]
+        },
+        {
+          "school": "上海市梅陇中学",
+          "local_occurrences": 21,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市甘泉外国语中学",
+          "local_occurrences": 16,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "外语特色/需核对"
+          ]
+        },
+        {
+          "school": "华东师范大学第四附属中学",
+          "local_occurrences": 14,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市江宁学校",
+          "local_occurrences": 14,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "同济大学第二附属中学",
+          "local_occurrences": 13,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "华东师范大学第二附属中学普陀校区",
+          "local_occurrences": 11,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/普陀区.md"
+    },
+    "虹口区": {
+      "evidence_signal_count": 345,
+      "evidence_strength": "中高",
+      "source_file_count": 13,
+      "event_counts": {
+        "其他赛事/待归类": 206,
+        "青创赛/青少年科技创新大赛": 98,
+        "长三角AI/AI创想家": 36,
+        "智慧关怀专项": 2,
+        "未来工程师": 2,
+        "明日科技之星": 1
+      },
+      "award_counts": {
+        "三等奖": 21,
+        "一等奖": 18,
+        "二等奖": 16
+      },
+      "stage_counts": {},
+      "category_counts": {
+        "智行上海": 8,
+        "智慧关怀": 6
+      },
+      "grade_counts": {
+        "2": 12,
+        "1": 11,
+        "高一": 11,
+        "3": 8,
+        "高二": 8,
+        "6": 7,
+        "四年级": 5,
+        "4": 5,
+        "七年级": 5,
+        "5": 4,
+        "三年级": 4,
+        "五年级": 3,
+        "八年级": 1,
+        "六年级": 1,
+        "8": 1,
+        "5年级": 1
+      },
+      "top_schools": [
+        {
+          "school": "上海市复兴高级中学",
+          "local_occurrences": 47,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "虹口头部高中"
+          ]
+        },
+        {
+          "school": "复旦大学附属复兴中学",
+          "local_occurrences": 37,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海外国语大学附属外国语学校东校",
+          "local_occurrences": 29,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "外语特色/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "华东师范大学第一附属中学",
+          "local_occurrences": 25,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中"
+          ]
+        },
+        {
+          "school": "上海外国语大学附属外国语学校",
+          "local_occurrences": 23,
+          "nature": "公办",
+          "attributes": [
+            "外语特色",
+            "上海头部外语学校"
+          ]
+        },
+        {
+          "school": "上海市继光高级中学",
+          "local_occurrences": 19,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市虹口实验学校",
+          "local_occurrences": 18,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海民办克勒外国语学校",
+          "local_occurrences": 16,
+          "nature": "民办",
+          "attributes": [
+            "外语特色/需核对"
+          ]
+        },
+        {
+          "school": "上海市民办新华初级中学",
+          "local_occurrences": 15,
+          "nature": "民办",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市虹口区第四中心小学",
+          "local_occurrences": 10,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市民办尚外外国语小学",
+          "local_occurrences": 8,
+          "nature": "民办",
+          "attributes": [
+            "外语特色/需核对"
+          ]
+        },
+        {
+          "school": "华东师范大学第一附属初级中学",
+          "local_occurrences": 8,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/虹口区.md"
+    },
+    "杨浦区": {
+      "evidence_signal_count": 553,
+      "evidence_strength": "高",
+      "source_file_count": 15,
+      "event_counts": {
+        "其他赛事/待归类": 372,
+        "青创赛/青少年科技创新大赛": 112,
+        "长三角AI/AI创想家": 54,
+        "智慧关怀专项": 7,
+        "未来工程师": 5,
+        "区级科创学术节": 2,
+        "明日科技之星": 1
+      },
+      "award_counts": {
+        "一等奖": 71,
+        "二等奖": 29,
+        "三等奖": 27
+      },
+      "stage_counts": {},
+      "category_counts": {
+        "智慧关怀": 8,
+        "智学未来": 4,
+        "智行上海": 4
+      },
+      "grade_counts": {
+        "2": 13,
+        "3": 13,
+        "四年级": 12,
+        "1": 12,
+        "4": 11,
+        "6": 11,
+        "5": 9,
+        "六年级": 9,
+        "七年级": 9,
+        "高一": 9,
+        "八年级": 8,
+        "三年级": 7,
+        "8": 3,
+        "7": 2,
+        "高二": 2,
+        "6年级": 2,
+        "五年级": 1,
+        "9": 1,
+        "九年级": 1,
+        "四": 1,
+        "5年级": 1,
+        "4年级": 1,
+        "3年级": 1
+      },
+      "top_schools": [
+        {
+          "school": "上海交通大学附属中学",
+          "local_occurrences": 90,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "上海头部高中"
+          ]
+        },
+        {
+          "school": "复旦大学附属中学",
+          "local_occurrences": 59,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "上海头部高中"
+          ]
+        },
+        {
+          "school": "上海市控江中学",
+          "local_occurrences": 48,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "杨浦头部高中"
+          ]
+        },
+        {
+          "school": "上海杨浦双语学校",
+          "local_occurrences": 37,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "同济大学第一附属中学",
+          "local_occurrences": 34,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海音乐学院实验学校",
+          "local_occurrences": 30,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海民办兰生中学",
+          "local_occurrences": 22,
+          "nature": "民办",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "复旦大学第二附属学校",
+          "local_occurrences": 21,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市鞍山初级中学",
+          "local_occurrences": 15,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市杨浦区控江二村小学",
+          "local_occurrences": 13,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市杨浦高级中学",
+          "local_occurrences": 13,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中"
+          ]
+        },
+        {
+          "school": "同济大学附属新江湾城实验学校",
+          "local_occurrences": 12,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/杨浦区.md"
+    },
+    "闵行区": {
+      "evidence_signal_count": 2566,
+      "evidence_strength": "高",
+      "source_file_count": 16,
+      "event_counts": {
+        "青创赛/青少年科技创新大赛": 1438,
+        "其他赛事/待归类": 812,
+        "雏鹰杯": 215,
+        "长三角AI/AI创想家": 68,
+        "智慧关怀专项": 15,
+        "未来工程师": 15,
+        "明日科技之星": 2,
+        "宋庆龄少年儿童发明奖": 1
+      },
+      "award_counts": {
+        "三等奖": 503,
+        "二等奖": 369,
+        "一等奖": 262
+      },
+      "stage_counts": {
+        "小学组": 423,
+        "高中组": 365,
+        "初中组": 274,
+        "中学组": 93
+      },
+      "category_counts": {
+        "创造发明": 91,
+        "人工智能": 35,
+        "自然生态": 25,
+        "智慧城市": 25,
+        "智慧关怀": 14,
+        "创新创意": 14,
+        "航空航天": 12,
+        "其他类别": 9,
+        "智行上海": 6,
+        "智学未来": 4
+      },
+      "grade_counts": {
+        "1": 27,
+        "高二": 19,
+        "2": 17,
+        "6": 15,
+        "七年级": 15,
+        "高一": 14,
+        "3": 13,
+        "三年级": 12,
+        "5": 12,
+        "7": 12,
+        "五年级": 11,
+        "4": 11,
+        "六年级": 11,
+        "四年级": 10,
+        "8": 7,
+        "9": 5,
+        "八年级": 3,
+        "6年级": 1
+      },
+      "top_schools": [
+        {
+          "school": "上海市七宝中学",
+          "local_occurrences": 304,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "闵行头部高中"
+          ]
+        },
+        {
+          "school": "上海交通大学附属中学闵行分校",
+          "local_occurrences": 229,
+          "nature": "公办",
+          "attributes": [
+            "交附系",
+            "区内热门高中"
+          ]
+        },
+        {
+          "school": "上海市七宝中学附属鑫都实验中学",
+          "local_occurrences": 130,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "华东师范大学第二附属中学附属初级中学",
+          "local_occurrences": 96,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市闵行中学",
+          "local_occurrences": 89,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中"
+          ]
+        },
+        {
+          "school": "上海市闵行区莘松中学",
+          "local_occurrences": 76,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市闵行区七宝文来学校",
+          "local_occurrences": 67,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海星河湾双语学校",
+          "local_occurrences": 66,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市闵行区七宝第三中学",
+          "local_occurrences": 63,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海师范大学附属中学闵行分校",
+          "local_occurrences": 61,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "华东师范大学第二附属中学闵行紫竹分校",
+          "local_occurrences": 57,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海外国语大学闵行外国语中学",
+          "local_occurrences": 56,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "外语特色/需核对"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/闵行区.md"
+    },
+    "宝山区": {
+      "evidence_signal_count": 330,
+      "evidence_strength": "中高",
+      "source_file_count": 9,
+      "event_counts": {
+        "其他赛事/待归类": 229,
+        "青创赛/青少年科技创新大赛": 68,
+        "长三角AI/AI创想家": 29,
+        "智慧关怀专项": 2,
+        "未来工程师": 2
+      },
+      "award_counts": {
+        "一等奖": 22,
+        "三等奖": 21,
+        "二等奖": 8
+      },
+      "stage_counts": {},
+      "category_counts": {
+        "智慧关怀": 2,
+        "智行上海": 2
+      },
+      "grade_counts": {
+        "高一": 13,
+        "1": 9,
+        "2": 7,
+        "7": 5,
+        "四年级": 4,
+        "4": 4,
+        "五年级": 3,
+        "七年级": 3,
+        "八年级": 3,
+        "3": 2,
+        "6": 2,
+        "高二": 2,
+        "9": 1,
+        "5": 1,
+        "六年级": 1,
+        "三年级": 1,
+        "9年级": 1,
+        "8年级": 1
+      },
+      "top_schools": [
+        {
+          "school": "上海市行知中学",
+          "local_occurrences": 47,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市吴淞中学",
+          "local_occurrences": 42,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海师范大学附属中学宝山分校",
+          "local_occurrences": 33,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海大学附属中学",
+          "local_occurrences": 32,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中"
+          ]
+        },
+        {
+          "school": "上海宝山区世外学校",
+          "local_occurrences": 27,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海民办至德实验学校",
+          "local_occurrences": 22,
+          "nature": "民办",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海民办华曜宝山实验学校",
+          "local_occurrences": 17,
+          "nature": "民办",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海市宝山实验学校",
+          "local_occurrences": 11,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海师范大学附属宝山经纬实验中学",
+          "local_occurrences": 9,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市宝山区淞谊实验学校",
+          "local_occurrences": 7,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海市宝山区教育学院附属中学",
+          "local_occurrences": 7,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市宝山区求真中学",
+          "local_occurrences": 6,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/宝山区.md"
+    },
+    "嘉定区": {
+      "evidence_signal_count": 436,
+      "evidence_strength": "中高",
+      "source_file_count": 11,
+      "event_counts": {
+        "其他赛事/待归类": 299,
+        "青创赛/青少年科技创新大赛": 68,
+        "长三角AI/AI创想家": 55,
+        "智慧关怀专项": 7,
+        "未来工程师": 7
+      },
+      "award_counts": {
+        "三等奖": 34,
+        "一等奖": 28,
+        "二等奖": 17
+      },
+      "stage_counts": {},
+      "category_counts": {
+        "智行上海": 30,
+        "智学未来": 8,
+        "智慧关怀": 6
+      },
+      "grade_counts": {
+        "2": 18,
+        "七年级": 18,
+        "5": 17,
+        "四年级": 14,
+        "三年级": 13,
+        "1": 12,
+        "7": 11,
+        "4": 11,
+        "五年级": 9,
+        "六年级": 9,
+        "3": 7,
+        "6": 5,
+        "8": 3,
+        "3年级": 2,
+        "八年级": 1,
+        "9": 1,
+        "6年级": 1,
+        "8年级": 1
+      },
+      "top_schools": [
+        {
+          "school": "上海交通大学附属中学嘉定分校",
+          "local_occurrences": 52,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市嘉定区第一中学",
+          "local_occurrences": 38,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "嘉定头部高中"
+          ]
+        },
+        {
+          "school": "上海民办华曜嘉定初级中学",
+          "local_occurrences": 26,
+          "nature": "民办",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市嘉定区嘉一实验初级中学",
+          "local_occurrences": 25,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "中科院上海实验学校",
+          "local_occurrences": 23,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海市民办桃李园实验学校",
+          "local_occurrences": 21,
+          "nature": "民办",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "同济大学附属嘉定实验中学",
+          "local_occurrences": 17,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "交大附中附属嘉定洪德中学",
+          "local_occurrences": 15,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市嘉定区实验小学",
+          "local_occurrences": 14,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海市嘉定区城中路小学",
+          "local_occurrences": 14,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "同济大学附属实验中学",
+          "local_occurrences": 12,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市嘉定区丰庄中学",
+          "local_occurrences": 11,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/嘉定区.md"
+    },
+    "金山区": {
+      "evidence_signal_count": 66,
+      "evidence_strength": "中",
+      "source_file_count": 10,
+      "event_counts": {
+        "其他赛事/待归类": 34,
+        "青创赛/青少年科技创新大赛": 25,
+        "长三角AI/AI创想家": 6,
+        "未来工程师": 1
+      },
+      "award_counts": {
+        "三等奖": 6,
+        "二等奖": 3,
+        "一等奖": 3
+      },
+      "stage_counts": {
+        "高中组": 1,
+        "小学组": 1
+      },
+      "category_counts": {},
+      "grade_counts": {
+        "1": 6,
+        "五年级": 3,
+        "2": 2,
+        "三年级": 1,
+        "高二": 1,
+        "3": 1,
+        "5年级": 1,
+        "6": 1
+      },
+      "top_schools": [
+        {
+          "school": "上海市蒙山中学",
+          "local_occurrences": 23,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海金山区世外学校",
+          "local_occurrences": 14,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海师范大学第二附属中学",
+          "local_occurrences": 9,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海师范大学附属金山龙航小学",
+          "local_occurrences": 6,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海金山杭州湾双语学校",
+          "local_occurrences": 4,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市金山区亭林小学",
+          "local_occurrences": 2,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市同凯中学",
+          "local_occurrences": 2,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海金山区世界外国语学校",
+          "local_occurrences": 1,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "外语特色/需核对"
+          ]
+        },
+        {
+          "school": "上海杭州湾双语学校",
+          "local_occurrences": 1,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市七宝中学",
+          "local_occurrences": 1,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "闵行头部高中"
+          ]
+        },
+        {
+          "school": "上海市金山初级中学",
+          "local_occurrences": 1,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市金山中学",
+          "local_occurrences": 1,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "金山头部高中"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/金山区.md"
+    },
+    "松江区": {
+      "evidence_signal_count": 451,
+      "evidence_strength": "中高",
+      "source_file_count": 9,
+      "event_counts": {
+        "其他赛事/待归类": 281,
+        "青创赛/青少年科技创新大赛": 153,
+        "长三角AI/AI创想家": 11,
+        "智慧关怀专项": 6
+      },
+      "award_counts": {
+        "一等奖": 32,
+        "三等奖": 7,
+        "二等奖": 4
+      },
+      "stage_counts": {},
+      "category_counts": {
+        "智慧关怀": 4,
+        "智学未来": 2
+      },
+      "grade_counts": {
+        "6": 5,
+        "三年级": 5,
+        "5": 4,
+        "七年级": 3,
+        "8": 2,
+        "7": 2,
+        "六年级": 2,
+        "4": 2,
+        "四年级": 1,
+        "九年级": 1,
+        "八年级": 1,
+        "9": 1,
+        "2": 1,
+        "高一": 1,
+        "五年级": 1,
+        "9年级": 1
+      },
+      "top_schools": [
+        {
+          "school": "华东师范大学第二附属中学松江分校",
+          "local_occurrences": 78,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市松江区九亭中学",
+          "local_occurrences": 25,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海外国语大学松江外国语学校",
+          "local_occurrences": 18,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "外语特色/需核对"
+          ]
+        },
+        {
+          "school": "上海外国语大学附属外国语学校松江云间中学",
+          "local_occurrences": 16,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "外语特色/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海师范大学附属外国语中学",
+          "local_occurrences": 12,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "外语特色/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海工程技术大学附属松江泗泾实验学校",
+          "local_occurrences": 8,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "东华大学附属实验学校",
+          "local_occurrences": 7,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市西外外国语学校",
+          "local_occurrences": 7,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "外语特色/需核对"
+          ]
+        },
+        {
+          "school": "上海包玉刚实验学校高中部",
+          "local_occurrences": 6,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海外国语大学附属外国语学校松江云间小学",
+          "local_occurrences": 5,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "外语特色/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海领科双语学校",
+          "local_occurrences": 5,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市松江区民乐学校",
+          "local_occurrences": 5,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/松江区.md"
+    },
+    "青浦区": {
+      "evidence_signal_count": 120,
+      "evidence_strength": "中高",
+      "source_file_count": 7,
+      "event_counts": {
+        "其他赛事/待归类": 73,
+        "青创赛/青少年科技创新大赛": 31,
+        "长三角AI/AI创想家": 16
+      },
+      "award_counts": {
+        "一等奖": 12,
+        "二等奖": 6,
+        "三等奖": 5
+      },
+      "stage_counts": {},
+      "category_counts": {
+        "智慧关怀": 2
+      },
+      "grade_counts": {
+        "四年级": 10,
+        "2": 8,
+        "3": 6,
+        "9": 4,
+        "五年级": 2,
+        "4": 2,
+        "6": 2,
+        "三年级": 1,
+        "七年级": 1,
+        "六年级": 1,
+        "8": 1,
+        "5": 1
+      },
+      "top_schools": [
+        {
+          "school": "上海宋庆龄学校",
+          "local_occurrences": 20,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "复旦大学附属中学青浦分校",
+          "local_occurrences": 12,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海青浦平和双语学校",
+          "local_occurrences": 10,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海青浦区协和双语学校",
+          "local_occurrences": 9,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市青浦高级中学",
+          "local_occurrences": 9,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "青浦头部高中"
+          ]
+        },
+        {
+          "school": "上海青浦区世外学校",
+          "local_occurrences": 9,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市青浦区华新中学",
+          "local_occurrences": 7,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市青浦区教育学院附属小学",
+          "local_occurrences": 6,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市青浦区第一中学",
+          "local_occurrences": 6,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市朱家角中学",
+          "local_occurrences": 5,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中"
+          ]
+        },
+        {
+          "school": "上海市青浦区崧泽学校",
+          "local_occurrences": 4,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市青浦区华新小学",
+          "local_occurrences": 4,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/青浦区.md"
+    },
+    "奉贤区": {
+      "evidence_signal_count": 66,
+      "evidence_strength": "中",
+      "source_file_count": 7,
+      "event_counts": {
+        "青创赛/青少年科技创新大赛": 31,
+        "其他赛事/待归类": 23,
+        "长三角AI/AI创想家": 11,
+        "智慧关怀专项": 1
+      },
+      "award_counts": {
+        "三等奖": 7,
+        "一等奖": 3,
+        "二等奖": 1
+      },
+      "stage_counts": {},
+      "category_counts": {},
+      "grade_counts": {
+        "3": 6,
+        "5": 4,
+        "七年级": 3,
+        "三年级": 2,
+        "2": 2,
+        "六年级": 2,
+        "八年级": 2,
+        "四年级": 1,
+        "4": 1,
+        "高一": 1
+      },
+      "top_schools": [
+        {
+          "school": "上海市奉贤中学",
+          "local_occurrences": 20,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "奉贤头部高中"
+          ]
+        },
+        {
+          "school": "华东师范大学第二附属中学临港奉贤分校",
+          "local_occurrences": 15,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市奉贤中学附属初级中学",
+          "local_occurrences": 10,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市奉贤区汇贤中学",
+          "local_occurrences": 7,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市奉贤区教育学院附属实验小学",
+          "local_occurrences": 3,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市奉贤区崇实中学",
+          "local_occurrences": 3,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "东华大学附属奉贤致远中学",
+          "local_occurrences": 3,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海外国语大学附属奉贤实验小学",
+          "local_occurrences": 2,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "外语特色/需核对",
+            "实验学校/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市奉贤区育秀小学",
+          "local_occurrences": 2,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市奉贤区青溪中学",
+          "local_occurrences": 2,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海奉贤区世外教育附属临港外国语学校",
+          "local_occurrences": 2,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "外语特色/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市汇贤中学",
+          "local_occurrences": 1,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/奉贤区.md"
+    },
+    "崇明区": {
+      "evidence_signal_count": 40,
+      "evidence_strength": "中",
+      "source_file_count": 5,
+      "event_counts": {
+        "其他赛事/待归类": 22,
+        "青创赛/青少年科技创新大赛": 14,
+        "长三角AI/AI创想家": 4
+      },
+      "award_counts": {
+        "一等奖": 3,
+        "二等奖": 2,
+        "三等奖": 1
+      },
+      "stage_counts": {},
+      "category_counts": {},
+      "grade_counts": {
+        "5": 2,
+        "八年级": 1,
+        "4": 1,
+        "七年级": 1,
+        "六年级": 1
+      },
+      "top_schools": [
+        {
+          "school": "上海市实验学校附属东滩学校",
+          "local_occurrences": 19,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对",
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市实验学校东滩高级中学",
+          "local_occurrences": 9,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        },
+        {
+          "school": "上海市崇明中学",
+          "local_occurrences": 5,
+          "nature": "公办",
+          "attributes": [
+            "市实验性示范性高中",
+            "崇明头部高中"
+          ]
+        },
+        {
+          "school": "上海新纪元双语学校",
+          "local_occurrences": 3,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市工程技术管理学校",
+          "local_occurrences": 3,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "公开属性待补"
+          ]
+        },
+        {
+          "school": "上海市向明初级中学附属崇明区江帆中学",
+          "local_occurrences": 1,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "高校/集团关联校名/需核对"
+          ]
+        },
+        {
+          "school": "上海市崇明区实验中学",
+          "local_occurrences": 1,
+          "nature": "公办/性质待核对",
+          "attributes": [
+            "实验学校/需核对"
+          ]
+        }
+      ],
+      "card_path": "references/event_knowledge/区域赛事学情/崇明区.md"
+    }
+  }
+}

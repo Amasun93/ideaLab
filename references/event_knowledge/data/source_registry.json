@@ -1,0 +1,389 @@
+[
+  {
+    "id": "SRC_QCS_SHITALENT_38",
+    "title": "参赛作品超1.4万件，第38届上海市青少年科技创新大赛在科学会堂开幕",
+    "url": "https://www.sh-italent.com/Article/202304/202304180007.shtml",
+    "publisher": "上海国际人才网 / 上海科技",
+    "date": "2023-04-18",
+    "reliability": "准官方转载",
+    "use_for": [
+      "青创赛规模",
+      "青创赛评审机制",
+      "主视觉/新闻图"
+    ],
+    "notes": "用于公开表达时可写申报规模、终审问辩和一核六审，不直接写成官方获奖率。"
+  },
+  {
+    "id": "SRC_QCS_SHSSP_PORTAL",
+    "title": "上海市青少年科技创新大赛专题页",
+    "url": "https://www.shssp.org.cn/%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%92%E5%B0%91%E5%B9%B4%E7%A7%91%E6%8A%80%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B5%9B/",
+    "publisher": "上海青少年科技创新服务平台",
+    "date": "ongoing",
+    "reliability": "官方平台",
+    "use_for": [
+      "青创赛官方专题页",
+      "第41届官方主视觉"
+    ],
+    "notes": "可归档第41届官方平台主视觉；独立logo原文件仍未在网页中确认。"
+  },
+  {
+    "id": "SRC_QCS_SHSSP_39_CLOSING",
+    "title": "青创赛 | 点燃科学梦想 勇攀创新高峰——第39届上海市青少年科技创新大赛顺利闭幕",
+    "url": "https://www.shssp.org/NewsInfo.aspx?p=FB60D66BCD8D0F9CCFF93BE7C3744E724D9AD8AE1A810DCCA7434FE1F17DE680",
+    "publisher": "上海青少年科技创新服务平台",
+    "date": "2024-03-17",
+    "reliability": "官方平台",
+    "use_for": [
+      "青创赛第39届数据图",
+      "青创赛现场素材"
+    ],
+    "notes": "适合补官方平台新闻图和数据图；部分现场图不适合当logo。"
+  },
+  {
+    "id": "SRC_QCS_SHSID_38_AWARD",
+    "title": "第38届上海市青少年科技创新大赛喜报",
+    "url": "https://cn.shsid.org/info/1661/14121.htm",
+    "publisher": "上海中学国际部",
+    "date": "2023-04-19",
+    "reliability": "学校公开喜报",
+    "use_for": [
+      "青创赛第38届获奖率辅助数据"
+    ],
+    "notes": "不是赛事组委会原文，适合内部参照或带来源小字，不宜单独作为强营销证明。"
+  },
+  {
+    "id": "SRC_QCS_CAST_40",
+    "title": "第40届上海市青少年科技创新大赛开幕",
+    "url": "https://www.cast.org.cn/xw/dfkx/SH/art/2025/art_e235ab999df94e8fb872fd42fe1b9d73.html",
+    "publisher": "中国科学技术协会 / 上海市科协供稿",
+    "date": "2025-05-22",
+    "reliability": "官方转载",
+    "use_for": [
+      "青创赛现行赛制",
+      "青创赛评价机制",
+      "现场活动口径"
+    ],
+    "notes": "适合说明三随机、线上问辩、现场问辩、动手实践、科学素质和创新素养考察。"
+  },
+  {
+    "id": "SRC_QCS_SAST_41_RULES",
+    "title": "第41届上海市青少年科技创新大赛组织委员会关于印发实施方案和规则的通知",
+    "url": "https://www.sast.gov.cn/content.html?cid=1369180843167318018&id=1990656461163823106",
+    "publisher": "上海市科学技术协会",
+    "date": "2025-12-03",
+    "reliability": "官方规则页",
+    "use_for": [
+      "青创赛规则入口",
+      "后续规则截图"
+    ],
+    "notes": "本地已归档链接和网页快照；如做视频画面，建议人工打开网页截取规则重点页。"
+  },
+  {
+    "id": "SRC_CHUYING_CYOL_2024",
+    "title": "新一届上海少科院小院士产生，看看孩子拥有哪些特长能当选",
+    "url": "https://m.cyol.com/gb/articles/2024-01/23/content_zxZpGXFYZb.html",
+    "publisher": "中国青年报客户端",
+    "date": "2024-01-23",
+    "reliability": "权威媒体，图片由上海市少工委提供",
+    "use_for": [
+      "雏鹰杯规模",
+      "雏鹰杯评审层级",
+      "上海少年科学院小院士案例图"
+    ],
+    "notes": "适合公开引用项目数量、获奖课题数量、小院士数量和评审过程。"
+  },
+  {
+    "id": "SRC_CHUYING_SOHU_MENGDONG_2023",
+    "title": "2023年“雏鹰杯”红领巾科创达人挑战赛来啦",
+    "url": "https://www.sohu.com/a/722924759_121106832",
+    "publisher": "搜狐转载 / 原文标注来源为萌动上海",
+    "date": "2023-09-23",
+    "reliability": "官方公号转载镜像",
+    "use_for": [
+      "雏鹰杯标识",
+      "上海少年科学院标识",
+      "2023活动规则说明"
+    ],
+    "notes": "可作为线上补标识来源；公开发布前建议优先回查萌动上海原公众号图。"
+  },
+  {
+    "id": "SRC_CHUYING_SSTM_2025",
+    "title": "上海自然博物馆选送两名选手荣获第二十二届上海少年科学院“小院士”",
+    "url": "https://group.sstm.org.cn/article/82073686/32",
+    "publisher": "上海科技馆行政网 / 上海自然博物馆",
+    "date": "2025-01-08",
+    "reliability": "承办/孵化单位页面",
+    "use_for": [
+      "雏鹰杯现场主视觉",
+      "雏鹰杯和上海少年科学院标识同框图"
+    ],
+    "notes": "适合归档为承办单位来源的现场图，不建议替代独立logo原文件。"
+  },
+  {
+    "id": "SRC_SCLACI_HOME",
+    "title": "中国宋庆龄基金会少年儿童发明奖首页",
+    "url": "https://sclaci.sclc2017.org/",
+    "publisher": "宋庆龄少年儿童发明奖组委会",
+    "date": "ongoing",
+    "reliability": "官方站点",
+    "use_for": [
+      "宋庆龄官网入口",
+      "官方logo/主视觉"
+    ],
+    "notes": "可作为官方入口和视觉素材来源。"
+  },
+  {
+    "id": "SRC_SCLACI_CHARTER",
+    "title": "宋庆龄少年儿童发明奖章程",
+    "url": "https://sclaci.sclc2017.org/tabid/39/Default.aspx",
+    "publisher": "宋庆龄少年儿童发明奖组委会",
+    "date": "2023修订",
+    "reliability": "官方章程",
+    "use_for": [
+      "赛事定位",
+      "主办单位",
+      "参赛对象",
+      "评审流程"
+    ],
+    "notes": "可公开引用其国家级、教育部名单、主办单位、初评终评等基础事实。"
+  },
+  {
+    "id": "SRC_SCLACI_AWARDS",
+    "title": "宋庆龄少年儿童发明奖奖项设置",
+    "url": "https://sclaci.sclc2017.org/tabid/40/Default.aspx",
+    "publisher": "宋庆龄少年儿童发明奖组委会",
+    "date": "ongoing",
+    "reliability": "官方规则页",
+    "use_for": [
+      "奖项设置",
+      "学段分组"
+    ],
+    "notes": "可公开引用发明作品、人工智能编程作品、创意作品的奖项结构。"
+  },
+  {
+    "id": "SRC_SCLACI_FINAL_NOTICE_20",
+    "title": "关于举办第二十届宋庆龄少年儿童发明奖终评颁奖活动的通知",
+    "url": "https://sclaci.sclc2017.org/tabid/36/ArticleID/905/frtid/20/Default.aspx",
+    "publisher": "宋庆龄少年儿童发明奖组委会",
+    "date": "2025-07-23",
+    "reliability": "官方通知",
+    "use_for": [
+      "终评答辩",
+      "现场活动安排"
+    ],
+    "notes": "适合说明终评答辩围绕创意来源、设计思路、科学原理、应用价值等维度。"
+  },
+  {
+    "id": "SRC_SCLACI_20_AWARD_NEWS",
+    "title": "2025年宋庆龄少年儿童未来科学日暨第二十届宋庆龄少年儿童发明奖颁奖活动在雄安举行",
+    "url": "https://sclaci.sclc2017.org/tabid/36/ArticleID/908/frtid/20/Default.aspx",
+    "publisher": "宋庆龄少年儿童发明奖组委会",
+    "date": "2025-08-18",
+    "reliability": "官方新闻",
+    "use_for": [
+      "宋庆龄第二十届获奖数据",
+      "官方活动图"
+    ],
+    "notes": "与人民日报数据一致，且含现场活动图。"
+  },
+  {
+    "id": "SRC_PEOPLE_20",
+    "title": "第二十届“宋庆龄少年儿童发明奖”揭晓",
+    "url": "https://paper.people.com.cn/rmrb/pad/content/202508/19/content_30097080.html",
+    "publisher": "人民日报",
+    "date": "2025-08-19",
+    "reliability": "权威媒体",
+    "use_for": [
+      "宋庆龄第二十届参评作品数和获奖数"
+    ],
+    "notes": "可作为视频小字引用源；数据口径为4.6万余件作品、590件获奖。"
+  },
+  {
+    "id": "SRC_INTERNAL_SUPPLEMENT",
+    "title": "教学大比武 Lab 赛事包素材补充清单",
+    "url": "internal_source_not_in_repo:教学大比武_Lab赛事包素材补充清单_2026-06-11.md",
+    "publisher": "内部文档",
+    "date": "2026-06-11",
+    "reliability": "内部口径",
+    "use_for": [
+      "Lab赛事包定义",
+      "92%+口径",
+      "禁用表达"
+    ],
+    "notes": "只用于内部产品表达，不作为外部赛事事实来源。"
+  },
+  {
+    "id": "SRC_QCS_41_CAST",
+    "title": "第41届上海市青少年科技创新大赛启幕",
+    "url": "https://sj.cast.org.cn/xw/dfkx/SH/art/2026/art_67582ff208db790d7dce52925a810fa9.html",
+    "publisher": "中国科协 / 上海市科协供稿",
+    "date": "2026-03-30",
+    "reliability": "官方转载",
+    "use_for": [
+      "第41届规模",
+      "现场活动",
+      "评审机制",
+      "专项奖"
+    ],
+    "notes": "可作为第41届最新规模口径：近700所学校、5400余名青少年、4500余件作品、400件科技创新作品和192件科幻画入围现场活动。"
+  },
+  {
+    "id": "SRC_QCS_41_NOTICE",
+    "title": "关于举办第41届上海市青少年科技创新大赛的通知",
+    "url": "https://www.ssedf.org.cn/gonggao/577.html",
+    "publisher": "上海科普教育发展基金会 / 大赛主办体系",
+    "date": "2025-12-18",
+    "reliability": "主办体系通知",
+    "use_for": [
+      "第41届时间线",
+      "申报窗口",
+      "现场活动",
+      "结果公布节点",
+      "综评边界"
+    ],
+    "notes": "通知明确申报期、初审、现场活动、结果公布节点，并写明本赛事不纳入上海市中学生综合素质评价。"
+  },
+  {
+    "id": "SRC_QCS_38_AWARD_PDF",
+    "title": "第38届上海市青少年科技创新大赛青少年科技创新成果板块获奖名单",
+    "url": "https://www.shssp.org/UploadFiles/file/20230519/6382008862290133875809037.pdf",
+    "publisher": "上海青少年科技创新网",
+    "date": "2023-05-19",
+    "use_for": "青创赛公开获奖项目案例"
+  },
+  {
+    "id": "SRC_CHUYING_BAOSHAN_2025",
+    "title": "宝山这两位少年拿下上海“小院士”",
+    "url": "https://bsweb.shmedia.tech/app_bs/bao_tuijian/20260125/10bf7a5af8ef46b6a1b80a8c8bd718cd.html",
+    "publisher": "青春宝山 / 宝山融媒",
+    "date": "2026-01-25",
+    "reliability": "区级政务号/公开报道",
+    "use_for": [
+      "2025年度雏鹰杯第23届小院士案例",
+      "前3%终评口径",
+      "真实场景表达"
+    ],
+    "notes": "适合补充区级案例和终评机制；如需强官方背书，后续优先补团市委或少工委原文。"
+  },
+  {
+    "id": "SRC_CHUYING_EASTDAY_2025",
+    "title": "2025年“雏鹰杯”红领巾科创小能手揭晓，以科学精神点亮成长",
+    "url": "https://news.qq.com/rain/a/20260113A03OLI00",
+    "publisher": "纵相新闻 / 东方网记者（腾讯新闻转载）",
+    "date": "2026-01-13",
+    "reliability": "权威媒体/公开报道，非赛事官网原文",
+    "use_for": [
+      "2025年度雏鹰杯第23届小院士",
+      "前3%终评口径",
+      "项目类别和三大专项"
+    ],
+    "notes": "当前可用的最新公开报道；后续如找到团市委或少工委原文，应优先替换。"
+  },
+  {
+    "id": "SRC_SCLACI_21_NOTICE",
+    "title": "中国宋庆龄基金会、中国发明协会关于举办第二十一届宋庆龄少年儿童发明奖的通知",
+    "url": "https://sclaci.sclc2017.org/tabid/36/ArticleID/911/frtid/47/Default.aspx",
+    "publisher": "宋庆龄少年儿童发明奖组委会",
+    "date": "2026-02-13",
+    "reliability": "官方通知",
+    "use_for": [
+      "第21届赛程",
+      "作品类别",
+      "申报要求",
+      "推荐数量上限",
+      "公益性要求"
+    ],
+    "notes": "可作为2026第二十一届最新规则源；地区报名和推荐仍以各组织机构通知为准。"
+  },
+  {
+    "id": "SRC_SCLACI_20_WINNER_NOTICE",
+    "title": "第二十届宋庆龄少年儿童发明奖获奖名单公布",
+    "url": "https://sclaci.sclc2017.org/tabid/36/ArticleID/906/frtid/20/Default.aspx",
+    "publisher": "宋庆龄少年儿童发明奖组委会",
+    "date": "2025-08-20",
+    "use_for": "第20届获奖名单入口"
+  },
+  {
+    "id": "SRC_SCLACI_20_FINALIST_NOTICE",
+    "title": "第二十届宋庆龄少年儿童发明奖入围作品名单和科技绘画作品展示名单公示",
+    "url": "https://sclaci.sclc2017.org/tabid/36/ArticleID/904/frtid/20/Default.aspx",
+    "publisher": "宋庆龄少年儿童发明奖组委会",
+    "date": "2025-07-21",
+    "use_for": "第20届入围名单入口"
+  },
+  {
+    "id": "SRC_SAIFU_16_NOTICE",
+    "title": "关于开展第十六届“赛复创智杯”上海市青少年科技创意设计展示活动的通知",
+    "url": "https://www.shqp.gov.cn/edu/eduzwgk/lm/jy/jx/kj/20250725/1309216.html",
+    "publisher": "青浦区教育局转组委会通知",
+    "date": "2025-05-30",
+    "reliability": "官方通知",
+    "use_for": [
+      "赛复创智杯第16届规则",
+      "赛程时间线",
+      "作品类别",
+      "评审原则",
+      "申报限制",
+      "奖项设置"
+    ],
+    "notes": "可作为当前最完整的赛复创智杯官方规则源；区级选拔要求仍需以各区通知为准。"
+  },
+  {
+    "id": "SRC_SAIFU_SSEDF_15",
+    "title": "“我创意，我快乐”——第十五届“赛复创智杯”上海市青少年科技创意设计评选终评展示暨颁奖活动举行",
+    "url": "https://www.ssedf.org.cn/zixun/298.html",
+    "publisher": "上海科普教育发展基金会",
+    "date": "2024-11-16",
+    "reliability": "官方平台",
+    "use_for": [
+      "赛复创智杯第15届规模",
+      "历史沉淀",
+      "终评展示形式",
+      "奖项案例"
+    ],
+    "notes": "可公开引用15年历史、2万余名学生响应、1283项推荐、279项复评、84项终评、5项特等奖等数据。"
+  },
+  {
+    "id": "SRC_SAIFU_SOHU_14",
+    "title": "独家 | 揭秘赛复创智杯获奖秘籍！资深赛事专家这样说......",
+    "url": "https://www.sohu.com/a/712262390_120327720",
+    "publisher": "搜狐 / ideaLab",
+    "date": "2023-08-16",
+    "reliability": "赛事专家经验分享",
+    "use_for": [
+      "赛复创智杯参赛指导",
+      "查新提醒",
+      "获奖秘籍",
+      "家长科普"
+    ],
+    "notes": "用于参赛指导和内容表达，不替代官方章程；不要写成官方保证获奖。"
+  },
+  {
+    "id": "SRC_YAIOC_6_NOTICE",
+    "title": "关于举办第六届长三角青少年人工智能奥林匹克挑战赛的通知",
+    "url": "https://www.sciedu.org/fnotice/noticeDetails/1490/1",
+    "publisher": "上海市教委/上海市科技艺术教育中心",
+    "date": "2026-05-08",
+    "reliability": "官方通知",
+    "use_for": [
+      "长三角AI奥林匹克规则",
+      "赛道设置",
+      "综评记录范围"
+    ],
+    "notes": "可公开用于赛事介绍，综评边界解读。部分赛道不记入综评，需注明。"
+  },
+  {
+    "id": "SRC_YAIOC_HOME",
+    "title": "长三角青少年人工智能奥林匹克挑战赛官网",
+    "url": "https://ai.secsa.cn/",
+    "publisher": "上海市科技艺术教育中心",
+    "date": "ongoing",
+    "reliability": "官方站点",
+    "use_for": [
+      "赛事官网入口",
+      "赛道详情",
+      "通知公告"
+    ],
+    "notes": "可作为持续更新的官方信息入口。"
+  }
+]

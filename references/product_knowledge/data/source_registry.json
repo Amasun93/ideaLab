@@ -1,0 +1,142 @@
+{
+  "S01": {
+    "title": "AI小芮知识库_ideaLab_2026.md",
+    "type": "AI知识库总结稿",
+    "relative_path": "AI小芮知识库_ideaLab_2026.md",
+    "use_for": "销售问答、产品分类、合同类型、价格课时口径、销售禁忌",
+    "confidence": "secondary_summary"
+  },
+  "S02": {
+    "title": "ideaLab产品体系归纳_2026.md",
+    "type": "产品体系总结稿",
+    "relative_path": "ideaLab产品体系归纳_2026.md",
+    "use_for": "产品全景、产品关系、升学链路、赛事体系、竞品摘要",
+    "confidence": "secondary_summary"
+  },
+  "S03": {
+    "title": "2026 ideaLab产品介绍0407.pptx",
+    "type": "产品总介绍PPT",
+    "relative_path": "2026 ideaLab产品介绍0407.pptx",
+    "use_for": "品牌总介绍、产品家族、课程体系原始展示",
+    "confidence": "source_deck_text_extracted"
+  },
+  "S04": {
+    "title": "2026-科创启航计划产品介绍.pptx",
+    "type": "启航产品PPT",
+    "relative_path": "2026-科创启航计划产品介绍.pptx",
+    "use_for": "启航定位、素养目标、课程阶段、教学法",
+    "confidence": "source_deck_text_extracted"
+  },
+  "S05": {
+    "title": "2026-科创领航计划V1.pptx",
+    "type": "领航产品PPT",
+    "relative_path": "2026-科创领航计划V1.pptx",
+    "use_for": "领航定位、科研论文、入门测试、课程交付",
+    "confidence": "source_deck_text_extracted"
+  },
+  "S06": {
+    "title": "2026星球暑假科技营宣贯资料V1.2-MYO系列.pptx/pdf",
+    "type": "MYO宣贯材料",
+    "relative_path": "2026星球暑假科技营宣贯资料V1.2-MYO系列.pptx",
+    "use_for": "MYO短期PBL、3D打印课程、暑假科技营",
+    "confidence": "source_deck_text_extracted"
+  },
+  "S07": {
+    "title": "26寒暑假科创竞赛集训.pptx",
+    "type": "竞赛集训营PPT",
+    "relative_path": "26寒暑假科创竞赛集训.pptx",
+    "use_for": "寒(暑)假竞赛营（旧称竞赛集训营/Lab赛事包）、赛事包、冲奖服务",
+    "confidence": "source_deck_text_extracted"
+  },
+  "S08": {
+    "title": "未来工程师销售素材",
+    "type": "专项营销售材料包",
+    "relative_path": "26未来工程师销售素材",
+    "use_for": "未来工程师专项营、可外发/内部材料边界、参赛通知、Q&A",
+    "confidence": "mixed_source_pack"
+  },
+  "S09": {
+    "title": "雏鹰杯专项营（宣贯内部版本）V2.pptx",
+    "type": "雏鹰杯内部宣贯PPT",
+    "relative_path": "雏鹰杯专项营（宣贯内部版本）V2.pptx",
+    "use_for": "雏鹰杯专项营、赛事定位、内部宣贯",
+    "confidence": "source_deck_text_extracted"
+  },
+  "S10": {
+    "title": "合同清洁版 DOCX",
+    "type": "合同文件",
+    "relative_path": "IDEALAB常规学员合同20250730清洁版.docx / Idealab服务合同20260330清洁版.docx",
+    "use_for": "合同类型、退费规则、请假规则、服务边界",
+    "confidence": "contract_text_extracted"
+  },
+  "S11": {
+    "title": "ideaLab26年销售SOP-0408更新（上海）.md",
+    "type": "销售SOP",
+    "relative_path": "ideaLab26年销售SOP-0408更新（上海）.md",
+    "use_for": "当月在售产品、物料链接、获奖数据、销售话术、竞品对比",
+    "confidence": "sales_sop_summary"
+  },
+  "S12": {
+    "title": "正式课/新启航-课程资料-2026春",
+    "type": "正式课课纲与教案材料",
+    "relative_path": "正式课/新启航-课程资料-2026春",
+    "use_for": "启航正式课课纲、体验课、能力评价量规、物料",
+    "confidence": "course_design_sources"
+  },
+  "S13": {
+    "title": "基地常规课 课程设计总表.xlsx",
+    "type": "智造万物独立课程大纲 Excel",
+    "relative_path": "01_课程产品库/01_智造万物/01_原始材料/基地常规课 课程设计总表.xlsx",
+    "use_for": "智造万物三阶课程大纲、项目清单、课堂交付、复盘记录",
+    "confidence": "course_design_workbook_extracted"
+  },
+  "S14": {
+    "title": "2026-06-26_制造万物完整资料",
+    "type": "智造万物完整原始资料归档",
+    "relative_path": "01_课程产品库/01_智造万物/01_原始材料/2026-06-26_制造万物完整资料",
+    "use_for": "完整课件、手册、宣发、反馈、工程文件、迁移清单",
+    "confidence": "raw_archive_migrated"
+  },
+  "S15": {
+    "title": "智造万物完整课程资料清洗",
+    "type": "AI课节级清洗知识库",
+    "relative_path": "03_AI清洗知识库/02_清洗文本/02_常规课程产品/智造万物/2026-06-26_完整课程资料清洗",
+    "use_for": "产品级、阶段级、单元级、课节级问答与项目解释",
+    "confidence": "ai_cleaned_lesson_index"
+  },
+  "S16": {
+    "title": "ideaLab本地素材库/智造万物",
+    "type": "本地精选素材索引",
+    "relative_path": "D:\\Projects\\ideaLab素材库\\01_智造万物",
+    "use_for": "短视频、讲座、课程介绍、家长沟通素材定位",
+    "confidence": "local_asset_index"
+  },
+  "S17": {
+    "title": "00_所有产品清理版_人工检查.md",
+    "type": "全产品人工检查与补充整理稿",
+    "relative_path": "03_AI清洗知识库/00_所有产品清理版_人工检查.md",
+    "use_for": "产品归属、待确认问题、科创发明营等薄资料卡的人工校准依据",
+    "confidence": "manual_review_summary"
+  },
+  "S18": {
+    "title": "2026-06-26 启航/雏鹰杯/领航总部宣贯",
+    "type": "总部内部宣贯PPT+逐字稿",
+    "relative_path": "01_课程产品库/00_品牌与产品总览/01_原始材料/2026-06-26_启航雏鹰领航总部宣贯",
+    "use_for": "启航上海区域招募年龄调整、雏鹰杯&长三角专项营新旧方案切换、领航计划价格课时/准入优惠/课程节奏/赛事出口校准",
+    "confidence": "headquarters_training_ppt_and_transcript"
+  },
+  "S19": {
+    "title": "2026-06-26 用户补充：寒(暑)假竞赛营费用拆分与联报服务",
+    "type": "用户口径补充",
+    "relative_path": "conversation:2026-06-26 寒(暑)假竞赛营费用拆分",
+    "use_for": "寒(暑)假竞赛营小学/初中/高中价格、项目孵化费、竞赛联报服务费、联报赛事、交付物和未获奖退费边界",
+    "confidence": "user_confirmed_current_terms"
+  },
+  "S20": {
+    "title": "2026-06-26 用户补充：ideaLab 产品体系金字塔更新",
+    "type": "用户口径补充 + 旧版图片校准",
+    "relative_path": "conversation:2026-06-26 产品体系金字塔更新",
+    "use_for": "ideaLab六层产品体系金字塔、软实力/硬实力/创新体验/发明挑战/科研探究/顶尖发明家分层、Deepseek AI机器人营移除、卡丁车补充、启航领航/专项营/寒暑假竞赛营与赛事出口映射",
+    "confidence": "user_confirmed_current_terms"
+  }
+}

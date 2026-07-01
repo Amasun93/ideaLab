@@ -1,0 +1,153 @@
+[
+  {
+    "event_id": "qingchuang",
+    "year": "2023",
+    "edition": "第38届",
+    "phase_summary": "1月3日开始申报，4月15日终审问辩；14205份申报材料，青少年科技创新成果板块11346项，700项入围终评。",
+    "content_use": "用于说明青创赛规模大、终审问辩筛选强。",
+    "source_ids": [
+      "SRC_QCS_SHITALENT_38",
+      "SRC_QCS_38_AWARD_PDF"
+    ]
+  },
+  {
+    "event_id": "qingchuang",
+    "year": "2024",
+    "edition": "第39届",
+    "phase_summary": "官方平台报道显示本届经过两个多月严谨评审，从15791份申报项目中评出结果，并推荐优秀项目申报全国赛。",
+    "content_use": "用于说明近年申报规模和官方平台数据延续性。",
+    "source_ids": [
+      "SRC_QCS_SHSSP_39_CLOSING"
+    ]
+  },
+  {
+    "event_id": "qingchuang",
+    "year": "2025",
+    "edition": "第40届",
+    "phase_summary": "3月18日启动报名，4200余件作品，近400件科创作品及100余幅科幻画入围现场活动；设作品问辩、动手实践、科学素质和创新素养考察。",
+    "content_use": "用于说明赛制从材料评审走向多维现场评价。",
+    "source_ids": [
+      "SRC_QCS_CAST_40"
+    ]
+  },
+  {
+    "event_id": "qingchuang",
+    "year": "2026",
+    "edition": "第41届",
+    "phase_summary": "2026年1月1日至1月20日申报，1月下旬至3月上旬线上初审，3月下旬现场活动，4月公示公布；近700所学校、5400余名青少年参与，4500余件作品，400件科技创新作品和192件科幻画入围现场活动。",
+    "content_use": "用于当前最新口径、社群提醒、备赛节奏和综评边界提醒。",
+    "source_ids": [
+      "SRC_QCS_41_NOTICE",
+      "SRC_QCS_41_CAST"
+    ]
+  },
+  {
+    "event_id": "chuying",
+    "year": "2023",
+    "edition": "第二十一届上海少年科学院“小院士”评选",
+    "phase_summary": "9月启动，16个区800余所中小学申报4300余个项目，初评、复评、终评后评出1300余件奖项课题，10位队员获小院士称号。",
+    "content_use": "用于说明雏鹰杯项目数量大、层层筛选、最终小院士稀缺。",
+    "source_ids": [
+      "SRC_CHUYING_CYOL_2024"
+    ]
+  },
+  {
+    "event_id": "chuying",
+    "year": "2024",
+    "edition": "第二十二届上海少年科学院“小院士”评选",
+    "phase_summary": "2024年12月28日总决选及颁奖，10位队员获特等奖并被授予小院士称号。",
+    "content_use": "用于补2024届现场与承办单位素材。",
+    "source_ids": [
+      "SRC_CHUYING_SSTM_2025"
+    ]
+  },
+  {
+    "event_id": "chuying",
+    "year": "2025",
+    "edition": "第二十三届上海少年科学院“小院士”交流展示",
+    "phase_summary": "终评及颁奖于2026年1月公开报道；按项目类别取前3%入围终评，最终10名少先队员获得小院士。本届项目涵盖创造发明、自然生态、智慧城市、航空航天、人工智能、创新创意等方向，并增设智慧关怀、智学未来、智行上海三大专项。",
+    "content_use": "用于最新雏鹰杯/科创小能手口径和小院士案例。",
+    "source_ids": [
+      "SRC_CHUYING_EASTDAY_2025",
+      "SRC_CHUYING_BAOSHAN_2025"
+    ]
+  },
+  {
+    "event_id": "sclaci",
+    "year": "2023",
+    "edition": "第十八届",
+    "phase_summary": "官方名单公示页保留第十八届获奖名单和入围名单入口。",
+    "content_use": "用于历史名单追溯。",
+    "source_ids": [
+      "SRC_SCLACI_HOME"
+    ]
+  },
+  {
+    "event_id": "sclaci",
+    "year": "2024",
+    "edition": "第十九届",
+    "phase_summary": "官方名单公示页保留第十九届获奖名单入口。",
+    "content_use": "用于历史名单追溯。",
+    "source_ids": [
+      "SRC_SCLACI_HOME"
+    ]
+  },
+  {
+    "event_id": "sclaci",
+    "year": "2025",
+    "edition": "第二十届",
+    "phase_summary": "4.6万余件作品参评、590件作品获奖；官方已公布入围名单与获奖名单附件。",
+    "content_use": "用于竞争密度、案例提取、金银铜项目示例。",
+    "source_ids": [
+      "SRC_SCLACI_20_AWARD_NEWS",
+      "SRC_SCLACI_20_WINNER_NOTICE",
+      "SRC_PEOPLE_20"
+    ]
+  },
+  {
+    "event_id": "sclaci",
+    "year": "2026",
+    "edition": "第二十一届",
+    "phase_summary": "2月至3月选拔推荐，3月至4月申报及形式审核，5月至6月全国初评，6月/7月入围名单公示，7月终评通知，8月终评颁奖；作品类别包括发明、人工智能（编程）、创意作品和科技绘画作品征集。",
+    "content_use": "用于最新备赛节奏、类别匹配和家长提醒。",
+    "source_ids": [
+      "SRC_SCLACI_21_NOTICE"
+    ]
+  },
+  {
+    "event_id": "saifu_chuangzhi",
+    "year": "2024",
+    "edition": "第十五届",
+    "phase_summary": "自5月启动，2万余名学生响应，各赛区初评后向市组委会推荐1283项；10月13日复评中全市16个区及长三角地区279个项目展示交流，84项入围终评；11月16日终评产生5项特等奖和2项特等项目提名奖。",
+    "content_use": "用于说明赛复创智杯历史沉淀、长三角覆盖、终评筛选和展示形式。",
+    "source_ids": [
+      "SRC_SAIFU_SSEDF_15"
+    ]
+  },
+  {
+    "event_id": "saifu_chuangzhi",
+    "year": "2025",
+    "edition": "第十六届",
+    "phase_summary": "5~6月活动启动，7月1日8:00至9月8日12:00项目申报，9月21日前赛区选拔，9月25日前赛区报送，9月27日初评，10月中旬复评，11月中旬终评。作品分A类方案设计、B类模型创意、C类虚拟动画三类。",
+    "content_use": "用于暑假备赛提醒、类别匹配和申报规则解读。",
+    "source_ids": [
+      "SRC_SAIFU_16_NOTICE"
+    ]
+  },
+  {
+    "event_id": "icc",
+    "year": "2025",
+    "edition": "2024-2025学年",
+    "phase_summary": "3月-5月报名及作品合规检查；5月-6月省级选拔赛（线上）；7月-8月全国总决赛（8月初）。15个竞赛主题结合联合国17个可持续发展目标。斯坦星球综合获奖率86%。",
+    "content_use": "用于ICC备赛节奏、主题匹配和家长提醒。",
+    "source_ids": ["SRC_ICC_WECHAT"]
+  },
+  {
+    "event_id": "ieyi",
+    "year": "2025-2026",
+    "edition": "2025-2026赛季",
+    "phase_summary": "初选线上展作品提交截止2025年11月30日；中国展2026年2月26-27日北京国家速滑馆；国际展2026年7月中国举办。ideaLab学员获1金3银2铜+2荣誉提名+1参与奖。",
+    "content_use": "用于IEYI备赛节奏、类别匹配和战绩引用。",
+    "source_ids": ["SRC_IEYI_WECHAT"]
+  }
+]

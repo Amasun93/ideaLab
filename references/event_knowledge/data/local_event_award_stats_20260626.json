@@ -1,0 +1,355 @@
+{
+  "batch_id": "LOCAL_EVENT_BATCH_20260626",
+  "created_at": "2026-06-26T15:33:45",
+  "privacy_policy": "Aggregated term counts only. No student names, schools, teacher names, IDs, project abstracts, certificates, row samples, or original spreadsheets are included.",
+  "methodology": {
+    "source": "local private workbook summaries generated during cleaning",
+    "counting_method": "Counts award-related terms detected in workbook cells and estimates candidate records from nonempty rows.",
+    "limitations": [
+      "Counts are helper signals, not official award totals.",
+      "Some workbooks contain headers, notes, merged cells, regional subsets, finalist stages, or internal annotations.",
+      "Use official public notices for external numbers and keep this file for internal planning and retrieval."
+    ]
+  },
+  "category_rollup": [
+    {
+      "event_category": "上海中学杯青少年科技论坛",
+      "source_count": 2,
+      "candidate_record_count_estimate": 526,
+      "award_term_counts": {
+        "一等奖": 110,
+        "二等奖": 148,
+        "三等奖": 266
+      },
+      "confidence_note": "Rollup combines heterogeneous local files and may mix届次/地区/阶段; do not present as a single official event statistic."
+    },
+    {
+      "event_category": "其他赛事/待归类",
+      "source_count": 2,
+      "candidate_record_count_estimate": 124,
+      "award_term_counts": {
+        "一等奖": 9,
+        "二等奖": 12,
+        "三等奖": 21,
+        "入围": 1,
+        "终评": 1,
+        "区级": 1,
+        "晋级": 4
+      },
+      "confidence_note": "Rollup combines heterogeneous local files and may mix届次/地区/阶段; do not present as a single official event statistic."
+    },
+    {
+      "event_category": "宋庆龄少年儿童发明奖",
+      "source_count": 6,
+      "candidate_record_count_estimate": 10432,
+      "award_term_counts": {
+        "入围": 221,
+        "终评": 220,
+        "二等奖": 1200,
+        "三等奖": 1862,
+        "一等奖": 1012,
+        "区级": 2,
+        "铜奖": 7,
+        "优秀奖": 13,
+        "银奖": 3,
+        "市级": 1
+      },
+      "confidence_note": "Rollup combines heterogeneous local files and may mix届次/地区/阶段; do not present as a single official event statistic."
+    },
+    {
+      "event_category": "未来工程师",
+      "source_count": 1,
+      "candidate_record_count_estimate": 96,
+      "award_term_counts": {
+        "二等奖": 32,
+        "三等奖": 31,
+        "一等奖": 10,
+        "入围": 18
+      },
+      "confidence_note": "Rollup combines heterogeneous local files and may mix届次/地区/阶段; do not present as a single official event statistic."
+    },
+    {
+      "event_category": "长三角AI/AI创想家",
+      "source_count": 1,
+      "candidate_record_count_estimate": 678,
+      "award_term_counts": {
+        "一等奖": 103,
+        "二等奖": 200,
+        "三等奖": 370
+      },
+      "confidence_note": "Rollup combines heterogeneous local files and may mix届次/地区/阶段; do not present as a single official event statistic."
+    },
+    {
+      "event_category": "雏鹰杯",
+      "source_count": 2,
+      "candidate_record_count_estimate": 517,
+      "award_term_counts": {
+        "一等奖": 22,
+        "二等奖": 70,
+        "三等奖": 98,
+        "入围": 107
+      },
+      "confidence_note": "Rollup combines heterogeneous local files and may mix届次/地区/阶段; do not present as a single official event statistic."
+    },
+    {
+      "event_category": "青创赛/青少年科技创新大赛",
+      "source_count": 4,
+      "candidate_record_count_estimate": 3309,
+      "award_term_counts": {
+        "一等奖": 161,
+        "二等奖": 323,
+        "三等奖": 468,
+        "入围": 5,
+        "终评": 20
+      },
+      "confidence_note": "Rollup combines heterogeneous local files and may mix届次/地区/阶段; do not present as a single official event statistic."
+    }
+  ],
+  "per_source_aggregates": [
+    {
+      "source_id": "LOCAL_EVENT_20260626_916f205bf2",
+      "anonymous_label": "batch_20260626_source_02",
+      "event_category": "长三角AI/AI创想家",
+      "candidate_record_count_estimate": 678,
+      "award_term_counts": {
+        "一等奖": 103,
+        "二等奖": 200,
+        "三等奖": 370
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_29a9d86d7a",
+      "anonymous_label": "batch_20260626_source_06",
+      "event_category": "未来工程师",
+      "candidate_record_count_estimate": 96,
+      "award_term_counts": {
+        "二等奖": 32,
+        "三等奖": 31,
+        "一等奖": 10,
+        "入围": 18
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_f691ba09ce",
+      "anonymous_label": "batch_20260626_source_09",
+      "event_category": "其他赛事/待归类",
+      "candidate_record_count_estimate": 76,
+      "award_term_counts": {
+        "一等奖": 1,
+        "二等奖": 2,
+        "三等奖": 4
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_f3fe61b57a",
+      "anonymous_label": "batch_20260626_source_17",
+      "event_category": "雏鹰杯",
+      "candidate_record_count_estimate": 304,
+      "award_term_counts": {
+        "一等奖": 22,
+        "二等奖": 70,
+        "三等奖": 98,
+        "入围": 106
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_28c13153aa",
+      "anonymous_label": "batch_20260626_source_18",
+      "event_category": "其他赛事/待归类",
+      "candidate_record_count_estimate": 48,
+      "award_term_counts": {
+        "三等奖": 17,
+        "一等奖": 8,
+        "入围": 1,
+        "终评": 1,
+        "二等奖": 10,
+        "区级": 1,
+        "晋级": 4
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_0bd89315c6",
+      "anonymous_label": "batch_20260626_source_20",
+      "event_category": "青创赛/青少年科技创新大赛",
+      "candidate_record_count_estimate": 33,
+      "award_term_counts": {
+        "一等奖": 1,
+        "二等奖": 1
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_1fffeb1e07",
+      "anonymous_label": "batch_20260626_source_24",
+      "event_category": "青创赛/青少年科技创新大赛",
+      "candidate_record_count_estimate": 946,
+      "award_term_counts": {
+        "一等奖": 158,
+        "二等奖": 320,
+        "三等奖": 466
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_8eab856b19",
+      "anonymous_label": "batch_20260626_source_29",
+      "event_category": "青创赛/青少年科技创新大赛",
+      "candidate_record_count_estimate": 2037,
+      "award_term_counts": {
+        "一等奖": 2,
+        "二等奖": 2,
+        "三等奖": 2
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_69ca2dff44",
+      "anonymous_label": "batch_20260626_source_30",
+      "event_category": "上海中学杯青少年科技论坛",
+      "candidate_record_count_estimate": 400,
+      "award_term_counts": {
+        "一等奖": 88,
+        "二等奖": 107,
+        "三等奖": 204
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_d360645529",
+      "anonymous_label": "batch_20260626_source_33",
+      "event_category": "上海中学杯青少年科技论坛",
+      "candidate_record_count_estimate": 126,
+      "award_term_counts": {
+        "一等奖": 22,
+        "二等奖": 41,
+        "三等奖": 62
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_921e7ad443",
+      "anonymous_label": "batch_20260626_source_35",
+      "event_category": "青创赛/青少年科技创新大赛",
+      "candidate_record_count_estimate": 293,
+      "award_term_counts": {
+        "入围": 5,
+        "终评": 20
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_6fab3d7b71",
+      "anonymous_label": "batch_20260626_source_36",
+      "event_category": "宋庆龄少年儿童发明奖",
+      "candidate_record_count_estimate": 371,
+      "award_term_counts": {
+        "入围": 83,
+        "终评": 83,
+        "二等奖": 81,
+        "三等奖": 204
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_5cfeadb098",
+      "anonymous_label": "batch_20260626_source_37",
+      "event_category": "宋庆龄少年儿童发明奖",
+      "candidate_record_count_estimate": 980,
+      "award_term_counts": {
+        "入围": 137,
+        "终评": 137,
+        "二等奖": 309,
+        "三等奖": 531
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_910a2f6c2b",
+      "anonymous_label": "batch_20260626_source_38",
+      "event_category": "宋庆龄少年儿童发明奖",
+      "candidate_record_count_estimate": 5472,
+      "award_term_counts": {
+        "一等奖": 595,
+        "二等奖": 106,
+        "入围": 1,
+        "三等奖": 1,
+        "区级": 1
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_ac13234214",
+      "anonymous_label": "batch_20260626_source_40",
+      "event_category": "宋庆龄少年儿童发明奖",
+      "candidate_record_count_estimate": 2388,
+      "award_term_counts": {
+        "一等奖": 232,
+        "二等奖": 343,
+        "三等奖": 500
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_a08dc706b3",
+      "anonymous_label": "batch_20260626_source_41",
+      "event_category": "宋庆龄少年儿童发明奖",
+      "candidate_record_count_estimate": 28,
+      "award_term_counts": {
+        "二等奖": 3,
+        "铜奖": 7,
+        "优秀奖": 13,
+        "一等奖": 3,
+        "三等奖": 2,
+        "银奖": 3
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_a079803945",
+      "anonymous_label": "batch_20260626_source_42",
+      "event_category": "宋庆龄少年儿童发明奖",
+      "candidate_record_count_estimate": 1193,
+      "award_term_counts": {
+        "一等奖": 182,
+        "二等奖": 358,
+        "三等奖": 624,
+        "市级": 1,
+        "区级": 1
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    },
+    {
+      "source_id": "LOCAL_EVENT_20260626_c005c94425",
+      "anonymous_label": "batch_20260626_source_43",
+      "event_category": "雏鹰杯",
+      "candidate_record_count_estimate": 213,
+      "award_term_counts": {
+        "入围": 1
+      },
+      "privacy": "aggregated_only_no_names",
+      "confidence_note": "Machine-counted from local workbook cells; use as internal discovery/helper data, not an official award total unless checked against the original public notice."
+    }
+  ]
+}

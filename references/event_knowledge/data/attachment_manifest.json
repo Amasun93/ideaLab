@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ATT_QCS_38_AWARD_PDF",
+    "source_id": "SRC_QCS_38_AWARD_PDF",
+    "title": "第38届青创赛青少年科技创新成果获奖名单",
+    "url": "https://www.shssp.org/UploadFiles/file/20230519/6382008862290133875809037.pdf",
+    "local_path": "青创赛/official/第38届青少年科技创新成果获奖名单.pdf",
+    "status": "downloaded",
+    "error": "",
+    "package_path": "source_attachments/青创赛/official/第38届青少年科技创新成果获奖名单.pdf"
+  },
+  {
+    "id": "ATT_SCLACI_21_NOTICE_PDF",
+    "source_id": "SRC_SCLACI_21_NOTICE",
+    "title": "第二十一届宋庆龄少年儿童发明奖通知PDF",
+    "url": "https://sclaci.sclc2017.org/Portals/0/otherfile/20260213/%E4%B8%AD%E5%9B%BD%E5%AE%8B%E5%BA%86%E9%BE%84%E5%9F%BA%E9%87%91%E4%BC%9A%E3%80%81%E4%B8%AD%E5%9B%BD%E5%8F%91%E6%98%8E%E5%8D%8F%E4%BC%9A%E5%85%B3%E4%BA%8E%E4%B8%BE%E5%8A%9E%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B1%8A%E5%AE%8B%E5%BA%86%E9%BE%84%E5%B0%91%E5%B9%B4%E5%84%BF%E7%AB%A5%E5%8F%91%E6%98%8E%E5%A5%96%E7%9A%84%E9%80%9A%E7%9F%A5.pdf",
+    "local_path": "宋庆龄少年儿童发明奖/official/第二十一届通知.pdf",
+    "status": "downloaded",
+    "error": "",
+    "package_path": "source_attachments/宋庆龄少年儿童发明奖/official/第二十一届通知.pdf"
+  },
+  {
+    "id": "ATT_SCLACI_20_WINNER_INVENTION",
+    "source_id": "SRC_SCLACI_20_WINNER_NOTICE",
+    "title": "第二十届宋庆龄发明作品获奖名单",
+    "url": "https://sclaci.sclc2017.org/Portals/0/otherfile/20250820/%E5%8F%91%E6%98%8E%E4%BD%9C%E5%93%81%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95.pdf",
+    "local_path": "宋庆龄少年儿童发明奖/official/第二十届发明作品获奖名单.pdf",
+    "status": "downloaded",
+    "error": "",
+    "package_path": "source_attachments/宋庆龄少年儿童发明奖/official/第二十届发明作品获奖名单.pdf"
+  },
+  {
+    "id": "ATT_SCLACI_20_WINNER_AI",
+    "source_id": "SRC_SCLACI_20_WINNER_NOTICE",
+    "title": "第二十届宋庆龄人工智能编程作品获奖名单",
+    "url": "https://sclaci.sclc2017.org/Portals/0/otherfile/20250820/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%88%E7%BC%96%E7%A8%8B%EF%BC%89%E4%BD%9C%E5%93%81%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95.pdf",
+    "local_path": "宋庆龄少年儿童发明奖/official/第二十届人工智能编程作品获奖名单.pdf",
+    "status": "downloaded",
+    "error": "",
+    "package_path": "source_attachments/宋庆龄少年儿童发明奖/official/第二十届人工智能编程作品获奖名单.pdf"
+  },
+  {
+    "id": "ATT_SCLACI_20_WINNER_CREATIVE",
+    "source_id": "SRC_SCLACI_20_WINNER_NOTICE",
+    "title": "第二十届宋庆龄创意作品获奖名单",
+    "url": "https://sclaci.sclc2017.org/Portals/0/otherfile/20250820/%E5%88%9B%E6%84%8F%E4%BD%9C%E5%93%81%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95.pdf",
+    "local_path": "宋庆龄少年儿童发明奖/official/第二十届创意作品获奖名单.pdf",
+    "status": "downloaded",
+    "error": "",
+    "package_path": "source_attachments/宋庆龄少年儿童发明奖/official/第二十届创意作品获奖名单.pdf"
+  },
+  {
+    "id": "ATT_SCLACI_20_FINALIST_INVENTION",
+    "source_id": "SRC_SCLACI_20_FINALIST_NOTICE",
+    "title": "第二十届宋庆龄发明作品入围名单",
+    "url": "https://sclaci.sclc2017.org/Portals/0/otherfile/20250722/%E5%8F%91%E6%98%8E%E4%BD%9C%E5%93%81%E5%85%A5%E5%9B%B4%E5%90%8D%E5%8D%95.pdf",
+    "local_path": "宋庆龄少年儿童发明奖/official/第二十届发明作品入围名单.pdf",
+    "status": "downloaded",
+    "error": "",
+    "package_path": "source_attachments/宋庆龄少年儿童发明奖/official/第二十届发明作品入围名单.pdf"
+  },
+  {
+    "id": "ATT_SCLACI_20_FINALIST_AI",
+    "source_id": "SRC_SCLACI_20_FINALIST_NOTICE",
+    "title": "第二十届宋庆龄人工智能编程作品入围名单",
+    "url": "https://sclaci.sclc2017.org/Portals/0/otherfile/20250722/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%88%E7%BC%96%E7%A8%8B%EF%BC%89%E4%BD%9C%E5%93%81%E5%85%A5%E5%9B%B4%E5%90%8D%E5%8D%95.pdf",
+    "local_path": "宋庆龄少年儿童发明奖/official/第二十届人工智能编程作品入围名单.pdf",
+    "status": "downloaded",
+    "error": "",
+    "package_path": "source_attachments/宋庆龄少年儿童发明奖/official/第二十届人工智能编程作品入围名单.pdf"
+  }
+]

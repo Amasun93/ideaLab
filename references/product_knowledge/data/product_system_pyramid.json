@@ -1,0 +1,132 @@
+{
+  "source_ids": [
+    "S20"
+  ],
+  "updated_at": "2026-06-26",
+  "title": "ideaLab 科创产品体系金字塔（2026 更新）",
+  "notes": [
+    "旧版金字塔形状和内部能力阶梯文案基本保留，课程产品、触点和出口赛事放在金字塔两侧说明。",
+    "Deepseek AI 机器人营已不作为当前硬实力层产品；硬实力层以 MYO 和智造万物为主。",
+    "发明挑战层使用现有产品命名“未来工程师专项营”；若外部物料出现其他同音/误写名称，需回查正式产品材料。"
+  ],
+  "pyramid_inner_copy": [
+    {
+      "code": "A",
+      "text": "自我实现"
+    },
+    {
+      "code": "B",
+      "text": "如何优化"
+    },
+    {
+      "code": "C",
+      "text": "如何有效解决"
+    },
+    {
+      "code": "D",
+      "text": "如何发现身边的问题"
+    },
+    {
+      "code": "E",
+      "text": "掌握基础工具与技能"
+    },
+    {
+      "code": "F",
+      "text": "培养意识与氛围、提升软实力"
+    }
+  ],
+  "levels": [
+    {
+      "code": "A",
+      "theme": "顶尖发明家",
+      "capability_focus": "高阶科研与顶尖赛事规划",
+      "current_products_or_touchpoints": [
+        "高阶科研规划",
+        "顶尖赛事规划"
+      ],
+      "typical_exits": [
+        "丘成桐中学科学奖",
+        "英才计划",
+        "ISEF"
+      ],
+      "guardrail": "这是高阶出口，不是对低龄家庭的结果承诺。"
+    },
+    {
+      "code": "B",
+      "theme": "科研探究",
+      "capability_focus": "项目孵化、研究过程、申报材料和答辩",
+      "current_products_or_touchpoints": [
+        "寒(暑)假竞赛营"
+      ],
+      "typical_exits": [
+        "青创赛",
+        "明日科技之星",
+        "宋庆龄少年儿童发明奖"
+      ],
+      "guardrail": "寒(暑)假竞赛营是赛事服务产品，不能包装成保奖。"
+    },
+    {
+      "code": "C",
+      "theme": "发明挑战",
+      "capability_focus": "明确赛事任务与专项备赛",
+      "current_products_or_touchpoints": [
+        "雏鹰杯专项营",
+        "未来工程师专项营"
+      ],
+      "typical_exits": [
+        "雏鹰杯",
+        "长三角",
+        "未来工程师大赛"
+      ],
+      "guardrail": "专项营偏单赛事或明确赛事组合，不等同完整多赛事竞赛营。"
+    },
+    {
+      "code": "D",
+      "theme": "创新体验",
+      "capability_focus": "原创能力、发现问题、项目化表达与科研入门",
+      "current_products_or_touchpoints": [
+        "科创启航计划",
+        "科创领航计划"
+      ],
+      "typical_exits": [
+        "ICC",
+        "IEYI"
+      ],
+      "guardrail": "启航/领航是长期能力主线，可衔接赛事，但不是赛事服务承诺。"
+    },
+    {
+      "code": "E",
+      "theme": "硬实力",
+      "capability_focus": "工具、工程、建模、制造和实物作品",
+      "current_products_or_touchpoints": [
+        "MYO",
+        "智造万物",
+        "3D 打印基础营",
+        "3D 打印进阶营",
+        "3D 打印卡丁车制造营"
+      ],
+      "typical_exits": [
+        "MYO：3D打印基础营、3D打印进阶营、3D打印卡丁车制造营",
+        "智造万物：3个阶段、19个PBL单元模块、9大核心能力"
+      ],
+      "guardrail": "Deepseek AI 机器人营已从当前体系中移除，不再作为硬实力层主推产品。"
+    },
+    {
+      "code": "F",
+      "theme": "软实力",
+      "capability_focus": "科创意识、政策理解、家庭氛围和表达认知",
+      "current_products_or_touchpoints": [
+        "公益讲座",
+        "大卫老师自媒体矩阵"
+      ],
+      "typical_exits": [
+        "政策",
+        "学情",
+        "科创知识",
+        "比赛通知",
+        "教育心得"
+      ],
+      "guardrail": "软实力触点不等同正式课程产品。"
+    }
+  ]
+}

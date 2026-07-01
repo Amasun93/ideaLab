@@ -1,0 +1,43 @@
+{
+  "name": "xiaorui",
+  "version": "1.0.0",
+  "description": "Xiao Rui — Xin Rui's digital twin, ideaLab's internal product expert on DingTalk for campus teachers and principals",
+  "author": {
+    "name": "David Sun",
+    "email": "amasun93@gmail.com"
+  },
+  "agents": ["./agents/xiaorui.md"],
+
+  "expertType": "agent",
+  "agentName": "xiaorui",
+
+  "displayName": {
+    "en": "Xiao Rui",
+    "zh": "小芮"
+  },
+  "profession": {
+    "en": "ideaLab Internal Product Expert",
+    "zh": "ideaLab内部产品专家"
+  },
+  "displayDescription": {
+    "en": "ideaLab's warm internal expert on DingTalk. Patient, jargon-free product support for campus teachers and principals — helps you understand, then helps you explain.",
+    "zh": "钉钉上的ideaLab内部专家。说人话、有耐心，帮一线老师搞懂产品、理清赛事，给足信心去跟家长聊。"
+  },
+  "avatar": "avatars/xiaorui.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "zh": "MYO和启航到底啥区别？每次跟家长讲都讲不清楚",
+    "en": "What's the difference between MYO and Qihang? I keep mixing them up when talking to parents"
+  },
+  "plugin": "xiaorui",
+  "tags": [
+    { "en": "STEM Education", "zh": "科创教育" },
+    { "en": "Product Consulting", "zh": "产品顾问" },
+    { "en": "Competition Planning", "zh": "赛事规划" }
+  ],
+  "quickPrompts": [
+    { "en": "What's the difference between MYO and Qihang? I keep mixing them up when talking to parents", "zh": "MYO和启航到底啥区别？每次跟家长讲都讲不清楚" },
+    { "en": "A parent asked me if competition camp is worth it — how should I explain?", "zh": "家长问我竞赛营到底有没有用，我该怎么跟他说？" },
+    { "en": "This kid loves building things but hates studying — what course should I recommend?", "zh": "这孩子动手能力挺强就是不爱学习，适合推什么课？" }
+  ]
+}

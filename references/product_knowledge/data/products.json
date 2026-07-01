@@ -1,0 +1,722 @@
+[
+  {
+    "id": "brand_idealab",
+    "name": "斯坦星球 ideaLab",
+    "type": "brand",
+    "category": "品牌与产品体系",
+    "positioning": "面向K12青少年的科创教育产品体系，通过PBL项目制学习培养科创思维、工程能力、科研能力与参赛竞争力。",
+    "target_students": "K12青少年；材料中覆盖小学、初中、高中多阶段。",
+    "pricing": "品牌层不定价。",
+    "contract_type": "视具体产品而定。",
+    "core_outputs": [
+      "项目制学习经历",
+      "原创作品",
+      "科研/竞赛材料",
+      "升学相关项目履历"
+    ],
+    "keywords": [
+      "K12",
+      "科创教育",
+      "PBL",
+      "工程能力",
+      "科研能力",
+      "竞赛竞争力"
+    ],
+    "source_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "agent_notes": [
+      "回答品牌问题时先讲K12科创教育、PBL、工程能力与参赛竞争力，不要直接跳到单一赛事包。",
+      "城市覆盖口径来自总结稿：上海、杭州、苏州、南京、无锡、深圳、绍兴。"
+    ],
+    "aliases": [
+      "ideaLab",
+      "斯坦星球ideaLab"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "sales_risk_level": "medium",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "产品知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "pricing",
+      "course_hours",
+      "contract_type",
+      "refund_policy",
+      "sales_restrictions"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_expression_notes"
+    ]
+  },
+  {
+    "id": "zhizao_wanwu",
+    "name": "智造万物",
+    "type": "regular_course",
+    "category": "常规课程产品",
+    "positioning": "培养学生发现问题与解决问题的基础能力，是产品体系的底层入口。",
+    "target_students": "6-13岁，约1-7年级。",
+    "pricing": "总结稿口径：每阶课时费¥16,800 + 教具/材料费¥3,000。",
+    "course_hours": "已校准：三阶，每阶80课时/年，约40课次/年，每次2小时。",
+    "contract_type": "常规学员合同。",
+    "stages": [
+      "一阶：1-2年级，基础创新与实践。",
+      "二阶：3-5年级，进阶设计与制造，连接联合国可持续发展问题。",
+      "三阶：6年级以上，进阶技能学习，探索未来专业方向。"
+    ],
+    "core_outputs": [
+      "PBL项目作品",
+      "基础工具和设计软件能力",
+      "Arduino/3D打印/激光切割等软硬结合能力",
+      "产品级、阶段级、单元级、课节级课程知识库",
+      "可用于短视频、讲座和家长沟通的本地精选素材索引"
+    ],
+    "best_for": [
+      "低龄科创启蒙",
+      "长期能力铺垫",
+      "从兴趣进入系统科创"
+    ],
+    "not_for": [
+      "短期明确冲奖",
+      "只需要赛事申报服务"
+    ],
+    "source_ids": [
+      "S02",
+      "S03",
+      "S13",
+      "S14",
+      "S15",
+      "S16"
+    ],
+    "agent_notes": [
+      "推荐时强调基础能力入口，而不是直接承诺参赛成果。",
+      "若家长目标是快速拿奖，应转向寒(暑)假竞赛营或专项营，而非智造万物。",
+      "回答具体课节、项目或素材问题时，先读智造万物课节索引和本地素材索引说明。"
+    ],
+    "aliases": [
+      "智造万物",
+      "智造万物课程"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "sales_risk_level": "medium",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "产品知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "pricing",
+      "course_hours",
+      "contract_type",
+      "refund_policy",
+      "sales_restrictions"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_expression_notes"
+    ]
+  },
+  {
+    "id": "myo",
+    "name": "MYO系列",
+    "type": "regular_course",
+    "category": "常规课程产品",
+    "positioning": "短期项目制课程，让学生在较短时间内完成可见作品；也可作为深入课程前的体验入口。",
+    "target_students": "小学阶段为主；部分材料写作各年级或2年级及以上。",
+    "pricing": "按具体主题营和当期销售SOP确认；旧的MYO Basic/Standard/Pro只作为历史口径。",
+    "contract_type": "常规学员合同。",
+    "core_outputs": [
+      "实物作品",
+      "短期PBL体验",
+      "3D打印/建模/制作体验",
+      "3D打印机开箱安装、切片、打印、排错与基础维护体验",
+      "真实场景修复与工程大项目体验"
+    ],
+    "variants": [
+      "当前对外优先使用主题营口径：3D打印基础营、3D打印进阶营、3D打印卡丁车制造营。",
+      "MYO Basic/Standard/Pro是旧材料中的三档口径，不作为当前优先销售命名。",
+      "青少年科创发明营不是MYO；它与科创发明营是同一个产品。"
+    ],
+    "best_for": [
+      "先体验再决定是否深入",
+      "需要低门槛可见作品",
+      "暑期/短期科技主题课程"
+    ],
+    "not_for": [
+      "需要论文产出",
+      "需要明确赛事申报服务"
+    ],
+    "source_ids": [
+      "S01",
+      "S02",
+      "S06"
+    ],
+    "agent_notes": [
+      "MYO当前优先使用主题营命名；旧的Basic/Standard/Pro只作为历史材料口径。",
+      "介绍时强调作品产出和体验，不要默认包含赛事服务。"
+    ],
+    "aliases": [
+      "MYO",
+      "MYO系列",
+      "3D打印主题营"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "sales_risk_level": "medium",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "产品知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "pricing",
+      "course_hours",
+      "contract_type",
+      "refund_policy",
+      "sales_restrictions"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_expression_notes"
+    ]
+  },
+  {
+    "id": "qihang",
+    "name": "科创启航计划",
+    "type": "regular_course",
+    "category": "常规课程产品",
+    "positioning": "ideaLab核心长期课程，培养学生发现问题、定位问题、原创发明与系统科创能力；是领航计划的入门/前置产品。",
+    "target_students": "小学阶段为主；上海区域当前招募口径为9月开学三年级及以上，即暑假2升3可招募；不再接受9月二年级/暑假1升2学生新招。",
+    "pricing": "已校准：¥20,000。",
+    "course_hours": "已校准：73课时，（春季15次周课45课时 + 暑假集训28课时（3天，每天7小时））或（秋季15次周课45课时 + 寒假集训28课时（3天，每天7小时））；每次周课2.5小时，集训3天每天7小时；1课时=45分钟；不区分启航1.0/2.0。",
+    "contract_type": "常规学员合同。",
+    "core_outputs": [
+      "原创发明作品",
+      "项目路演/展示",
+      "海报或项目材料",
+      "可衔接赛事或领航"
+    ],
+    "course_flow": [
+      "户外探究与硬件入门。",
+      "开题与定题：头脑风暴、问题发现、概念图。",
+      "技术学习：3D打印、激光切割、电子电路、程序优化。",
+      "装置制作与测试。",
+      "展示与答辩。"
+    ],
+    "best_for": [
+      "希望长期培养原创能力",
+      "从兴趣走向发明",
+      "后续可能衔接领航或赛事营"
+    ],
+    "not_for": [
+      "只想短期参赛拿奖",
+      "学生尚未准备好长期项目投入"
+    ],
+    "source_ids": [
+      "S01",
+      "S02",
+      "S04",
+      "S12",
+      "S18"
+    ],
+    "agent_notes": [
+      "启航是产品体系里的关键枢纽：上接MYO/智造万物体验，下接领航/寒(暑)假竞赛营。",
+      "价格与课时已校准为¥20,000/73课时；退费、排班和合同细节仍以当前销售SOP/校区为准。",
+      "上海区域先按9月开学年级筛选：三年级及以上可进入启航沟通，暑假1升2不再新招；六年级及以上且有完整项目基础时同步比较领航。",
+      "参赛时间线规则：启航参加ICC + IEYI。春季启航 → 年底 IEYI + 来年 ICC；秋季启航 → 来年 ICC + 来年年底 IEYI。"
+    ],
+    "aliases": [
+      "启航",
+      "启航计划",
+      "科创启航"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "sales_risk_level": "medium",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "产品知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "pricing",
+      "course_hours",
+      "contract_type",
+      "refund_policy",
+      "sales_restrictions"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_expression_notes"
+    ]
+  },
+  {
+    "id": "linghang",
+    "name": "科创领航计划",
+    "type": "regular_course",
+    "category": "常规课程产品",
+    "positioning": "深度科研方向课程，从装置能动升级到数据论证、科学探究与论文撰写，是启航的升阶产品。",
+    "target_students": "当前上海宣贯口径为9月开学六年级及以上；适合独立完成过完整项目、具备初步科研素养的学生。PY3/PY4在读或参加过启航且符合年龄要求可免测报名；非在读学员必须通过领航入门测。",
+    "pricing": "标准价已校准：¥21,800；符合年龄要求的PY3/PY4在读学员或参加过启航计划的学员，优惠后为¥19,800。",
+    "course_hours": "已校准：73课时，（春季15次周课45课时 + 暑假集训28课时（3天，每天7小时））或（秋季15次周课45课时 + 寒假集训28课时（3天，每天7小时））；每次周课2.5小时，集训3天每天7小时；1课时=45分钟。",
+    "contract_type": "常规学员合同。",
+    "entry_requirements": [
+      "9月开学六年级及以上。",
+      "PY3/PY4在读学员、参加过启航计划的学员，符合年龄要求可免测报名。",
+      "非在读学员必须参加并通过领航入门测试；未通过禁收领航，可转向启航或其他产品。",
+      "入门测包含论文路演、开卷客观题和附加问答，总时长约30-40分钟。"
+    ],
+    "core_outputs": [
+      "可演示的原创原型作品（网页、硬件或AI系统等）",
+      "一份小论文/结构化科研论文",
+      "项目视频/路演材料",
+      "实验数据、测试记录、优化结论和论文支撑素材",
+      "ICC与长三角青少年人工智能奥林匹克挑战赛等赛事方向材料；不承诺获奖"
+    ],
+    "course_flow": [
+      "第1-3课：户外探索与田野调查，明确问题和目标用户。",
+      "第4-5课：课题立项与需求分析，形成可执行课题方向。",
+      "第6-7课：项目查新与文献调研，找到同类方案和创新点。",
+      "第8课：方案设计，形成系统流程图、功能图和验证方案。",
+      "第9-15课：作品研发与原型制作，完成可演示网页、硬件或AI系统。",
+      "3天假期集训（暑假或寒假）：性能测试、迭代优化、论文定稿、PPT/视频、答辩验收和赛事申报准备。"
+    ],
+    "best_for": [
+      "初高中深度科研",
+      "学术论文能力",
+      "需要科研型履历"
+    ],
+    "not_for": [
+      "未通过入门测试",
+      "只想做短期体验作品"
+    ],
+    "source_ids": [
+      "S01",
+      "S02",
+      "S05",
+      "S18"
+    ],
+    "agent_notes": [
+      "领航回答必须强调六年级及以上、门槛、科研论文和数据论证，不要把它说成普通动手课程。",
+      "标准价与课时已校准为¥21,800/73课时；PY3/PY4在读或启航学员符合年龄要求时优惠为¥19,800。",
+      "非在读学员必须入门测；入门测只表达通过/不通过。",
+      "提到ICC和长三角时，只表达赛事方向材料和申报准备，不表达获奖承诺。",
+      "参赛时间线规则：领航参加ICC + 长三角AI奥林匹克。春季领航 → 来年长三角AI奥林匹克 + 来年 ICC；秋季领航 → 来年 ICC + 再次年长三角AI奥林匹克。"
+    ],
+    "aliases": [
+      "领航",
+      "领航计划",
+      "科创领航"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "sales_risk_level": "medium",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "产品知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "pricing",
+      "course_hours",
+      "contract_type",
+      "refund_policy",
+      "sales_restrictions"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_expression_notes"
+    ]
+  },
+  {
+    "id": "competition_camp",
+    "name": "寒(暑)假竞赛营",
+    "type": "competition_service",
+    "category": "赛事服务产品",
+    "positioning": "面向高含金量白名单赛事/综评赛事的系统化备赛与申报服务；竞赛集训营、Lab赛事包、赛事包都是该产品旧称或别名。",
+    "target_students": "总结稿口径：9-18岁，3年级及以上；按小学/初中/高中赛事组别拆分。",
+    "pricing": "小学¥49,800；初中¥54,800；高中¥49,800。具体排班、合同和退费以校区签约为准。",
+    "course_hours": "总结稿口径：60课时，线上开题2课时+线上定题2课时+寒暑假集训7天。",
+    "contract_type": "Idealab服务合同。",
+    "core_outputs": [
+      "原创发明",
+      "科创发明研究报告",
+      "完整赛事申报服务",
+      "个性化开题书/课题确认书",
+      "测试数据、查新报告、PPT、答辩表达等项目证据链"
+    ],
+    "competitions": [
+      "青创赛",
+      "宋庆龄少年儿童发明奖",
+      "雏鹰杯",
+      "明日科技之星"
+    ],
+    "best_for": [
+      "有明确赛事目标",
+      "需要赛事申报服务",
+      "升学履历导向强"
+    ],
+    "not_for": [
+      "只想兴趣启蒙",
+      "不愿承担赛事评审不确定性"
+    ],
+    "source_ids": [
+      "S01",
+      "S02",
+      "S07",
+      "S11",
+      "S19"
+    ],
+    "agent_notes": [
+      "对外统一叫寒(暑)假竞赛营；遇到旧材料可解释为竞赛集训营/Lab赛事包是同一产品。",
+      "销售表达只能说退费承诺，不能说保奖或保证获奖。",
+      "若学生因自身原因未参赛导致未获奖，材料口径显示不退费。",
+      "费用拆分：项目孵化课程部分统一¥29,800；小学/高中竞赛联报服务¥20,000，初中¥25,000；全部联报赛事周期内均未获奖时退还申报费用的一半。"
+    ],
+    "fee_structure": {
+      "primary": {
+        "total_price": 49800,
+        "project_incubation_fee": 29800,
+        "competition_service_fee": 20000,
+        "competition_count": 3,
+        "competitions": [
+          "青创赛（区级）",
+          "雏鹰杯（区级起）",
+          "宋庆龄少年儿童发明奖（市级起）"
+        ],
+        "refund_if_all_no_award": 10000
+      },
+      "middle_school": {
+        "total_price": 54800,
+        "project_incubation_fee": 29800,
+        "competition_service_fee": 25000,
+        "competition_count": 4,
+        "competitions": [
+          "青创赛（市级起）",
+          "明日科技之星/明科（区级起）",
+          "宋庆龄少年儿童发明奖（市级起）",
+          "雏鹰杯（区级起）"
+        ],
+        "refund_if_all_no_award": 12500
+      },
+      "high_school": {
+        "total_price": 49800,
+        "project_incubation_fee": 29800,
+        "competition_service_fee": 20000,
+        "competition_count": 3,
+        "competitions": [
+          "青创赛（市级起）",
+          "明日科技之星/明科（区级起）",
+          "宋庆龄少年儿童发明奖（市级起）"
+        ],
+        "refund_if_all_no_award": 10000
+      }
+    },
+    "project_incubation_scope": [
+      "开题定题",
+      "项目设计",
+      "项目落地与授课指导",
+      "过程性素材采集"
+    ],
+    "project_incubation_excludes": [
+      "专业论文"
+    ],
+    "application_deliverables": [
+      "项目原型",
+      "符合比赛要求的论文/研究报告",
+      "申报表",
+      "查新报告",
+      "研究日志",
+      "演讲视频",
+      "PPT/答辩材料"
+    ],
+    "aliases": [
+      "寒假竞赛营",
+      "暑假竞赛营",
+      "寒暑假竞赛营",
+      "竞赛集训营",
+      "Lab赛事包",
+      "赛事包"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "sales_risk_level": "high",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "产品知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "pricing",
+      "course_hours",
+      "contract_type",
+      "refund_policy",
+      "sales_restrictions",
+      "fee_structure",
+      "application_deliverables"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_expression_notes"
+    ]
+  },
+  {
+    "id": "future_engineer",
+    "name": "未来工程师专项营",
+    "type": "competition_service",
+    "category": "赛事服务产品",
+    "positioning": "围绕上海未来工程师大赛的专项备赛产品，材料中主要对应航天设计师系列：空间飞行科学实验设计。",
+    "target_students": "小学/初中生；具体年级以赛事通知和当期销售材料为准。",
+    "pricing": "已校准：¥15,000。",
+    "contract_type": "Idealab服务合同/专项服务材料，需按签约文件确认。",
+    "core_outputs": [
+      "项目申报书",
+      "原型装置",
+      "项目展板",
+      "答辩/笔试辅导"
+    ],
+    "refund_policy": "已校准：区赛未获奖退费50%，即¥7,500；家长自行放弃参赛不退；若区未办区赛但项目推市赛，市赛未获奖也不退。",
+    "best_for": [
+      "明确要参加上海未来工程师大赛",
+      "希望短时间内形成航天实验装置作品"
+    ],
+    "not_for": [
+      "希望作品可自由投递其他科创发明类赛事",
+      "希望长期培养原创能力作为首要目标"
+    ],
+    "source_ids": [
+      "S01",
+      "S08"
+    ],
+    "agent_notes": [
+      "必须说明该项目方向是航天实验装置设计，不能保证可投递其他科创发明类赛事。",
+      "专项营主打短期完成作品并参赛，不要把它包装成长期原创能力培养主线。"
+    ],
+    "aliases": [
+      "未来工程师",
+      "未来工程师专项营"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "sales_risk_level": "high",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "产品知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "pricing",
+      "course_hours",
+      "contract_type",
+      "refund_policy",
+      "sales_restrictions",
+      "fee_structure",
+      "application_deliverables"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_expression_notes"
+    ]
+  },
+  {
+    "id": "chuying_cup",
+    "name": "雏鹰杯专项营",
+    "type": "competition_service",
+    "category": "赛事服务产品",
+    "positioning": "围绕上海雏鹰杯/小院士路径，并同步投递长三角赛事的专项备赛与申报服务；2026-06-29起按“雏鹰杯&长三角专项营”新方案销售。",
+    "target_students": "2025学年官方通知口径为三至九年级少先队员；内部招募口径为暑假最小2升3、9月开学3年级及以上；中国籍、国内学校等身份要求需按当年官方通知核对。",
+    "pricing": "已校准：¥29,800；两个比赛都未获起始奖项退50%，即¥14,900。",
+    "contract_type": "Idealab服务合同，具体以当期销售SOP为准。",
+    "core_outputs": [
+      "雏鹰杯赛事备赛与申报材料",
+      "长三角赛事申报材料",
+      "个性化科创作品或项目方案",
+      "研究报告或作品设计说明、查新查重、演示视频、过程照片/作品照片等项目证据链"
+    ],
+    "sales_restrictions": [
+      "2024年雏鹰杯仍在服务中的学员不得销售。",
+      "已购赛事包且即将申报雏鹰杯的学员不得销售。",
+      "暑假1升2的学生不得销售。",
+      "外籍学生不得销售。"
+    ],
+    "best_for": [
+      "明确申报雏鹰杯",
+      "上海综评/小学初中科创赛事需求"
+    ],
+    "not_for": [
+      "禁售对象",
+      "不符合赛事年级或身份要求"
+    ],
+    "source_ids": [
+      "S01",
+      "S02",
+      "S09",
+      "S11",
+      "S18"
+    ],
+    "agent_notes": [
+      "不要说保奖，只能说按合同退费或退费承诺。",
+      "雏鹰杯或长三角任一获得起始奖项即不退费；两个比赛均未获起始奖项退50%。",
+      "2026-06-29起优先按雏鹰杯&长三角专项营新方案销售；席位、合同和系统售卖状态需实时回查。",
+      "内部获奖率口径不是官方统计，也不是个体承诺。",
+      "先筛禁售对象，再推荐产品。"
+    ],
+    "aliases": [
+      "雏鹰杯专项营",
+      "雏鹰杯&长三角专项营"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "sales_risk_level": "high",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "产品知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "pricing",
+      "course_hours",
+      "contract_type",
+      "refund_policy",
+      "sales_restrictions",
+      "fee_structure",
+      "application_deliverables"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_expression_notes"
+    ]
+  },
+  {
+    "id": "kechuang_invention_camp",
+    "name": "科创发明营",
+    "type": "project_camp",
+    "category": "短期科创项目营/非赛事申报产品",
+    "positioning": "不打比赛的科创竞赛营；7天课内训练与寒(暑)假竞赛营相近，但不包含后续比赛申报、论文和正式比赛材料。",
+    "target_students": "需要集中完成一个原创科创发明项目，但暂不走赛事申报的学生；青少年科创发明营和科创发明营是同一个产品。",
+    "pricing": "旧材料出现¥49,800-¥54,800或详询校区；最新价格以当期销售SOP为准。",
+    "course_hours": "7天集训内容，课内训练与寒(暑)假竞赛营相近；具体课时以当期班型确认。",
+    "contract_type": "非赛事申报产品，合同与退费按当期销售SOP和正式合同确认。",
+    "core_outputs": [
+      "原创发明",
+      "7天项目训练过程",
+      "老师整理后的上课过程素材",
+      "约1000字左右的项目说明"
+    ],
+    "best_for": [
+      "想集中完成一个原创科创发明项目但暂时不打比赛",
+      "需要比MYO更深入、比普通短期体验更系统的7天项目训练"
+    ],
+    "not_for": [
+      "只需要低价体验课",
+      "需要比赛申报、论文、比赛材料或获奖退费承诺"
+    ],
+    "source_ids": [
+      "S01",
+      "S02"
+    ],
+    "agent_notes": [
+      "科创发明营和青少年科创发明营是同一个产品。",
+      "它不是MYO，也不是寒(暑)假竞赛营；不包含赛事申报、论文和正式比赛材料。"
+    ],
+    "aliases": [
+      "科创发明营",
+      "青少年科创发明营",
+      "纯项目科创营"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "sales_risk_level": "high",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "产品知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "pricing",
+      "course_hours",
+      "contract_type",
+      "refund_policy",
+      "sales_restrictions",
+      "fee_structure",
+      "application_deliverables"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_expression_notes"
+    ]
+  },
+  {
+    "id": "high_school_research",
+    "name": "高中课题营",
+    "type": "regular_course",
+    "category": "常规课程产品/升学课题",
+    "positioning": "启航/领航的高中版；通过寒暑假7天集训完成高中综评课题，不打比赛。",
+    "target_students": "高中生，约10-12年级。",
+    "pricing": "产品体系稿：¥29,800，含材料费；AI小芮稿写详询校区。",
+    "course_hours": "产品体系稿：60课时，线上开题+寒暑假集训。",
+    "contract_type": "常规课程/升学课题产品，签约以当期SOP和合同为准。",
+    "core_outputs": [
+      "高中综评课题",
+      "科研课题研究材料"
+    ],
+    "best_for": [
+      "高二/高三综评课题需求",
+      "体制内高中升学材料"
+    ],
+    "not_for": [
+      "小学/初中科创启蒙",
+      "仅想短期体验"
+    ],
+    "source_ids": [
+      "S01",
+      "S02"
+    ],
+    "agent_notes": [
+      "回答时强调综评必填/刚需，不要混同为普通竞赛营。",
+      "不打比赛，不包含赛事申报服务；签约、退费和排班以当期SOP和合同为准。"
+    ],
+    "aliases": [
+      "高中课题营",
+      "高中综评课题营"
+    ],
+    "status": "active",
+    "public_safe": "conditional",
+    "sales_risk_level": "high",
+    "last_verified": "2026-06-29",
+    "next_review": "2026-09-01",
+    "owner": "产品知识库",
+    "update_policy": "mixed_by_field",
+    "high_risk_fields": [
+      "pricing",
+      "course_hours",
+      "contract_type",
+      "refund_policy",
+      "sales_restrictions",
+      "fee_structure",
+      "application_deliverables"
+    ],
+    "low_risk_auto_update_fields": [
+      "aliases",
+      "formatting",
+      "typos",
+      "public_expression_notes"
+    ]
+  }
+]

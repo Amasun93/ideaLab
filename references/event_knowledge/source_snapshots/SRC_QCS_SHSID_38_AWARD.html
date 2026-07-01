@@ -1,0 +1,756 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+    <title>初小段：第38届上海市青少年科技创新大赛喜报-上海中学国际部</title><meta name="pageType" content="3">
+<meta name="pageTitle" content="初小段：第38届上海市青少年科技创新大赛喜报">
+<META Name="keywords" Content="上海中学国际部,初小段：第38届上海市青少年科技创新大赛喜报" />
+<META Name="description" Content="2023年4月16日，由上海市科协、市教委、市科委、市生态环境局、市绿容局、市知识产权局、上海科创办、团市委、市妇联、中福会、中科院上海分院、上海科技馆、上海科普教育发展基金会、上海科技发展基金会和上海市科普..." />
+
+    <link rel="icon" href="../../img/favicon.ico" type="image/x-icon">
+    <link href="../../css/main.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1000px)">
+    <link href="../../css/main_max1000.css" rel="stylesheet" type="text/css" media="screen and (max-width: 1000px)">
+    <link href="../../css/content.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1000px)">
+    <link href="../../css/content_max100.css" rel="stylesheet" type="text/css" media="screen and (max-width: 1000px)">
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230746846575054574200030005475d -->
+<link rel="stylesheet" type="text/css" href="../../content.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1661,'/content.jsp',14121,2033790140)</script>
+</head>
+
+<body>
+    <div id="container " class="cd-main-content">
+        <!--头部-->
+        <div class="top_head ">
+            <a href="../../index.htm" class="logo" target=""></a>
+            <div class="wad">
+                <div class="top_nav_box">
+                    <div class="top_nav">
+                        <div class="left_link">
+                            <div class="btn_box">
+                                <a onclick="show()" class="btn"></a>
+                            </div>
+                            <ul><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><div class="btn_box">
+<a onclick="show()" class="btn"></a>
+</div>
+<ul>
+<li><a href="../../index.htm" title="">首页</a></li>                             
+<li><a href="../../index/xwsd.htm" title="">学校新闻</a></li>                             
+<li><a href="../../index/rdsj.htm" title="">热点事件</a></li>                             
+<li><a href="../../index/tzgg.htm" title="">通知公告</a></li>                             
+</ul></ul>
+                        </div>
+                        <div class="right_link">
+                            <div class="language">
+
+<a href="https://www.shsid.org" target="_blank">EN</a>
+
+
+</div>
+                            <div class="index_search">
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script>    <div id="appu2" class="form">
+        <div class="input">
+            <input type="text" class="inputbtn1" name="showkeycode" placeholder="搜索" autocomplete="off" v-model="query.keyWord" @keyup.enter="onSubmit">
+        </div>
+        <div class="submit">
+            <input class="inputbtn" id="sumite" type="submit" value="" v-on:click="onSubmit()" />
+        </div>
+    </div>
+
+
+<script>
+    var appOwner = "2033790140";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+    jQuery.support.cors = true;
+
+    $.ajaxSetup({
+        beforeSend:function(request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu2",
+        data: function() {
+            return {
+                query:{
+                    keyWord:"",
+                    owner:appOwner,
+                    token:token,
+                    urlPrefix:urlPrefix,
+                },
+                isError: false
+            }
+        },
+        mounted: function() {
+            var _this = this;
+            // _this.init();
+        },
+        methods:{
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type:"get",
+                    success: function(response){
+                        if(response.code=="0000"){
+                        }else if(response.code =="220"){
+                            _this.isError = true;
+                            console.log(response);
+                        }else if(!response.code){
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function(response){
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit:function(e){
+                var _this = this;
+                var query = _this.query;
+                if(query.keyWord){
+                    query["fields"] = _this.fields;
+                    var query=new Base64().encode(JSON.stringify(query));
+                    if("/index/result.htm".indexOf("?") != -1){
+                        //window.location.href="/index/result.htm&query=" + query;
+                        window.location.href="https://cn.shsid.org/result.htm&query=" + query;
+                    }else{
+                        //window.location.href="/index/result.htm?query=" + query;
+                        window.location.href="https://cn.shsid.org/result.htm?query=" + query;
+                    }
+                }else{alert("请填写搜索内容")}
+            },
+
+        }
+    })
+</script></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom_nav_box">
+                    <div class="bottom_nav"><ul class="nav_item left_nav">
+                            <li><a href="../../gywm.htm" title="关于我们" class="name "><em>关于我们</em></a>
+                                <div class="list">
+                                    <dl>
+                                        <dd><a href="../../gywm/xxxz.htm" title="">学校校长</a></dd>
+                                        <dd><a href="../../gywm/jyln.htm" title="">教育理念</a></dd>
+                                        <dd><a href="../../gywm/xxgk.htm" title="">学校概况</a></dd>
+                                        <dd><a href="../../gywm/gltd.htm" title="">管理团队</a></dd>
+                                        <dd><a href="../../gywm/xxsz.htm" title="">学校师资</a></dd>
+                                        <dd><a href="../../gywm/zwxx.htm" title="">职位信息</a></dd>
+                                        <dd><a href="../../gywm/lxfs.htm" title="">联系方式</a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li><a href="../../xyxx.htm" title="学业信息" class="name "><em>学业信息</em></a>
+                                <div class="list">
+                                    <dl>
+                                        <dd><a href="../../xyxx/kcsz.htm" title="">课程设置</a></dd>
+                                        <dd><a href="../../xyxx/jyzb.htm" title="">教研组别</a></dd>
+                                        <dd><a href="../../xyxx/dxlq.htm" title="">大学录取</a></dd>
+                                        <dd><a href="../../xyxx/sxzd.htm" title="">升学指导</a></dd>
+                                        <dd><a href="../../xyxx/kcss.htm" title="">科创赛事</a></dd>
+                                        <dd><a href="../../xyxx/xkjs.htm" title="">学科竞赛</a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li><a href="../../ys.htm" title="艺术" class="name "><em>艺术</em></a>
+                                <div class="list">
+                                    <dl>
+                                        <dd><a href="../../ys/yssm.htm" title="">艺术使命</a></dd>
+                                        <dd><a href="../../ys/mszx.htm" title="">美术中心</a></dd>
+                                        <dd><a href="../../ys/mshs.htm" title="">美术画室</a></dd>
+                                        <dd><a href="../../ys/yljyjj.htm" title="">音乐教育简介</a></dd>
+                                        <dd><a href="../../ys/ylxjzx.htm" title="">音乐戏剧中心</a></dd>
+                                        <dd><a href="../../ys/ylxjhd.htm" title="">音乐戏剧活动</a></dd>
+                                        <dd><a href="../../ys/xsfc.htm" title="">学生风采</a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li><a href="../../yd.htm" title="运动" class="name "><em>运动</em></a>
+                                <div class="list">
+                                    <dl>
+                                        <dd><a href="../../yd/ydsm.htm" title="">运动使命</a></dd>
+                                        <dd><a href="../../yd/ydxd.htm" title="">运动校队</a></dd>
+                                        <dd><a href="../../yd/yyzl.htm" title="">影音资料</a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li><a href="../../xysh.htm" title="校园生活" class="name "><em>校园生活</em></a>
+                                <div class="list">
+                                    <dl>
+                                        <dd><a href="../../xysh/xkzs.htm" title="">校刊展示</a></dd>
+                                        <dd><a href="../../xysh/jxlh.htm" title="">家校联合</a></dd>
+                                        <dd><a href="../../xysh/stfc.htm" title="">社团风采</a></dd>
+                                        <dd><a href="../../xysh/jkfw.htm" title="">健康服务</a></dd>
+                                        <dd><a href="../../xysh/xyaq.htm" title="">校园安全</a></dd>
+                                        <dd><a href="../../xysh/cyfw.htm" title="">餐饮服务</a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+</ul>
+
+<ul class="nav_item right_nav">
+                            <li><a href="../../xdgl.htm" title="学段管理" class="name "><em>学段管理</em></a>
+                                <div class="list">
+                                    <dl>
+                                        <dd><a href="../../xdgl/xxgl.htm" title="">小学管理</a></dd>
+                                        <dd><a href="../../xdgl/czgl.htm" title="">初中管理</a></dd>
+                                        <dd><a href="../../xdgl/gzgl.htm" title="">高中管理</a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li><a href="../../zs.htm" title="招生" class="name "><em>招生</em></a>
+                                <div class="list">
+                                    <dl>
+                                        <dd><a href="../../zs/zsgk.htm" title="">招生概况</a></dd>
+                                        <dd><a href="../../zs/zsgg.htm" title="">招生公告</a></dd>
+                                        <dd><a href="../../zs/zslc.htm" title="">招生流程</a></dd>
+                                        <dd><a href="../../zs/bmcl.htm" title="">报名材料</a></dd>
+                                        <dd><a href="../../zs/sfbz.htm" title="">收费标准</a></dd>
+                                        <dd><a href="../../zs/lxfs.htm" title="">联系方式</a></dd>
+                                        <dd><a href="../../zs/xczd.htm" title="">校车站点</a></dd>
+                                        <dd><a href="../../zs/yzsm.htm" title="">严正声明</a></dd>
+                                        <dd><a href="../../zs/gjbQ_A.htm" title="">国际部Q&amp;A</a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li><a href="../../xy.htm" title="校友" class="name "><em>校友</em></a>
+                                <div class="list">
+                                    <dl>
+                                        <dd><a href="../../xy/xyxx.htm" title="">校友信息</a></dd>
+                                        <dd><a href="../../xy/ryxs.htm" title="">荣誉学生</a></dd>
+                                        <dd><a href="../../xy/mxxs.htm" title="">明星学生</a></dd>
+                                        <dd><a href="../../xy/szjjh.htm" title="">上中基金会</a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li><a href="../../wd.htm" title="文档" class="name "><em>文档</em></a>
+                                <div class="list">
+                                    <dl>
+                                        <dd><a href="../../wd/xxgm.htm" title="">学校概貌</a></dd>
+                                        <dd><a href="../../wd/qtwd.htm" title="">其它文档</a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+</ul>
+</div>
+                </div>
+            </div>
+        </div>
+        <!--头部结束-->
+        <div class="top_nav_2 ">
+            <div class="scroll">
+                <div class="nav_2_link">
+                    <div class="nav_2_language"></div>
+                    <!--<div class="nav_2_search">
+                        <div class="form"><div class="form"><div class="input"><input type="text" class="inputbtn1" name="showkeycode" placeholder="search">
+                            </div>
+                            <div class="submit"><input type="submit" value="" class="inputbtn" id="sumite">
+                            </div></div></div>
+                    </div>-->
+                </div>
+                <ul>                    <li>
+                        <h2 class="h2"><a href="#" title="关于我们">关于我们</a></h2>
+                        <div class="list">
+                            <h3><a href="../../gywm/xxxz.htm" title="学校校长">学校校长</a></h3>
+                            <h3><a href="../../gywm/jyln.htm" title="教育理念">教育理念</a></h3>
+                            <h3><a href="../../gywm/xxgk.htm" title="学校概况">学校概况</a></h3>
+                            <dl>
+                                <dd><a href="../../gywm/xxgk/xxgm.htm" title="学校规模">学校规模</a></dd>
+                                <dd><a href="../../gywm/xxgk/jxss.htm" title="教学设施">教学设施</a></dd>
+                                <dd><a href="../../gywm/xxgk/xyhj.htm" title="校园环境">校园环境</a></dd>
+                                <dd><a href="../../gywm/xxgk/xywzyjt.htm" title="校园位置与交通">校园位置与交通</a></dd>
+                            </dl>
+                            <h3><a href="../../gywm/gltd.htm" title="管理团队">管理团队</a></h3>
+                            <h3><a href="../../gywm/xxsz.htm" title="学校师资">学校师资</a></h3>
+                            <h3><a href="../../gywm/zwxx.htm" title="职位信息">职位信息</a></h3>
+                            <h3><a href="../../gywm/lxfs.htm" title="联系方式">联系方式</a></h3>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="h2"><a href="#" title="学业信息">学业信息</a></h2>
+                        <div class="list">
+                            <h3><a href="../../xyxx/kcsz.htm" title="课程设置">课程设置</a></h3>
+                            <dl>
+                                <dd><a href="../../xyxx/kcsz/kcgl.htm" title="课程概览">课程概览</a></dd>
+                                <dd><a href="../../xyxx/kcsz/xxkc.htm" title="小学课程">小学课程</a></dd>
+                                <dd><a href="../../xyxx/kcsz/zxkc.htm" title="中学课程">中学课程</a></dd>
+                                <dd><a href="../../xyxx/kcsz/gzkc.htm" title="高中课程">高中课程</a></dd>
+                                <dd><a href="../../xyxx/kcsz/IBDP.htm" title="IBDP">IBDP</a></dd>
+                                <dd><a href="../../xyxx/kcsz/mgAPkc.htm" title="美国AP课程">美国AP课程</a></dd>
+                            </dl>
+                            <h3><a href="../../xyxx/jyzb.htm" title="教研组别">教研组别</a></h3>
+                            <dl>
+                                <dd><a href="../../xyxx/jyzb/yy.htm" title="英语">英语</a></dd>
+                                <dd><a href="../../xyxx/jyzb/gzhy.htm" title="高中汉语">高中汉语</a></dd>
+                                <dd><a href="../../xyxx/jyzb/cxhy.htm" title="初小汉语">初小汉语</a></dd>
+                                <dd><a href="../../xyxx/jyzb/gzsx.htm" title="高中数学">高中数学</a></dd>
+                                <dd><a href="../../xyxx/jyzb/czsx.htm" title="初中数学">初中数学</a></dd>
+                                <dd><a href="../../xyxx/jyzb/xxsx.htm" title="小学数学">小学数学</a></dd>
+                                <dd><a href="../../xyxx/jyzb/ylyys.htm" title="音乐与艺术">音乐与艺术</a></dd>
+                                <dd><a href="../../xyxx/jyzb/ty.htm" title="体育">体育</a></dd>
+                                <dd><a href="../../xyxx/jyzb/wl.htm" title="物理">物理</a></dd>
+                                <dd><a href="../../xyxx/jyzb/hx.htm" title="化学">化学</a></dd>
+                                <dd><a href="../../xyxx/jyzb/lshdl.htm" title="历史和地理">历史和地理</a></dd>
+                                <dd><a href="../../xyxx/jyzb/zrkxhxxk.htm" title="自然科学和选修课">自然科学和选修课</a></dd>
+                                <dd><a href="../../xyxx/jyzb/czswkx.htm" title="初中生物科学">初中生物科学</a></dd>
+                                <dd><a href="../../xyxx/jyzb/gzswkx.htm" title="高中生物科学">高中生物科学</a></dd>
+                                <dd><a href="../../xyxx/jyzb/zhsk.htm" title="综合社科">综合社科</a></dd>
+                                <dd><a href="../../xyxx/jyzb/jsjkx.htm" title="计算机科学">计算机科学</a></dd>
+                                <dd><a href="../../xyxx/jyzb/xxzhkc.htm" title="小学综合课程">小学综合课程</a></dd>
+                            </dl>
+                            <h3><a href="../../xyxx/dxlq.htm" title="大学录取">大学录取</a></h3>
+                            <h3><a href="../../xyxx/sxzd.htm" title="升学指导">升学指导</a></h3>
+                            <dl>
+                                <dd><a href="../../xyxx/sxzd/dxsqxx.htm" title="大学申请信息">大学申请信息</a></dd>
+                            </dl>
+                            <h3><a href="../../xyxx/kcss.htm" title="科创赛事">科创赛事</a></h3>
+                            <dl>
+                                <dd><a href="../../xyxx/kcss/jj.htm" title="简介">简介</a></dd>
+                            </dl>
+                            <h3><a href="../../xyxx/xkjs.htm" title="学科竞赛">学科竞赛</a></h3>
+                            <dl>
+                                <dd><a href="../../xyxx/xkjs/jj.htm" title="简介">简介</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="h2"><a href="#" title="艺术">艺术</a></h2>
+                        <div class="list">
+                            <h3><a href="../../ys/yssm.htm" title="艺术使命">艺术使命</a></h3>
+                            <h3><a href="../../ys/mszx.htm" title="美术中心">美术中心</a></h3>
+                            <h3><a href="../../ys/mshs.htm" title="美术画室">美术画室</a></h3>
+                            <dl>
+                                <dd><a href="../../ys/mshs/IBsjyshl.htm" title="IB视觉艺术画廊">IB视觉艺术画廊</a></dd>
+                                <dd><a href="../../ys/mshs/szhl.htm" title="上中画廊">上中画廊</a></dd>
+                                <dd><a href="../../ys/mshs/szhlsqbzlcjtl_mxbxxs_.htm" title="上中画廊申请办展流程及条例（面向本校学生）">上中画廊申请办展流程及条例（面向本校学生）</a></dd>
+                                <dd><a href="../../ys/mshs/szhlsqbzlcjtl_mxsh_.htm" title="上中画廊申请办展流程及条例（面向社会）">上中画廊申请办展流程及条例（面向社会）</a></dd>
+                            </dl>
+                            <h3><a href="../../ys/yljyjj.htm" title="音乐教育简介">音乐教育简介</a></h3>
+                            <h3><a href="../../ys/ylxjzx.htm" title="音乐戏剧中心">音乐戏剧中心</a></h3>
+                            <h3><a href="../../ys/ylxjhd.htm" title="音乐戏剧活动">音乐戏剧活动</a></h3>
+                            <dl>
+                                <dd><a href="../../ys/ylxjhd/stfc.htm" title="社团风采">社团风采</a></dd>
+                                <dd><a href="../../ys/ylxjhd/yshd.htm" title="艺术活动">艺术活动</a></dd>
+                                <dd><a href="../../ys/ylxjhd/sshd.htm" title="赛事活动">赛事活动</a></dd>
+                            </dl>
+                            <h3><a href="../../ys/xsfc.htm" title="学生风采">学生风采</a></h3>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="h2"><a href="#" title="运动">运动</a></h2>
+                        <div class="list">
+                            <h3><a href="../../yd/ydsm.htm" title="运动使命">运动使命</a></h3>
+                            <h3><a href="../../yd/ydxd.htm" title="运动校队">运动校队</a></h3>
+                            <dl>
+                                <dd><a href="../../yd/ydxd/zq.htm" title="足球">足球</a></dd>
+                                <dd><a href="../../yd/ydxd/lq.htm" title="篮球">篮球</a></dd>
+                                <dd><a href="../../yd/ydxd/pq.htm" title="排球">排球</a></dd>
+                                <dd><a href="../../yd/ydxd/ppq.htm" title="乒乓球">乒乓球</a></dd>
+                                <dd><a href="../../yd/ydxd/ymq.htm" title="羽毛球">羽毛球</a></dd>
+                                <dd><a href="../../yd/ydxd/wq.htm" title="网球">网球</a></dd>
+                                <dd><a href="../../yd/ydxd/yy.htm" title="游泳">游泳</a></dd>
+                                <dd><a href="../../yd/ydxd/llc.htm" title="啦啦操">啦啦操</a></dd>
+                                <dd><a href="../../yd/ydxd/tj.htm" title="田径">田径</a></dd>
+                                <dd><a href="../../yd/ydxd/fb.htm" title="飞镖">飞镖</a></dd>
+                                <dd><a href="../../yd/ydxd/zqgq.htm" title="长曲棍球">长曲棍球</a></dd>
+                                <dd><a href="../../yd/ydxd/glq.htm" title="橄榄球">橄榄球</a></dd>
+                            </dl>
+                            <h3><a href="../../yd/yyzl.htm" title="影音资料">影音资料</a></h3>
+                            <dl>
+                                <dd><a href="../../yd/yyzl/jqss.htm" title="近期赛事">近期赛事</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="h2"><a href="#" title="校园生活">校园生活</a></h2>
+                        <div class="list">
+                            <h3><a href="../../xysh/xkzs.htm" title="校刊展示">校刊展示</a></h3>
+                            <h3><a href="../../xysh/jxlh.htm" title="家校联合">家校联合</a></h3>
+                            <dl>
+                                <dd><a href="../../xysh/jxlh/jj.htm" title="简介">简介</a></dd>
+                                <dd><a href="../../xysh/jxlh/xrcy.htm" title="现任成员">现任成员</a></dd>
+                                <dd><a href="../../xysh/jxlh/jzzydj.htm" title="家长资源登记">家长资源登记</a></dd>
+                            </dl>
+                            <h3><a href="../../xysh/stfc.htm" title="社团风采">社团风采</a></h3>
+                            <dl>
+                                <dd><a href="../../xysh/stfc/lys.htm" title="龙吟社">龙吟社</a></dd>
+                                <dd><a href="../../xysh/stfc/Live_2_Drama.htm" title="Live 2 Drama">Live 2 Drama</a></dd>
+                                <dd><a href="../../xysh/stfc/hct.htm" title="合唱团">合唱团</a></dd>
+                                <dd><a href="../../xysh/stfc/xxbwdt.htm" title="小学部舞蹈团">小学部舞蹈团</a></dd>
+                                <dd><a href="../../xysh/stfc/xxbnzjwt.htm" title="小学部男子街舞团">小学部男子街舞团</a></dd>
+                                <dd><a href="../../xysh/stfc/akblst.htm" title="阿卡贝拉社团">阿卡贝拉社团</a></dd>
+                                <dd><a href="../../xysh/stfc/glt.htm" title="管乐团">管乐团</a></dd>
+                                <dd><a href="../../xysh/stfc/lxwst.htm" title="流行舞社团">流行舞社团</a></dd>
+                                <dd><a href="../../xysh/stfc/swyjxz.htm" title="生物研究小组">生物研究小组</a></dd>
+                                <dd><a href="../../xysh/stfc/yss.htm" title="有山社">有山社</a></dd>
+                                <dd><a href="../../xysh/stfc/nzgdwst.htm" title="女子古典舞社团">女子古典舞社团</a></dd>
+                                <dd><a href="../../xysh/stfc/xlt.htm" title="弦乐团">弦乐团</a></dd>
+                                <dd><a href="../../xysh/stfc/VEXjqrjlb.htm" title="VEX机器人俱乐部">VEX机器人俱乐部</a></dd>
+                                <dd><a href="../../xysh/stfc/xxjjst.htm" title="小学京剧社团">小学京剧社团</a></dd>
+                                <dd><a href="../../xysh/stfc/bqjlb.htm" title="棒球俱乐部">棒球俱乐部</a></dd>
+                                <dd><a href="../../xysh/stfc/mnlhgst.htm" title="模拟联合国社团">模拟联合国社团</a></dd>
+                                <dd><a href="../../xysh/stfc/wlwtjjst.htm" title="未来问题解决社团">未来问题解决社团</a></dd>
+                                <dd><a href="../../xysh/stfc/mgxswxjlb.htm" title="美国学术五项俱乐部">美国学术五项俱乐部</a></dd>
+                                <dd><a href="../../xysh/stfc/OMst.htm" title="OM社团">OM社团</a></dd>
+                                <dd><a href="../../xysh/stfc/AMCmgsxjsst.htm" title="AMC美国数学竞赛社团">AMC美国数学竞赛社团</a></dd>
+                                <dd><a href="../../xysh/stfc/sjxzbst.htm" title="世界学者杯社团">世界学者杯社团</a></dd>
+                                <dd><a href="../../xysh/stfc/lrhm.htm" title="乐然和睦">乐然和睦</a></dd>
+                                <dd><a href="../../xysh/stfc/SHSID_Gazette.htm" title="SHSID Gazette">SHSID Gazette</a></dd>
+                                <dd><a href="../../xysh/stfc/wxs.htm" title="微笑社">微笑社</a></dd>
+                                <dd><a href="../../xysh/stfc/Cultural_Moments.htm" title="Cultural Moments">Cultural Moments</a></dd>
+                                <dd><a href="../../xysh/stfc/SciAcademy.htm" title="SciAcademy">SciAcademy</a></dd>
+                                <dd><a href="../../xysh/stfc/lgglm.htm" title="理工狗联盟">理工狗联盟</a></dd>
+                                <dd><a href="../../xysh/stfc/hybls.htm" title="华语辩论社">华语辩论社</a></dd>
+                                <dd><a href="../../xysh/stfc/IAA.htm" title="IAA">IAA</a></dd>
+                                <dd><a href="../../xysh/stfc/mnft.htm" title="模拟法庭">模拟法庭</a></dd>
+                                <dd><a href="../../xysh/stfc/zms.htm" title="争鸣社">争鸣社</a></dd>
+                                <dd><a href="../../xysh/stfc/Furry_Friends.htm" title="Furry Friends">Furry Friends</a></dd>
+                                <dd><a href="../../xysh/stfc/GT_Racing.htm" title="GT-Racing">GT-Racing</a></dd>
+                                <dd><a href="../../xysh/stfc/Village_Radio.htm" title="Village Radio">Village Radio</a></dd>
+                                <dd><a href="../../xysh/stfc/syst.htm" title="手语社团">手语社团</a></dd>
+                                <dd><a href="../../xysh/stfc/IMMCgjsxjmst.htm" title="IMMC国际数学建模社团">IMMC国际数学建模社团</a></dd>
+                                <dd><a href="../../xysh/stfc/cysjyzz1.htm" title="创意设计与智造">创意设计与智造</a></dd>
+                                <dd><a href="../../xysh/stfc/wlcsyjxm.htm" title="未来城市研究项目">未来城市研究项目</a></dd>
+                                <dd><a href="../../xysh/stfc/ECOCAP.htm" title="ECOCAP">ECOCAP</a></dd>
+                                <dd><a href="../../xysh/stfc/yys.htm" title="医耀社">医耀社</a></dd>
+                                <dd><a href="../../xysh/stfc/rsqgqs.htm" title="软式曲棍球社">软式曲棍球社</a></dd>
+                                <dd><a href="../../xysh/stfc/mys.htm" title="漫音社">漫音社</a></dd>
+                                <dd><a href="../../xysh/stfc/Wings_Up.htm" title="Wings Up">Wings Up</a></dd>
+                                <dd><a href="../../xysh/stfc/nxs.htm" title="暖星舍">暖星舍</a></dd>
+                                <dd><a href="../../xysh/stfc/All_Booked.htm" title="All Booked">All Booked</a></dd>
+                                <dd><a href="../../xysh/stfc/Cyano.htm" title="Cyano">Cyano</a></dd>
+                                <dd><a href="../../xysh/stfc/gns.htm" title="观鸟社">观鸟社</a></dd>
+                            </dl>
+                            <h3><a href="../../xysh/jkfw.htm" title="健康服务">健康服务</a></h3>
+                            <dl>
+                                <dd><a href="../../xysh/jkfw/ylfw.htm" title="医疗服务">医疗服务</a></dd>
+                                <dd><a href="../../xysh/jkfw/xlzxfw.htm" title="心理咨询服务">心理咨询服务</a></dd>
+                                <dd><a href="../../xysh/jkfw/jkjy.htm" title="健康教育">健康教育</a></dd>
+                            </dl>
+                            <h3><a href="../../xysh/xyaq.htm" title="校园安全">校园安全</a></h3>
+                            <dl>
+                                <dd><a href="../../xysh/xyaq/graq.htm" title="个人安全">个人安全</a></dd>
+                                <dd><a href="../../xysh/xyaq/jjssyx.htm" title="紧急疏散演习">紧急疏散演习</a></dd>
+                                <dd><a href="../../xysh/xyaq/xcfw.htm" title="校车服务">校车服务</a></dd>
+                            </dl>
+                            <h3><a href="../../xysh/cyfw.htm" title="餐饮服务">餐饮服务</a></h3>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="h2"><a href="#" title="学段管理">学段管理</a></h2>
+                        <div class="list">
+                            <h3><a href="../../xdgl/xxgl.htm" title="小学管理">小学管理</a></h3>
+                            <h3><a href="../../xdgl/czgl.htm" title="初中管理">初中管理</a></h3>
+                            <h3><a href="../../xdgl/gzgl.htm" title="高中管理">高中管理</a></h3>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="h2"><a href="#" title="招生">招生</a></h2>
+                        <div class="list">
+                            <h3><a href="../../zs/zsgk.htm" title="招生概况">招生概况</a></h3>
+                            <h3><a href="../../zs/zsgg.htm" title="招生公告">招生公告</a></h3>
+                            <dl>
+                                <dd><a href="../../zs/zsgg/ggsy.htm" title="公告首页">公告首页</a></dd>
+                                <dd><a href="../../zs/zsgg/yzsm.htm" title="严正声明">严正声明</a></dd>
+                                <dd><a href="../../zs/zsgg/ysx.htm" title="幼升小">幼升小</a></dd>
+                                <dd><a href="../../zs/zsgg/cbs.htm" title="插班生">插班生</a></dd>
+                                <dd><a href="../../zs/zsgg/fxxqsz.htm" title="奉贤校区试招">奉贤校区试招</a></dd>
+                            </dl>
+                            <h3><a href="../../zs/zslc.htm" title="招生流程">招生流程</a></h3>
+                            <dl>
+                                <dd><a href="../../zs/zslc/lc.htm" title="流程">流程</a></dd>
+                                <dd><a href="../../zs/zslc/zxsq.htm" title="在线申请">在线申请</a></dd>
+                            </dl>
+                            <h3><a href="../../zs/bmcl.htm" title="报名材料">报名材料</a></h3>
+                            <h3><a href="../../zs/sfbz.htm" title="收费标准">收费标准</a></h3>
+                            <h3><a href="../../zs/lxfs.htm" title="联系方式">联系方式</a></h3>
+                            <h3><a href="../../zs/xczd.htm" title="校车站点">校车站点</a></h3>
+                            <h3><a href="../../zs/yzsm.htm" title="严正声明">严正声明</a></h3>
+                            <h3><a href="../../zs/gjbQ_A.htm" title="国际部Q&amp;A">国际部Q&amp;A</a></h3>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="h2"><a href="#" title="校友">校友</a></h2>
+                        <div class="list">
+                            <h3><a href="../../xy/xyxx.htm" title="校友信息">校友信息</a></h3>
+                            <h3><a href="../../xy/ryxs.htm" title="荣誉学生">荣誉学生</a></h3>
+                            <dl>
+                                <dd><a href="../../xy/ryxs/c2025.htm" title="2025届">2025届</a></dd>
+                                <dd><a href="../../xy/ryxs/class2024.htm" title="2024届">2024届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2023j.htm" title="2023届">2023届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2022j.htm" title="2022届">2022届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2021j.htm" title="2021届">2021届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2020j.htm" title="2020届">2020届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2019j.htm" title="2019届">2019届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2018j.htm" title="2018届">2018届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2017j.htm" title="2017届">2017届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2016j.htm" title="2016届">2016届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2015j.htm" title="2015届">2015届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2014j.htm" title="2014届">2014届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2013j.htm" title="2013届">2013届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2012j.htm" title="2012届">2012届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2011j.htm" title="2011届">2011届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2010j.htm" title="2010届">2010届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2009j.htm" title="2009届">2009届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2008j.htm" title="2008届">2008届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2007j.htm" title="2007届">2007届</a></dd>
+                                <dd><a href="../../xy/ryxs/a2006j.htm" title="2006届">2006届</a></dd>
+                            </dl>
+                            <h3><a href="../../xy/mxxs.htm" title="明星学生">明星学生</a></h3>
+                            <h3><a href="../../xy/szjjh.htm" title="上中基金会">上中基金会</a></h3>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="h2"><a href="#" title="文档">文档</a></h2>
+                        <div class="list">
+                            <h3><a href="../../wd/xxgm.htm" title="学校概貌">学校概貌</a></h3>
+                            <h3><a href="../../wd/qtwd.htm" title="其它文档">其它文档</a></h3>
+                        </div>
+                    </li>
+</ul>
+            </div>
+        </div>
+        <div class="top_banner"> </div>
+        <div class="wad_1">
+            <div class="con_box">
+                <div class="content">
+                    <div class="item_left">
+                        <div class="menu_box">
+                            <div class="menu_head">
+                                <div class="title">
+首页</div>
+                            </div>
+                            <div class="menu_body">
+                                <style>
+                                    .menu_child{display: none;}
+                                </style>
+                                <ul>    <li class="item current">
+        <a href="../../index/xwsd.htm" class="title"><span>新闻速递</span></a>
+    </li>
+    <li class="item">
+        <a href="../../index/rdsj.htm" class="title"><span>热点事件</span></a>
+    </li>
+    <li class="item">
+        <a href="../../index/tzgg.htm" class="title"><span>通知公告</span></a>
+    </li>
+    <li class="item">
+        <a href="../../index/PHOTO_ALBUM.htm" class="title"><span>PHOTO ALBUM</span></a>
+    </li>
+</ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item_right">
+                        <div class="current_bar">            <a href="../../index.htm">首页</a>
+            <span>/</span>
+            <a href="../../index/xwsd.htm">新闻速递</a>
+            <span>/</span>
+        正文
+</div>
+                        <div class="content_box">
+
+<script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><LINK href="/system/resource/js/photoswipe/3.0.5.1/photoswipe.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/js/photoswipe/3.0.5.1/pw.js"></script><link rel="stylesheet" Content-type="text/css" href="/system/resource/style/component/news/content/format500.css"><script language="javascript" src="/system/resource/js/ajax.js"></script>                            <div class="top_title">
+                                <h3>初小段：第38届上海市青少年科技创新大赛喜报</h3>
+                                <div class="right_date">四月 19,2023</div>
+                            </div>
+                            <div class="page_content">
+                                <div id="vsb_content_500"><div class="v_news_content">
+<p class="vsbcontent_start">2023年4月16日，由上海市科协、市教委、市科委、市生态环境局、市绿容局、市知识产权局、上海科创办、团市委、市妇联、中福会、中科院上海分院、上海科技馆、上海科普教育发展基金会、上海科技发展基金会和上海市科普基金会共同主办的第38届上海市青少年科技创新大赛闭幕式隆重召开，历经3个多月的科创盛会落下了帷幕。</p>
+<p>在本次大赛中，国际部初小段共获得45枚等第奖。其中，科技创新成果一等奖4项、二等奖5项、三等奖12项，科技创意一等奖7项、二等奖4项、三等奖13项。获奖项目涵盖工程学、生命科学、环境科学、计算机科学与信息技术、行为和社会科学等领域。此外，部分优秀项目还获得专项奖共计6项。</p>
+<p>其中最令人欣喜的是，我校一个课题被选中成为代表上海市进入全国赛的25个课题之一。</p>
+<p>第38届上海市青少年科技创新大赛自2023年1月3日开始申报，历时3个多月，于4月15日举行终审问辩。本届比赛共收到全市参赛师生和单位提交的14205份申报材料。据统计，本次大赛获奖率为39.53%。在“青少年科技创新成果”版块中，收到11346项申报材料，共计700个项目入围终评，入围率6.17%。经过线下终评，评选出青少年科技创新成果一等奖585项、二等奖1463项、三等奖2437项，共计4485项。一等奖获奖率5.16%、二等奖获奖率12.89%、三等奖获奖率21.48%。</p>
+<p>上海中学国际部初小段在科创活动中取得的优异成绩，与学校对学生创新能力的培养密不可分。近年来，学校积极推进科创课程与活动的实施，持续深化育人方式改革，将科学知识和创新理念贯穿于学生日常学习和活动中，鼓励教师成为学生课题研究的导师，引导学生开展课题研究，通过与高校合作，不断为培养和提高学生的创新精神和实践能力搭建平台，助力我校学子全面成长，学有所长。</p>
+<p class="vsbcontent_img"><img src="/__local/A/CA/2E/C0290F41CADA72A20CD6CBC7A5E_35A9353B_1913B.png?e=.png" width="400" height="300" border="0" title="" alt="" style="width: 400px;"></p>
+<p class="vsbcontent_img"><img src="/__local/5/B1/DB/8821C9A404BF2C3A144BA5B795A_43218AC2_15EA5.png?e=.png" width="400" height="300" border="0" title="" alt="" style="width: 400px;"></p>
+<p class="vsbcontent_img"><img src="/__local/5/78/EE/3964B2B131E6C7781F88B8DE9B9_150DF39C_6845F.png?e=.png" width="400" height="300" border="0" title="" alt="" style="width: 400px;"></p>
+<p class="vsbcontent_img"><img src="/__local/4/B0/88/6021EFA48B0A95E4697AE529913_330BA95C_2A4BC.jpg?e=.jpg" width="300" height="400" border="0" title="" alt="" style="width: 300px;"></p>
+<p class="vsbcontent_img"><img src="/__local/D/38/E4/49E6491EE2347920D6958C6BC84_10CF7A01_1941E.jpg?e=.jpg" width="400" height="300" border="0" title="" alt="" style="width: 400px;"></p>
+<p>文：姚昇华</p>
+<p>图：科创团队</p>
+<p class="vsbcontent_end">审稿：杨溪玥，朱懿琳（实习）</p>
+</div></div>
+                            </div>
+
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--页尾-->
+    <footer>
+        <div class="footer_container">
+            <div class="footer_con footer_left">
+                <div class="img">
+                    <img src="../../img/footer_logo1.png" class="pc" alt="">
+                    <img src="../../img/footer_logo.png" class="yd" alt="">
+                </div>
+            </div>
+            <div class="footer_con footer_middle">
+                <div class="middle_left">
+                    <div class="address">
+                        <p><script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<p>No.989, Baise Road, <br> Shanghai, China, 200231<br><br></p></p>
+                    </div>
+                    <div class="filing">
+                        <p>
+<p><a href="https://beian.miit.gov.cn/" target="_blank" style="color: #bec4cb;">沪ICP备09021949号-1</a><br><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402000681" target="_blank" style="color: #bec4cb;">沪公网安备31010402000681号</a><br>© 2018 Shanghai High School InternationalDivision</p></p>
+                    </div>
+                    <div class="WeChat">    
+
+                        <img src="../../img/weixin.png" alt="">
+                        <div>微信公众号</div>
+                    
+
+</div>
+                </div>
+                <div class="middle_right">
+                    <div><ul><li><a href="../../wd/qtwd.htm">校历</a></li>
+                            
+<li><a href="../../xysh/xkzs.htm">校刊展示</a></li>
+                            
+<li><a href="../../gywm/xxgk/xywzyjt.htm">校园地图</a></li>
+                            
+<li><a href="../../xy/xyxx.htm">校友</a></li>
+                            
+</ul>
+                        <ul><li><a href="../../gywm/lxfs.htm">联系我们</a></li>
+                            
+<li><a href="https://shsid.cialfo.cn/">Cialfo</a></li>
+                            
+<li><a href="http://www.shs.cn/">上海中学</a></li>
+                            
+<li><a href="../../xysh/jxlh.htm">家校联合会</a></li>
+                            
+</ul></div>
+                </div>
+            </div>
+            <div class="footer_con footer_right">
+                <div class="am_con">
+<h3>Accreditation & Memberships</h3> 
+<p>International Baccalaureate <br>College Board<br>AQA A-level<br>Cognia<br>CIS</p></div>
+                <img src="../../img/footer_am.png" alt="">
+            </div>
+        </div>
+
+    </footer>
+    <!--页尾结束-->
+</body>
+
+    <script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+    <script src="../../js/swiper.min.js"></script>
+    <script type="text/javascript" src="../../js/main.js"></script>
+    <script type="text/javascript" src="../../js/multiple-accordion.js"></script>
+    <script>
+        (function (minWidth, maxWidth) {
+            var doc = document,
+                win = window,
+                docEl = doc.documentElement,
+                remStyle = document.createElement("style"),
+                tid;
+
+            function refreshRem() {
+                var size;
+                var winW = window.innerWidth;
+                if (winW <= 1600 && winW > 800) {
+                    size = Math.round(winW / 16);
+                } else if (winW <= 800) {
+                    size = Math.round(winW / 7.5);
+                    if (size > 65) {
+                        size = 65;
+                    }
+                } else {
+                    size = 100;
+                }
+                remStyle.innerHTML = "html{font-size:" + size + "px;} body{font-size:16px;}"
+            }
+            console.log(docEl.firstElementChild)
+            if (docEl.firstElementChild) {
+                docEl.firstElementChild.appendChild(remStyle)
+            } else {
+                // var wrap = doc.createElement("div");
+                // wrap.appendChild(remStyle);
+                // doc.write(wrap.innerHTML);
+                // wrap = null
+            }
+            refreshRem();
+            win.addEventListener("resize", function () {
+                clearTimeout(tid);
+                tid = setTimeout(refreshRem, 300)
+            }, false);
+            win.addEventListener("pageshow", function (e) {
+                if (e.persisted) {
+                    clearTimeout(tid);
+                    tid = setTimeout(refreshRem, 300)
+                }
+            }, false);
+            // if (doc.readyState === "complete") {
+            //  doc.body.style.fontSize = "16px"
+            // } else {
+            //  doc.addEventListener("DOMContentLoaded", function (e) {
+            //      doc.body.style.fontSize = "16px"
+            //  }, false)
+            // }
+        })(1600, 1600);
+        
+    </script>
+    <script>
+        let isShow = true
+        function show() {
+            if (isShow) {
+                document.getElementsByTagName('body')[0].className = 'navShow'
+            } else {
+                document.getElementsByTagName('body')[0].className = ''
+            }
+            isShow = !isShow
+        }
+    </script>
+        <script>
+            $(function () {
+                var width = document.documentElement.getBoundingClientRect().width;
+                if(width > 1000){
+                    return;
+                }
+               let nav = $('.top_nav_2') 
+               nav.find('.list').slideUp(1);
+               nav.on('click', 'li', function () {
+                let li = $(this);
+                if(li.hasClass('on')){
+                    li.removeClass('on');
+                    li.find('.list').slideUp();
+                }else{
+                    $(this).addClass('on').siblings().removeClass('on');
+                    li.find('.list').slideDown();
+                    li.siblings().find('.list').slideUp();
+                }
+               })
+            });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                console.log($(".menu_body"))
+                $(".menu_body").accordion({
+                    accordion:true,
+                    speed: 600,
+                    closedSign: '<img src="/img/select_xl01.png"/>',
+                    openedSign: '<img src="/img/select_xl.png"/>'
+                });
+                // let href = window.location.href
+                // href = href.substring(href.lastIndexOf('/') + 1)
+                // $(".menu_body a[href*='"+href+"']").closest('menu_child').prev('a').trigger('click')
+            });
+    </script> 
+
+</html>

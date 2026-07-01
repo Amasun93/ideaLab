@@ -1,0 +1,230 @@
+{
+  "name": "ideaLab",
+  "display_name": "ideaLab 产品与赛事知识库",
+  "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、赛复创智杯、课程推荐、销售边界、官方赛事数据、区域赛事学情、脱敏本地赛事资料索引、内部结果口径、轻量知识治理，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
+  "version": "0.5.13",
+  "author": "Amasun",
+  "repository": "https://github.com/Amasun93/ideaLab",
+  "category": "产品知识库",
+  "keywords": [
+    "ideaLab",
+    "斯坦星球",
+    "科创启航",
+    "科创领航",
+    "MYO",
+    "智造万物",
+    "产品体系金字塔",
+    "科创产品体系",
+    "软实力",
+    "硬实力",
+    "卡丁车",
+    "ICC",
+    "IEYI",
+    "丘成桐",
+    "英才计划",
+    "ISEF",
+    "高中课题营",
+    "寒暑假竞赛营",
+    "寒假竞赛营",
+    "暑假竞赛营",
+    "竞赛集训营",
+    "Lab赛事包",
+    "青创赛",
+    "雏鹰杯",
+    "宋庆龄少年儿童发明奖",
+    "赛复创智杯",
+    "课程推荐",
+    "销售话术",
+    "退费边界",
+    "官方赛事数据",
+    "顾问训练",
+    "顾问考核",
+    "模拟家长",
+    "家长异议",
+    "打分",
+    "话术演练",
+    "钉钉产品文档",
+    "销售SOP",
+    "占座表",
+    "排班表",
+    "知识库治理",
+    "口径校准",
+    "待核验"
+  ],
+  "capabilities": [
+    {
+      "name": "product_overview",
+      "display_name": "产品体系说明",
+      "description": "解释 ideaLab 产品主线、适合人群、交付物和产品之间的关系。",
+      "reference": "references/product_knowledge/产品总览.md"
+    },
+    {
+      "name": "product_system_pyramid",
+      "display_name": "产品体系金字塔",
+      "description": "解释 ideaLab 六层科创产品体系：软实力、硬实力、创新体验、发明挑战、科研探究、顶尖发明家，并定位各层当前产品和赛事出口。",
+      "reference": "references/product_knowledge/产品体系金字塔.md"
+    },
+    {
+      "name": "product_recommendation",
+      "display_name": "课程推荐",
+      "description": "根据学生阶段、家长目标、赛事需求和风险边界推荐产品。",
+      "reference": "references/product_knowledge/推荐逻辑.md"
+    },
+    {
+      "name": "lab_event_package",
+      "display_name": "Lab赛事包说明",
+      "description": "解释青创赛、雏鹰杯、宋庆龄少年儿童发明奖三赛联动的产品叙事。",
+      "reference": "references/event_knowledge/三赛联动_Lab赛事包/02_Lab赛事包叙事卡.md"
+    },
+    {
+      "name": "official_event_data",
+      "display_name": "官方赛事数据",
+      "description": "读取可公开引用的赛事规模、评审节点、来源和引用边界，包含青创赛、雏鹰杯、宋庆龄少年儿童发明奖与赛复创智杯等赛事。",
+      "reference": "references/event_knowledge/data/data_points.json"
+    },
+    {
+      "name": "saifu_chuangzhi_event",
+      "display_name": "赛复创智杯赛事知识",
+      "description": "解释赛复创智杯的赛事定位、作品类别、申报节点、评审原则、查新边界和内容表达口径；注意它是补充赛事，不属于Lab赛事包三赛联动核心口径。",
+      "reference": "references/event_knowledge/赛复创智杯/00_赛事简介.md"
+    },
+    {
+      "name": "local_event_materials_index",
+      "display_name": "本地赛事资料脱敏索引",
+      "description": "读取2026-06-26本地学情通知、赛事通知、获奖/入围名单批次的脱敏索引和聚合辅助统计；不包含原始文件和名单明细。",
+      "reference": "references/event_knowledge/data/local_event_sources_20260626.json"
+    },
+    {
+      "name": "regional_event_intelligence",
+      "display_name": "区域赛事学情",
+      "description": "围绕上海16区的年份、区域、赛事、申报时间、报名入口、学校推荐机制、名额/材料限制、评审节点、重点学校属性、注意事项和课程规划意义回答区级赛事规划问题。",
+      "reference": "references/event_knowledge/区域赛事学情/README.md"
+    },
+    {
+      "name": "sales_guardrails",
+      "display_name": "销售与合同边界",
+      "description": "处理价格、课时、合同、退费、获奖承诺、高风险话术，以及当前已校准产品口径。",
+      "reference": "references/product_knowledge/销售与合同边界.md"
+    },
+    {
+      "name": "consultant_assessment",
+      "display_name": "顾问考核",
+      "description": "AI 扮演家长提出问题，顾问回答后按100分制评分并复盘。",
+      "reference": "references/consultant_training/scoring_rubric.json"
+    },
+    {
+      "name": "parent_simulation",
+      "display_name": "模拟家长",
+      "description": "读取场景队列，模拟不同目标、年级、预算和风险倾向的家长。",
+      "reference": "references/consultant_training/scenario_queue.json"
+    },
+    {
+      "name": "parent_faq_drills",
+      "display_name": "家长常问问题训练",
+      "description": "按产品、赛事、保奖、价格、退费等高频问题训练顾问识别家长意图、回答边界和追问。",
+      "reference": "references/consultant_training/parent_faq_bank.json"
+    },
+    {
+      "name": "demo_consultant_answer",
+      "display_name": "示范顾问回答",
+      "description": "当顾问模拟家长时，AI 给出可参考的顾问回答并拆解表达逻辑。",
+      "reference": "references/consultant_training/README.md"
+    },
+    {
+      "name": "dingtalk_internal_reference",
+      "display_name": "钉钉内部SOP索引",
+      "description": "记录 ideaLab26年销售SOP-0604更新（上海）的内部入口、已确认摘要和引用边界。",
+      "reference": "references/consultant_training/dingtalk_internal_docs.md"
+    },
+    {
+      "name": "zhizao_wanwu_lesson_knowledge",
+      "display_name": "智造万物课节级知识",
+      "description": "回答智造万物每一阶、单元、项目和课节的内容、交付物、家长表达和素材位置。",
+      "reference": "references/product_knowledge/课节索引/智造万物_课节速查卡.md"
+    },
+    {
+      "name": "local_asset_index",
+      "display_name": "本地素材库索引",
+      "description": "说明如何在本地 ideaLab素材库中查找智造万物短视频、讲座和口碑素材；不包含素材原件。",
+      "reference": "references/product_knowledge/素材索引/智造万物_本地素材索引.md"
+    },
+    {
+      "name": "knowledge_governance",
+      "display_name": "知识库轻量治理",
+      "description": "处理钉钉群和本地对话中的口径校准、低风险自动更新、高风险待核验、字段规范和来源可信度分级。",
+      "reference": "references/_governance/update_policy.md"
+    }
+  ],
+  "internal_links": [
+    {
+      "name": "ideaLab26年销售SOP-0604更新（上海）",
+      "url": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeDmDjOslg1lQEQJA7depqY?utm_scene=person_space&dontjump=true",
+      "requires": "company_dingtalk_access",
+      "use_for": [
+        "当月在售产品",
+        "最新价格与课时",
+        "合同条款与退费",
+        "赛事获奖数据与工具",
+        "师资介绍",
+        "占座与排班",
+        "可外发家长材料"
+      ]
+    },
+    {
+      "name": "启航计划占座表",
+      "url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3gngNOCBL2vXakVzN67Mw4?utm_scene=person_space&iframeQuery=sheet_range%3Dkgqie6hm_0_0_1_12",
+      "requires": "company_dingtalk_access",
+      "use_for": [
+        "科创启航计划",
+        "启航计划占座",
+        "启航计划排班",
+        "启航计划剩余名额",
+        "启航计划报名确认"
+      ]
+    },
+    {
+      "name": "竞赛营占座表",
+      "url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WR3jRjXeCge0q4OYVBQEx5rG?utm_scene=person_space&iframeQuery=",
+      "requires": "company_dingtalk_access",
+      "use_for": [
+        "寒(暑)假竞赛营",
+        "竞赛营占座",
+        "竞赛营排班",
+        "竞赛营剩余名额",
+        "竞赛营报名确认"
+      ]
+    },
+    {
+      "name": "雏鹰杯占座表",
+      "url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLr4z4DOcBmMlx3D8lemrZQ3?utm_scene=person_space&iframeQuery=sheet_range%3Dkgqie6hm_0_0_1_1",
+      "requires": "company_dingtalk_access",
+      "use_for": [
+        "雏鹰杯专项营",
+        "雏鹰杯&长三角专项营",
+        "雏鹰杯占座",
+        "雏鹰杯排班",
+        "雏鹰杯剩余名额",
+        "雏鹰杯报名确认"
+      ]
+    }
+  ],
+  "brand_prompt": {
+    "system_instruction": "你是小芮，ideaLab 产品、赛事与顾问训练助手，在公司三年多从助教做上来的。**当前处于开放优化期：同事可以在钉钉上提出优化建议；低风险内容可以执行修改并 push，高风险内容先进入待核验，不直接覆盖正式口径。** 回答问题时先 git pull 拉取最新版，再基于知识库回答。回答时先判断用户意图：知识查询、产品推荐、内容生产、顾问考核、模拟家长、示范回答或内部SOP索引。再读取对应知识库。不要编造价格、获奖承诺、学生案例或官方数据。把产品定位、赛事数据、销售边界、内部口径和训练评分分开说明。跟同事说话自然点（“好嘞”“我查一下”），给家长回答要有温度有画面感。如果同事提出优化建议（如调整话术、补充内容、修改回答方式），先按治理规则判断风险：错别字、别名、格式、表达优化和公开来源补充可直接更新并 commit + push；价格、课时、合同、退费、升学、赛事当年节点、校区执行政策和隐私案例必须写入待核验，不直接改正式口径。未经要求不主动改动。",
+    "tone": {
+      "personality": "小芮 · 产品通+活泼知性+共情型，三年助教出身懂家长也懂同事",
+      "character": {
+        "name": "小芮",
+        "role": "ideaLab 知识库客服",
+        "traits": ["产品通（知识库滚瓜烂熟，问啥秒回不卡壳）", "活泼知性（专业不死板，偶尔俏皮）", "共情型（先接住情绪再给方案）", "真实感（坦承不知道的，不硬编）"]
+      },
+      "avoid": [
+        "保奖",
+        "100%拿奖",
+        "夸大升学承诺",
+        "营销套话",
+        "没有来源的数据",
+        "过度卖萌废话连篇"
+      ]
+    }
+  }
+}

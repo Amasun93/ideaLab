@@ -1,0 +1,158 @@
+[
+  {
+    "event_id": "qingchuang",
+    "year": "2023",
+    "case_title": "外卖员的安全守护神",
+    "theme": "交通安全 / 电动车转向系统",
+    "one_line": "围绕电动车转向与后车制动联动，解决外卖骑行场景的安全问题。",
+    "content_angle": "真实城市问题、工程装置、公共安全。",
+    "source_ids": [
+      "SRC_QCS_38_AWARD_PDF"
+    ],
+    "privacy_level": "公开项目名；学生信息引用需谨慎。"
+  },
+  {
+    "event_id": "qingchuang",
+    "year": "2023",
+    "case_title": "告别“鬼探头”",
+    "theme": "小区道路盲区预警",
+    "one_line": "基于BSM系统原理，设计小区道路盲区危险预警装置。",
+    "content_angle": "生活场景切入、城市交通安全、传感器预警。",
+    "source_ids": [
+      "SRC_QCS_38_AWARD_PDF"
+    ],
+    "privacy_level": "公开项目名；学生信息引用需谨慎。"
+  },
+  {
+    "event_id": "qingchuang",
+    "year": "2023",
+    "case_title": "北斗定位野外求生多功能镇定救生马甲",
+    "theme": "北斗定位 / 户外安全",
+    "one_line": "将定位与应急救生场景结合，体现工程设计和实际应用。",
+    "content_angle": "北斗应用、户外安全、可穿戴装置。",
+    "source_ids": [
+      "SRC_QCS_38_AWARD_PDF"
+    ],
+    "privacy_level": "公开项目名；学生信息引用需谨慎。"
+  },
+  {
+    "event_id": "chuying",
+    "year": "2023",
+    "case_title": "新能源车更换电池定位与锁紧装置",
+    "theme": "新能源车 / 工程结构",
+    "one_line": "关注新能源车换电时的定位与锁紧问题。",
+    "content_angle": "新能源、真实工程痛点、小学生也能观察技术场景。",
+    "source_ids": [
+      "SRC_CHUYING_CYOL_2024"
+    ],
+    "privacy_level": "公开媒体案例；对外复用需保留来源。"
+  },
+  {
+    "event_id": "chuying",
+    "year": "2023",
+    "case_title": "新型进阶型电子击剑靶",
+    "theme": "体育训练 / 电子反馈",
+    "one_line": "从击剑训练需求出发，设计可反馈训练效果的电子靶。",
+    "content_angle": "兴趣驱动选题、运动科技、反馈系统。",
+    "source_ids": [
+      "SRC_CHUYING_CYOL_2024"
+    ],
+    "privacy_level": "公开媒体案例；对外复用需保留来源。"
+  },
+  {
+    "event_id": "chuying",
+    "year": "2023",
+    "case_title": "预防“开门杀”的车门传感器",
+    "theme": "交通安全 / 传感器",
+    "one_line": "针对路边上下车安全，为车门安装传感器预警。",
+    "content_angle": "生活观察、城市安全、低门槛高价值选题。",
+    "source_ids": [
+      "SRC_CHUYING_CYOL_2024"
+    ],
+    "privacy_level": "公开媒体案例；对外复用需保留来源。"
+  },
+  {
+    "event_id": "chuying",
+    "year": "2025",
+    "case_title": "呼吸可视化发光康复马甲",
+    "theme": "健康关怀 / 传感器 / 可穿戴",
+    "one_line": "把肺结节术后呼吸训练变成可视化闯关反馈，提升训练依从性。",
+    "content_angle": "孝心和真实需求驱动，低成本原型，健康关怀。",
+    "source_ids": [
+      "SRC_CHUYING_BAOSHAN_2025"
+    ],
+    "privacy_level": "公开区级报道案例；使用学生姓名和图片需谨慎。"
+  },
+  {
+    "event_id": "chuying",
+    "year": "2025",
+    "case_title": "智能书法陪伴机器人",
+    "theme": "AI / 传统文化 / 学习反馈",
+    "one_line": "通过动作捕捉与力学反馈，帮助练字者分析运笔轨迹并纠偏。",
+    "content_angle": "文化传承与AI结合，兴趣驱动，学习型产品。",
+    "source_ids": [
+      "SRC_CHUYING_BAOSHAN_2025"
+    ],
+    "privacy_level": "公开区级报道案例；使用学生姓名和图片需谨慎。"
+  },
+  {
+    "event_id": "sclaci",
+    "year": "2025",
+    "case_title": "唐氏综合征儿童反应与语言训练系统",
+    "theme": "特殊儿童关怀 / 发明作品",
+    "one_line": "第二十届宋庆龄发明作品初中组金奖项目，面向唐氏综合征儿童训练需求。",
+    "content_angle": "人文关怀、真实用户、辅助训练系统。",
+    "source_ids": [
+      "ATT_SCLACI_20_WINNER_INVENTION"
+    ],
+    "privacy_level": "官方获奖名单公开；内容生产优先只引用项目名。"
+  },
+  {
+    "event_id": "sclaci",
+    "year": "2025",
+    "case_title": "Arduino迷路老人自助回家导航罗盘",
+    "theme": "老人关怀 / Arduino / 导航",
+    "one_line": "第二十届宋庆龄发明作品高中组金奖项目，面向迷路老人自助回家场景。",
+    "content_angle": "可穿戴/便携导航、老龄关怀、工程原型。",
+    "source_ids": [
+      "ATT_SCLACI_20_WINNER_INVENTION"
+    ],
+    "privacy_level": "官方获奖名单公开；内容生产优先只引用项目名。"
+  },
+  {
+    "event_id": "sclaci",
+    "year": "2025",
+    "case_title": "i Milk Box 智能奶箱",
+    "theme": "家庭生活 / 智能硬件",
+    "one_line": "第二十届宋庆龄发明作品小学组银奖项目，体现生活细节切入的智能硬件设计。",
+    "content_angle": "家居场景、小学生真实观察、产品化雏形。",
+    "source_ids": [
+      "ATT_SCLACI_20_WINNER_INVENTION"
+    ],
+    "privacy_level": "官方获奖名单公开；内容生产优先只引用项目名。"
+  },
+  {
+    "event_id": "sclaci",
+    "year": "2025",
+    "case_title": "Mindog: 基于大模型的个性智能机器狗",
+    "theme": "大模型 / 智能机器人",
+    "one_line": "第二十届宋庆龄人工智能编程作品入围项目，体现大模型与机器人交互结合。",
+    "content_angle": "AI Agent、智能硬件、陪伴机器人。",
+    "source_ids": [
+      "ATT_SCLACI_20_FINALIST_AI"
+    ],
+    "privacy_level": "官方入围名单公开；内容生产优先只引用项目名。"
+  },
+  {
+    "event_id": "sclaci",
+    "year": "2025",
+    "case_title": "基于图像识别的围棋棋谱记录及复盘装置",
+    "theme": "图像识别 / 学习复盘",
+    "one_line": "第二十届宋庆龄人工智能编程作品入围项目，用图像识别服务围棋学习复盘。",
+    "content_angle": "兴趣场景、AI识别、学习工具。",
+    "source_ids": [
+      "ATT_SCLACI_20_FINALIST_AI"
+    ],
+    "privacy_level": "官方入围名单公开；内容生产优先只引用项目名。"
+  }
+]
