@@ -3,10 +3,13 @@
   "schema_version": "school_indices_v1",
   "usage_boundary": "表格型/索引型校情资料，仅作内部检索和规划参考；不含原始PDF、完整抽取文本或学生个人信息；招生、班型和学校属性均需以官方最新通知复核；第40届青创赛获奖数来源于官方获奖数据，需按学校维度理解，不可泛化为学校综合排名或长期趋势。",
   "field_display_names": {
-    "bluebook_40th_qingchuang_award_count": "第40届青创赛获奖数"
+    "bluebook_40th_qingchuang_award_count": "第40届青创赛获奖数",
+    "bluebook_41st_qingchuang_award_count": "第41届青创赛获奖数",
+    "bluebook_41st_qingchuang_award_breakdown": "第41届青创赛获奖明细"
   },
   "field_notes": {
-    "bluebook_40th_qingchuang_award_count": "来源于官方获奖数据；这是学校维度的获奖表现字段，不是赛事整体规模字段。可用于判断学校在第40届青创赛中的科创活跃度和成果表现，但不要直接泛化为学校综合排名或长期趋势。对外引用可写：数据来源：官方获奖数据。"
+    "bluebook_40th_qingchuang_award_count": "来源于官方获奖数据；这是学校维度的获奖表现字段，不是赛事整体规模字段。可用于判断学校在第40届青创赛中的科创活跃度和成果表现，但不要直接泛化为学校综合排名或长期趋势。对外引用可写：数据来源：官方获奖数据。",
+    "bluebook_41st_qingchuang_award_count": "基于第41届青创赛官方获奖名单PDF清洗统计（2026年），仅含科技创新竞赛板块。用于判断学校科创活跃度，不可作为学校排名或升学承诺。"
   },
   "special_admission_schools": [
     {
@@ -412,7 +415,8 @@
       "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_002",
@@ -426,7 +430,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_003",
@@ -437,10 +442,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "创新教育",
       "other_feature": "游泳、兵乒球",
-      "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": ""
     },
     {
       "id": "SH_JUNIOR_SCI_004",
@@ -451,10 +463,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "信奥",
       "other_feature": "排球",
-      "bluebook_40th_qingchuang_award_count": "6",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "6"
     },
     {
       "id": "SH_JUNIOR_SCI_005",
@@ -465,10 +484,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "STEM科创、 OM",
       "other_feature": "口琴",
-      "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 4,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 3
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "4"
     },
     {
       "id": "SH_JUNIOR_SCI_006",
@@ -479,10 +505,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "船模",
       "other_feature": "管乐",
-      "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 0
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "4"
     },
     {
       "id": "SH_JUNIOR_SCI_007",
@@ -496,7 +529,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_008",
@@ -507,10 +541,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "无线电",
       "other_feature": "英语",
-      "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "4"
     },
     {
       "id": "SH_JUNIOR_SCI_009",
@@ -524,7 +565,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_010",
@@ -535,10 +577,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "科技、人文学科竞赛",
       "other_feature": "数理",
-      "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "3"
     },
     {
       "id": "SH_JUNIOR_SCI_011",
@@ -549,10 +598,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "科创",
       "other_feature": "双语、融合",
-      "bluebook_40th_qingchuang_award_count": "15",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 11,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 1,
+        "二等奖": 2,
+        "三等奖": 0,
+        "优胜奖": 8
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "15"
     },
     {
       "id": "SH_JUNIOR_SCI_012",
@@ -563,10 +619,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "智慧小龙人、 STEM教育",
       "other_feature": "体育、艺术、语言文化和跨学科",
-      "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 4,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 3
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": ""
     },
     {
       "id": "SH_JUNIOR_SCI_013",
@@ -577,10 +640,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "创新机器人",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "3"
     },
     {
       "id": "SH_JUNIOR_SCI_014",
@@ -591,10 +661,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "人工智能、机器人等",
       "other_feature": "英语、男篮女排",
-      "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "3"
     },
     {
       "id": "SH_JUNIOR_SCI_015",
@@ -605,10 +682,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "人工智能",
       "other_feature": "英语",
-      "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "1"
     },
     {
       "id": "SH_JUNIOR_SCI_016",
@@ -622,7 +706,8 @@
       "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_017",
@@ -633,10 +718,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "人工智能、工程素养",
       "other_feature": "乐器",
-      "bluebook_40th_qingchuang_award_count": "12",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 10,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 9
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "12"
     },
     {
       "id": "SH_JUNIOR_SCI_018",
@@ -647,10 +739,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "STEM教育",
       "other_feature": "桥牌",
-      "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 83,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "4"
     },
     {
       "id": "SH_JUNIOR_SCI_019",
@@ -664,7 +763,8 @@
       "bluebook_40th_qingchuang_award_count": "5",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_020",
@@ -675,10 +775,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科技创新人才早期培养",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 4,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 4
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "1"
     },
     {
       "id": "SH_JUNIOR_SCI_021",
@@ -689,10 +796,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "信奥、编程、科创",
       "other_feature": "英语",
-      "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 0
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "1"
     },
     {
       "id": "SH_JUNIOR_SCI_022",
@@ -706,7 +820,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_023",
@@ -720,7 +835,8 @@
       "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_024",
@@ -734,7 +850,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_025",
@@ -745,10 +862,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科技",
       "other_feature": "艺术、体育",
-      "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "2"
     },
     {
       "id": "SH_JUNIOR_SCI_026",
@@ -762,7 +886,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_027",
@@ -773,10 +898,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "科技+",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": ""
     },
     {
       "id": "SH_JUNIOR_SCI_028",
@@ -787,10 +919,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "AI+",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": ""
     },
     {
       "id": "SH_JUNIOR_SCI_029",
@@ -801,10 +940,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科学素养",
       "other_feature": "数学、英语",
-      "bluebook_40th_qingchuang_award_count": "8",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 4,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 3
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "8"
     },
     {
       "id": "SH_JUNIOR_SCI_030",
@@ -815,10 +961,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "创智课程",
       "other_feature": "体育",
-      "bluebook_40th_qingchuang_award_count": "7",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 2,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "7"
     },
     {
       "id": "SH_JUNIOR_SCI_031",
@@ -829,10 +982,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "创新",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "5",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "5"
     },
     {
       "id": "SH_JUNIOR_SCI_032",
@@ -846,7 +1006,8 @@
       "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_033",
@@ -860,7 +1021,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_034",
@@ -874,7 +1036,8 @@
       "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_035",
@@ -888,7 +1051,8 @@
       "bluebook_40th_qingchuang_award_count": "5",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_036",
@@ -899,10 +1063,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "创新",
       "other_feature": "手球",
-      "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "2"
     },
     {
       "id": "SH_JUNIOR_SCI_037",
@@ -913,10 +1084,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "机器人",
       "other_feature": "射击",
-      "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 0
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "1"
     },
     {
       "id": "SH_JUNIOR_SCI_038",
@@ -927,10 +1105,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科学、创新",
       "other_feature": "奥数、竞赛",
-      "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 84,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 3
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "1"
     },
     {
       "id": "SH_JUNIOR_SCI_039",
@@ -944,7 +1129,8 @@
       "bluebook_40th_qingchuang_award_count": "9",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_040",
@@ -955,10 +1141,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "STEAM",
       "other_feature": "英语",
-      "bluebook_40th_qingchuang_award_count": "6",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "6"
     },
     {
       "id": "SH_JUNIOR_SCI_041",
@@ -969,10 +1162,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科技",
       "other_feature": "篮球、管乐",
-      "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 4,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 4
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "3"
     },
     {
       "id": "SH_JUNIOR_SCI_042",
@@ -983,10 +1183,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "SET综合主题课程",
       "other_feature": "融合",
-      "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "3"
     },
     {
       "id": "SH_JUNIOR_SCI_043",
@@ -1000,7 +1207,8 @@
       "bluebook_40th_qingchuang_award_count": "10",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_044",
@@ -1011,10 +1219,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "科技教育",
       "other_feature": "英语",
-      "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 6,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 6
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "1"
     },
     {
       "id": "SH_JUNIOR_SCI_045",
@@ -1028,7 +1243,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_046",
@@ -1042,7 +1258,8 @@
       "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_047",
@@ -1056,7 +1273,8 @@
       "bluebook_40th_qingchuang_award_count": "5",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_048",
@@ -1067,10 +1285,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "机器人特色",
       "other_feature": "英语",
-      "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": ""
     },
     {
       "id": "SH_JUNIOR_SCI_049",
@@ -1084,7 +1309,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_050",
@@ -1095,10 +1321,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "机器人",
       "other_feature": "女足",
-      "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 4,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 4
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": ""
     },
     {
       "id": "SH_JUNIOR_SCI_051",
@@ -1112,7 +1345,8 @@
       "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_052",
@@ -1126,7 +1360,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_053",
@@ -1140,7 +1375,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_054",
@@ -1154,7 +1390,8 @@
       "bluebook_40th_qingchuang_award_count": "6",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_055",
@@ -1168,7 +1405,8 @@
       "bluebook_40th_qingchuang_award_count": "6",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_056",
@@ -1179,10 +1417,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "信奥",
       "other_feature": "外语",
-      "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": ""
     },
     {
       "id": "SH_JUNIOR_SCI_057",
@@ -1193,10 +1438,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "创新",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 3
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "4"
     },
     {
       "id": "SH_JUNIOR_SCI_058",
@@ -1207,10 +1459,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "现代信息科技课程",
       "other_feature": "英语、日语、德语",
-      "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 6,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 6
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "1"
     },
     {
       "id": "SH_JUNIOR_SCI_059",
@@ -1221,10 +1480,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "创新",
       "other_feature": "国际象棋",
-      "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "3"
     },
     {
       "id": "SH_JUNIOR_SCI_060",
@@ -1238,7 +1504,8 @@
       "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_061",
@@ -1252,7 +1519,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_062",
@@ -1263,10 +1531,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "OM等创新思维",
       "other_feature": "管乐",
-      "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "1"
     },
     {
       "id": "SH_JUNIOR_SCI_063",
@@ -1277,10 +1552,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "机器人",
       "other_feature": "外语",
-      "bluebook_40th_qingchuang_award_count": "6",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 85,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 3
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "6"
     },
     {
       "id": "SH_JUNIOR_SCI_064",
@@ -1294,7 +1576,8 @@
       "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_065",
@@ -1308,7 +1591,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_066",
@@ -1322,7 +1606,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_067",
@@ -1336,7 +1621,8 @@
       "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_068",
@@ -1347,10 +1633,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "机器人",
       "other_feature": "足球、射箭",
-      "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 4,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 4
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "1"
     },
     {
       "id": "SH_JUNIOR_SCI_069",
@@ -1364,7 +1657,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_070",
@@ -1378,7 +1672,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_071",
@@ -1392,7 +1687,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_072",
@@ -1403,10 +1699,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "卡魅、航空航天卫星",
       "other_feature": "艺体",
-      "bluebook_40th_qingchuang_award_count": "8",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "8"
     },
     {
       "id": "SH_JUNIOR_SCI_073",
@@ -1417,10 +1720,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "创新设计",
       "other_feature": "优才教育",
-      "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": ""
     },
     {
       "id": "SH_JUNIOR_SCI_074",
@@ -1434,7 +1744,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_075",
@@ -1445,10 +1756,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "steam",
       "other_feature": "双语、马术",
-      "bluebook_40th_qingchuang_award_count": "5",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "5"
     },
     {
       "id": "SH_JUNIOR_SCI_076",
@@ -1462,7 +1780,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_077",
@@ -1473,10 +1792,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "机器人",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "5",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 0
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "5"
     },
     {
       "id": "SH_JUNIOR_SCI_078",
@@ -1490,7 +1816,8 @@
       "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_079",
@@ -1504,7 +1831,8 @@
       "bluebook_40th_qingchuang_award_count": "5",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_080",
@@ -1518,7 +1846,8 @@
       "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_081",
@@ -1532,7 +1861,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_082",
@@ -1543,10 +1873,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "跨学科研究",
       "other_feature": "美术、摄影",
-      "bluebook_40th_qingchuang_award_count": "9",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 4,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 2,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "9"
     },
     {
       "id": "SH_JUNIOR_SCI_083",
@@ -1560,7 +1897,8 @@
       "bluebook_40th_qingchuang_award_count": "17",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_084",
@@ -1571,10 +1909,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科创探究",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "7",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 13,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 12
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "7"
     },
     {
       "id": "SH_JUNIOR_SCI_085",
@@ -1588,7 +1933,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_086",
@@ -1599,10 +1945,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "猫空自主实验室",
       "other_feature": "中医、射箭",
-      "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 86,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 0
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "1"
     },
     {
       "id": "SH_JUNIOR_SCI_087",
@@ -1613,10 +1966,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "人工智能",
       "other_feature": "idt课程",
-      "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": ""
     },
     {
       "id": "SH_JUNIOR_SCI_088",
@@ -1627,10 +1987,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "英文科创",
       "other_feature": "双语",
-      "bluebook_40th_qingchuang_award_count": "5",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 2,
+        "优胜奖": 0
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "5"
     },
     {
       "id": "SH_JUNIOR_SCI_089",
@@ -1644,7 +2011,8 @@
       "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_090",
@@ -1658,7 +2026,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_091",
@@ -1672,7 +2041,8 @@
       "bluebook_40th_qingchuang_award_count": "10",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_092",
@@ -1686,7 +2056,8 @@
       "bluebook_40th_qingchuang_award_count": "7",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_093",
@@ -1697,10 +2068,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "创意设计",
       "other_feature": "书法",
-      "bluebook_40th_qingchuang_award_count": "9",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "9"
     },
     {
       "id": "SH_JUNIOR_SCI_094",
@@ -1711,10 +2089,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "航天steam、 机器人",
       "other_feature": "VIP课程",
-      "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "2"
     },
     {
       "id": "SH_JUNIOR_SCI_095",
@@ -1728,7 +2113,8 @@
       "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_096",
@@ -1742,7 +2128,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_097",
@@ -1753,10 +2140,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科技社团、图形化编程",
       "other_feature": "“三层六级”分层走班",
-      "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 12,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 4,
+        "二等奖": 1,
+        "三等奖": 1,
+        "优胜奖": 6
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "4"
     },
     {
       "id": "SH_JUNIOR_SCI_098",
@@ -1767,10 +2161,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科技创新特色",
       "other_feature": "英语",
-      "bluebook_40th_qingchuang_award_count": "16",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 26,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 2,
+        "二等奖": 4,
+        "三等奖": 1,
+        "优胜奖": 19
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "16"
     },
     {
       "id": "SH_JUNIOR_SCI_099",
@@ -1781,10 +2182,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "创新教育",
       "other_feature": "民族鼓乐、女足",
-      "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 0
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "3"
     },
     {
       "id": "SH_JUNIOR_SCI_100",
@@ -1795,10 +2203,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "科创",
       "other_feature": "双语融合",
-      "bluebook_40th_qingchuang_award_count": "12",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 24,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 3,
+        "二等奖": 4,
+        "三等奖": 3,
+        "优胜奖": 14
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "12"
     },
     {
       "id": "SH_JUNIOR_SCI_101",
@@ -1812,7 +2227,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_102",
@@ -1823,10 +2239,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "创意制作",
       "other_feature": "球操",
-      "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "2"
     },
     {
       "id": "SH_JUNIOR_SCI_103",
@@ -1840,7 +2263,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_104",
@@ -1854,7 +2278,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_105",
@@ -1865,10 +2290,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "STEM",
       "other_feature": "茶艺",
-      "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "3"
     },
     {
       "id": "SH_JUNIOR_SCI_106",
@@ -1882,7 +2314,8 @@
       "bluebook_40th_qingchuang_award_count": "5",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 87,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_107",
@@ -1896,7 +2329,8 @@
       "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_108",
@@ -1907,10 +2341,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科创课程",
       "other_feature": "传统文化",
-      "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "2"
     },
     {
       "id": "SH_JUNIOR_SCI_109",
@@ -1924,7 +2365,8 @@
       "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_110",
@@ -1938,7 +2380,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_111",
@@ -1949,10 +2392,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "奇思科创创新课程",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 5,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 5
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "1"
     },
     {
       "id": "SH_JUNIOR_SCI_112",
@@ -1966,7 +2416,8 @@
       "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_113",
@@ -1977,10 +2428,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "科创素养",
       "other_feature": "数学、人文、艺体",
-      "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "1"
     },
     {
       "id": "SH_JUNIOR_SCI_114",
@@ -1994,7 +2452,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_115",
@@ -2008,7 +2467,8 @@
       "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_116",
@@ -2022,7 +2482,8 @@
       "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_117",
@@ -2036,7 +2497,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_118",
@@ -2050,7 +2512,8 @@
       "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_119",
@@ -2064,7 +2527,8 @@
       "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_120",
@@ -2075,10 +2539,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "人工智能、 STEAM教育",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "5",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 3
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "5"
     },
     {
       "id": "SH_JUNIOR_SCI_121",
@@ -2092,7 +2563,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_122",
@@ -2103,10 +2575,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科创",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "6",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 6,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 2,
+        "三等奖": 0,
+        "优胜奖": 4
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "6"
     },
     {
       "id": "SH_JUNIOR_SCI_123",
@@ -2120,7 +2599,8 @@
       "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_124",
@@ -2134,7 +2614,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_125",
@@ -2145,10 +2626,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科技创新教育",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 7,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 2,
+        "三等奖": 1,
+        "优胜奖": 4
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": ""
     },
     {
       "id": "SH_JUNIOR_SCI_126",
@@ -2159,10 +2647,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科技创新",
       "other_feature": "数学、英语",
-      "bluebook_40th_qingchuang_award_count": "7",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 1,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 0
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "7"
     },
     {
       "id": "SH_JUNIOR_SCI_127",
@@ -2173,10 +2668,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "创新技能培养",
       "other_feature": "数学",
-      "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "4"
     },
     {
       "id": "SH_JUNIOR_SCI_128",
@@ -2187,10 +2689,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "信奥",
       "other_feature": "军体课程",
-      "bluebook_40th_qingchuang_award_count": "3",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "3"
     },
     {
       "id": "SH_JUNIOR_SCI_129",
@@ -2204,7 +2713,8 @@
       "bluebook_40th_qingchuang_award_count": "5",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 88,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_130",
@@ -2218,7 +2728,8 @@
       "bluebook_40th_qingchuang_award_count": "10",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_131",
@@ -2232,7 +2743,8 @@
       "bluebook_40th_qingchuang_award_count": "15",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_132",
@@ -2243,10 +2755,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "OM创新融合学习项目",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "8",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 6,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 1,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 4
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "8"
     },
     {
       "id": "SH_JUNIOR_SCI_133",
@@ -2257,10 +2776,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科技素养",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "6",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 6,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 1,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 4
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "6"
     },
     {
       "id": "SH_JUNIOR_SCI_134",
@@ -2271,10 +2797,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科创教育",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 6,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 1,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 4
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "2"
     },
     {
       "id": "SH_JUNIOR_SCI_135",
@@ -2288,7 +2821,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_136",
@@ -2302,7 +2836,8 @@
       "bluebook_40th_qingchuang_award_count": "5",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_137",
@@ -2313,10 +2848,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "机器人、编程、 人工智能",
       "other_feature": "管弦乐",
-      "bluebook_40th_qingchuang_award_count": "10",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 9,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 1,
+        "二等奖": 1,
+        "三等奖": 1,
+        "优胜奖": 6
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "10"
     },
     {
       "id": "SH_JUNIOR_SCI_138",
@@ -2327,10 +2869,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "人工智能",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "18",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 1,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 0
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "18"
     },
     {
       "id": "SH_JUNIOR_SCI_139",
@@ -2344,7 +2893,8 @@
       "bluebook_40th_qingchuang_award_count": "13",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_140",
@@ -2355,10 +2905,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "科学方法和项目设计",
       "other_feature": "双语",
-      "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": ""
     },
     {
       "id": "SH_JUNIOR_SCI_141",
@@ -2372,7 +2929,8 @@
       "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_142",
@@ -2383,10 +2941,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "科创培优",
       "other_feature": "双语",
-      "bluebook_40th_qingchuang_award_count": "7",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 0
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "7"
     },
     {
       "id": "SH_JUNIOR_SCI_143",
@@ -2397,10 +2962,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "科学课程",
       "other_feature": "双语",
-      "bluebook_40th_qingchuang_award_count": "14",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 13,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 12
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "14"
     },
     {
       "id": "SH_JUNIOR_SCI_144",
@@ -2414,7 +2986,8 @@
       "bluebook_40th_qingchuang_award_count": "9",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_145",
@@ -2428,7 +3001,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_146",
@@ -2439,10 +3013,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "机器人",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "9",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 10,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 3,
+        "优胜奖": 6
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "9"
     },
     {
       "id": "SH_JUNIOR_SCI_147",
@@ -2456,7 +3037,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_148",
@@ -2470,7 +3052,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_149",
@@ -2484,7 +3067,8 @@
       "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_150",
@@ -2495,10 +3079,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "",
       "other_feature": "",
-      "bluebook_40th_qingchuang_award_count": "6",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "6"
     },
     {
       "id": "SH_JUNIOR_SCI_151",
@@ -2512,7 +3103,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_152",
@@ -2526,7 +3118,8 @@
       "bluebook_40th_qingchuang_award_count": "4",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_153",
@@ -2540,7 +3133,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_154",
@@ -2554,7 +3148,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_155",
@@ -2568,7 +3163,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_156",
@@ -2582,7 +3178,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_157",
@@ -2596,7 +3193,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_158",
@@ -2610,7 +3208,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_159",
@@ -2624,7 +3223,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_160",
@@ -2638,7 +3238,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_161",
@@ -2652,7 +3253,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_162",
@@ -2666,7 +3268,8 @@
       "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_163",
@@ -2680,7 +3283,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_164",
@@ -2694,7 +3298,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_165",
@@ -2705,10 +3310,17 @@
       "school_nature": "民办",
       "science_innovation_feature": "机器人",
       "other_feature": "双语",
-      "bluebook_40th_qingchuang_award_count": "2",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": "2"
     },
     {
       "id": "SH_JUNIOR_SCI_166",
@@ -2722,7 +3334,8 @@
       "bluebook_40th_qingchuang_award_count": "1",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_167",
@@ -2736,7 +3349,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_168",
@@ -2750,7 +3364,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_169",
@@ -2764,7 +3379,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_170",
@@ -2775,10 +3391,17 @@
       "school_nature": "公办",
       "science_innovation_feature": "",
       "other_feature": "管乐",
-      "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "bluebook_40th_qingchuang_award_count_deprecated": ""
     },
     {
       "id": "SH_JUNIOR_SCI_171",
@@ -2792,7 +3415,8 @@
       "bluebook_40th_qingchuang_award_count": "8",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_172",
@@ -2806,7 +3430,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     },
     {
       "id": "SH_JUNIOR_SCI_173",
@@ -2820,7 +3445,8 @@
       "bluebook_40th_qingchuang_award_count": "",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 90,
-      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。"
+      "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
+      "bluebook_41st_qingchuang_award_count": null
     }
   ],
   "science_innovation_high_school_index": [
@@ -2834,7 +3460,14 @@
       "science_innovation_summary": "国际竞赛优势突出，设人工智能、生物工程等高端实验室，累计获国际奥林匹克金牌12枚、科技类国际奖项40余项。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 91,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 45,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 6,
+        "二等奖": 1,
+        "三等奖": 3,
+        "优胜奖": 35
+      }
     },
     {
       "id": "SH_HIGH_SCI_002",
@@ -2846,7 +3479,14 @@
       "science_innovation_summary": "强基计划录取率领先，与华东师大合作开展国家级科研课题，学生参与前沿项目研究。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 91,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 30,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 3,
+        "二等奖": 3,
+        "三等奖": 1,
+        "优胜奖": 23
+      }
     },
     {
       "id": "SH_HIGH_SCI_003",
@@ -2858,7 +3498,14 @@
       "science_innovation_summary": "贯通复旦资源，开设量子计算、 基因编辑等课程，学生科研成果发表于《科学》期刊。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 91,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 10,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 9
+      }
     },
     {
       "id": "SH_HIGH_SCI_004",
@@ -2870,7 +3517,14 @@
       "science_innovation_summary": "工科实践导向，机器人、航空航天课程突出，连续三年获全国青少年科技创新大赛金奖。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 91,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 16,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 2,
+        "优胜奖": 14
+      }
     },
     {
       "id": "SH_HIGH_SCI_005",
@@ -2882,7 +3536,14 @@
       "science_innovation_summary": "百年理科底蕴，物理化学竞赛强势，学生年均发表SCI论文3 篇，2023年全国化学奥赛包揽前三。十年来，学生累计获国家发明专利1338项。在近五届上海市青少年科技创新大赛中，学生获等第奖200余人次。相关教学成果获上海市基础教育优秀教学成果奖特等奖。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 91,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      }
     },
     {
       "id": "SH_HIGH_SCI_006",
@@ -2894,7 +3555,14 @@
       "science_innovation_summary": "大同中学科技创新教育蓬勃发展中。学校结合CIE课程，通过 “创意—创造—创业”的主线， 开展航空科技创新课程、中医药创新课程等。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 91,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 8,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 7
+      }
     },
     {
       "id": "SH_HIGH_SCI_007",
@@ -2906,7 +3574,14 @@
       "science_innovation_summary": "老牌市重点，理科班偏重理科、 创新素养、科创项目。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 91,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      }
     },
     {
       "id": "SH_HIGH_SCI_008",
@@ -2918,7 +3593,14 @@
       "science_innovation_summary": "上海市首批科学教育研究基地， 校内搭建了丰富多样的科学教育平台，并惠及向明教育集团。历年获得多个科创赛事奖项。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 91,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 5,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 4
+      }
     },
     {
       "id": "SH_HIGH_SCI_009",
@@ -2930,7 +3612,14 @@
       "science_innovation_summary": "2018年敬业中学与同济大学中德工程学院共建同济科创实验班， 科创主要围绕“人工智能”展开。科创实验班偏重理科，科创项目竞赛。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 92,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 7,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 1,
+        "二等奖": 1,
+        "三等奖": 2,
+        "优胜奖": 3
+      }
     },
     {
       "id": "SH_HIGH_SCI_010",
@@ -2942,7 +3631,14 @@
       "science_innovation_summary": "科创工班作为卢高的传统项目， 拥有OMDI等特色课程。智能机器人及IT方面竞赛能力强。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 92,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      }
     },
     {
       "id": "SH_HIGH_SCI_011",
@@ -2954,7 +3650,14 @@
       "science_innovation_summary": "百年科创传承，聚焦“生物+交通”工程，建设高端实验室群及 “2+x”科创课程体系。高中生入选英才计划人数众多，创业项目累计达383项。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 92,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 10,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 9
+      }
     },
     {
       "id": "SH_HIGH_SCI_012",
@@ -2966,7 +3669,14 @@
       "science_innovation_summary": "“AI基础与进阶”课程，荣获上海市首批优质科技教育课程。 2024年底，西南位育中学高中部，依托上海市西南位育中学与上海交通大学“拔尖创新人才培养”项目，试行“科文实验班”，着重培养拔尖创新人才。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 92,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      }
     },
     {
       "id": "SH_HIGH_SCI_013",
@@ -2978,7 +3688,14 @@
       "science_innovation_summary": "位育中学，全国中小学人工智能教育基地的佼佼者，以芯片科技为引擎，全力打造高中科学教育的新模式。“芯片教育”校本课程是位育中学一大亮点。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 92,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 3
+      }
     },
     {
       "id": "SH_HIGH_SCI_014",
@@ -3002,7 +3719,14 @@
       "science_innovation_summary": "“十四五”期间首批上海市科技教育特色师范学校。近年来，在上海市青少年科技创新大赛中， 累计获得一等奖70余项，有近 30位学生在上海市明日科技之星评选活动中荣获明日科技之星、 科技希望之星的称号。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 93,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 27,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 3,
+        "优胜奖": 23
+      }
     },
     {
       "id": "SH_HIGH_SCI_016",
@@ -3014,7 +3738,14 @@
       "science_innovation_summary": "2023年创建“小平科技创新实验室”，成为该年上海四所入选校之一。南洋中学“整个校园就是开放的实验室”为建设理念，创建了一系列创新实验室。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 93,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 7,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 7
+      }
     },
     {
       "id": "SH_HIGH_SCI_017",
@@ -3026,7 +3757,14 @@
       "science_innovation_summary": "延安中学在多年的研究型课程建设过程中，结合学校特色，以提升学生研究性学习能力为指导组织开展学生科创探究。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 93,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 2,
+        "三等奖": 0,
+        "优胜奖": 1
+      }
     },
     {
       "id": "SH_HIGH_SCI_018",
@@ -3050,7 +3788,14 @@
       "science_innovation_summary": "市西STEM科创邀请展评活动已经举办到第10届，市西及市西教育集团内的学生都可以参加。市西科创班生物技术与环境保护、 光学应用与传感技术、机械系统与机器人、新型能源与汽车、社会学等课程。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 93,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 13,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 12
+      }
     },
     {
       "id": "SH_HIGH_SCI_020",
@@ -3098,7 +3843,14 @@
       "science_innovation_summary": "同济大学第二附属中学以理工素养培育为核心，与同济大学联合开发科技项目，共享工科实验室。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 94,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 2
+      }
     },
     {
       "id": "SH_HIGH_SCI_024",
@@ -3110,7 +3862,14 @@
       "science_innovation_summary": "“十四五”首批上海市科技教育特色示范校，近年来持续深化科技创新教育的发展，加强学生科技创新能力的培养，在上海市区科创竞赛中屡获奖项。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 94,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 4,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 3
+      }
     },
     {
       "id": "SH_HIGH_SCI_025",
@@ -3134,7 +3893,14 @@
       "science_innovation_summary": "特色科创课程以培养学生素养为核心，构建适合学生科技创新素养发展的课程体系，旨在培养学生科技创新思维、提升科技创新能力。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 94,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 11,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 10
+      }
     },
     {
       "id": "SH_HIGH_SCI_027",
@@ -3170,7 +3936,14 @@
       "science_innovation_summary": "拥有多个科学教育实验室。科技活动如DI、头脑奥林匹克、VEX 机器人等获得过国际比赛冠军。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 95,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 11,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 11
+      }
     },
     {
       "id": "SH_HIGH_SCI_030",
@@ -3182,7 +3955,14 @@
       "science_innovation_summary": "创客文化探索，学生团队研发环保监测系统获国家专利10项，配备3D打印、VR设备的“创客空间”。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 95,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 12,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 2,
+        "优胜奖": 9
+      }
     },
     {
       "id": "SH_HIGH_SCI_031",
@@ -3194,7 +3974,14 @@
       "science_innovation_summary": "上海理工大学附属中学是杨浦区内唯一一所上海市特色普通高中，一向十分重视科技教育发展。工程实践导向，形成计算机、机器人、头脑OM等品牌课程，依托上理工资源强化技术应用能力。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 95,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 2
+      }
     },
     {
       "id": "SH_HIGH_SCI_032",
@@ -3206,7 +3993,14 @@
       "science_innovation_summary": "2020年同济大学与集团成员校同济大学第一附属中学联合启动人工智能创新素养培养项目，联合打造“人工智能高中创新实验班”。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 95,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 8,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 1,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 7
+      }
     },
     {
       "id": "SH_HIGH_SCI_033",
@@ -3218,7 +4012,14 @@
       "science_innovation_summary": "七宝中学以“人工智能社”为特色，获国际机器人大赛冠军，拥有国家级课题实验室。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 95,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 26,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 2,
+        "二等奖": 4,
+        "三等奖": 1,
+        "优胜奖": 19
+      }
     },
     {
       "id": "SH_HIGH_SCI_034",
@@ -3254,7 +4055,14 @@
       "science_innovation_summary": "学校通过实验项目引领，重点打造“生态+”科创课程和“戏剧 +”人文课程，打造科技创新类课程群，科创育人成效突出。近年来屡次在市、区两级科创竞赛中获奖。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 96,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 12,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 1,
+        "二等奖": 2,
+        "三等奖": 1,
+        "优胜奖": 8
+      }
     },
     {
       "id": "SH_HIGH_SCI_037",
@@ -3266,7 +4074,14 @@
       "science_innovation_summary": "校内开设航模（无人机）技术课程、VEX机器人、Python等丰富的科创类研究性课程。学生历年在市区科创类大赛中获奖。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 96,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 18,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 17
+      }
     },
     {
       "id": "SH_HIGH_SCI_038",
@@ -3290,7 +4105,14 @@
       "science_innovation_summary": "早在2016年就与上海交通大学共建工程技术创客中心、同济大学共建智能机器人创客中心。航空航天课程特色显著。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 96,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 3
+      }
     },
     {
       "id": "SH_HIGH_SCI_040",
@@ -3314,7 +4136,14 @@
       "science_innovation_summary": "“科创”是厚植在嘉定一中这所百年名校文化中的特殊“基因”，目前已构建了一套成熟的科创课程体系。涉及23门科创课程的嘉懿科创课程特色显著。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 97,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 6,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 5
+      }
     },
     {
       "id": "SH_HIGH_SCI_042",
@@ -3326,7 +4155,14 @@
       "science_innovation_summary": "学校设立建造了学生专用的学生自主研究中心、科创大楼、社团大楼及多个创新工作室，涵盖诸多学科与研究领域。特别是近五年来，学校秉承个性化差异化的教育理念，通过特需课程和创新培育机制的实践，培养了一大批具有人文理科创新素养和实践能力的高中毕业生。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 97,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 11,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 3,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 7
+      }
     },
     {
       "id": "SH_HIGH_SCI_043",
@@ -3338,7 +4174,14 @@
       "science_innovation_summary": "项目制学习驱动，“未来城市设计”连续五年入选上海市科创大赛十佳，与张江高科技园区共建实践基地。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 97,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 0
+      }
     },
     {
       "id": "SH_HIGH_SCI_044",
@@ -3350,7 +4193,14 @@
       "science_innovation_summary": "进才中学科技教育的发展主要依托步青科探中心的创新实验室展开，打造静模设计、3D打印、纳米科技、环境保护、数字创编、 VR等11个创新实验室。学校先后和南京农业大学以及上海大学签署共建实验室协议。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 97,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 10,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 2,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 8
+      }
     },
     {
       "id": "SH_HIGH_SCI_045",
@@ -3362,7 +4212,14 @@
       "science_innovation_summary": "学校打造了生物技术创新实验室、工作技术创新实验室、金属加工实验室，结合学生社团，实现课题研究全覆盖。学校与同济大学、上海科技大学开展合作， 充分利用“百老讲师团”所有的资源，开设科技讲座，举办科技活动。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 97,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 0
+      }
     },
     {
       "id": "SH_HIGH_SCI_046",
@@ -3374,7 +4231,14 @@
       "science_innovation_summary": "开设科创科创，自招生源能直接进入特色科创班。上中东一部分特色班优秀学校有机会通过委培送去上中。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 98,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 13,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 2,
+        "三等奖": 0,
+        "优胜奖": 11
+      }
     },
     {
       "id": "SH_HIGH_SCI_047",
@@ -3386,7 +4250,14 @@
       "science_innovation_summary": "作为一所一贯制民办双语学校， 平和不仅在高中，在小初阶段也非常注重科创教育。高中科创社团也是校内明星社团。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 98,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 19,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 1,
+        "二等奖": 1,
+        "三等奖": 1,
+        "优胜奖": 16
+      }
     },
     {
       "id": "SH_HIGH_SCI_048",
@@ -3398,7 +4269,14 @@
       "science_innovation_summary": "尚德实验学校科技教育注重“全体教师参与”“全体学生参与”，不仅传授知识与技能，更注重培养能够适应未来挑战的人才。高中部开设PLC编程课程、 融合部开展跨学科设计课程，形成符合学生年龄特点的科创教育特色项目。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 98,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 1,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 0
+      }
     },
     {
       "id": "SH_HIGH_SCI_049",
@@ -3410,7 +4288,14 @@
       "science_innovation_summary": "2024年成立的科创新星学校，唯一以区重点高中为办学起点，以数理科技教育为办学特色，依托华东理工大学探索新时代理科特色高中育人方式，充分利用高校、科研院所资源，由各领域科学家带学生探秘科学。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 98,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 6,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 5
+      }
     },
     {
       "id": "SH_HIGH_SCI_050",
@@ -3434,7 +4319,14 @@
       "science_innovation_summary": "与上海交通大学、东华大学、上海市第一人民医院南院、上海对外经贸大学、上海工程技术大学、G60科创走廊等合作开展跨学科拔尖创新人才培养，有定向科创社团。40届上海市青创赛中更是以60枚奖项位列奖项总数第一。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 99,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 31,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 3,
+        "二等奖": 3,
+        "三等奖": 4,
+        "优胜奖": 21
+      }
     },
     {
       "id": "SH_HIGH_SCI_052",
@@ -3446,7 +4338,14 @@
       "science_innovation_summary": "2027年启动与华东师范大学合作举办科技创新培育科创，已有多年的科创教育经验。DI·OM科创社团、智能机器人与编程、无人机社更是校内明星社团。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 99,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 16,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 2,
+        "三等奖": 1,
+        "优胜奖": 13
+      }
     },
     {
       "id": "SH_HIGH_SCI_053",
@@ -3482,7 +4381,14 @@
       "science_innovation_summary": "依托高校理论，近年开启了学校打造科技创新教育特色的前奏， 市区的科创类竞赛中也总能看到青浦高中的身影。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 99,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 3
+      }
     },
     {
       "id": "SH_HIGH_SCI_056",
@@ -3494,7 +4400,14 @@
       "science_innovation_summary": "“十四五”期间首批上海市科技教育特色师范学校。学校的无人机社被评为首批学生科技创新社团。自2018年科创大楼投入使用以来，奉贤中学进一步推进“科创教育课程化”建设，逐步打造科技教育品牌课程并取得了可喜成果。",
       "source_section": "3.3 上海科创特色高中名单",
       "source_page": 99,
-      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。"
+      "use_boundary": "索引型校情资料，仅作高中综评/科创路径规划参考；学校最新班型和招生以官方通知为准。",
+      "bluebook_41st_qingchuang_award_count": 10,
+      "bluebook_41st_qingchuang_award_breakdown": {
+        "一等奖": 0,
+        "二等奖": 2,
+        "三等奖": 0,
+        "优胜奖": 8
+      }
     },
     {
       "id": "SH_HIGH_SCI_057",

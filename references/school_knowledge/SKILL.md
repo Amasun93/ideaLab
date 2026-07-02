@@ -23,7 +23,7 @@ Read in this order:
 - Ask for city, district, target school, current grade, child profile, goal and time budget when the planning question lacks context.
 - Match product recommendations to the child's stage and school signal.
 - Do not promise admission, better school outcome, award, direct admission, class placement, self-recruitment or comprehensive-evaluation result.
-- Use `第40届青创赛获奖数` as school-level official award-data performance for that competition only. It can support judgments about 科创活跃度和成果表现, but must not be generalized into overall school ranking or long-term trend.
+- Use `第41届青创赛获奖数` as school-level official award-data performance for that competition only. It can support judgments about 科创活跃度和成果表现, but must not be generalized into overall school ranking or long-term trend.
 - For parent-facing simulation, do not mention “知识库”, “当前口径” or source IDs. Say “目前资料看” or “这类学校通常更看重”.
 
 ## Default Output Shape
