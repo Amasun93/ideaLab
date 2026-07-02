@@ -87,7 +87,7 @@ Examples:
 | 上海某区科创特色学校、特殊招生学校 | `references/school_knowledge/学校索引/` + `references/school_knowledge/data/school_indices_20260702.json` |
 | 丘班、H8、L6、市北理、钱班、特色班 | `references/school_knowledge/班型资料卡/` + `references/school_knowledge/data/school_indices_20260702.json` |
 
-Use `第40届青创赛获奖数` as school-level official award-data performance for that competition only. It can support judgments about 科创活跃度和成果表现, but must not be generalized into overall school ranking or long-term trend.
+Use `第41届青创赛获奖数` as school-level official award-data performance for that competition only. It can support judgments about 科创活跃度和成果表现, but must not be generalized into overall school ranking or long-term trend.
 
 ### 顾问训练
 
