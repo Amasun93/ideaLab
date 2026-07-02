@@ -1,7 +1,7 @@
 {
   "batch_id": "LOCAL_EVENT_BATCH_20260626",
   "created_at": "2026-06-26T15:33:45",
-  "scope": "学情通知、赛事通知、获奖/入围名单与辅助材料的本地清洗批次",
+  "scope": "赛情通知、赛事通知、获奖/入围名单与辅助材料的本地清洗批次",
   "raw_material_policy": "Raw files, original filenames that may reveal internal context, row samples, student names, schools, teacher names, IDs, and certificates are not included in this release package.",
   "local_traceback": {
     "private_manifest": "03_AI清洗知识库/01_结构化知识库/data/event_materials_20260626_manifest.json",

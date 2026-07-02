@@ -16,7 +16,7 @@ Read in this order:
 
 ## Answering Rules
 
-- Distinguish 校情 from 区域赛事学情.
+- Distinguish 校情 from 区域赛事赛情.
 - Give the practical planning judgment first.
 - Use school signals as internal planning indicators, not official claims.
 - Distinguish full school cards from school index entries and class-track cards. Do not pretend an index row is a complete school profile.

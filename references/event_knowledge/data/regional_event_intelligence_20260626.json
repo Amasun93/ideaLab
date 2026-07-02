@@ -178,7 +178,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/浦东新区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/浦东新区.md"
     },
     "黄浦区": {
       "evidence_signal_count": 542,
@@ -321,7 +321,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/黄浦区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/黄浦区.md"
     },
     "徐汇区": {
       "evidence_signal_count": 1185,
@@ -479,7 +479,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/徐汇区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/徐汇区.md"
     },
     "长宁区": {
       "evidence_signal_count": 605,
@@ -619,7 +619,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/长宁区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/长宁区.md"
     },
     "静安区": {
       "evidence_signal_count": 481,
@@ -767,7 +767,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/静安区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/静安区.md"
     },
     "普陀区": {
       "evidence_signal_count": 360,
@@ -911,7 +911,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/普陀区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/普陀区.md"
     },
     "虹口区": {
       "evidence_signal_count": 345,
@@ -1054,7 +1054,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/虹口区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/虹口区.md"
     },
     "杨浦区": {
       "evidence_signal_count": 553,
@@ -1207,7 +1207,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/杨浦区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/杨浦区.md"
     },
     "闵行区": {
       "evidence_signal_count": 2566,
@@ -1367,7 +1367,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/闵行区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/闵行区.md"
     },
     "宝山区": {
       "evidence_signal_count": 330,
@@ -1509,7 +1509,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/宝山区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/宝山区.md"
     },
     "嘉定区": {
       "evidence_signal_count": 436,
@@ -1654,7 +1654,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/嘉定区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/嘉定区.md"
     },
     "金山区": {
       "evidence_signal_count": 66,
@@ -1786,7 +1786,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/金山区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/金山区.md"
     },
     "松江区": {
       "evidence_signal_count": 451,
@@ -1929,7 +1929,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/松江区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/松江区.md"
     },
     "青浦区": {
       "evidence_signal_count": 120,
@@ -2062,7 +2062,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/青浦区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/青浦区.md"
     },
     "奉贤区": {
       "evidence_signal_count": 66,
@@ -2196,7 +2196,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/奉贤区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/奉贤区.md"
     },
     "崇明区": {
       "evidence_signal_count": 40,
@@ -2281,7 +2281,7 @@
           ]
         }
       ],
-      "card_path": "references/event_knowledge/区域赛事学情/崇明区.md"
+      "card_path": "references/event_knowledge/区域赛事赛情/崇明区.md"
     }
   }
 }

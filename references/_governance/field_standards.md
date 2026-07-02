@@ -1,10 +1,12 @@
 # ideaLab 关键字段规范
 
-更新时间：2026-06-29
+更新时间：2026-07-02
 
 ## 使用原则
 
 当前不做全量结构化重构。新增字段采用“轻量追加”方式，优先补在 JSON 数据和新资料卡模板中；旧 Markdown 不强制立刻全部迁移。
+
+`SKILL.md` 只保存路由和硬边界，事实字段应写入资料卡或结构化数据。
 
 字段分两类：
 
@@ -24,6 +26,19 @@
 | `owner` | 业务负责人或默认归口 | 大卫 / 教研 / 销售SOP / 赛事负责人 |
 | `update_policy` | 更新策略 | auto_low_risk / pending_review / manual_only |
 | `notes` | 补充说明 | 以当期 SOP 为准 |
+
+## 最小必填字段
+
+新增资料卡至少补齐以下字段：
+
+| 字段 | 含义 |
+|---|---|
+| `source_ids` / `source_batch` | 来源 ID 或材料批次 |
+| `public_safe` | 是否适合对外表达 |
+| `risk_level` | 风险等级 |
+| `last_verified` | 最近核验日期 |
+| `confidence` | 置信度或证据强度 |
+| `use_boundary` | 使用边界 |
 
 ## 产品数据建议字段
 
@@ -52,6 +67,19 @@
 | `next_review` | 下次复核日期 |
 | `update_policy` | 更新策略 |
 
+建议追加字段：
+
+| 字段 | 含义 |
+|---|---|
+| `standard_name` | 对外标准名称 |
+| `active_status` | 在售/暂停/历史/待确认 |
+| `target_grade_stage` | 适用年级或学段 |
+| `entry_requirements` | 入门测、身份、年级、国籍等报名门槛 |
+| `delivery_boundary` | 交付物边界 |
+| `refund_boundary` | 退费边界 |
+| `adjacent_products` | 相邻产品及区别 |
+| `asset_ids` | 可用图片或附件 ID |
+
 ## 赛事数据建议字段
 
 适用于 `event_knowledge/data/events.json` 及后续赛事资料卡。
@@ -77,6 +105,19 @@
 | `next_review` | 下次复核日期 |
 | `update_policy` | 更新策略 |
 
+建议追加字段：
+
+| 字段 | 含义 |
+|---|---|
+| `current_year_status` | 当年赛事状态 |
+| `timeline_year` | 时间线对应年份 |
+| `application_entry` | 报名或申报入口 |
+| `materials_required` | 材料要求 |
+| `review_stages` | 初评/复评/终评/答辩等阶段 |
+| `source_confidence` | 来源置信度 |
+| `public_quote_ready` | 是否可直接作为公开引用 |
+| `forbidden_claims` | 禁用表达 |
+
 ## 话术/Claim 建议字段
 
 适用于 `claim_bank.json`、口播句、FAQ。
@@ -92,6 +133,60 @@
 | `source_ids` | 来源 ID |
 | `rewrite_guardrail` | 改写边界 |
 | `forbidden_rewrites` | 禁止改写方向 |
+| `last_verified` | 最近核验日期 |
+
+## 区域赛事赛情建议字段
+
+适用于 `event_knowledge/区域赛事赛情/` 和 `regional_event_intelligence_*.json`。
+
+| 字段 | 含义 |
+|---|---|
+| `district` | 区 |
+| `years_covered` | 覆盖年份 |
+| `primary_events` | 主要赛事 |
+| `application_windows` | 申报窗口 |
+| `entry_path` | 学校推荐/个人申报/区级入口 |
+| `school_recommendation_mechanism` | 学校推荐机制 |
+| `material_limits` | 材料限制 |
+| `competition_intensity` | 竞争强度 |
+| `key_school_attributes` | 重点关注学校属性 |
+| `confirmed_vs_inferred` | 已确认信息和推断信息 |
+| `needs_followup` | 待补事项 |
+
+## 学校资料卡建议字段
+
+适用于 `school_knowledge/学校资料卡/` 和 `school_intelligence_*.json`。
+
+| 字段 | 含义 |
+|---|---|
+| `city` | 城市 |
+| `district` | 区 |
+| `school_name` | 学校名称 |
+| `school_stage` | 小学/初中/高中/一贯制/待复核 |
+| `school_nature` | 公办/民办/国际/待复核 |
+| `school_tier_label` | 内部参考标签，不对外包装成官方排名 |
+| `science_innovation_strength` | 科创信号强/中/弱 |
+| `science_innovation_evidence` | 科创证据 |
+| `competition_signals` | 赛事或材料信号 |
+| `admission_or_selection_signals` | 招生/筛选/升学信号 |
+| `best_product_fit_by_stage` | 分阶段产品适配 |
+| `consultant_questions` | 顾问追问 |
+| `verification_needed` | 待复核事项 |
+
+学校索引中的 `bluebook_40th_qingchuang_award_count` 对外展示名为 `第40届青创赛获奖数`。该字段来源于官方获奖数据，可用于判断学校在第40届青创赛中的科创活跃度和成果表现，不得泛化为学校综合排名或长期趋势。
+
+## 图片与附件 manifest 建议字段
+
+| 字段 | 含义 |
+|---|---|
+| `asset_id` | 附件唯一 ID |
+| `path` | 相对路径 |
+| `asset_type` | official_logo / poster / screenshot / reference_image / internal_attachment |
+| `source_id` | 来源 ID |
+| `can_send_to_user` | 是否可发送给用户 |
+| `usage_context` | 使用场景 |
+| `rights_note` | 授权或来源说明 |
+| `risk_level` | 风险等级 |
 | `last_verified` | 最近核验日期 |
 
 ## 更新策略定义
