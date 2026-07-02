@@ -1,7 +1,7 @@
 {
   "name": "ideaLab",
   "display_name": "ideaLab 产品与赛事知识库",
-  "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、赛复创智杯、课程推荐、销售边界、官方赛事数据、区域赛事学情、校情蓝皮书/学校科创资料卡、脱敏本地赛事资料索引、内部结果口径、轻量知识治理，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
+  "description": "查询和表达 ideaLab/斯坦星球课程产品、寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、赛复创智杯、课程推荐、销售边界、官方赛事数据、区域赛事学情、校情蓝皮书/学校科创资料卡/学校索引/班型资料卡、脱敏本地赛事资料索引、内部结果口径、轻量知识治理，并支持顾问训练、模拟家长、标准回答示范和100分制考核。",
   "version": "0.5.13",
   "author": "Amasun",
   "repository": "https://github.com/Amasun93/ideaLab",
@@ -78,7 +78,29 @@
     "深圳实验学校",
     "深圳外国语学校",
     "深圳市高级中学",
-    "深圳市百合外国语学校"
+    "深圳市百合外国语学校",
+    "特殊招生学校",
+    "上海特殊招生",
+    "科创特色初中",
+    "科创特色高中",
+    "学校索引",
+    "班型资料卡",
+    "特色班",
+    "丘班",
+    "华二丘班",
+    "上中丘班",
+    "复附丘班",
+    "交附丘班",
+    "市北理",
+    "闵华二钱班",
+    "华育H8",
+    "兰生L6",
+    "南模0班",
+    "H8",
+    "L6",
+    "钱班",
+    "青创获奖数",
+    "第40届青创赛"
   ],
   "capabilities": [
     {
@@ -146,6 +168,24 @@
       "display_name": "校情蓝皮书",
       "description": "读取上海、南京、无锡、杭州、深圳的小升初/综评城市校情、学校科创信号、升学/考试信号、产品适配和顾问追问边界。",
       "reference": "references/school_knowledge/README.md"
+    },
+    {
+      "name": "school_index_entries",
+      "display_name": "学校索引",
+      "description": "读取上海特殊招生学校、科创特色初中、科创特色高中等表格型/简版型校情索引；索引不等同完整学校资料卡，其中第40届青创赛获奖数来源于官方获奖数据，用于学校维度的科创活跃度和成果表现判断。",
+      "reference": "references/school_knowledge/学校索引/"
+    },
+    {
+      "name": "school_class_tracks",
+      "display_name": "班型资料卡",
+      "description": "读取上海丘班、H8、L6、市北理、钱班、南模0班等班型/路径资料；不承诺录取、分班、直升或升学结果。",
+      "reference": "references/school_knowledge/班型资料卡/"
+    },
+    {
+      "name": "school_indices_data",
+      "display_name": "校情索引结构化数据",
+      "description": "读取特殊招生学校、特色班型、上海科创特色初中/高中索引的结构化数据。",
+      "reference": "references/school_knowledge/data/school_indices_20260702.json"
     },
     {
       "name": "consultant_assessment",

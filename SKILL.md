@@ -120,7 +120,9 @@ Classify the task before reading details:
 - 区域赛事学情 questions such as “浦东新区雏鹰杯什么时候申报、注意事项是什么、哪个区怎么规划”: treat “学情” as region/event intelligence, not individual student records. Answer by year, district, event, application window, entry path, materials, school recommendation mechanism, review stages, reminders, and planning implication. If the current structured data does not yet contain the exact district/event card, say what is confirmed and what needs local notice verification.
 - Shanghai regional event intelligence: read the relevant card in `references/event_knowledge/区域赛事学情/` and, when needed, `references/event_knowledge/data/regional_event_intelligence_20260626.json` before answering questions about a district's 学情、科创关注度、竞争强度、重点学校、科技特色学校、公办/民办属性 or school planning.
 - **学校首次出现规则**：如果一个学校在对应区的学情资料卡中还没有记录，回答完顾问的问题后，自动将该学校的关键信息**以资料卡格式追加到对应的区资料卡中**。后续再被问到该学校时，先读已沉淀的信息，再看是否需要网上补充更新。关键字段：学校全称、所在区、公办/民办、是否有科技特色/理科班、对口/入学方式、赛事活跃度、对校区规划的意义。
-- 校情蓝皮书 / 学校校情 / 小升初校情 / 科创校情 questions such as “上海三公怎么看科创规划”“深圳中学初中部重视科创吗”“无锡大桥的校情如何”: treat “校情” as city/school intelligence, not region-event notification data. Read `references/school_knowledge/README.md`, the relevant card in `references/school_knowledge/城市校情/`, and when a school is named, the relevant card in `references/school_knowledge/学校资料卡/`; use `references/school_knowledge/data/school_intelligence_20260702.json` for structured lookup.
+- 校情蓝皮书 / 学校校情 / 小升初校情 / 科创校情 questions such as “上海三公怎么看科创规划”“深圳中学初中部重视科创吗”“无锡大桥的校情如何”: treat “校情” as city/school intelligence, not region-event notification data. Read `references/school_knowledge/README.md`, the relevant card in `references/school_knowledge/城市校情/`, and when a school is named, the relevant card in `references/school_knowledge/学校资料卡/`; use `references/school_knowledge/data/school_intelligence_20260702.json` for structured full-card lookup.
+- 上海特殊招生学校、科创特色初中/高中名单、某区有哪些科创校、学校性质/科创特色/第40届青创赛获奖数: read `references/school_knowledge/学校索引/` and `references/school_knowledge/data/school_indices_20260702.json`; this is an index, not a full school profile. 第40届青创赛获奖数来源于官方获奖数据，可用于判断学校在该届赛事中的科创活跃度和成果表现，不要直接泛化成学校综合排名或长期趋势。
+- 丘班、H8、L6、市北理、钱班、南模0班、特色班 questions: read `references/school_knowledge/班型资料卡/` and `references/school_knowledge/data/school_indices_20260702.json`; treat these as class-track cards, not school admission guarantees.
 - Visual or logo use: read `references/event_knowledge/data/visual_manifest.json`; only `asset_type=official_logo` can be treated as an official logo.
 - Broader preparation, examples, parent FAQ for content, or product-to-event mapping: read `references/event_knowledge/90_长期素材预备/README.md`.
 - **体制外/国际教育方向** students, international competitions, or overseas/双轨制 application pathways: read `references/event_knowledge/90_长期素材预备/06_体制外赛事路线图.md` first, then cross-reference with product/event knowledge as needed.
@@ -145,6 +147,8 @@ Classify the task before reading details:
 | "官方数据有哪些？" | `references/event_knowledge/data/data_points.json` + `source_registry.json` |
 | "更新/校准/记住这个口径" | 先读 `references/_governance/update_policy.md`；低风险可改，高风险写入 `pending_updates.md` |
 | "某城市/某学校校情如何？重视科创吗？怎么规划？" | `references/school_knowledge/README.md` + `城市校情/<城市>.md` + `学校资料卡/<城市>_<学校名>.md` |
+| "上海某区有哪些科创特色初中？特殊招生学校有哪些？" | `references/school_knowledge/学校索引/` + `data/school_indices_20260702.json` |
+| "丘班/H8/L6/市北理/钱班是什么？怎么规划？" | `references/school_knowledge/班型资料卡/` + `data/school_indices_20260702.json` |
 | "能不能用某张图/logo？" | `references/event_knowledge/data/visual_manifest.json` |
 | "开始顾问考核" / "模拟家长问我" / "给我打分" | `references/consultant_training/README.md` + `scenario_queue.json` + `scoring_rubric.json` |
 | "抽一个家长常问问题" / "练异议处理" | `references/consultant_training/README.md` + `parent_faq_bank.json` + `scoring_rubric.json` |
@@ -227,7 +231,10 @@ When the user says “校情”, “蓝皮书”, or asks about a city/school's 
 
 - Core fields: 城市、学校、学校属性、推荐指数/标签、课程或班型特色、科创课程/社团/实验室、升学或考试信号、赛事/材料提示、产品适配、顾问追问、使用边界。
 - Use city cards for broad planning and single-school cards for named schools.
+- Use school index entries for broad lists such as 上海特殊招生学校、科创特色初中/高中、某区科创校. Do not present index rows as complete school profiles.
+- Use class-track cards for 丘班/H8/L6/市北理/钱班/特色班. Do not present class-track cards as school admission guarantees.
 - Treat all school ranking, admission, class-placement, direct-admission, self-recruitment and comprehensive-evaluation signals as internal planning indicators, not official claims.
+- 第40届青创赛获奖数字段来源于官方获奖数据，可用于学校维度的科创活跃度和成果表现判断；不要直接泛化成学校综合排名或长期趋势。对外海报/文章可写“数据来源：官方获奖数据”。
 - For parent-facing answers, say “目前资料看，这类学校更重视……” rather than “这所学校一定看……”.
 - Do not expose raw PDF text, local extraction files, student records, certificates, names, schools tied to individual students, or original bluebook files.
 
@@ -388,6 +395,9 @@ Say that `92%+` is an internal product-result claim, not official competition da
 - School intelligence city cards: `references/school_knowledge/城市校情/`
 - School intelligence school cards: `references/school_knowledge/学校资料卡/`
 - School intelligence data: `references/school_knowledge/data/school_intelligence_20260702.json`
+- School intelligence index cards: `references/school_knowledge/学校索引/`
+- School class-track cards: `references/school_knowledge/班型资料卡/`
+- School index data: `references/school_knowledge/data/school_indices_20260702.json`
 - Long-term event prep: `references/event_knowledge/90_长期素材预备/`
 - Official attachments: `references/event_knowledge/source_attachments/`
 - Consultant training: `references/consultant_training/`

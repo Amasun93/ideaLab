@@ -1,6 +1,6 @@
 # 校情蓝皮书知识库
 
-本目录沉淀 `2026-07-02` 批次的斯坦星球科创蓝皮书清洗结果，用于回答城市校情、单校科创信号、小升初规划和产品适配问题。
+本目录沉淀 `2026-07-02` 批次的斯坦星球科创蓝皮书清洗结果，用于回答城市校情、单校科创信号、小升初规划、特色班型、学校索引和产品适配问题。
 
 ## 使用边界
 
@@ -47,20 +47,48 @@
 - `privacy_level`
 - `confidence`
 
+学校索引字段：
+
+- `record_type`：特殊招生学校、科创特色初中、科创特色高中等索引类型。
+- `district` / `district_or_affiliation`：区或学校归属。
+- `school_name`
+- `school_nature` / `school_nature_or_path`
+- `science_innovation_feature` / `science_innovation_signal`
+- `other_feature`
+- `admission_scope`
+- `admission_method`
+- `bluebook_40th_qingchuang_award_count`：对外展示名建议为“第40届青创赛获奖数”或“青创赛获奖数（第40届）”。该字段来源于官方获奖数据，可用于判断学校在第40届青创赛中的科创活跃度和成果表现，但不要直接泛化成学校综合排名或长期趋势。对外海报/文章可写：数据来源：官方获奖数据。
+- `use_boundary`
+
+班型资料字段：
+
+- `track_name`
+- `host_or_related_school`
+- `focus`
+- `planning_signal`
+- `product_implication`
+- `use_boundary`
+
 ## 读取顺序
 
 1. 先读本文件，明确边界。
 2. 按城市读取 `城市校情/<城市>.md`。
 3. 如果用户问到具体学校，再读 `学校资料卡/<城市>_<学校名>.md`。
-4. 需要结构化检索时读取 `data/school_intelligence_20260702.json`。
-5. 需要确认来源批次时读取 `data/school_bluebook_sources_20260702.json`。
+4. 如果用户问特殊招生学校、科创特色学校名单、某区有哪些科创校，读 `学校索引/` 和 `data/school_indices_20260702.json`。
+5. 如果用户问丘班、H8、L6、市北理、钱班、特色班等，读 `班型资料卡/` 和 `data/school_indices_20260702.json`。
+6. 需要结构化检索时读取 `data/school_intelligence_20260702.json` 与 `data/school_indices_20260702.json`。
+7. 需要确认来源批次时读取 `data/school_bluebook_sources_20260702.json`。
 
 ## 后续清洗流程
 
-处理新版校情 PDF 时，优先使用 MinerU 做版式提取，尽量保留章节、表格和层级结构；再人工/AI 清洗成城市卡、学校资料卡和结构化 JSON。发布包只保留脱敏后的结构化摘要，不放原始 PDF、完整抽取文本或学生/案例明细。
+处理新版校情 PDF 时，优先使用 MinerU 做版式提取，尽量保留章节、表格和层级结构；再人工/AI 清洗成城市卡、学校资料卡、学校索引、班型资料卡和结构化 JSON。发布包只保留脱敏后的结构化摘要，不放原始 PDF、完整抽取文本或学生/案例明细。
+
+Windows 下如果 MinerU 遇到中文文件名、空格或尾随空格导致输出路径报错，先把 PDF 复制到本地清洗区并改成 ASCII 临时文件名，例如 `shanghai_bluebook_2025.pdf`，再运行 MinerU。
 
 ## 当前覆盖
 
 - 城市卡：上海、南京、无锡、杭州、深圳。
 - 单校卡：上海 3 所、无锡 8 所、深圳 5 所。
+- 上海学校索引：特殊招生学校 18 条、科创特色初中 173 条、科创特色高中 57 条。
+- 上海班型资料：丘班、市北理、钱班、华育 H8、兰生 L6、南模 0 班等 9 条。
 - 南京、杭州当前批次以城市级判断为主，未形成稳定单校卡。
