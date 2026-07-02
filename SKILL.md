@@ -81,7 +81,8 @@ Examples:
 | 青创赛、雏鹰杯、宋庆龄少年儿童发明奖、ICC、IEYI、长三角AI | 对应赛事目录的 `00_赛事简介.md` 和 `01_官方数据卡.md` |
 | 官方数据、可引用 claim | `references/event_knowledge/data/data_points.json` + `references/event_knowledge/data/source_registry.json` + `references/event_knowledge/data/claim_bank.json` |
 | 区域赛事赛情,如"浦东雏鹰杯什么时候申报" | `references/event_knowledge/区域赛事赛情/` 对应区卡 + `references/event_knowledge/data/regional_event_intelligence_20260626.json` |
-| 本地赛事通知、获奖名单聚合 | `references/event_knowledge/data/local_event_sources_20260626.json` + `references/event_knowledge/data/local_event_award_stats_20260626.json` |
+| 本地赛事通知、获奖名单聚合 | `references/event_knowledge/data/local_event_sources_20260626.json` + `references/event_knowledge/data/local_event_award_stats_20260626.json`  ⚠️ 这些都是脱敏聚合数据，没有逐校明细！ |
+| 学校赛事获奖数据（如"上实东青创赛获奖"） | ⚠️ **不要读 event_knowledge！** 应读 `references/school_knowledge/data/school_indices_20260702.json`（内有 `bluebook_41st_qingchuang_award_count` 字段，379所学校逐校获奖明细） + 对应学校资料卡 |
 | 赛事图片、logo、附件 | `references/event_knowledge/data/visual_manifest.json` + `references/event_knowledge/data/attachment_manifest.json` |
 
 ### 校情蓝皮书
