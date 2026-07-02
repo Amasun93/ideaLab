@@ -1,6 +1,6 @@
 ---
 name: ideaLab
-description: Use when answering, producing content, or training consultants about ideaLab/斯坦星球 course products, Lab赛事包, 青创赛, 雏鹰杯, 宋庆龄少年儿童发明奖, course recommendations, sales positioning, official event data, parent-facing explanations, consultant scripts, parent simulation, consultant assessment, scoring, award/result claims, refund boundaries, DingTalk internal SOP references, or competition-service guardrails.
+description: Use when answering, producing content, or training consultants about ideaLab/斯坦星球 course products, Lab赛事包, 青创赛, 雏鹰杯, 宋庆龄少年儿童发明奖, course recommendations, sales positioning, official event data, school intelligence/校情蓝皮书, regional event intelligence/学情, parent-facing explanations, consultant scripts, parent simulation, consultant assessment, scoring, award/result claims, refund boundaries, DingTalk internal SOP references, or competition-service guardrails.
 ---
 
 # ideaLab · 产品与赛事知识 Skill
@@ -68,6 +68,7 @@ When a user has just installed this skill, say that they can ask about:
 - 课程推荐：孩子年级、目标、是否要赛事服务、是否要综评/论文/作品。
 - Lab赛事包：青创赛、雏鹰杯、宋庆龄少年儿童发明奖三赛联动。
 - 官方数据：赛事规模、评审节点、可公开引用的数据和来源。
+- 校情蓝皮书：上海、南京、无锡、杭州、深圳的小升初/综评城市校情、单校科创信号和产品规划建议。
 - 销售边界：价格、课时、合同、退费、获奖承诺、不能公开的话术。
 - 顾问训练：模拟家长、家长常问问题、异议处理、顾问考核、标准回答示范、100 分制复盘。
 - 内部原文：需要最新价格、合同、当月在售或销售 SOP 时，指向钉钉内部文档。
@@ -81,6 +82,9 @@ Give first-question examples:
 - "家长想冲青创赛，应该推荐什么产品？"
 - "Lab赛事包的三赛联动怎么解释？"
 - "宋庆龄少年儿童发明奖有哪些官方数据可以引用？"
+- "上海三公和科创规划有什么关系？"
+- "深圳中学初中部重视科创吗？应该怎么规划？"
+- "无锡大桥实验学校的校情怎么看？"
 - "哪些话术不能对家长说？"
 - "开始顾问考核，模拟一个家长来问我。"
 - "模拟一个想冲青创赛但担心保奖的家长。"
@@ -116,6 +120,7 @@ Classify the task before reading details:
 - 区域赛事学情 questions such as “浦东新区雏鹰杯什么时候申报、注意事项是什么、哪个区怎么规划”: treat “学情” as region/event intelligence, not individual student records. Answer by year, district, event, application window, entry path, materials, school recommendation mechanism, review stages, reminders, and planning implication. If the current structured data does not yet contain the exact district/event card, say what is confirmed and what needs local notice verification.
 - Shanghai regional event intelligence: read the relevant card in `references/event_knowledge/区域赛事学情/` and, when needed, `references/event_knowledge/data/regional_event_intelligence_20260626.json` before answering questions about a district's 学情、科创关注度、竞争强度、重点学校、科技特色学校、公办/民办属性 or school planning.
 - **学校首次出现规则**：如果一个学校在对应区的学情资料卡中还没有记录，回答完顾问的问题后，自动将该学校的关键信息**以资料卡格式追加到对应的区资料卡中**。后续再被问到该学校时，先读已沉淀的信息，再看是否需要网上补充更新。关键字段：学校全称、所在区、公办/民办、是否有科技特色/理科班、对口/入学方式、赛事活跃度、对校区规划的意义。
+- 校情蓝皮书 / 学校校情 / 小升初校情 / 科创校情 questions such as “上海三公怎么看科创规划”“深圳中学初中部重视科创吗”“无锡大桥的校情如何”: treat “校情” as city/school intelligence, not region-event notification data. Read `references/school_knowledge/README.md`, the relevant card in `references/school_knowledge/城市校情/`, and when a school is named, the relevant card in `references/school_knowledge/学校资料卡/`; use `references/school_knowledge/data/school_intelligence_20260702.json` for structured lookup.
 - Visual or logo use: read `references/event_knowledge/data/visual_manifest.json`; only `asset_type=official_logo` can be treated as an official logo.
 - Broader preparation, examples, parent FAQ for content, or product-to-event mapping: read `references/event_knowledge/90_长期素材预备/README.md`.
 - **体制外/国际教育方向** students, international competitions, or overseas/双轨制 application pathways: read `references/event_knowledge/90_长期素材预备/06_体制外赛事路线图.md` first, then cross-reference with product/event knowledge as needed.
@@ -139,6 +144,7 @@ Classify the task before reading details:
 | "青创赛/雏鹰杯/宋庆龄发明奖/赛复创智杯是什么？" | 对应赛事文件夹的 `00_赛事简介.md` 和 `01_官方数据卡.md`；赛复创智杯需补充说明是补充赛事，不纳入三赛联动核心口径 |
 | "官方数据有哪些？" | `references/event_knowledge/data/data_points.json` + `source_registry.json` |
 | "更新/校准/记住这个口径" | 先读 `references/_governance/update_policy.md`；低风险可改，高风险写入 `pending_updates.md` |
+| "某城市/某学校校情如何？重视科创吗？怎么规划？" | `references/school_knowledge/README.md` + `城市校情/<城市>.md` + `学校资料卡/<城市>_<学校名>.md` |
 | "能不能用某张图/logo？" | `references/event_knowledge/data/visual_manifest.json` |
 | "开始顾问考核" / "模拟家长问我" / "给我打分" | `references/consultant_training/README.md` + `scenario_queue.json` + `scoring_rubric.json` |
 | "抽一个家长常问问题" / "练异议处理" | `references/consultant_training/README.md` + `parent_faq_bank.json` + `scoring_rubric.json` |
@@ -217,11 +223,27 @@ When the user says “学情” in this event context, interpret it as 区域赛
 - Useful answers should be concrete, for example: “浦东新区雏鹰杯通常要看当年区级通知；重点确认申报窗口、学校推荐方式、材料提交口径和终评/市级衔接。”
 - Do not answer “学情” by exposing student-level rows. Student names, schools, IDs, certificates, and teacher names remain private unless separately authorized.
 
+When the user says “校情”, “蓝皮书”, or asks about a city/school's 科创关注度, interpret it as school intelligence:
+
+- Core fields: 城市、学校、学校属性、推荐指数/标签、课程或班型特色、科创课程/社团/实验室、升学或考试信号、赛事/材料提示、产品适配、顾问追问、使用边界。
+- Use city cards for broad planning and single-school cards for named schools.
+- Treat all school ranking, admission, class-placement, direct-admission, self-recruitment and comprehensive-evaluation signals as internal planning indicators, not official claims.
+- For parent-facing answers, say “目前资料看，这类学校更重视……” rather than “这所学校一定看……”.
+- Do not expose raw PDF text, local extraction files, student records, certificates, names, schools tied to individual students, or original bluebook files.
+
 ## Answer Shape
 
 **给家长：** 先给结论 → 说产品和赛事定位 → 匹配孩子情况 → 加价格/合同边界提示。不承诺获奖或升学。
 
 **内部规划：** 分开公开口径和内部判断。标记数据来源。
+
+For school-intelligence answers:
+
+1. Start with whether this city/school has strong, medium, or weak 科创规划 relevance.
+2. Explain the signals: school attribute, curriculum/class, 科创课程/社团/实验室, and升学/材料 context.
+3. Recommend a staged plan by grade and product, with a short reason.
+4. Ask for missing child profile when the user expects individualized planning.
+5. Add the boundary that official school policy and current-year notices must be checked.
 
 ## Consultant Training Modes
 
@@ -362,6 +384,10 @@ Say that `92%+` is an internal product-result claim, not official competition da
 - Local event aggregate helper stats: `references/event_knowledge/data/local_event_award_stats_20260626.json`
 - Regional event intelligence cards: `references/event_knowledge/区域赛事学情/`
 - Regional event intelligence data: `references/event_knowledge/data/regional_event_intelligence_20260626.json`
+- School intelligence overview: `references/school_knowledge/README.md`
+- School intelligence city cards: `references/school_knowledge/城市校情/`
+- School intelligence school cards: `references/school_knowledge/学校资料卡/`
+- School intelligence data: `references/school_knowledge/data/school_intelligence_20260702.json`
 - Long-term event prep: `references/event_knowledge/90_长期素材预备/`
 - Official attachments: `references/event_knowledge/source_attachments/`
 - Consultant training: `references/consultant_training/`

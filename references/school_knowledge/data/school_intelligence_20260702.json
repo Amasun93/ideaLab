@@ -1,0 +1,745 @@
+{
+  "updated_at": "2026-07-02",
+  "schema_version": "school_card_v2",
+  "usage_boundary": "内部校情规划资料；不含原始PDF、学生名单、证书或个人案例；所有招生/升学/赛事结论需按当年官方通知复核。",
+  "cities": {
+    "上海": {
+      "bluebook_focus": "综评 / 小升初 / 三公与特色校",
+      "planning_summary": "上海校情的核心是三公、特色校、初高中综评和自招素材的长期蓄水。科创不是单独的升学通道，而是项目能力、表达能力、证据链和赛事成果的组合素材。",
+      "school_selection_signals": [
+        "三公和特色校普遍关注综合素质、表达能力、外语/科创/特长材料。",
+        "小学高年级开始形成原创项目、研究过程、答辩表达和可展示作品，更利于后续衔接初中、高中综评。",
+        "上海政策和学校动作变化快，具体招生细则、测试方式和材料要求必须回查当年官方通知。"
+      ],
+      "recommended_events": [
+        "青创赛",
+        "雏鹰杯",
+        "宋庆龄少年儿童发明奖",
+        "明日科技之星",
+        "白名单科创赛事"
+      ],
+      "product_implications": [
+        "小学1-3年级：用智造万物/MYO保护兴趣和动手基础。",
+        "小学4-5年级：根据目标分流到启航计划、雏鹰杯专项营或寒(暑)假竞赛营。",
+        "初中：用领航计划或寒(暑)假竞赛营做研究表达、论文/报告、答辩和多赛事材料。",
+        "高中：高中课题营或高阶科研路径服务综评课题，不承诺综评或录取结果。"
+      ],
+      "known_limitations": [
+        "单校资料优先覆盖三公与蓝皮书中拆解较完整的学校；其他学校后续可继续补卡。"
+      ]
+    },
+    "南京": {
+      "bluebook_focus": "综评 / 小升初 / 优录与科创路径",
+      "planning_summary": "南京蓝皮书更偏城市政策、民办优录、班型和证书路径。科创可作为简历竞争力的一部分，但要和学业、英语、校内荣誉一起看。",
+      "school_selection_signals": [
+        "2025年南京公办初中优录受限，民办路径仍需关注学校当年政策。",
+        "全优全三好、学科证书和科创类奖项共同构成简历竞争力。",
+        "江苏政策强调实验教学、STEM、科学副校长和科技实践活动，适合做长期项目积累。"
+      ],
+      "recommended_events": [
+        "青少年科技创新类赛事",
+        "信息学/CSP-J/S",
+        "机器人/人工智能类赛事",
+        "科学探究与工程类项目"
+      ],
+      "product_implications": [
+        "低龄先做科学兴趣、工程启蒙和作品展示。",
+        "四五年级开始沉淀可展示项目和竞赛经历。",
+        "目标民办优录或特色班时，科创项目应与学业、英语和校内荣誉一起构成简历。"
+      ],
+      "known_limitations": [
+        "当前批次未抽取到足够稳定的南京单校完整卡，先保留城市层面判断。"
+      ]
+    },
+    "无锡": {
+      "bluebook_focus": "综评 / 小升初 / 市属民办名校与科创校情",
+      "planning_summary": "无锡蓝皮书单校信息较丰富。大桥、金桥、一女中、江南、辅成、外国语等学校均呈现校本课程、科技社团、机器人/AI/STEM或特色班信号。",
+      "school_selection_signals": [
+        "市属/民办强校竞争与中考表现、分配生、直升或特色班路径相关。",
+        "少年班、特色班和强校路径通常需要学业能力、表达材料和项目/竞赛经历共同支撑。",
+        "学校之间科创侧重点不同：有的偏机器人/AI，有的偏自然科学/环保，有的偏外语+科技综合素养。"
+      ],
+      "recommended_events": [
+        "CSP-J/S",
+        "机器人竞赛",
+        "青少年科技创新类赛事",
+        "人工智能/无人机/Make类赛事"
+      ],
+      "product_implications": [
+        "目标强校：提前准备作品、编程、机器人、研究表达和展示材料。",
+        "目标特色校：根据学校偏好突出科学社团、自然科学、工程实践或外语表达。",
+        "四五年级开始用启航/竞赛营做项目化成果，初中再升级研究和答辩。"
+      ],
+      "known_limitations": [
+        "中考成绩、分配生等数据只作为蓝皮书内部参考，不作为公开承诺或官方排名使用。"
+      ]
+    },
+    "杭州": {
+      "bluebook_focus": "三位一体 / 小升初 / 科创路径",
+      "planning_summary": "杭州蓝皮书强调浙江科学教育政策、工程启蒙、项目化学习和三位一体长期素材。科创规划更适合从工程启蒙逐步走向研究报告和白名单赛事。",
+      "school_selection_signals": [
+        "浙江政策强调大中小学一体化科学教育、工程启蒙、实验教学和创新人才选育。",
+        "杭州小升初涉及公民同招、民转公、一贯制直升和热门校预警。",
+        "科创成果应服务长期三位一体和高中综评素材，不宜只做短期奖项预期。"
+      ],
+      "recommended_events": [
+        "全球发明大会中国区 ICC",
+        "青少年人工智能/机器人赛事",
+        "信息学/CSP-J/S",
+        "省市级科技创新类赛事"
+      ],
+      "product_implications": [
+        "低龄做兴趣、工程启蒙和动手作品。",
+        "四五年级用启航或MYO沉淀可讲述项目。",
+        "初中聚焦白名单赛事、研究报告、答辩和项目证据链，为高中三位一体积累素材。"
+      ],
+      "known_limitations": [
+        "当前批次未抽取到足够稳定的杭州单校完整卡，先保留城市层面判断。"
+      ]
+    },
+    "深圳": {
+      "bluebook_focus": "综评 / 小升初 / 5+1名校与科创路径",
+      "planning_summary": "深圳校情与科技城市生态、5+1名校、综评和创新人才培养联系较强。科创规划要重视项目原创性、工程实践、竞赛经历和现场表达。",
+      "school_selection_signals": [
+        "2025年起深圳中小学全面推行绝对随机分班，单纯依赖分班路径的确定性降低。",
+        "深中、实验、深外、高级、百外等学校均有较强科创或创新人才培养信号。",
+        "本地明日科创之星、青创、宋赛、未来工程师等可作为中长期成果路径。"
+      ],
+      "recommended_events": [
+        "明日科创之星",
+        "深圳市青少年科技创新大赛",
+        "宋庆龄少年儿童发明奖",
+        "未来工程师大赛",
+        "CSP-J/S",
+        "机器人/AI赛事"
+      ],
+      "product_implications": [
+        "小学1-3年级保护兴趣，做基础动手、工程和科普活动。",
+        "小学4-5年级进入项目式学习，并尝试1-2项适配赛事。",
+        "初中以白名单赛事、研究报告、答辩和项目证据链服务综评/自招材料。"
+      ],
+      "known_limitations": [
+        "深圳单校卡含蓝皮书中的班型和升学信号，仅用于内部规划，不直接对家长作结果承诺。"
+      ]
+    }
+  },
+  "schools": [
+    {
+      "id": "SCHOOL_上海_001",
+      "city": "上海",
+      "school_name": "上海外国语大学附属外国语学校",
+      "source_section": "2.1.1",
+      "school_type_or_attribute": "外语特色 / 三公关注校 / 性质与当年招生需复核",
+      "recommendation_index": "蓝皮书未稳定提取",
+      "tags": [
+        "外语特色",
+        "科创人才班",
+        "人工智能",
+        "物理实验",
+        "研究表达",
+        "直升/贯通"
+      ],
+      "school_positioning": "蓝皮书将其作为上海三公重点校拆解，外语特色鲜明，同时出现多语种科创人才培养信号。",
+      "course_or_class_features": "多语种、小班化和双语/小语种课程是基础特色；科创人才班围绕数学、物理、人工智能和学术英语表达做贯通培养。",
+      "science_innovation_signal": "科创人才班强调理科特长、创新特质和外语特色，包含物理实验、AI/信息劳技融合、科学文献阅读、学术写作和论文答辩等训练。",
+      "admission_or_exam_signal": "蓝皮书提到初高中贯通和较高直升信号；实际招生、直升和测试要求必须以学校当年官方通知为准。",
+      "competition_or_portfolio_signals": [
+        "适合提前准备英文/双语项目表达",
+        "适合沉淀AI、物理实验、工程类作品和研究答辩材料"
+      ],
+      "product_fit": [
+        "智造万物/MYO：补工程和动手底盘",
+        "科创启航计划：形成原创项目和表达材料",
+        "寒(暑)假竞赛营：做完整项目孵化和多赛事申报",
+        "科创领航计划：初中阶段升级研究报告、论文表达和答辩"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_上海_002",
+      "city": "上海",
+      "school_name": "上海市实验学校",
+      "source_section": "2.1.2",
+      "school_type_or_attribute": "实验性/示范性学校 / 一贯制信号 / 性质需复核",
+      "recommendation_index": "★★★★★",
+      "tags": [
+        "实验学校",
+        "一贯制",
+        "科学探究",
+        "机器人",
+        "科技社团",
+        "创新实验室"
+      ],
+      "school_positioning": "蓝皮书将其作为上海三公/特色校重点拆解，强调整体改革、早期潜能开发和创造精神培养。",
+      "course_or_class_features": "学校有学养课程、拓展课程和跨学段培养体系；课程设计重视兴趣、志趣、个性发展和综合素养。",
+      "science_innovation_signal": "科技类实验室和工作室覆盖数学、物理、工程、化学、生物、信息科技等方向；小学偏环保、手工、乐高，中学偏科学探究和信息技术，社团含科创、机器人、生命科学等。",
+      "admission_or_exam_signal": "蓝皮书提到初升高直升考和高考表现信号；这些内容仅作内部校情判断，不对家长承诺直升、升学或录取结果。",
+      "competition_or_portfolio_signals": [
+        "适合长期项目证据链",
+        "适合科学探究、信息科技、机器人和工程类作品"
+      ],
+      "product_fit": [
+        "智造万物/MYO：夯实低龄工程和创作基础",
+        "科创启航计划：小学高年级做原创项目",
+        "寒(暑)假竞赛营：项目孵化+多赛事材料",
+        "科创领航计划：初中科研表达和答辩升级"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_上海_003",
+      "city": "上海",
+      "school_name": "上海外国语大学附属浦东外国语学校",
+      "source_section": "2.1.3",
+      "school_type_or_attribute": "外语特色 / 浦东特色校信号 / 性质需复核",
+      "recommendation_index": "★★★★★",
+      "tags": [
+        "外语特色",
+        "创客教育",
+        "生态/环境",
+        "科技特色学校",
+        "直升/贯通"
+      ],
+      "school_positioning": "蓝皮书将其放在上海三公/特色校路径中，学校位于张江区域，外语特色与科技教育信号并存。",
+      "course_or_class_features": "外语课程包含知识技能、社会文化和综合实践模块；综合实践涉及模联、国际文化交流、辩论等表达能力。",
+      "science_innovation_signal": "蓝皮书提到区级科技教育特色、创客/创新空间和生态环境类实践信号，适合用项目作品和研究表达做补充。",
+      "admission_or_exam_signal": "蓝皮书提到初升高直升相关信号；具体直升、选拔和承诺要求需以学校当年政策为准。",
+      "competition_or_portfolio_signals": [
+        "适合外语+科创的双语表达",
+        "适合生态、环境、创客、工程实践类项目"
+      ],
+      "product_fit": [
+        "智造万物/MYO：补动手作品和工程体验",
+        "科创启航计划：形成原创问题和项目表达",
+        "寒(暑)假竞赛营：适合有明确赛事目标时做材料闭环",
+        "科创领航计划：初中阶段升级研究和答辩"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_无锡_004",
+      "city": "无锡",
+      "school_name": "大桥实验学校",
+      "source_section": "2.1.1",
+      "school_type_or_attribute": "民办 / 十二年一贯制信号 / 需以当地教育局信息复核",
+      "recommendation_index": "蓝皮书未稳定提取",
+      "tags": [
+        "民办强校",
+        "STEM",
+        "信息技术",
+        "乐高机器人",
+        "直升/贯通"
+      ],
+      "school_positioning": "无锡强校代表，蓝皮书重点关注其办学成绩、贯通路径和科学教育氛围。",
+      "course_or_class_features": "学校构建多元课程体系，强调精英人才基础、综合素养和长期培养。",
+      "science_innovation_signal": "蓝皮书提到STEM课程、科普午会、小学信息技术连续课程，以及乐高机器人EV3等特色内容。",
+      "admission_or_exam_signal": "蓝皮书记录了直升、中考和分配生等历史信号；仅用于内部判断竞争强度，不作为官方排名或结果承诺。",
+      "competition_or_portfolio_signals": [
+        "适合机器人、信息技术、工程实践项目",
+        "强校竞争下需要项目成果和表达材料提前蓄水"
+      ],
+      "product_fit": [
+        "智造万物/MYO：低龄工程和机器人兴趣底盘",
+        "科创启航计划：四五年级形成原创项目",
+        "寒(暑)假竞赛营：冲青创/宋赛等多赛事材料",
+        "科创领航计划：初中研究表达升级"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_无锡_005",
+      "city": "无锡",
+      "school_name": "无锡金桥教育集团",
+      "source_section": "2.1.2",
+      "school_type_or_attribute": "民办教育集团 / 需以当地教育局信息复核",
+      "recommendation_index": "蓝皮书未稳定提取",
+      "tags": [
+        "民办强校",
+        "双语/外语",
+        "STEAM",
+        "机器人",
+        "无人机",
+        "项目研究"
+      ],
+      "school_positioning": "无锡本地优质民办教育集团，蓝皮书呈现多校区、多课程和较强升学竞争信号。",
+      "course_or_class_features": "校本课程覆盖英语、人文、科学、艺体、网络信息等领域，部分校区设剑桥科学、STEAM和机器人课程。",
+      "science_innovation_signal": "科技教育包含车模、航模、船模、无人机、电子百拼、科技制作和项目研究，体现较丰富的社团/实践基础。",
+      "admission_or_exam_signal": "蓝皮书记录了不同校区中考、分配生和高分段信息；需分校区复核，不能整体替代官方数据。",
+      "competition_or_portfolio_signals": [
+        "适合STEAM、无人机、机器人和科技制作类作品",
+        "目标强校家庭可提前准备跨学科项目和展示材料"
+      ],
+      "product_fit": [
+        "智造万物/MYO：补STEAM和工程作品",
+        "科创启航计划：形成可讲述的原创项目",
+        "寒(暑)假竞赛营：项目孵化和赛事申报",
+        "科创领航计划：初中研究报告与答辩"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_无锡_006",
+      "city": "无锡",
+      "school_name": "无锡第一女子中学",
+      "source_section": "2.1.3",
+      "school_type_or_attribute": "公办特色学校 / 女校特色 / 需复核当年招生",
+      "recommendation_index": "蓝皮书未稳定提取",
+      "tags": [
+        "女校特色",
+        "现代女性素养",
+        "自然科学",
+        "环境科技",
+        "科技社团",
+        "术科测评"
+      ],
+      "school_positioning": "无锡特色女校，蓝皮书重点呈现现代女性素养课程和特色招生/测评信号。",
+      "course_or_class_features": "校本课程围绕道德品格、家庭幸福、语言交际、艺术审美、科学创新、体育健康六大领域。",
+      "science_innovation_signal": "自然之友青少年科学院将环境教育、社会调查、研学体验、科技活动和文献阅读结合，偏自然科学与环境科技。",
+      "admission_or_exam_signal": "蓝皮书提到术科测评和2+4直升班信号；具体测评项目、招生条件和班型以当年官方通知为准。",
+      "competition_or_portfolio_signals": [
+        "适合环保、自然观察、社会调查和科学文献阅读项目",
+        "适合培养女生在科学表达和项目答辩中的自信"
+      ],
+      "product_fit": [
+        "智造万物/MYO：补动手实践和科学兴趣",
+        "科创启航计划：做环境/生活问题类原创项目",
+        "寒(暑)假竞赛营：适合已有明确课题时冲赛事",
+        "科创领航计划：初中研究表达升级"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_无锡_007",
+      "city": "无锡",
+      "school_name": "江南中学",
+      "source_section": "2.1.4",
+      "school_type_or_attribute": "公办/优质初中信号 / 性质需复核",
+      "recommendation_index": "蓝皮书未稳定提取",
+      "tags": [
+        "学科拓展",
+        "创客空间",
+        "机器人",
+        "无线电测向",
+        "科技体验馆"
+      ],
+      "school_positioning": "无锡老牌优质初中，蓝皮书呈现其国家课程校本化、学科拓展和多样化课程资源。",
+      "course_or_class_features": "课程包含学业发展、学科拓展、青春成长等模块，满足学有余力学生的多样化学习需求。",
+      "science_innovation_signal": "科学技能类课程、科技体验馆、探究实验室、创客空间、机器人乐园、无线电测向和乐高机器人等信号明确。",
+      "admission_or_exam_signal": "蓝皮书记录了分配生等升学信号；仅用于内部理解学校竞争强度，不能公开替代官方口径。",
+      "competition_or_portfolio_signals": [
+        "适合机器人、创客、无线电测向、科学技能类项目",
+        "适合以校本拓展课程为背景补充项目成果"
+      ],
+      "product_fit": [
+        "智造万物/MYO：补工程动手基础",
+        "科创启航计划：将兴趣转成原创项目",
+        "寒(暑)假竞赛营：做赛事材料闭环",
+        "科创领航计划：初中研究和答辩升级"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_无锡_008",
+      "city": "无锡",
+      "school_name": "无锡市辅成实验学校",
+      "source_section": "2.1.5",
+      "school_type_or_attribute": "民办/实验学校信号 / 需以当地教育局信息复核",
+      "recommendation_index": "蓝皮书未稳定提取",
+      "tags": [
+        "人工智能",
+        "机器人编程",
+        "创客教育",
+        "STEM",
+        "专用教室",
+        "竞赛信号"
+      ],
+      "school_positioning": "蓝皮书将其作为无锡科创信号较明确的学校之一，重点在人工智能、机器人编程和创客教育。",
+      "course_or_class_features": "学校构建国家信息科技课程与校本社团活动双线并进的培养方式。",
+      "science_innovation_signal": "有机器人编程、创客教育、STEM教育、专用教室、软硬件设施、创意编程和趣玩STEM等内容。",
+      "admission_or_exam_signal": "蓝皮书记录中考和分配生历史信号；仅作内部规划参考，不对外承诺升学结果。",
+      "competition_or_portfolio_signals": [
+        "适合机器人、AI、编程和STEM项目",
+        "适合用赛事材料验证项目过程和表达能力"
+      ],
+      "product_fit": [
+        "智造万物/MYO：补机器人和工程底盘",
+        "科创启航计划：形成AI/工程原创项目",
+        "寒(暑)假竞赛营：多赛事申报和答辩材料",
+        "科创领航计划：初中科研表达升级"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_无锡_009",
+      "city": "无锡",
+      "school_name": "无锡外国语学校",
+      "source_section": "2.1.6",
+      "school_type_or_attribute": "外语特色 / 一贯制信号 / 性质需复核",
+      "recommendation_index": "蓝皮书未稳定提取",
+      "tags": [
+        "外语特色",
+        "人工智能",
+        "物联网",
+        "编程",
+        "科技工程课程",
+        "直升/贯通"
+      ],
+      "school_positioning": "蓝皮书呈现其外语特色、一贯制资源和科技工程课程，适合外语表达与科创项目结合。",
+      "course_or_class_features": "学校有多语种、国际课程和五育课程研究中心，科技类与工程教育课程被纳入课程体系。",
+      "science_innovation_signal": "人工智能社团、电子工程师、动力机械、科技制作、乐创编程、单片机、Scratch、Python、C++等信号较丰富。",
+      "admission_or_exam_signal": "蓝皮书记录中考、分配生和直升相关信号；需以学校/教育局当年信息复核。",
+      "competition_or_portfolio_signals": [
+        "适合AI、物联网、编程和电子工程类作品",
+        "适合外语+科技的项目展示和答辩表达"
+      ],
+      "product_fit": [
+        "智造万物/MYO：补工程作品和编程兴趣",
+        "科创启航计划：做原创项目和展示材料",
+        "寒(暑)假竞赛营：冲赛事材料闭环",
+        "科创领航计划：初中研究表达升级"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_无锡_010",
+      "city": "无锡",
+      "school_name": "吴风实验学校",
+      "source_section": "2.1.7",
+      "school_type_or_attribute": "民办/寄宿制特色信号 / 需以当地教育局信息复核",
+      "recommendation_index": "蓝皮书未稳定提取",
+      "tags": [
+        "民办",
+        "寄宿制",
+        "拓展课程",
+        "科技类课程",
+        "实验学校"
+      ],
+      "school_positioning": "蓝皮书呈现其民办寄宿制管理和拓展课程体系，科创信号相对基础但可作为综合素养补充。",
+      "course_or_class_features": "拓展性课程覆盖科技、艺术、社会、学科和体育等多个方面，重视更广泛的学习体验。",
+      "science_innovation_signal": "科技类拓展课程有一定基础，适合从兴趣和作品展示切入，后续再根据学生能力升级。",
+      "admission_or_exam_signal": "蓝皮书记录中考表现和普高达线等历史信息；仅作内部参考，不对家长承诺升学结果。",
+      "competition_or_portfolio_signals": [
+        "适合从科技兴趣、生活问题和小型作品开始",
+        "如目标转向强赛事，需要补原创性、研究过程和答辩"
+      ],
+      "product_fit": [
+        "智造万物/MYO：优先做动手兴趣和作品",
+        "科创启航计划：能力足够后形成原创项目",
+        "寒(暑)假竞赛营：仅在目标明确且基础达标时推荐"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_无锡_011",
+      "city": "无锡",
+      "school_name": "无锡市育才中学",
+      "source_section": "2.1.8",
+      "school_type_or_attribute": "民办/优质品牌校信号 / 需以当地教育局信息复核",
+      "recommendation_index": "蓝皮书未稳定提取",
+      "tags": [
+        "民办",
+        "特色强校",
+        "竞赛信号",
+        "综合素质",
+        "拔尖创新"
+      ],
+      "school_positioning": "蓝皮书呈现其办学声誉、管理和中考/竞赛相关信号，科创信息不如机器人/AI强校集中。",
+      "course_or_class_features": "学校强调特色强校、生本德育、全员德育和学科基础，重视综合素质发展。",
+      "science_innovation_signal": "蓝皮书主要体现竞赛和综合素质信号，未抽取到完整科创课程体系；后续需要补充学校公开资料复核。",
+      "admission_or_exam_signal": "蓝皮书记录中考表现、自招和竞赛获奖等历史信息；仅作为内部校情判断，不公开作排名或承诺。",
+      "competition_or_portfolio_signals": [
+        "适合把科创作为综合素质材料补充",
+        "如走强赛事，需要从项目原创性和答辩表达补短板"
+      ],
+      "product_fit": [
+        "智造万物/MYO：低龄兴趣和工程作品",
+        "科创启航计划：四五年级形成原创项目",
+        "寒(暑)假竞赛营：基础达标且目标明确时进入赛事服务"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_深圳_012",
+      "city": "深圳",
+      "school_name": "深圳中学（初中部）",
+      "source_section": "2.1.1",
+      "school_type_or_attribute": "深圳5+1名校 / 公办强校信号 / 性质需复核",
+      "recommendation_index": "★★★★★★",
+      "tags": [
+        "拔尖创新",
+        "创客空间",
+        "创新实验室",
+        "校本课程",
+        "竞赛信号",
+        "丘成桐/高阶科研"
+      ],
+      "school_positioning": "深圳顶尖名校代表，蓝皮书强调拔尖创新人才培养、课程改革、学科竞赛和创新实践。",
+      "course_or_class_features": "蓝皮书提到3+2、3+3等整体教育实验课程体系和较快课程进度；具体班型名称和政策以学校当年信息为准。",
+      "science_innovation_signal": "与科技企业和高校共建创新体验中心/实验室，科创相关校本课程和科技社团较多，创客空间信号强。",
+      "admission_or_exam_signal": "蓝皮书记录历史中考和录取信号；部分信息带传闻属性，回答时必须标注仅作内部参考。",
+      "competition_or_portfolio_signals": [
+        "适合高原创度工程/AI/科学探究项目",
+        "适合早期建立研究、作品、答辩和高阶赛事证据链"
+      ],
+      "product_fit": [
+        "智造万物/MYO：低龄工程和创客基础",
+        "科创启航计划：小学高年级原创项目",
+        "寒(暑)假竞赛营：多赛事材料和答辩",
+        "科创领航计划：初中科研表达、高阶赛事衔接"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_深圳_013",
+      "city": "深圳",
+      "school_name": "深圳实验学校",
+      "source_section": "2.1.2",
+      "school_type_or_attribute": "公办集团校 / 实验性示范学校信号",
+      "recommendation_index": "★★★★★",
+      "tags": [
+        "人工智能",
+        "3D打印",
+        "创客教育",
+        "无人机",
+        "VR",
+        "SDEI能力进阶"
+      ],
+      "school_positioning": "深圳实验学校在蓝皮书中呈现为科创实践和创新人才培养信号明显的学校。",
+      "course_or_class_features": "蓝皮书提到S型分班、素养班和平行班动态调整等信号；具体分班政策需按当年学校安排复核。",
+      "science_innovation_signal": "科技社团和选修课程覆盖程序设计、3D打印、激光雕刻、无人机、VR等；SDEI能力进阶体系从结构、动态结构、电子控制到人工智能递进。",
+      "admission_or_exam_signal": "蓝皮书记录公办普高率和中考分数段信息；仅作内部判断竞争强度，不对外承诺。",
+      "competition_or_portfolio_signals": [
+        "适合工程结构、电子控制、AI、3D打印和无人机项目",
+        "适合用阶段性作品展示能力递进"
+      ],
+      "product_fit": [
+        "智造万物/MYO：匹配结构、制造和电子控制基础",
+        "科创启航计划：原创项目和表达材料",
+        "寒(暑)假竞赛营：赛事申报与答辩材料",
+        "科创领航计划：初中科研与综评素材"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_深圳_014",
+      "city": "深圳",
+      "school_name": "深圳外国语学校",
+      "source_section": "2.1.3",
+      "school_type_or_attribute": "外语特色 / 公办名校信号 / 市直属需复核",
+      "recommendation_index": "★★★★★",
+      "tags": [
+        "外语特色",
+        "创客平台",
+        "人工智能",
+        "天文气象",
+        "IGEM",
+        "创新书院"
+      ],
+      "school_positioning": "深圳外国语学校在蓝皮书中呈现外语特色和拔尖创新培养并重，适合外语表达与科研项目结合。",
+      "course_or_class_features": "创新书院课程含基础课程、高端课程、科创课程、实践课程；蓝皮书强调差异化预备英才培养。",
+      "science_innovation_signal": "科创课程包含创客平台、人工智能、天文气象、IGEM等方向，适合把科技项目与英文/国际化表达结合。",
+      "admission_or_exam_signal": "蓝皮书记录中考和四大率等历史信号；不可作为公开排名或升学保证。",
+      "competition_or_portfolio_signals": [
+        "适合双语/英文科技表达",
+        "适合AI、创客、生命科学、天文气象等项目"
+      ],
+      "product_fit": [
+        "智造万物/MYO：补工程作品和动手基础",
+        "科创启航计划：形成可表达原创项目",
+        "寒(暑)假竞赛营：项目孵化和多赛事申报",
+        "科创领航计划：研究报告、论文表达和答辩升级"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_深圳_015",
+      "city": "深圳",
+      "school_name": "深圳市高级中学",
+      "source_section": "2.1.4",
+      "school_type_or_attribute": "深圳名校集团 / 校区差异需复核",
+      "recommendation_index": "★★★★★",
+      "tags": [
+        "竞赛班",
+        "重点班",
+        "创新实验室",
+        "机器人",
+        "信息科技",
+        "国际交流"
+      ],
+      "school_positioning": "蓝皮书呈现深圳高级中学集团多校区、竞赛班/重点班和科创实践平台信号；使用时需区分校区。",
+      "course_or_class_features": "竞赛班和重点班信号明显，课程进度和学业竞争强；具体班型设置、选拔和校区政策必须复核。",
+      "science_innovation_signal": "创新实验室、科研室、机器人竞赛、信息技术通识、信息类校本课程和科技社团等信号较强。",
+      "admission_or_exam_signal": "蓝皮书记录不同校区历史中考表现；因校区差异大，不应合并为一个公开结论。",
+      "competition_or_portfolio_signals": [
+        "适合机器人、信息科技、工程实验类项目",
+        "学业竞争强，科创规划要兼顾时间投入和项目质量"
+      ],
+      "product_fit": [
+        "智造万物/MYO：低龄工程和机器人兴趣",
+        "科创启航计划：原创项目能力",
+        "寒(暑)假竞赛营：赛事材料和答辩",
+        "科创领航计划：初中科研表达升级"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    },
+    {
+      "id": "SCHOOL_深圳_016",
+      "city": "深圳",
+      "school_name": "深圳市百合外国语学校",
+      "source_section": "2.1.5",
+      "school_type_or_attribute": "民办外语特色 / 寄宿制信号 / 需以当地教育局信息复核",
+      "recommendation_index": "★★★★★",
+      "tags": [
+        "外语特色",
+        "STEM",
+        "科技节",
+        "创新实验室",
+        "竞赛信号",
+        "社团资源"
+      ],
+      "school_positioning": "蓝皮书将其作为深圳强民办/外语特色学校拆解，外语、社团和科技实践信号并存。",
+      "course_or_class_features": "第二课堂和社团资源丰富，英语课程体系和外语活动是主要特色，同时有科技节等综合活动。",
+      "science_innovation_signal": "蓝皮书提到STEM课程、创新实验室、科技竞赛和创新活动，但整体科创定位相对偏综合素质和外语特色结合。",
+      "admission_or_exam_signal": "蓝皮书记录历史四大率和分数段等信息；只作内部判断竞争强度，不对外作为官方排名或承诺。",
+      "competition_or_portfolio_signals": [
+        "适合外语表达+STEM项目展示",
+        "适合以社团和科技节为场景沉淀作品/答辩材料"
+      ],
+      "product_fit": [
+        "智造万物/MYO：补STEM和工程作品",
+        "科创启航计划：做可展示原创项目",
+        "寒(暑)假竞赛营：目标明确时做多赛事申报",
+        "科创领航计划：初中研究表达升级"
+      ],
+      "source_batch": "2026-07-02_斯坦星球科创蓝皮书",
+      "parent_planning_note": "用于内部校情判断和顾问规划；不可承诺录取、优录、自招、综评、分班、直升或获奖结果。学校属性、班型、招生细则和赛事规则均需以当年官方通知复核。",
+      "consultant_questions": [
+        "孩子当前年级、所在城市/区和目标学校是什么？",
+        "目前更缺动手作品、原创项目、赛事成果，还是表达/答辩材料？",
+        "家庭希望走兴趣培养、升学素材、还是明确赛事服务？可投入多长周期？"
+      ],
+      "privacy_level": "cleaned_summary_only_no_raw_pdf_no_student_records",
+      "confidence": "bluebook_cleaned_summary_needs_current_policy_check"
+    }
+  ]
+}
