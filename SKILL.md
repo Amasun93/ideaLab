@@ -95,6 +95,7 @@ Use `第40届青创赛获奖数` as school-level official award-data performance
 |---|---|
 | 模拟家长、顾问考核、打分 | `references/consultant_training/README.md` + `references/consultant_training/scenario_queue.json` + `references/consultant_training/scoring_rubric.json` |
 | 抽常见问题、练异议处理 | `references/consultant_training/parent_faq_bank.json` + `references/consultant_training/scoring_rubric.json` |
+| 回复思路、话术思路、怎么开口、顾问表达复盘 | `references/consultant_training/response_playbook.md` + 对应产品/赛事/校情资料 |
 | 用户当家长，要求示范回答 | `references/consultant_training/README.md` + 对应产品/赛事/校情资料 |
 
 ### 其他资料

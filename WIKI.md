@@ -43,6 +43,7 @@
 | 区域赛事通知、区级申报时间、赛情 | `references/event_knowledge/区域赛事赛情/` 和数据 JSON | 否 |
 | 校情、学校资料卡、班型、学校索引 | `references/school_knowledge/` | 否 |
 | 顾问训练题、模拟家长、评分规则 | `references/consultant_training/` | 否 |
+| 回复思路、话术思路、开口方式、追问顺序 | `references/consultant_training/response_playbook.md` | 否 |
 | 竞品资料 | `references/competitive_intelligence/` | 否 |
 | 历史规划案例 | `references/planning_cases/` | 否 |
 | 图片、logo、可发送附件 | 对应目录 + manifest | 否 |
@@ -155,6 +156,28 @@
 - 场景、家长画像、真实意图、问题。
 - 安全回答、追问建议、风险点。
 - 评分维度、参考资料、最后核验日期。
+
+### 回复思路和话术思路
+
+适用于 `references/consultant_training/response_playbook.md`。
+
+可以沉淀：
+
+- 这类问题先问什么、后答什么。
+- 家长焦虑时怎么承接。
+- 价格问题怎么先确认目标再报价。
+- 规划问题如何分阶段表达。
+- 内部判断如何转换成家长能听懂的话。
+- 哪些表达必须降级，哪些话不能说。
+
+不要沉淀：
+
+- 具体价格、课时、退费。
+- 赛事当年节点。
+- 学校属性、录取信号、学校名单。
+- 未脱敏案例或聊天原文。
+
+这些事实应回到对应资料卡。
 
 ### 图片和附件
 

@@ -35,7 +35,7 @@ flowchart TD
 | `references/product_knowledge/` | 产品体系、产品卡、推荐逻辑、销售与合同边界。 |
 | `references/event_knowledge/` | 赛事知识、三赛联动、区域赛事赛情、官方数据和图片附件索引。 |
 | `references/school_knowledge/` | 校情蓝皮书、城市卡、学校资料卡、学校索引、班型资料卡。 |
-| `references/consultant_training/` | 模拟家长、顾问考核、FAQ、评分规则、钉钉内部文档入口。 |
+| `references/consultant_training/` | 模拟家长、顾问考核、FAQ、评分规则、回复思路、钉钉内部文档入口。 |
 | `references/competitive_intelligence/` | 竞品对比卡。 |
 | `references/planning_cases/` | 历史规划案例。 |
 | `references/_governance/` | 字段规范、更新规则、待确认队列、来源置信度。 |
@@ -73,6 +73,7 @@ flowchart TD
 | 浦东雏鹰杯什么时候申报 | `references/event_knowledge/区域赛事赛情/浦东新区.md` |
 | 某学校重视科创吗 | `references/school_knowledge/学校资料卡/` |
 | 上海某区有哪些科创特色初中 | `references/school_knowledge/学校索引/` |
+| 这类家长怎么回复、话术思路是什么 | `references/consultant_training/response_playbook.md` |
 | 模拟家长或顾问考核 | `references/consultant_training/` |
 | 钉钉占座表和内部 SOP | `references/consultant_training/dingtalk_internal_docs.md` |
 

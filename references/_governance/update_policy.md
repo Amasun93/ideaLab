@@ -77,6 +77,7 @@
 | 区级通知、申报时间、区域竞争 | `references/event_knowledge/区域赛事赛情/` |
 | 城市/学校/班型/学校索引 | `references/school_knowledge/` |
 | 顾问训练、模拟家长、评分规则 | `references/consultant_training/` |
+| 回复思路、话术思路、开口方式、追问顺序 | `references/consultant_training/response_playbook.md` |
 | 竞品资料 | `references/competitive_intelligence/` |
 | 历史规划案例 | `references/planning_cases/` |
 | 字段、维护规则、风险规则 | `WIKI.md` 或 `references/_governance/` |
