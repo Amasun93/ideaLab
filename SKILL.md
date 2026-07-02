@@ -61,6 +61,25 @@ Examples:
 
 ## 读取路由
 
+### 🧭 决策树：先判断问题类型，再决定读什么
+
+```
+用户问的事 → 属于哪类？→ 读什么文件？
+
+产品/价格/课程推荐     → product_knowledge/
+赛事介绍/赛制/时间节点   → event_knowledge/ 各赛事目录
+区域赛情（某区申报窗口）  → event_knowledge/区域赛事赛情/
+学校信息/校情判断       → school_knowledge/ 城市校情 + 学校资料卡
+学校在XX比赛获奖了多少    → school_knowledge/data/school_indices（⚠️不要读event_knowledge！）
+整体赛事统计数据          → event_knowledge/data/data_points.json
+顾问话术/模拟家长        → consultant_training/
+竞品对比               → competitive_intelligence/
+```
+
+⚠️ **铁律：查"某学校在某比赛的成绩"时，只读 `school_knowledge`，不碰 `event_knowledge`。**
+`event_knowledge` 里的 local_event_sources 是脱敏聚合数据（没有逐校明细），读了只会得到"没有数据"的错误结论。
+`school_knowledge/school_indices` 里有 `bluebook_41st_qingchuang_award_count` 字段 + `bluebook_41st_qingchuang_award_details` 明细。
+
 ### 产品体系与推荐
 
 | 问题 | 先读 |
@@ -78,23 +97,23 @@ Examples:
 | 问题 | 先读 |
 |---|---|
 | Lab赛事包、三赛联动 | `references/event_knowledge/README.md` + `references/event_knowledge/三赛联动_Lab赛事包/02_Lab赛事包叙事卡.md` |
-| 青创赛、雏鹰杯、宋庆龄少年儿童发明奖、ICC、IEYI、长三角AI | 对应赛事目录的 `00_赛事简介.md` 和 `01_官方数据卡.md` |
-| 官方数据、可引用 claim | `references/event_knowledge/data/data_points.json` + `references/event_knowledge/data/source_registry.json` + `references/event_knowledge/data/claim_bank.json` |
-| 区域赛事赛情,如"浦东雏鹰杯什么时候申报" | `references/event_knowledge/区域赛事赛情/` 对应区卡 + `references/event_knowledge/data/regional_event_intelligence_20260626.json` |
-| 本地赛事通知、获奖名单聚合 | `references/event_knowledge/data/local_event_sources_20260626.json` + `references/event_knowledge/data/local_event_award_stats_20260626.json`  ⚠️ 这些都是脱敏聚合数据，没有逐校明细！ |
-| 学校赛事获奖数据（如"上实东青创赛获奖"） | ⚠️ **不要读 event_knowledge！** 应读 `references/school_knowledge/data/school_indices_20260702.json`（内有 `bluebook_41st_qingchuang_award_count` 字段，379所学校逐校获奖明细） + 对应学校资料卡 |
+| 青创赛、雏鹰杯、宋庆龄少年儿童发明奖等 赛事介绍/赛制/时间 | 对应赛事目录的 `00_赛事简介.md` 和 `01_官方数据卡.md` |
+| 整体赛事统计数据（如"青创赛总共多少人参加"） | `references/event_knowledge/data/data_points.json` + `references/event_knowledge/data/source_registry.json` + `references/event_knowledge/data/claim_bank.json` |
+| 区域赛事赛情（"浦东雏鹰杯什么时候申报"） | `references/event_knowledge/区域赛事赛情/` 对应区卡 + `references/event_knowledge/data/regional_event_intelligence_20260626.json` |
+| 本地赛事通知聚合（只读宏观统计） | `references/event_knowledge/data/local_event_sources_20260626.json` + `references/event_knowledge/data/local_event_award_stats_20260626.json` （⚠️ 仅宏观统计！不可逐校查询！） |
 | 赛事图片、logo、附件 | `references/event_knowledge/data/visual_manifest.json` + `references/event_knowledge/data/attachment_manifest.json` |
 
 ### 校情蓝皮书
 
 | 问题 | 先读 |
 |---|---|
-| 城市/学校校情 | `references/school_knowledge/README.md` + `references/school_knowledge/城市校情/<城市>.md` |
-| 具体学校 | `references/school_knowledge/学校资料卡/<城市>_<学校名>.md` + `references/school_knowledge/data/school_intelligence_20260702.json` |
-| 上海某区科创特色学校、特殊招生学校 | `references/school_knowledge/学校索引/` + `references/school_knowledge/data/school_indices_20260702.json` |
+| "某城市/某区科创氛围怎么样" | `references/school_knowledge/城市校情/<城市>.md` |
+| "某学校怎么样/适不适合走科创" | `references/school_knowledge/学校资料卡/<城市>_<学校名>.md` + `references/school_knowledge/data/school_intelligence_20260702.json` |
+| **"某区有哪些科创学校"** | `references/school_knowledge/学校索引/` + **`references/school_knowledge/data/school_indices_20260702.json`**（查 `bluebook_41st_qingchuang_award_count` 排序、按区筛选） |
+| **"某学校在XX比赛获奖多少"** 🔥 | **只读 `references/school_knowledge/data/school_indices_20260702.json`！** 里面有379所学校的41届青创赛逐校获奖数 + 一二三等奖明细。不要读 event_knowledge 目录！ |
 | 丘班、H8、L6、市北理、钱班、特色班 | `references/school_knowledge/班型资料卡/` + `references/school_knowledge/data/school_indices_20260702.json` |
 
-Use `第41届青创赛获奖数` as school-level official award-data performance for that competition only. It can support judgments about 科创活跃度和成果表现, but must not be generalized into overall school ranking or long-term trend.
+📌 查学校时，**同时读取资料卡 + school_indices 数据**，给出校情判断（定性）+ 获奖数据（定量），结合起来看更有说服力。
 
 ### 顾问训练
 
