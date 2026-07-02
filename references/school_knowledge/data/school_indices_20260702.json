@@ -3110,19 +3110,19 @@
       "city": "上海",
       "record_type": "science_innovation_junior_school_index",
       "district": "浦东",
-      "school_name": "上实东校",
+      "school_name": "上海市实验学校东校",
       "school_nature": "公办",
       "science_innovation_feature": "STEM探究",
       "other_feature": "体育",
       "source_section": "3.2 上海科创特色初中名单",
       "source_page": 89,
       "use_boundary": "索引型校情资料，不等同完整学校资料卡；第40届青创赛获奖数来源于官方获奖数据，可用于判断该校在本届青创赛中的科创活跃度和成果表现，但不要泛化为学校综合排名或长期趋势。",
-      "bluebook_41st_qingchuang_award_count": 0,
+      "bluebook_41st_qingchuang_award_count": 4,
       "bluebook_41st_qingchuang_award_details": {
         "一等奖": 0,
         "二等奖": 0,
-        "三等奖": 0,
-        "优胜奖": 0
+        "三等奖": 2,
+        "优胜奖": 2
       }
     },
     {
