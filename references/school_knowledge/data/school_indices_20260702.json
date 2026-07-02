@@ -3864,6 +3864,526 @@
         "三等奖": 0,
         "优胜奖": 1
       }
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海外国语大学附属浦东外国语学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海外国语大学附属浦东外国语学校",
+      "district_or_affiliation": null,
+      "district": "浦东新区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 23,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 3,
+        "二等奖": 1,
+        "三等奖": 2,
+        "优胜奖": 17
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海外国语大学附属外国语学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海外国语大学附属外国语学校",
+      "district_or_affiliation": null,
+      "district": "虹口区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 10,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 9
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市静安区教育学院附属学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海市静安区教育学院附属学校",
+      "district_or_affiliation": null,
+      "district": "静安区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 7,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 1,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 5
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海外国语大学松江外国语学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海外国语大学松江外国语学校",
+      "district_or_affiliation": null,
+      "district": "松江区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 6,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 1,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 5
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市松江区科技学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海市松江区科技学校",
+      "district_or_affiliation": null,
+      "district": "松江区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 2
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_复旦大学第二附属学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "复旦大学第二附属学校",
+      "district_or_affiliation": null,
+      "district": "杨浦区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 3
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市民办万源城协和双语学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海市民办万源城协和双语学校",
+      "district_or_affiliation": null,
+      "district": "闵行区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 3
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海青浦区协和双语学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海青浦区协和双语学校",
+      "district_or_affiliation": null,
+      "district": "青浦区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 1,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海外国语大学尚阳外国语学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海外国语大学尚阳外国语学校",
+      "district_or_affiliation": null,
+      "district": "普陀区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海闵行区协和双语教科学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海闵行区协和双语教科学校",
+      "district_or_affiliation": null,
+      "district": "闵行区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海浦东新区民办正达外国语学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海浦东新区民办正达外国语学校",
+      "district_or_affiliation": null,
+      "district": "浦东新区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海世外教育附属浦江外国语学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海世外教育附属浦江外国语学校",
+      "district_or_affiliation": null,
+      "district": "闵行区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 1,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 0
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市古美学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海市古美学校",
+      "district_or_affiliation": null,
+      "district": "闵行区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 0
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海浦东新区民办万科学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海浦东新区民办万科学校",
+      "district_or_affiliation": null,
+      "district": "浦东新区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 0
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海嘉定区世外学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海嘉定区世外学校",
+      "district_or_affiliation": null,
+      "district": "嘉定区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 0
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市育鹰学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海市育鹰学校",
+      "district_or_affiliation": null,
+      "district": "杨浦区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 0
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海奉贤区世外教育附属临港外国语学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海奉贤区世外教育附属临港外国语学校",
+      "district_or_affiliation": null,
+      "district": "奉贤区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海博世凯外国语学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海博世凯外国语学校",
+      "district_or_affiliation": null,
+      "district": "闵行区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市嘉定区金鹤学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海市嘉定区金鹤学校",
+      "district_or_affiliation": null,
+      "district": "嘉定区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市浦东外国语学校东校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海市浦东外国语学校东校",
+      "district_or_affiliation": null,
+      "district": "浦东新区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市闵行区诸翟学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海市闵行区诸翟学校",
+      "district_or_affiliation": null,
+      "district": "闵行区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市康城学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海市康城学校",
+      "district_or_affiliation": null,
+      "district": "浦东新区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海协和国际外籍人员子女学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海协和国际外籍人员子女学校",
+      "district_or_affiliation": null,
+      "district": "浦东新区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市闵行区明星学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海市闵行区明星学校",
+      "district_or_affiliation": null,
+      "district": "闵行区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海新纪元双语学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海新纪元双语学校",
+      "district_or_affiliation": null,
+      "district": "崇明区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市万祥学校",
+      "city": "上海",
+      "record_type": "junior_school",
+      "school_name": "上海市万祥学校",
+      "district_or_affiliation": null,
+      "district": "浦东新区",
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
     }
   ],
   "science_innovation_high_school_index": [
@@ -4949,6 +5469,286 @@
         "三等奖": 0,
         "优胜奖": 0
       }
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_华东师范大学附属天山学校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "华东师范大学附属天山学校",
+      "district_or_affiliation": "长宁区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 13,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 2,
+        "优胜奖": 10
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海外国语大学附属外国语学校东校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "上海外国语大学附属外国语学校东校",
+      "district_or_affiliation": "虹口区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 11,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 2,
+        "二等奖": 0,
+        "三等奖": 2,
+        "优胜奖": 7
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市浦东复旦附中分校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "上海市浦东复旦附中分校",
+      "district_or_affiliation": "浦东新区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 10,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 1,
+        "二等奖": 1,
+        "三等奖": 2,
+        "优胜奖": 6
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海宋庆龄学校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "上海宋庆龄学校",
+      "district_or_affiliation": "青浦区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 9,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 8
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_WLSA上海学校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "WLSA上海学校",
+      "district_or_affiliation": "宝山区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 5,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 4
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海民办包玉刚实验高中",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "上海民办包玉刚实验高中",
+      "district_or_affiliation": "松江区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 4,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 2,
+        "三等奖": 0,
+        "优胜奖": 2
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海宝山区世外学校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "上海宝山区世外学校",
+      "district_or_affiliation": "宝山区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 4,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 1,
+        "优胜奖": 3
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市工程技术管理学校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "上海市工程技术管理学校",
+      "district_or_affiliation": "崇明区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 3,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 3
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海领科双语学校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "上海领科双语学校",
+      "district_or_affiliation": "松江区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 2,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 1,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市工商外国语学校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "上海市工商外国语学校",
+      "district_or_affiliation": "徐汇区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海嘉定区民办华盛怀少学校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "上海嘉定区民办华盛怀少学校",
+      "district_or_affiliation": "嘉定区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海哈罗外籍人员子女学校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "上海哈罗外籍人员子女学校",
+      "district_or_affiliation": "浦东新区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海市西外外国语学校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "上海市西外外国语学校",
+      "district_or_affiliation": "松江区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
+    },
+    {
+      "id": "SCHOOL_SH_AWARD_上海浦东新区民办惠立学校",
+      "city": "上海",
+      "record_type": "high_school",
+      "school_name": "上海浦东新区民办惠立学校",
+      "district_or_affiliation": "浦东新区",
+      "district": null,
+      "school_nature": null,
+      "science_innovation_feature": "第41届青创赛获奖校",
+      "bluebook_41st_qingchuang_award_count": 1,
+      "bluebook_41st_qingchuang_award_details": {
+        "一等奖": 0,
+        "二等奖": 0,
+        "三等奖": 0,
+        "优胜奖": 1
+      },
+      "source_section": "41st_sastic_official_award_list",
+      "source_page": "from_41期青创赛官方获奖名单",
+      "use_boundary": "从41届青创赛获奖名单补充录入，其他校情字段待后续完善"
     }
   ],
   "source_notes": [
