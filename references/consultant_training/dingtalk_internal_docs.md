@@ -15,6 +15,7 @@
 | 启航计划占座表 | https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3gngNOCBL2vXakVzN67Mw4?utm_scene=person_space&iframeQuery=sheet_range%3Dkgqie6hm_0_0_1_12 | 科创启航计划占座、排班、剩余名额、报名确认 |
 | 竞赛营占座表 | https://alidocs.dingtalk.com/i/nodes/R1zknDm0WR3jRjXeCge0q4OYVBQEx5rG?utm_scene=person_space&iframeQuery= | 寒(暑)假竞赛营占座、排班、剩余名额、报名确认 |
 | 雏鹰杯占座表 | https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLr4z4DOcBmMlx3D8lemrZQ3?utm_scene=person_space&iframeQuery=sheet_range%3Dkgqie6hm_0_0_1_1 | 雏鹰杯专项营/雏鹰杯&长三角专项营占座、排班、剩余名额、报名确认 |
+| 教练面试预约表 | https://alidocs.dingtalk.com/i/nodes/YndMj49yWjPLgLAvSrZQDk7BJ3pmz5aA?utm_scene=person_space&iframeQuery=sheet_range%3Dkgqie6hm_43_9_1_1 | 教练面试预约 |
 
 ## 已确认的文档定位
 
