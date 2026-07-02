@@ -108,7 +108,8 @@ Classify the task before reading details:
 - 智造万物 lesson/project question: also read `references/product_knowledge/课节索引/智造万物_课节速查卡.md` and `references/product_knowledge/data/zhizao_wanwu_lesson_index.json`.
 - 智造万物 local素材 question: read `references/product_knowledge/素材索引/智造万物_本地素材索引.md`;素材原件在 `D:/Projects/ideaLab素材库/01_智造万物` and are not stored in GitHub.
 - Price, hours, contract, refund, promise, or sales risk: read `references/product_knowledge/销售与合同边界.md` and `references/product_knowledge/口径冲突与待确认.md`.
-- Lab赛事包 or competition content: read `references/event_knowledge/README.md`, `references/event_knowledge/三赛联动_Lab赛事包/02_Lab赛事包叙事卡.md`, and the relevant event folder. For 赛复创智杯, read its event folder directly and note it is a supplemental event, not part of the Lab赛事包三赛联动核心口径.
+- Lab赛事包 or competition content: read `references/event_knowledge/README.md`, `references/event_knowledge/三赛联动_Lab赛事包/02_Lab赛事包叙事卡.md`, and the relevant event folder.
+- 长三角AI奥林匹克 award statistics: read `references/event_knowledge/长三角AI奥林匹克/03_获奖数据统计_2026.md` for 2026 district/school breakdown. For 赛复创智杯, read its event folder directly and note it is a supplemental event, not part of the Lab赛事包三赛联动核心口径.
 - Official figures or citation-backed copy: read `references/event_knowledge/data/data_points.json`, `references/event_knowledge/data/source_registry.json`, and `references/event_knowledge/data/claim_bank.json`.
 - Knowledge update, correction, calibration, or DingTalk group feedback: read `references/_governance/update_policy.md`, `references/_governance/field_standards.md`, and when needed write uncertain/high-risk items to `references/_governance/pending_updates.md` instead of directly updating formal facts.
 - Local 学情通知、赛事通知、获奖/入围名单 batch from 2026-06-26: read `references/event_knowledge/data/local_event_sources_20260626.json` and `references/event_knowledge/data/local_event_award_stats_20260626.json`; use them as private aggregated helper data, not as public official statistics.
@@ -134,6 +135,7 @@ Classify the task before reading details:
 | "智造万物有哪些短视频/讲座素材？" | `references/product_knowledge/素材索引/智造万物_本地素材索引.md` |
 | "价格、课时、退费怎么算？" | `销售与合同边界.md` + `口径冲突与待确认.md` |
 | "Lab赛事包怎么讲？" | `references/event_knowledge/三赛联动_Lab赛事包/02_Lab赛事包叙事卡.md` |
+| "长三角AI获奖情况" / "长三角哪个区获奖多" / "长三角比赛有多少学校参赛" / "长三角今年获奖数据" | `references/event_knowledge/长三角AI奥林匹克/03_获奖数据统计_2026.md` |
 | "青创赛/雏鹰杯/宋庆龄发明奖/赛复创智杯是什么？" | 对应赛事文件夹的 `00_赛事简介.md` 和 `01_官方数据卡.md`；赛复创智杯需补充说明是补充赛事，不纳入三赛联动核心口径 |
 | "官方数据有哪些？" | `references/event_knowledge/data/data_points.json` + `source_registry.json` |
 | "更新/校准/记住这个口径" | 先读 `references/_governance/update_policy.md`；低风险可改，高风险写入 `pending_updates.md` |
