@@ -94,6 +94,8 @@ Examples:
 
 ### 赛事与赛情
 
+⚠️ **内部/外部边界：** 各赛事目录下的 `02_可用口播句.md` 是给咨询师/顾问的**内部内容参考**——用于理解赛事卖点、备课、培训时内化吸收，**不应原样输出给老师或作为"口播稿"发给老师**。给老师回答时，如果涉及到卖点，应该用自己的话转化成自然的口吻讲清楚，而不是搬运原文。
+
 | 问题 | 先读 |
 |---|---|
 | Lab赛事包、三赛联动 | `references/event_knowledge/README.md` + `references/event_knowledge/三赛联动_Lab赛事包/02_Lab赛事包叙事卡.md` |
@@ -101,6 +103,7 @@ Examples:
 | 整体赛事统计数据（如"青创赛总共多少人参加"） | `references/event_knowledge/data/data_points.json` + `references/event_knowledge/data/source_registry.json` + `references/event_knowledge/data/claim_bank.json` |
 | 区域赛事赛情（"浦东雏鹰杯什么时候申报"） | `references/event_knowledge/区域赛事赛情/` 对应区卡 + `references/event_knowledge/data/regional_event_intelligence_20260626.json` |
 | 本地赛事通知聚合（只读宏观统计） | `references/event_knowledge/data/local_event_sources_20260626.json` + `references/event_knowledge/data/local_event_award_stats_20260626.json` （⚠️ 仅宏观统计！不可逐校查询！） |
+| 了解赛事卖点和家长话术（内部备课用） | 对应赛事目录的 `02_可用口播句.md`（⚠️ 内部参考，内化后用自己的话表达，不要原文搬运） |
 | 赛事图片、logo、附件 | `references/event_knowledge/data/visual_manifest.json` + `references/event_knowledge/data/attachment_manifest.json` |
 
 ### 校情蓝皮书
