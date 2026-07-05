@@ -90,6 +90,7 @@ Examples:
 | 智造万物课节、PDL、项目 | `references/product_knowledge/课节索引/智造万物_课节速查卡.md` + `references/product_knowledge/data/zhizao_wanwu_lesson_index.json` |
 | 智造万物本地素材 | `references/product_knowledge/素材索引/智造万物_本地素材索引.md` |
 | 价格、课时、合同、退费、保奖风险 | `references/product_knowledge/销售与合同边界.md` + `references/product_knowledge/口径冲突与待确认.md` |
+| 综评系统填报、探究学习报告、典型事例 | `references/product_knowledge/综评系统填报指南.md` |
 | 当月在售、占座、排班、内部 SOP | `references/consultant_training/dingtalk_internal_docs.md` |
 
 ### 赛事与赛情
