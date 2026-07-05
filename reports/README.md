@@ -9,8 +9,10 @@ reports/
 ├── daily/                       ← 每日记录（周报原始数据）
 │   └── YYYY-MM-DD.md
 └── weekly/                      ← 周报输出
-    ├── 2026-07-05.html          ← HTML 仪表盘模板（Tailwind + Chart.js）
-    └── YYYY-MM-DD.md            ← Markdown 存档
+    ├── 周报_2026W27.html        ← HTML 仪表盘（Tailwind + Chart.js）
+    └── 周报_2026W27.md          ← Markdown 存档
+
+> ⚠️ 周报文件命名格式：`周报_YYYYWNN.扩展名`（如 周报_2026W27.md）
 ```
 
 ## 周报生成流程
@@ -22,7 +24,9 @@ reports/
 3. 读取 `weekly/` 下最新的 `.html` 文件作为设计模板
 4. 读取本周所有 `daily/` 日记录
 5. 按模板格式生成新周报（HTML + MD），写入 `weekly/` 目录
+   - 命名格式：`周报_YYYYWNN.html` 和 `周报_YYYYWNN.md`
 6. git add + commit + push 推送到 GitHub
+7. 🚨 自动将 HTML 周报文件发送到「游击队」群（cidRHm0F13522JAlQ27w9YftQ==）
 
 ## 周报统计范围
 
@@ -56,4 +60,5 @@ reports/
 
 ## 更新日志
 
+- 2026-07-05 #2：周报文件命名改为 `周报_YYYYWNN` 格式；增加自动发送到游击队群步骤
 - 2026-07-05：初始化，入口索引 + 分类体系 + HTML 模板

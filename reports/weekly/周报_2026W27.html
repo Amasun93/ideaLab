@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ideaLab 小芮运营周报 · 2026W27（修正版）</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['"Geist"', '"Satoshi"', 'system-ui', 'sans-serif'],
+      },
+      colors: {
+        brand: { 50: '#f0f7ff', 100: '#e0effe', 200: '#bae0fd', 300: '#7cc8fb', 400: '#36aaf5', 500: '#0c8ee7', 600: '#0070c4', 700: '#01599f', 800: '#064b83', 900: '#0b3f6d' }
+      }
+    }
+  }
+}
+</script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&display=swap');
+  * { font-family: 'Geist', 'Satoshi', system-ui, sans-serif; }
+  .card { @apply bg-white rounded-2xl border border-slate-200/60 p-6 shadow-[0_1px_3px_rgba(0,0,0,0.04)]; }
+  .stat-number { @apply text-4xl font-bold tracking-tight; }
+  .stat-label { @apply text-sm text-slate-500 font-medium uppercase tracking-wider mt-1; }
+  .section-title { @apply text-lg font-semibold text-slate-800 tracking-tight mb-4 flex items-center gap-2; }
+  .divider { @apply h-px bg-gradient-to-r from-brand-200 to-transparent my-2; }
+  .badge { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium; }
+  .badge-blue { @apply bg-brand-50 text-brand-700; }
+  .badge-amber { @apply bg-amber-50 text-amber-700; }
+  .badge-emerald { @apply bg-emerald-50 text-emerald-700; }
+  .badge-rose { @apply bg-rose-50 text-rose-700; }
+  .badge-purple { @apply bg-purple-50 text-purple-700; }
+  .bg-dot { background-image: radial-gradient(rgba(0,112,196,0.06) 1px, transparent 1px); background-size: 20px 20px; }
+</style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen bg-dot">
+  <div class="max-w-7xl mx-auto px-6 py-10">
+    
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-10">
+      <div>
+        <div class="flex items-center gap-3 mb-1">
+          <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold text-lg">芮</div>
+          <div>
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900">ideaLab 小芮运营周报</h1>
+            <p class="text-sm text-slate-500">2026年第27周 · 7月3日~5日 <span class="badge badge-amber ml-1">修正版</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="badge badge-blue">🔒 超级管理员内部周报</span>
+        <span class="text-xs text-slate-400">自动生成于 2026-07-05 23:00</span>
+      </div>
+    </div>
+
+    <!-- Top Stats Row -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div class="card text-center">
+        <div class="stat-number text-brand-600">12</div>
+        <div class="stat-label">总提问人次</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-emerald-600">10</div>
+        <div class="stat-label">活跃顾问数</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-amber-600">4</div>
+        <div class="stat-label">覆盖群数</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-rose-600">5</div>
+        <div class="stat-label">本周新用户</div>
+      </div>
+    </div>
+
+    <!-- Main Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+      
+      <!-- Area Breakdown -->
+      <div class="card lg:col-span-1">
+        <div class="section-title">📍 分区域活跃度</div>
+        <div class="space-y-4">
+          <div>
+            <div class="flex justify-between text-sm mb-1">
+              <span class="font-medium">🔴 沪南区</span>
+              <span class="text-slate-500">3人·4次</span>
+            </div>
+            <div class="w-full bg-slate-100 rounded-full h-2"><div class="bg-rose-400 h-2 rounded-full" style="width:33%"></div></div>
+            <p class="text-xs text-slate-400 mt-1">Jason赵永刚 · 邵辉</p>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm mb-1">
+              <span class="font-medium">🔵 沪东区</span>
+              <span class="text-slate-500">3人·4次</span>
+            </div>
+            <div class="w-full bg-slate-100 rounded-full h-2"><div class="bg-blue-400 h-2 rounded-full" style="width:33%"></div></div>
+            <p class="text-xs text-slate-400 mt-1">魏毅 · Arvin王卓</p>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm mb-1">
+              <span class="font-medium">🟢 沪北区</span>
+              <span class="text-slate-500">4人·5次</span>
+            </div>
+            <div class="w-full bg-slate-100 rounded-full h-2"><div class="bg-emerald-400 h-2 rounded-full" style="width:42%"></div></div>
+            <p class="text-xs text-slate-400 mt-1">徐蕾 · 张智明 · 陈芸 · 田艳丽</p>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm mb-1">
+              <span class="font-medium">🟡 3D培训群</span>
+              <span class="text-slate-500">3人·4次</span>
+            </div>
+            <div class="w-full bg-slate-100 rounded-full h-2"><div class="bg-yellow-400 h-2 rounded-full" style="width:33%"></div></div>
+            <p class="text-xs text-slate-400 mt-1">陈晓佳 · 宋行 · 边立华</p>
+          </div>
+        </div>
+        <div class="mt-4 pt-4 border-t border-slate-100">
+          <p class="text-xs text-slate-400">📌 沪北区实际活跃度最高（4人），此前被严重低估。3D培训群此前完全遗漏。</p>
+        </div>
+      </div>
+
+      <!-- User Ranking -->
+      <div class="card lg:col-span-1">
+        <div class="section-title">👤 用户活跃度 TOP6</div>
+        <div class="space-y-3">
+          <div class="flex items-center gap-3 p-3 bg-brand-50 rounded-xl border border-brand-100">
+            <div class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center text-white text-sm font-bold">1</div>
+            <div class="flex-1">
+              <div class="font-semibold text-sm">魏毅 <span class="text-xs text-slate-400 font-normal">· 浦东校区</span></div>
+              <div class="text-xs text-brand-600 font-medium">3次提问 🔥 重度用户</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 p-3 bg-brand-50 rounded-xl border border-brand-100">
+            <div class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center text-white text-sm font-bold">1</div>
+            <div class="flex-1">
+              <div class="font-semibold text-sm">Jason赵永刚</div>
+              <div class="text-xs text-brand-600 font-medium">3次提问 · 赛事+销售策略</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
+            <div class="w-8 h-8 rounded-lg bg-slate-300 flex items-center justify-center text-white text-sm font-bold">3</div>
+            <div class="flex-1">
+              <div class="font-semibold text-sm">邵辉 <span class="badge badge-emerald ml-1">🆕</span></div>
+              <div class="text-xs text-slate-500">2次 · 话术+邀约</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
+            <div class="w-8 h-8 rounded-lg bg-slate-300 flex items-center justify-center text-white text-sm font-bold">3</div>
+            <div class="flex-1">
+              <div class="font-semibold text-sm">Arvin王卓 <span class="badge badge-emerald ml-1">🆕</span></div>
+              <div class="text-xs text-slate-500">2次 · 高中竞赛营规划</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
+            <div class="w-8 h-8 rounded-lg bg-slate-300 flex items-center justify-center text-white text-sm font-bold">3</div>
+            <div class="flex-1">
+              <div class="font-semibold text-sm">徐蕾 <span class="badge badge-emerald ml-1">🆕</span></div>
+              <div class="text-xs text-slate-500">2次 · 外籍规划+赛事时间</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
+            <div class="w-8 h-8 rounded-lg bg-slate-300 flex items-center justify-center text-white text-sm font-bold">3</div>
+            <div class="flex-1">
+              <div class="font-semibold text-sm">张智明 <span class="badge badge-emerald ml-1">🆕</span></div>
+              <div class="text-xs text-slate-500">2次 · 产品对比</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category Chart -->
+      <div class="card lg:col-span-1">
+        <div class="section-title">📊 问题分类分布</div>
+        <div class="h-40">
+          <canvas id="categoryChart"></canvas>
+        </div>
+        <div class="mt-3 grid grid-cols-3 gap-1 text-xs text-slate-500">
+          <div class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-blue-500 inline-block"></span> P 产品 7次</div>
+          <div class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-amber-500 inline-block"></span> T 赛事 7次</div>
+          <div class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-purple-500 inline-block"></span> O 教务 6次</div>
+          <div class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-indigo-500 inline-block"></span> TA 分析 5次</div>
+          <div class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-emerald-500 inline-block"></span> C 学情 1次</div>
+          <div class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-rose-500 inline-block"></span> $ 价格 1次</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- High Frequency Questions -->
+    <div class="card mb-8">
+      <div class="section-title">🔥 高频问题 TOP5</div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-slate-100 text-left text-xs text-slate-400 uppercase tracking-wider">
+              <th class="pb-3 pr-4">#</th>
+              <th class="pb-3 pr-4">分类</th>
+              <th class="pb-3 pr-4">问题</th>
+              <th class="pb-3 pr-4">次数</th>
+              <th class="pb-3">关联产品</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-50">
+            <tr class="hover:bg-slate-50/50">
+              <td class="py-3 pr-4 font-bold text-brand-600">1</td>
+              <td class="py-3 pr-4"><span class="badge badge-amber">T 赛事规划</span></td>
+              <td class="py-3 pr-4">特定学生群体如何规划赛事路径（体制外/美籍/初二升初三/高中·4个不同案例）</td>
+              <td class="py-3 pr-4 font-semibold">4次</td>
+              <td class="py-3">雏鹰专项营 · 竞赛营</td>
+            </tr>
+            <tr class="hover:bg-slate-50/50">
+              <td class="py-3 pr-4 font-bold text-brand-600">2</td>
+              <td class="py-3 pr-4"><span class="badge badge-blue">P 产品咨询</span></td>
+              <td class="py-3 pr-4">未来工程师专项营详情（课程大纲 + 退费政策 + 家长顾虑处理）</td>
+              <td class="py-3 pr-4 font-semibold">3次</td>
+              <td class="py-3">未来工程师专项营</td>
+            </tr>
+            <tr class="hover:bg-slate-50/50">
+              <td class="py-3 pr-4 font-bold text-brand-600">3</td>
+              <td class="py-3 pr-4"><span class="badge badge-purple">TA 赛事分析</span></td>
+              <td class="py-3 pr-4">多区域未来工程师赛事数据对比（徐汇vs闵行 / 静安vs虹口vs杨浦 / 浦东）</td>
+              <td class="py-3 pr-4 font-semibold">3次</td>
+              <td class="py-3">未来工程师专项营</td>
+            </tr>
+            <tr class="hover:bg-slate-50/50">
+              <td class="py-3 pr-4 font-bold text-brand-600">4</td>
+              <td class="py-3 pr-4"><span class="badge badge-blue">P 产品咨询</span></td>
+              <td class="py-3 pr-4">产品对比（竞赛营¥54,800 vs 雏鹰专项营¥29,800 / 竞赛营vs领航vs未来工程师）</td>
+              <td class="py-3 pr-4 font-semibold">2次</td>
+              <td class="py-3">竞赛营 · 雏鹰专项营 · 领航</td>
+            </tr>
+            <tr class="hover:bg-slate-50/50">
+              <td class="py-3 pr-4 font-bold text-brand-600">5</td>
+              <td class="py-3 pr-4"><span class="badge badge-purple">O 教务行政</span></td>
+              <td class="py-3 pr-4">3D打印物料SKU查询</td>
+              <td class="py-3 pr-4 font-semibold">4次</td>
+              <td class="py-3">3D打印营</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+        💡 <strong>未来工程师专项营</strong>和<strong>竞赛营（含雏鹰专项营）</strong>是本周两大热门品类。7月正值招生窗口，建议加大推广力度。产品对比需求明显，可做一张官方对比图。
+      </div>
+    </div>
+
+    <!-- Region Trend + Student Cases -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+      
+      <!-- Region Trend -->
+      <div class="card">
+        <div class="section-title">📈 区域趋势简析</div>
+        <div class="space-y-4">
+          <div class="p-4 bg-green-50/50 rounded-xl border border-green-100">
+            <div class="font-semibold text-sm text-green-700 mb-1">🟢 沪北区 — 意外爆发</div>
+            <p class="text-xs text-green-600/80">4位顾问提问，徐蕾（美籍学生规划）和张智明（产品对比）首次出现，沪北活跃度已超此前判断。建议趁热打铁保持节奏。</p>
+          </div>
+          <div class="p-4 bg-rose-50/50 rounded-xl border border-rose-100">
+            <div class="font-semibold text-sm text-rose-700 mb-1">🔴 沪南区 — 深度高，销售导向强</div>
+            <p class="text-xs text-rose-600/80">Jason连续3次追问从数据→规划→话术，邵辉首周就要求转家长话术。该群顾问销售意识强，适合定向培训。</p>
+          </div>
+          <div class="p-4 bg-blue-50/50 rounded-xl border border-blue-100">
+            <div class="font-semibold text-sm text-blue-700 mb-1">🔵 沪东区 — 魏毅持续重度使用</div>
+            <p class="text-xs text-blue-600/80">魏毅3次提问覆盖产品+赛事+家长顾虑全链路。Arvin王卓首次出现即问高中规划+AI方向，是潜在高价值用户。</p>
+          </div>
+          <div class="p-4 bg-yellow-50/50 rounded-xl border border-yellow-100">
+            <div class="font-semibold text-sm text-yellow-700 mb-1">🟡 3D培训群 — 此前完全遗漏</div>
+            <p class="text-xs text-yellow-600/80">4次操作性问题（SKU查询为主），说明教务端对物料下单流程有持续需求。建议将SKU、截止日期做成置顶消息。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Student Cases -->
+      <div class="card">
+        <div class="section-title">🎯 本周学生案例追踪</div>
+        <div class="space-y-3">
+          <div class="p-3 bg-slate-50 rounded-xl border border-slate-100">
+            <div class="flex items-center justify-between mb-1">
+              <span class="font-semibold text-sm">Jason赵永刚 · 跟进中</span>
+              <span class="badge badge-amber">待确认</span>
+            </div>
+            <p class="text-xs text-slate-600">闵行区六年级 · 体制外路线 · 推荐雏鹰&长三角专项营 ¥29,800</p>
+          </div>
+          <div class="p-3 bg-slate-50 rounded-xl border border-slate-100">
+            <div class="flex items-center justify-between mb-1">
+              <span class="font-semibold text-sm">Jason赵永刚 · 跟进中</span>
+              <span class="badge badge-amber">待确认</span>
+            </div>
+            <p class="text-xs text-slate-600">徐汇区学生 · 市二初中杯/赛复创智杯申报 · 话术已提供</p>
+          </div>
+          <div class="p-3 bg-slate-50 rounded-xl border border-slate-100">
+            <div class="flex items-center justify-between mb-1">
+              <span class="font-semibold text-sm">陈芸 · 跟进中</span>
+              <span class="badge badge-amber">待确认</span>
+            </div>
+            <p class="text-xs text-slate-600">初二升初三学生 · 升学规划 · 推荐初中竞赛营 ¥54,800</p>
+          </div>
+          <div class="p-3 bg-slate-50 rounded-xl border border-slate-100">
+            <div class="flex items-center justify-between mb-1">
+              <span class="font-semibold text-sm">魏毅 · 有顾虑</span>
+              <span class="badge badge-rose">需跟进</span>
+            </div>
+            <p class="text-xs text-slate-600">浦东家长 · 未来工程师备赛 · 担心上课-比赛时间衔接 · 已提供话术</p>
+          </div>
+          <div class="p-3 bg-slate-50 rounded-xl border border-slate-100">
+            <div class="flex items-center justify-between mb-1">
+              <span class="font-semibold text-sm">徐蕾 · 方案已出</span>
+              <span class="badge badge-emerald">路径明确</span>
+            </div>
+            <p class="text-xs text-slate-600">美籍5升6·双语学校 · 启航→竞赛营→领航三阶段 · 方案已提供</p>
+          </div>
+          <div class="p-3 bg-slate-50 rounded-xl border border-slate-100">
+            <div class="flex items-center justify-between mb-1">
+              <span class="font-semibold text-sm">Arvin王卓 · 待确认</span>
+              <span class="badge badge-amber">权衡中</span>
+            </div>
+            <p class="text-xs text-slate-600">初三升高一 · 高中综评+AI · 竞赛营¥49,800 vs 课题营¥29,800</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Next Week Suggestions -->
+    <div class="card">
+      <div class="section-title">🔮 下周建议</div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="p-4 bg-gradient-to-br from-brand-50 to-blue-50 rounded-xl border border-brand-100">
+          <div class="font-semibold text-sm text-brand-700 mb-2">🎓 培训方向</div>
+          <ul class="text-xs text-brand-600/80 space-y-1.5">
+            <li>· 浦东魏毅安排专属产品深化培训</li>
+            <li>· Jason赵永刚适合「用数据说服家长」专题</li>
+            <li>· 沪北徐蕾+张智明趁热打铁做产品培训</li>
+            <li>· 邵辉话术意识强，定向培养销售话术</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl border border-amber-100">
+          <div class="font-semibold text-sm text-amber-700 mb-2">🚀 产品推广</div>
+          <ul class="text-xs text-amber-600/80 space-y-1.5">
+            <li>· 未来工程师专项营7月招生窗口期加大推广</li>
+            <li>· 制作「竞赛营vs雏鹰专项营」官方对比图</li>
+            <li>· 启航计划本周零提问，发起话题激活</li>
+            <li>· 预生成各区赛事数据对比报告</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-gradient-to-br from-emerald-50 to-teal-50 rounded-xl border border-emerald-100">
+          <div class="font-semibold text-sm text-emerald-700 mb-2">📋 内容优化</div>
+          <ul class="text-xs text-emerald-600/80 space-y-1.5">
+            <li>· 沉淀家长顾虑FAQ话术库（时间衔接/退费/性价比）</li>
+            <li>· 3D培训群SKU+截止日期做置顶消息</li>
+            <li>· 外籍学生科创规划模板（徐蕾案例可复用）</li>
+            <li>· 优化日报记录流程，避免再次遗漏</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="mt-10 pt-6 border-t border-slate-200 text-center text-xs text-slate-400">
+      <p>📊 数据来源：沪南区 · 沪东区 · 沪北区 · 3D培训对接群 | 🔒 仅供超级管理员（孙大卫、信芮、陈晓佳）内部查阅</p>
+      <p class="mt-1">🤖 修正版 · 自动生成于 2026-07-05 | 下次周报：2026-07-13（周一 9:00）</p>
+    </div>
+
+  </div>
+
+  <script>
+    new Chart(document.getElementById('categoryChart'), {
+      type: 'doughnut',
+      data: {
+        labels: ['P 产品咨询', 'T 赛事规划', 'O 教务行政', 'TA 赛事分析', 'C 学情参谋', '$ 价格课时'],
+        datasets: [{
+          data: [7, 7, 6, 5, 1, 1],
+          backgroundColor: ['#3b82f6', '#f59e0b', '#8b5cf6', '#6366f1', '#10b981', '#f43f5e'],
+          borderWidth: 0,
+          borderRadius: 4,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        cutout: '65%',
+      }
+    });
+  </script>
+</body>
+</html>
