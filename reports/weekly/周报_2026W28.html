@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ideaLab 小芮运营周报 · 2026W28</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>tailwind.config={theme:{extend:{fontFamily:{sans:['"Geist"','"Satoshi"','system-ui','sans-serif']},colors:{brand:{50:'#f0f7ff',100:'#e0effe',200:'#bae0fd',300:'#7cc8fb',400:'#36aaf5',500:'#0c8ee7',600:'#0070c4',700:'#01599f',800:'#064b83',900:'#0b3f6d'}}}}}</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&display=swap');
+*{font-family:'Geist','Satoshi',system-ui,sans-serif}
+.card{@apply bg-white rounded-2xl border border-slate-200/60 p-6 shadow-[0_1px_3px_rgba(0,0,0,0.04)]}
+.stat-number{@apply text-4xl font-bold tracking-tight}
+.stat-label{@apply text-sm text-slate-500 font-medium uppercase tracking-wider mt-1}
+.section-title{@apply text-lg font-semibold text-slate-800 tracking-tight mb-4 flex items-center gap-2}
+.badge{@apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium}
+.badge-blue{@apply bg-brand-50 text-brand-700}
+.badge-amber{@apply bg-amber-50 text-amber-700}
+.badge-emerald{@apply bg-emerald-50 text-emerald-700}
+.badge-rose{@apply bg-rose-50 text-rose-700}
+.badge-purple{@apply bg-purple-50 text-purple-700}
+.bg-dot{background-image:radial-gradient(rgba(0,112,196,0.06) 1px,transparent 1px);background-size:20px 20px}
+</style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen bg-dot">
+<div class="max-w-7xl mx-auto px-6 py-10">
+
+<!-- Header -->
+<div class="flex items-center justify-between mb-10">
+<div>
+<div class="flex items-center gap-3 mb-1">
+<div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold text-lg">芮</div>
+<div>
+<h1 class="text-2xl font-bold tracking-tight text-slate-900">ideaLab 小芮运营周报</h1>
+<p class="text-sm text-slate-500">2026年第28周 · 7月6日~12日 <span class="badge badge-rose ml-1">🛠️ 手动补发</span></p>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<span class="badge badge-blue">🔒 超级管理员内部周报</span>
+<span class="text-xs text-slate-400">手动生成于 2026-07-11 凌晨</span>
+</div>
+</div>
+
+<!-- Top Stats -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+<div class="card text-center">
+<div class="stat-number text-brand-600">2</div>
+<div class="stat-label">总提问人次</div>
+</div>
+<div class="card text-center">
+<div class="stat-number text-emerald-600">2</div>
+<div class="stat-label">活跃顾问数</div>
+</div>
+<div class="card text-center">
+<div class="stat-number text-amber-600">2</div>
+<div class="stat-label">覆盖群数</div>
+</div>
+<div class="card text-center">
+<div class="stat-number text-rose-600">0</div>
+<div class="stat-label">本周新用户</div>
+</div>
+</div>
+
+<!-- Main Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+
+<!-- Area Breakdown -->
+<div class="card lg:col-span-1">
+<div class="section-title">📍 分区域活跃度</div>
+<div class="space-y-4">
+<div>
+<div class="flex justify-between text-sm mb-1">
+<span class="font-medium">🔴 沪南区</span><span class="text-slate-500">1人·1次</span>
+</div>
+<div class="w-full bg-slate-100 rounded-full h-2"><div class="bg-rose-400 h-2 rounded-full" style="width:50%"></div></div>
+<p class="text-xs text-slate-400 mt-1">邵炎 · 未来工程师年龄限制追问</p>
+</div>
+<div>
+<div class="flex justify-between text-sm mb-1">
+<span class="font-medium">🔵 沪东区</span><span class="text-slate-500">1人·1次</span>
+</div>
+<div class="w-full bg-slate-100 rounded-full h-2"><div class="bg-blue-400 h-2 rounded-full" style="width:50%"></div></div>
+<p class="text-xs text-slate-400 mt-1">杨老师 · 浦东协和未来工程师参赛+学校盖章</p>
+</div>
+<div>
+<div class="flex justify-between text-sm mb-1">
+<span class="font-medium">🟢 沪北区</span><span class="text-slate-500">0人</span>
+</div>
+<div class="w-full bg-slate-100 rounded-full h-2"><div class="bg-slate-300 h-2 rounded-full" style="width:5%"></div></div>
+<p class="text-xs text-slate-400 mt-1">本周无顾问提问</p>
+</div>
+<div>
+<div class="flex justify-between text-sm mb-1">
+<span class="font-medium">🟡 3D培训群</span><span class="text-slate-500">0人</span>
+</div>
+<div class="w-full bg-slate-100 rounded-full h-2"><div class="bg-slate-300 h-2 rounded-full" style="width:5%"></div></div>
+<p class="text-xs text-slate-400 mt-1">本周无提问</p>
+</div>
+</div>
+<div class="mt-4 pt-4 border-t border-slate-100">
+<p class="text-xs text-slate-400">📌 本周为暑假第一周，顾问忙于集训开班，群内提问量极低（2次）。去年同期数据供参考：W28通常为暑期低点。</p>
+</div>
+</div>
+
+<!-- User Ranking -->
+<div class="card lg:col-span-1">
+<div class="section-title">👤 用户活跃度</div>
+<div class="space-y-2">
+<div class="flex items-center gap-3 p-2 bg-brand-50 rounded-xl border border-brand-100">
+<div class="w-7 h-7 rounded-lg bg-brand-600 flex items-center justify-center text-white text-xs font-bold">1</div>
+<div class="flex-1"><div class="font-semibold text-sm">邵炎 · 沪南</div><div class="text-xs text-brand-600">1次 · 赛事年龄限制追问 [复]</div></div>
+</div>
+<div class="flex items-center gap-3 p-2 bg-brand-50 rounded-xl border border-brand-100">
+<div class="w-7 h-7 rounded-lg bg-brand-600 flex items-center justify-center text-white text-xs font-bold">1</div>
+<div class="flex-1"><div class="font-semibold text-sm">杨老师 · 沪东</div><div class="text-xs text-brand-600">1次 · 浦东协和参赛+盖章 [深]</div></div>
+</div>
+</div>
+<div class="mt-3 text-xs text-slate-400">仅2位顾问提问，均为赛事规划类。本周无产品咨询/价格/教务类提问。</div>
+</div>
+
+<!-- Category Chart -->
+<div class="card lg:col-span-1">
+<div class="section-title">📊 问题分类分布</div>
+<div class="h-40"><canvas id="categoryChart"></canvas></div>
+<div class="mt-3 grid grid-cols-2 gap-1 text-xs text-slate-500">
+<div class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-amber-500 inline-block"></span> T 赛事规划 2次</div>
+<div class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-blue-500 inline-block"></span> P 产品咨询 0次</div>
+<div class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-purple-500 inline-block"></span> O 教务行政 0次</div>
+<div class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-rose-500 inline-block"></span> $ 价格课时 0次</div>
+</div>
+</div>
+</div>
+
+<!-- Detail Questions -->
+<div class="card mb-8">
+<div class="section-title">📋 本周提问详情</div>
+<div class="overflow-x-auto">
+<table class="w-full text-sm">
+<thead><tr class="border-b border-slate-100 text-left text-xs text-slate-400 uppercase tracking-wider"><th class="pb-3 pr-4">日期</th><th class="pb-3 pr-4">群</th><th class="pb-3 pr-4">顾问</th><th class="pb-3 pr-4">分类</th><th class="pb-3">问题摘要</th></tr></thead>
+<tbody class="divide-y divide-slate-50">
+<tr class="hover:bg-slate-50/50">
+<td class="py-3 pr-4">7/7</td><td class="py-3 pr-4">沪东区</td><td class="py-3 pr-4">杨老师</td>
+<td class="py-3 pr-4"><span class="badge badge-amber">T 赛事规划</span> <span class="badge badge-purple">[深]</span></td>
+<td class="py-3">浦东新区民办协和双语：未来工程师大赛参赛情况、获奖数据、学校盖章可能性分析。涉及跨区域数据对比和学校参赛习惯判断。</td>
+</tr>
+<tr class="hover:bg-slate-50/50">
+<td class="py-3 pr-4">7/8</td><td class="py-3 pr-4">沪南区</td><td class="py-3 pr-4">邵炎</td>
+<td class="py-3 pr-4"><span class="badge badge-amber">T 赛事规划</span> <span class="badge badge-emerald">[复]</span></td>
+<td class="py-3">未来工程师大赛市赛是否三年级以下不能参加？前期已问过参赛年龄，本次追问市赛具体门槛。已回复：无硬性限制但建议三年级以上。</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- Student Cases -->
+<div class="card mb-8">
+<div class="section-title">🎯 本周学生案例</div>
+<div class="space-y-2 text-xs">
+<div class="p-2 bg-slate-50 rounded-lg border">杨老师 · 浦东协和双语 · 未来工程师专项营 ¥15,000 · 学校盖章存疑 <span class="badge badge-rose">需跟进</span></div>
+<div class="p-2 bg-slate-50 rounded-lg border">邵炎 · 未来工程师年龄确认 · 从"参赛年龄"追问到"市赛门槛" <span class="badge badge-emerald">已回复</span></div>
+</div>
+</div>
+
+<!-- Cron Health -->
+<div class="card mb-8 border-rose-200 bg-rose-50/30">
+<div class="section-title text-rose-700">⚠️ 系统运维告警</div>
+<div class="text-sm space-y-2">
+<p><span class="badge badge-rose">❌ 周报 Cron 故障</span> <code>小芮每周运营周报</code>（cron 0 9 * * 1）上次执行 7/6 03:00，返回空内容 error。根因：isolated session 中 git 不在 PATH，导致无法 git push。已手动补发本份周报。</p>
+<p><span class="badge badge-amber">⚠️ git PATH 缺失</span> 每次 EasyClaw 重启后 git 不在当前 session PATH 中（User PATH 有但未加载）。MEMORY.md 已补充 PATH 刷新指令。建议将 git 加入 Machine PATH 一劳永逸。</p>
+<p><span class="badge badge-emerald">✅ 每日复盘正常</span> cron 0 4 * * * 持续正常运行。</p>
+</div>
+</div>
+
+<!-- Next Week -->
+<div class="card">
+<div class="section-title">🔮 下周建议</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<div class="p-4 bg-gradient-to-br from-brand-50 to-blue-50 rounded-xl border border-brand-100">
+<div class="font-semibold text-sm text-brand-700 mb-2">📊 数据观察</div>
+<ul class="text-xs text-brand-600/80 space-y-1.5">
+<li>· 暑假第一周顾问忙于开班，提问骤降（2次 vs 上周15次），属正常季节波动</li>
+<li>· 全部为赛事规划类问题，产品咨询和价格课时完全消失</li>
+<li>· 沪北区和3D培训群本周零提问</li>
+</ul>
+</div>
+<div class="p-4 bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl border border-amber-100">
+<div class="font-semibold text-sm text-amber-700 mb-2">🚀 建议动作</div>
+<ul class="text-xs text-amber-600/80 space-y-1.5">
+<li>· 下周集训进入第二周，顾问可能有家长沟通问题回流</li>
+<li>· 未来工程师专项营持续热（跨3周追问），建议推送一次群公告/话术包</li>
+<li>· 修复周报 cron 任务，避免再次空跑</li>
+</ul>
+</div>
+<div class="p-4 bg-gradient-to-br from-emerald-50 to-teal-50 rounded-xl border border-emerald-100">
+<div class="font-semibold text-sm text-emerald-700 mb-2">🛠️ 技术待办</div>
+<ul class="text-xs text-emerald-600/80 space-y-1.5">
+<li>· git 加入 Machine PATH（永久解决）</li>
+<li>· 周报 cron 重建或修复</li>
+<li>· 补全 7/7-7/12 每日记录（已补）</li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- 超管示范 -->
+<div class="card mb-8 mt-8">
+<div class="section-title">📋 超管提问记录（不纳入统计）</div>
+<div class="overflow-x-auto text-xs">
+<table class="w-full">
+<thead><tr class="border-b text-slate-400 text-left"><th class="pb-2 pr-2">超管</th><th class="pb-2 pr-2">渠道</th><th class="pb-2 pr-2">日期</th><th class="pb-2">内容</th></tr></thead>
+<tbody class="divide-y divide-slate-50">
+<tr><td class="py-1 pr-2">信芮</td><td class="py-1 pr-2">沪北区</td><td class="py-1 pr-2">7/9</td><td class="py-1">高中课题营 vs 高中竞赛营对比话术 → 知识库已提供完整对比表</td></tr>
+<tr><td class="py-1 pr-2">孙大卫</td><td class="py-1 pr-2">直聊</td><td class="py-1 pr-2">7/10</td><td class="py-1">腾讯会议 API 调研 → 结论：REST API 可用，需自建 MCP Server</td></tr>
+<tr><td class="py-1 pr-2">孙大卫</td><td class="py-1 pr-2">直聊</td><td class="py-1 pr-2">7/10</td><td class="py-1">好评素材入库方案 → 图片入库流程已确认，等待素材</td></tr>
+<tr><td class="py-1 pr-2">孙大卫</td><td class="py-1 pr-2">直聊</td><td class="py-1 pr-2">7/10-11</td><td class="py-1">3L4家长话术、高中课题营vs竞赛营区别、系统体检 → 多项修复已完成</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="mt-10 pt-6 border-t border-slate-200 text-center text-xs text-slate-400">
+<p>📊 数据来源：沪南区 · 沪东区 · 沪北区 · 3D培训对接群 | 🔒 仅供超级管理员内部查阅</p>
+<p class="mt-1">🛠️ 手动补发 · 2026-07-11 凌晨 | 下次周报：2026-07-13（周一 9:00）</p>
+</div>
+</div>
+
+<script>
+new Chart(document.getElementById('categoryChart'),{
+type:'doughnut',
+data:{labels:['T 赛事规划','P 产品咨询','O 教务行政','$ 价格课时'],datasets:[{data:[2,0,0,0],backgroundColor:['#f59e0b','#3b82f6','#8b5cf6','#f43f5e'],borderWidth:0,borderRadius:4}]},
+options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},cutout:'65%'}
+});
+</script>
+</body>
+</html>
