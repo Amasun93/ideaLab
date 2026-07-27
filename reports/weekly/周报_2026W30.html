@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ideaLab 运营周报 W30 · 7月21日—7月27日</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    * { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .card { @apply bg-white rounded-2xl border border-slate-200/60 p-6 shadow-[0_1px_3px_rgba(0,0,0,0.04)]; }
+    .stat-number { @apply text-4xl font-bold tracking-tight; }
+    .stat-label { @apply text-sm text-slate-500 font-medium mt-1; }
+    .section-title { @apply text-lg font-semibold text-slate-800 tracking-tight mb-4 flex items-center gap-2; }
+    .badge { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen">
+
+  <div class="max-w-6xl mx-auto px-6 py-10">
+    
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-10">
+      <div>
+        <div class="flex items-center gap-3 mb-1">
+          <div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-bold text-lg">芮</div>
+          <div>
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900">ideaLab 小芮运营周报</h1>
+            <p class="text-sm text-slate-500">2026年第30周 · 7月21日—7月27日</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="badge bg-indigo-50 text-indigo-700">🔐 超级管理员内部周报</span>
+        <span class="text-xs text-slate-400">生成于 2026-07-27</span>
+      </div>
+    </div>
+
+    <!-- Top Stats -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div class="card text-center">
+        <div class="stat-number text-indigo-600">5</div>
+        <div class="stat-label">总提问人次</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-emerald-600">3</div>
+        <div class="stat-label">活跃顾问数</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-amber-600">2</div>
+        <div class="stat-label">覆盖群数</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-rose-600">2</div>
+        <div class="stat-label">本周新用户</div>
+      </div>
+    </div>
+
+    <!-- 分区域活跃度 -->
+    <div class="card mb-8">
+      <div class="section-title">📍 分区域活跃度</div>
+      <div class="space-y-4">
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">沪东区</span><span class="text-slate-500">3人次（60%）</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-400 h-3 rounded-full" style="width:60%"></div></div>
+          <div class="text-xs text-gray-400 mt-1">杨帆（1次·新）、邹灿阳 尼克（2次·连续追问）</div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">🔥 沪北区</span><span class="text-slate-500">2人次（40%）</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-indigo-500 h-3 rounded-full" style="width:40%"></div></div>
+          <div class="text-xs text-gray-400 mt-1">陈思（2次·赛事数据追问）</div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">沪南区</span><span class="text-slate-500">0人次</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-gray-300 h-3 rounded-full" style="width:0%"></div></div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">3D打印群</span><span class="text-slate-500">0人次</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-gray-300 h-3 rounded-full" style="width:0%"></div></div>
+        </div>
+      </div>
+      <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-400">🔔 本周活动集中在7月22日一天。超管信芮在沪东群做产品示范提问（不计入统计），带动了杨帆和邹灿阳的主动提问。</div>
+    </div>
+
+    <!-- 分类饼图 + 活跃度 -->
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="card">
+        <div class="section-title">🎯 问题分类分布</div>
+        <div class="flex justify-center"><canvas id="categoryChart" width="280" height="280"></canvas></div>
+        <div class="mt-4 grid grid-cols-2 gap-2 text-xs">
+          <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-indigo-500 mr-2"></span>P 产品咨询 3次（60%）</div>
+          <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-green-500 mr-2"></span>T 赛事分析 1次（20%）</div>
+          <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-amber-500 mr-2"></span>C 学情参谋 1次（20%）</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="section-title">👤 用户活跃度</div>
+        <div class="space-y-2">
+          <div class="flex items-center justify-between p-3 bg-yellow-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥇</span><div><div class="font-medium">邹灿阳 尼克 <span class="text-xs text-orange-500">新</span></div><div class="text-xs text-gray-500">沪东区·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">2次</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥈</span><div><div class="font-medium">陈思</div><div class="text-xs text-gray-500">沪北区·顾问</div></div></div>
+            <div class="text-sm font-semibold">2次</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥉</span><div><div class="font-medium">杨帆 <span class="text-xs text-orange-500">新</span></div><div class="text-xs text-gray-500">沪东区·顾问</div></div></div>
+            <div class="text-sm font-semibold">1次</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 高频问题 TOP -->
+    <div class="card mb-8">
+      <div class="section-title">🔥 高频问题 TOP5</div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead><tr class="text-left text-xs text-slate-400 uppercase border-b"><th class="pb-3 pr-4">#</th><th class="pb-3 pr-4">分类</th><th class="pb-3 pr-4">提问人</th><th class="pb-3">问题</th></tr></thead>
+          <tbody class="divide-y divide-slate-50">
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">1</td><td class="py-2 pr-4"><span class="badge bg-indigo-50 text-indigo-700">P</span></td><td class="py-2 pr-4">邹灿阳 尼克</td><td class="py-2">向明中学初中部学生适合什么lab课程（2轮追问：确认学校→零基础预初路径）</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">2</td><td class="py-2 pr-4"><span class="badge bg-indigo-50 text-indigo-700">P</span></td><td class="py-2 pr-4">杨帆</td><td class="py-2">竞赛营集训前/中/后课程时间线+书面产品包介绍</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">3</td><td class="py-2 pr-4"><span class="badge bg-green-50 text-green-700">T</span></td><td class="py-2 pr-4">陈思</td><td class="py-2">科创编程比赛对升学帮助的链接资料汇总</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">4</td><td class="py-2 pr-4"><span class="badge bg-green-50 text-green-700">T</span></td><td class="py-2 pr-4">陈思</td><td class="py-2">斯坦星球去年雏鹰杯招收人数、获奖率、获奖总数（知识库暂无内部经营数据）</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">5</td><td class="py-2 pr-4"><span class="badge bg-amber-50 text-amber-700">C</span></td><td class="py-2 pr-4">邹灿阳 尼克</td><td class="py-2">向明初中·零基础预初学生如何向家长推荐产品（领航打底→竞赛营冲刺）</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 学生案例追踪 -->
+    <div class="card mb-8">
+      <div class="section-title">📋 本周学生案例追踪</div>
+      <div class="space-y-3">
+        <div class="p-3 border-l-4 border-rose-400 bg-rose-50/30 rounded-r-lg">
+          <div class="font-semibold text-sm text-rose-700">🔥 邹灿阳（尼克）· 黄浦向明初中 · 9月预初 · 零基础</div>
+          <div class="text-xs text-rose-600 mt-1">小学非向明系、无科创基础。已推荐"领航计划（科研入门）+ 竞赛营（初一冲刺）"两步走路径，价格¥54,800。强调硬推竞赛营风险。</div>
+          <div class="text-xs text-rose-500 mt-1">⏳ 待家长反馈</div>
+        </div>
+        <div class="p-3 border-l-4 border-indigo-400 bg-indigo-50/30 rounded-r-lg">
+          <div class="font-semibold text-sm text-indigo-700">杨帆 · 竞赛营课程细节</div>
+          <div class="text-xs text-indigo-600 mt-1">已提供完整课程时间线（集训前开题定题→7天集训→集训后申报+退费保障），待确认是否需要对外书面物料。</div>
+        </div>
+        <div class="p-3 border-l-4 border-green-400 bg-green-50/30 rounded-r-lg">
+          <div class="font-semibold text-sm text-green-700">陈思 · 雏鹰杯数据 + 升学链接</div>
+          <div class="text-xs text-green-600 mt-1">已提供升学相关官方链接（青创赛/综评/公众号）和雏鹰杯赛事规模数据。内部经营数据（招收人数、获奖率）不在知识库，需信芮补充。</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 区域趋势 -->
+    <div class="grid md:grid-cols-3 gap-4 mb-8">
+      <div class="card bg-blue-50/50 border-blue-100">
+        <div class="font-semibold text-sm text-blue-700 mb-2">📈 沪东区 · 借超管示范回暖</div>
+        <p class="text-xs text-blue-600">信芮老师7/22在群内做示范提问（竞赛营价格+上实/浦外分析），带动杨帆和邹灿阳两位新顾问主动提问。邹灿阳2轮连续追问，从产品匹配到零基础路径，转化意图明确。</p>
+      </div>
+      <div class="card bg-indigo-50/50 border-indigo-100">
+        <div class="font-semibold text-sm text-indigo-700 mb-2">🔥 沪北区 · 陈思持续活跃</div>
+        <p class="text-xs text-indigo-600">陈思从W29的首次提问后持续活跃，本周聚焦赛事数据和升学链接，实用导向明显。雏鹰杯内部经营数据缺口需要关注——顾问问不到会影响跟家长的沟通质量。</p>
+      </div>
+      <div class="card bg-gray-50/50 border-gray-200">
+        <div class="font-semibold text-sm text-gray-600 mb-2">沪南区 · 连续4周静默</div>
+        <p class="text-xs text-gray-500">沪南区自W26（7/12）邵炎提问后持续无活动。邵炎、熊国誉未有新提问，其他顾问未活跃。已进入第四周静默期，建议主动激活。</p>
+      </div>
+    </div>
+
+    <!-- 知识库缺口 -->
+    <div class="card mb-8 bg-amber-50/50 border-amber-200">
+      <div class="section-title">⚠️ 知识库缺口提醒</div>
+      <div class="text-sm text-amber-700 space-y-2">
+        <p><strong>痛点1：</strong>陈思询问"斯坦星球去年雏鹰杯一期招收人数、获奖率、获奖总数"，知识库只有赛事规模数据+宣贯快照，缺少内部经营统计。这个问题W29也曾被问到类似口径。</p>
+        <p><strong>痛点2：</strong>杨帆问"竞赛营有没有书面产品包介绍"，目前只有内部产品卡片，缺少可直接转发家长的结构化物料。</p>
+        <p><strong>建议：</strong>① 补充各赛事内部学员数据页（招生数/获奖率/获奖人数），方便顾问回答家长② 将产品课表做成可转发的一页图/PDF。</p>
+        <p><strong>好消息：</strong>"区青专项营"的认知缺口在W29 W30都未能解决，但本周信芮已在群里跟进确认产品信息。</p>
+      </div>
+    </div>
+
+    <!-- 改进建议 -->
+    <div class="card">
+      <div class="section-title">💡 下周建议</div>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="p-4 bg-indigo-50 rounded-lg">
+          <div class="font-semibold text-sm text-indigo-700 mb-2">🔧 数据补充</div>
+          <ul class="text-xs text-indigo-600 space-y-1">
+            <li>• 补充各赛事内部学员经营数据（招生人数/获奖率）到知识库</li>
+            <li>• 制作家长可转发的产品课表一页图/PDF</li>
+            <li>• 每日回答完群聊后即时写入 daily/ 日记录（连续3周遗漏）</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-green-50 rounded-lg">
+          <div class="font-semibold text-sm text-green-700 mb-2">📋 激活建议</div>
+          <ul class="text-xs text-green-600 space-y-1">
+            <li>• 沪南区连续4周无提问，建议主动在群里发起话题激活（如"暑期竞赛营开班情况""秋季课程预告"）</li>
+            <li>• 邹灿阳（尼克）零基础路径案例值得跟踪，有机会成为转化标杆</li>
+            <li>• 陈思持续活跃但数据需求未满足，建议信芮主动对接</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-amber-50 rounded-lg">
+          <div class="font-semibold text-sm text-amber-700 mb-2">📊 数据趋势</div>
+          <ul class="text-xs text-amber-600 space-y-1">
+            <li>• W27:15人次 → W28:5人次 → W29:14人次 → W30:5人次（仅统计普通顾问）</li>
+            <li>• 产品咨询仍占主导（60%），赛事分析占比提升</li>
+            <li>• 新增2位顾问（杨帆、邹灿阳），均被超管示范提问带动</li>
+            <li>• 本周提问集中在7/22单日，之后无活动</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 pt-6 border-t border-slate-200 text-center text-xs text-slate-400">
+      <p>📳 数据来源：沪南区 · 沪东区 · 沪北区 · 3D培训对接群 | 🔐 仅供超级管理员内部查阅</p>
+      <p class="mt-1">🏷️ 生成于 2026-07-27（周一 9:00）| 下次周报：2026-08-03</p>
+    </div>
+  </div>
+
+  <script>
+    new Chart(document.getElementById('categoryChart'), {
+      type: 'doughnut',
+      data: {
+        labels: ['P 产品咨询', 'T 赛事分析', 'C 学情参谋'],
+        datasets: [{ data: [3, 1, 1], backgroundColor: ['#6366f1', '#22c55e', '#f59e0b'], borderWidth: 0, borderRadius: 4 }]
+      },
+      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, cutout: '55%' }
+    });
+  </script>
+</body>
+</html>
