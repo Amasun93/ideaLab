@@ -1,6 +1,6 @@
 ---
 name: ideaLab
-description: Use when answering, routing, maintaining, or training around ideaLab/斯坦星球 product knowledge, course planning, Lab赛事包, 青创赛, 雏鹰杯, 宋庆龄少年儿童发明奖, regional event intelligence/赛情, school intelligence/校情, consultant simulation, DingTalk SOP references, and knowledge-base update decisions.
+description: Use when answering, routing, maintaining, or training around ideaLab/斯坦星球 product knowledge, course planning, product-linked image/video/multimedia retrieval, Lab赛事包, 青创赛, 雏鹰杯, 宋庆龄少年儿童发明奖, regional event intelligence/赛情, school intelligence/校情, consultant simulation, DingTalk SOP references, and knowledge-base update decisions.
 ---
 
 # ideaLab Skill 路由
@@ -88,7 +88,8 @@ Examples:
 | 孩子适合什么课程、怎么规划 | `references/product_knowledge/推荐逻辑.md` + `references/product_knowledge/data/recommendation_rules.json` |
 | 具体产品介绍 | `references/product_knowledge/产品卡片/` 下对应文件 |
 | 智造万物课节、PDL、项目 | `references/product_knowledge/课节索引/智造万物_课节速查卡.md` + `references/product_knowledge/data/zhizao_wanwu_lesson_index.json` |
-| 智造万物本地素材 | `references/product_knowledge/素材索引/智造万物_本地素材索引.md` |
+| 任一产品需要图片、视频、短视频 B-roll 或 PPT 配图 | `references/product_knowledge/素材索引/多媒体素材库_检索入口.md`；再到独立多媒体总索引按产品和内容角色筛选 |
+| 智造万物本地素材细节 | `references/product_knowledge/素材索引/智造万物_本地素材索引.md` |
 | 价格、课时、合同、退费、保奖风险 | `references/product_knowledge/销售与合同边界.md` + `references/product_knowledge/口径冲突与待确认.md` |
 | 综评系统填报、探究学习报告、典型事例 | `references/product_knowledge/综评系统填报指南.md` |
 | 当月在售、占座、排班、内部 SOP | `references/consultant_training/dingtalk_internal_docs.md` |

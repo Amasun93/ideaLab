@@ -1,6 +1,6 @@
 ---
 name: ideaLab-product-knowledge
-description: Use when answering questions about ideaLab/斯坦星球 course products, sales positioning, product relationships, course route recommendations, competition-service boundaries, and source-backed product facts.
+description: Use when answering questions about ideaLab/斯坦星球 course products, sales positioning, product relationships, course route recommendations, product-linked image/video retrieval, competition-service boundaries, and source-backed product facts.
 ---
 
 # ideaLab Product Knowledge Skill
@@ -15,6 +15,7 @@ description: Use when answering questions about ideaLab/斯坦星球 course prod
 4. 推荐产品时必须读 `推荐逻辑.md`，并说明为什么推荐、为什么不推荐其他相近产品。
 5. 涉及价格、课时、合同、退费、获奖承诺时必须读 `销售与合同边界.md` 和 `口径冲突与待确认.md`。
 6. 需要引用来源时读 `来源索引.md` 和 `data/source_registry.json`。
+7. 用户需要产品配图、视频、短视频 B-roll 或讲座/PPT 素材时，读 `素材索引/多媒体素材库_检索入口.md`，再进入独立多媒体总索引；不要在产品知识库中寻找或复制素材原件。
 
 ## 回答原则
 
@@ -23,6 +24,7 @@ description: Use when answering questions about ideaLab/斯坦星球 course prod
 - 不要用“保奖”“保证获奖”“100%拿奖”等表达；只能说“退费承诺”或“不获奖退费”，并提示赛事评审不确定性。
 - 如果材料存在价格或课时冲突，不要自行合并成唯一答案；要指出口径冲突，并建议以当前销售SOP或合同为准。
 - 面向家长端时，不要暴露内部材料、内部宣贯或竞争策略细节。
+- 项目制配图必须优先匹配 `project_evidence`，不要用基地课、泛课堂或环境素材代替已有的项目制作、调试和成果画面。
 
 ## 产品主线
 
