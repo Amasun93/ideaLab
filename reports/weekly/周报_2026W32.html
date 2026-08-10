@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ideaLab 运营周报 W32 · 8月4日—8月10日</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    * { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .card { @apply bg-white rounded-2xl border border-slate-200/60 p-6 shadow-[0_1px_3px_rgba(0,0,0,0.04)]; }
+    .stat-number { @apply text-4xl font-bold tracking-tight; }
+    .stat-label { @apply text-sm text-slate-500 font-medium mt-1; }
+    .section-title { @apply text-lg font-semibold text-slate-800 tracking-tight mb-4 flex items-center gap-2; }
+    .badge { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen">
+
+  <div class="max-w-6xl mx-auto px-6 py-10">
+
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-10">
+      <div>
+        <div class="flex items-center gap-3 mb-1">
+          <div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-bold text-lg">芮</div>
+          <div>
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900">ideaLab 小芮运营周报</h1>
+            <p class="text-sm text-slate-500">2026年第32周 · 8月4日—8月10日</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="badge bg-indigo-50 text-indigo-700">🔐 超级管理员内部周报</span>
+        <span class="text-xs text-slate-400">生成于 2026-08-10</span>
+      </div>
+    </div>
+
+    <!-- Top Stats -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div class="card text-center">
+        <div class="stat-number text-indigo-600">4</div>
+        <div class="stat-label">总提问人次</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-emerald-600">4</div>
+        <div class="stat-label">活跃顾问数</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-amber-600">2</div>
+        <div class="stat-label">覆盖群数</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-rose-600">0</div>
+        <div class="stat-label">本周新用户</div>
+      </div>
+    </div>
+
+    <!-- 分区域活跃度 -->
+    <div class="card mb-8">
+      <div class="section-title">📍 分区域活跃度</div>
+      <div class="space-y-4">
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">沪南区</span><span class="text-slate-500">3人次（75%）</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-400 h-3 rounded-full" style="width:75%"></div></div>
+          <div class="text-xs text-gray-400 mt-1">漆琪（ICC转化+竞赛营时间）、Jason赵永刚（占座表位置）、方智玮Ethan（申报书字数）</div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">沪东区</span><span class="text-slate-500">1人次（25%）</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-indigo-500 h-3 rounded-full" style="width:25%"></div></div>
+          <div class="text-xs text-gray-400 mt-1">Arvin王卓（高考综评赛事+产品选择）</div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">🔥 沪北区</span><span class="text-slate-500">0人次</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-gray-300 h-3 rounded-full" style="width:0%"></div></div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">3D打印群</span><span class="text-slate-500">0人次</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-gray-300 h-3 rounded-full" style="width:0%"></div></div>
+        </div>
+      </div>
+      <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-400">
+        🔔 本周沪南区反超沪北区成为最活跃区域（3人次），沪东区保持低频（1人次）。沪北区自W29以来首次归零。3D培训群连续多周零普通顾问提问。
+        沪南区晓佳老师8/9现身补充未来工程师申报书字数口径（2000-3000字），超管示范不计入统计。
+      </div>
+    </div>
+
+    <!-- 分类饼图 + 活跃度 -->
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="card">
+        <div class="section-title">🎯 问题分类分布</div>
+        <div class="flex justify-center"><canvas id="categoryChart" width="280" height="280"></canvas></div>
+        <div class="mt-4 grid grid-cols-1 gap-2 text-xs">
+          <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-green-500 mr-2"></span>T 赛事相关 3次（含跨分类重叠）</div>
+          <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-blue-500 mr-2"></span>P 产品咨询 2次</div>
+          <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-amber-500 mr-2"></span>O 教务行政 2次</div>
+          <div class="text-xs text-slate-400 ml-5">C（学情参谋）0次 · $（价格课时）0次</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="section-title">👤 用户活跃度</div>
+        <div class="space-y-2">
+          <div class="flex items-center justify-between p-3 bg-yellow-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥇</span><div><div class="font-medium">Arvin王卓</div><div class="text-xs text-gray-500">沪东区·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">1次</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-yellow-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥇</span><div><div class="font-medium">漆琪</div><div class="text-xs text-gray-500">沪南区·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">1次</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-yellow-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥇</span><div><div class="font-medium">Jason赵永刚</div><div class="text-xs text-gray-500">沪南区·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">1次</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-yellow-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥇</span><div><div class="font-medium">方智玮Ethan</div><div class="text-xs text-gray-500">沪南区·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">1次</div>
+          </div>
+        </div>
+        <div class="mt-3 text-xs text-slate-400">注：本周4位顾问各提问1次，并列第一。</div>
+      </div>
+    </div>
+
+    <!-- 高频问题 TOP -->
+    <div class="card mb-8">
+      <div class="section-title">🔥 高频问题 TOP5</div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead><tr class="text-left text-xs text-slate-400 uppercase border-b"><th class="pb-3 pr-4">#</th><th class="pb-3 pr-4">分类</th><th class="pb-3 pr-4">提问人</th><th class="pb-3">问题</th></tr></thead>
+          <tbody class="divide-y divide-slate-50">
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">1</td><td class="py-2 pr-4"><span class="badge bg-green-50 text-green-700">T</span><span class="badge bg-blue-50 text-blue-700 ml-1">P</span></td><td class="py-2 pr-4">Arvin王卓</td><td class="py-2">适合高考综评准备的赛事和产品搭配 — 已回复竞赛营/课题营/领航计划对比+青创赛/明日科技之星/宋赛对应出口，覆盖综评路径全貌</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">2</td><td class="py-2 pr-4"><span class="badge bg-green-50 text-green-700">T</span><span class="badge bg-amber-50 text-amber-700 ml-1">O</span></td><td class="py-2 pr-4">漆琪</td><td class="py-2">ICC获奖名单按校区分拆 + 竞赛营新开班时间确认 — ICC获奖学生→竞赛营转化策略已梳理，价格锚点和话术已提供；开班时间建议查SOP文档</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">3</td><td class="py-2 pr-4"><span class="badge bg-amber-50 text-amber-700">O</span></td><td class="py-2 pr-4">Jason赵永刚</td><td class="py-2">未来工程师占座表查询位置 — 已指引到信芮钉钉签名中的SOP文档和群文件</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">4</td><td class="py-2 pr-4"><span class="badge bg-green-50 text-green-700">T</span></td><td class="py-2 pr-4">方智玮Ethan</td><td class="py-2">未来工程师项目申报书字数要求（900字 vs 2000-5000字）— 经知识库+网络多轮搜索未果，晓佳老师最终确认2000-3000字</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 本周超管活动 -->
+    <div class="card mb-8 bg-indigo-50/50 border-indigo-200">
+      <div class="section-title">🔧 本周超管活动（不计入统计）</div>
+      <div class="text-sm text-indigo-700 space-y-2">
+        <p><strong>晓佳老师（8/9 沪南区）：</strong>在方智玮提问未来工程师申报书字数后，确认口径为"一般2000-3000字左右"。该知识点在知识库中此前无记录，网络搜索也未找到官方精确数据，晓佳老师的确认填补了空白。建议后续将"未来工程师申报书2000-3000字"写入产品知识库或赛事规则文件。</p>
+      </div>
+    </div>
+
+    <!-- 区域趋势 -->
+    <div class="grid md:grid-cols-3 gap-4 mb-8">
+      <div class="card bg-blue-50/50 border-blue-100">
+        <div class="font-semibold text-sm text-blue-700 mb-2">📝 沪南区 · 本周最活跃区域</div>
+        <p class="text-xs text-blue-600">沪南区本周3人次（漆琪、赵永刚、方智玮），首次反超沪北区。漆琪的ICC转化问题是运营层面的主动推动——需要分校区获奖名单来做仪式感恭喜和产品规划，说明区域在做ICC赛后运营。赵永刚和方智玮的问题都与未来工程师相关，提示该产品线近期有集中需求。</p>
+      </div>
+      <div class="card bg-indigo-50/50 border-indigo-100">
+        <div class="font-semibold text-sm text-indigo-700 mb-2">🔵 沪东区 · Arvin王卓持续深度提问</div>
+        <p class="text-xs text-indigo-600">Arvin王卓自W27首次出现以来保持稳定的深度提问节奏（W27:高中综评+AI方向 → W32:综评赛事+产品选择），两次均涉及高中综评路径规划。王卓对"学生路径匹配"有清晰的咨询需求，是值得持续跟进的深度用户。</p>
+      </div>
+      <div class="card bg-gray-50/50 border-gray-200">
+        <div class="font-semibold text-sm text-gray-600 mb-2">沪北区 · 本周静默</div>
+        <p class="text-xs text-gray-500">沪北区自W29以来首次归零。此前W29-W31为王迎利、王倩、陈思等持续活跃，本周回落可能受暑期尾声影响，也需关注是否有运营动作（如群内发起话题）来重新激活。</p>
+      </div>
+    </div>
+
+    <!-- 学生案例追踪 -->
+    <div class="card mb-8">
+      <div class="section-title">📋 学生案例追踪</div>
+      <div class="text-sm text-slate-500 mb-3">本周无新增学生案例。此前跟踪中的案例状态：</div>
+      <div class="space-y-3">
+        <div class="p-3 border-l-4 border-rose-400 bg-rose-50/30 rounded-r-lg">
+          <div class="font-semibold text-sm text-rose-700">邹灿阳（尼克）· 黄浦向明初中 · 9月预初 · 零基础</div>
+          <div class="text-xs text-rose-600 mt-1">W30已推荐"领航计划（科研入门）+ 竞赛营（初一冲刺）"两步走路径。建议跟踪是否成功推荐领航计划。</div>
+          <div class="text-xs text-rose-500 mt-1">⏳ 待家长反馈（自W30起，已过2周）</div>
+        </div>
+        <div class="p-3 border-l-4 border-indigo-400 bg-indigo-50/30 rounded-r-lg">
+          <div class="font-semibold text-sm text-indigo-700">杨帆 · 竞赛营课程细节</div>
+          <div class="text-xs text-indigo-600 mt-1">W30已提供完整课程时间线。待确认是否需要对外书面物料。</div>
+          <div class="text-xs text-indigo-500 mt-1">⏳ 待跟进（自W30起）</div>
+        </div>
+        <div class="p-3 border-l-4 border-green-400 bg-green-50/30 rounded-r-lg">
+          <div class="font-semibold text-sm text-green-700">陈思 · 雏鹰杯数据需求</div>
+          <div class="text-xs text-green-600 mt-1">W29-W30持续追问雏鹰杯内部数据。W31晓佳老师已正式录入获奖率数据到知识库，该需求已闭环。</div>
+          <div class="text-xs text-green-500 mt-1">✅ 已解决</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 知识库更新建议 -->
+    <div class="card mb-8 bg-emerald-50/50 border-emerald-200">
+      <div class="section-title">✅ 本周知识库更新建议</div>
+      <div class="text-sm text-emerald-700 space-y-2">
+        <p><strong>1. 未来工程师申报书字数口径（8/9 晓佳老师确认）：</strong>2000-3000字左右。建议写入未来工程师专项营产品卡片和赛事规则文件中。此前知识库无此数据，网络搜索也未获官方精确标准。</p>
+        <p><strong>2. ICC → 竞赛营转化策略（8/7 漆琪提问后产出）：</strong>已梳理ICC获奖学生画像、竞赛营增量、价格锚点和推荐话术。该转化策略可考虑结构化后写入SOP文档或产品知识库。</p>
+        <p><strong>3. 高考综评赛事+产品搭配（8/7 王卓提问后产出）：</strong>竞赛营/课题营/领航计划对比表+青创赛/明日科技之星/宋赛出口布局，属于高中生综评规划的完整知识链条。知识库中产品卡片已有对应内容，本次回答为高质量整合输出。</p>
+      </div>
+    </div>
+
+    <!-- 改进建议 -->
+    <div class="card">
+      <div class="section-title">💡 下周建议</div>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="p-4 bg-indigo-50 rounded-lg">
+          <div class="font-semibold text-sm text-indigo-700 mb-2">🔧 数据补充</div>
+          <ul class="text-xs text-indigo-600 space-y-1">
+            <li>• 未来工程师申报书字数（2000-3000字）建议写入知识库</li>
+            <li>• ICC→竞赛营转化策略可纳入SOP或产品知识库</li>
+            <li>• 本周仍无daily记录文件生成——日记录机制持续缺失</li>
+            <li>• 漆琪问ICC名单分校区，说明各校区学员数据需要打通</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-green-50 rounded-lg">
+          <div class="font-semibold text-sm text-green-700 mb-2">📋 激活建议</div>
+          <ul class="text-xs text-green-600 space-y-1">
+            <li>• 沪北区本周归零，建议下周主动发起话题激活（可推ICC赛后运营或竞赛营秋季班预告）</li>
+            <li>• 沪南区未来工程师相关提问集中，可做专题推送：申报书规范、占座流程、时间节点等</li>
+            <li>• Arvin王卓连续深度提问，建议关注是否可发展为区域"小芮推广大使"</li>
+            <li>• 3D培训群连续多周无活动，秋季开学前是否需要预热或重新定位</li>
+            <li>• 暑期尾声，可主动推送"竞赛营秋季班/新学期科创规划"话题</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-amber-50 rounded-lg">
+          <div class="font-semibold text-sm text-amber-700 mb-2">📊 数据趋势</div>
+          <ul class="text-xs text-amber-600 space-y-1">
+            <li>• W27:15人次 → W28:5人次 → W29:14人次 → W30:5人次 → W31:3人次 → W32:4人次</li>
+            <li>• 触底后微反弹（+1人次），但仍处于暑期低谷期</li>
+            <li>• 问题类型更加多元：T（赛事）仍占主力，P（产品）和O（教务）回升</li>
+            <li>• 本周零新用户、零学生案例新增，与前几周一致</li>
+            <li>• 暑假接近尾声，预计8月下旬至9月开学季将迎来新一轮咨询高峰</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 pt-6 border-t border-slate-200 text-center text-xs text-slate-400">
+      <p>📳 数据来源：沪南区 · 沪东区 · 沪北区 · 3D培训对接群 | 🔐 仅供超级管理员内部查阅</p>
+      <p class="mt-1">🏷️ 生成于 2026-08-10（周一 9:00）| 下次周报：2026-08-17</p>
+    </div>
+  </div>
+
+  <script>
+    new Chart(document.getElementById('categoryChart'), {
+      type: 'doughnut',
+      data: {
+        labels: ['T 赛事相关', 'P 产品咨询', 'O 教务行政'],
+        datasets: [{ data: [3, 2, 2], backgroundColor: ['#22c55e', '#3b82f6', '#f59e0b'], borderWidth: 0, borderRadius: 4 }]
+      },
+      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, cutout: '55%' }
+    });
+  </script>
+</body>
+</html>
