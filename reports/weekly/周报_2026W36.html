@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ideaLab 运营周报 W36 · 9月1日—9月7日</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    * { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .card { @apply bg-white rounded-2xl border border-slate-200/60 p-6 shadow-[0_1px_3px_rgba(0,0,0,0.04)]; }
+    .stat-number { @apply text-4xl font-bold tracking-tight; }
+    .stat-label { @apply text-sm text-slate-500 font-medium mt-1; }
+    .section-title { @apply text-lg font-semibold text-slate-800 tracking-tight mb-4 flex items-center gap-2; }
+    .badge { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen">
+
+  <div class="max-w-6xl mx-auto px-6 py-10">
+
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-10">
+      <div>
+        <div class="flex items-center gap-3 mb-1">
+          <div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-bold text-lg">芮</div>
+          <div>
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900">ideaLab 小芮运营周报</h1>
+            <p class="text-sm text-slate-500">2026年第36周 · 9月1日—9月7日</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="badge bg-indigo-50 text-indigo-700">🔐 超级管理员内部周报</span>
+        <span class="text-xs text-slate-400">生成于 2026-09-07</span>
+      </div>
+    </div>
+
+    <!-- Top Stats -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div class="card text-center">
+        <div class="stat-number text-indigo-600">7</div>
+        <div class="stat-label">总提问人次</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-emerald-600">5</div>
+        <div class="stat-label">活跃顾问数</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-amber-600">3</div>
+        <div class="stat-label">覆盖群数</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-rose-600">4</div>
+        <div class="stat-label">本周新用户</div>
+      </div>
+    </div>
+
+    <!-- 分区域活跃度 -->
+    <div class="card mb-8">
+      <div class="section-title">📍 分区域活跃度</div>
+      <div class="space-y-4">
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">沪南区</span><span class="text-slate-500">3人次（42.9%）</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-emerald-500 h-3 rounded-full" style="width:42.9%"></div></div>
+          <div class="text-xs text-gray-400 mt-1">邵炎（雏鹰杯赛道、徐汇创意设计院）、Jason赵永刚（领航+竞赛营连报）</div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">沪东区</span><span class="text-slate-500">2人次（28.6%）</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-indigo-500 h-3 rounded-full" style="width:28.6%"></div></div>
+          <div class="text-xs text-gray-400 mt-1">杨会云（领航不能报青创/宋赛）、马卫平（秋季启航比赛时间）</div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">沪北区</span><span class="text-slate-500">2人次（28.6%）</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full" style="width:28.6%"></div></div>
+          <div class="text-xs text-gray-400 mt-1">余姣Yolanda（高一课题+综评规划、同济一附中冲奖）</div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">3D打印群</span><span class="text-slate-500">0人次</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-gray-300 h-3 rounded-full" style="width:0%"></div></div>
+        </div>
+      </div>
+      <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-400">
+        🔔 本周三区同步活跃，沪北区（余姣Yolanda）久违回归，沪南区延续活跃。提问高度聚焦「冲奖/综评路径规划」，赛事规划(T)连续第二周为第一分类，开学季路径规划需求持续升温。
+      </div>
+    </div>
+
+    <!-- 分类饼图 + 活跃度 -->
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="card">
+        <div class="section-title">🎯 问题分类分布</div>
+        <div class="flex justify-center"><canvas id="categoryChart" width="280" height="280"></canvas></div>
+        <div class="mt-4 grid grid-cols-1 gap-2 text-xs">
+          <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-green-500 mr-2"></span>T 赛事规划 3次</div>
+          <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-blue-500 mr-2"></span>P 产品咨询 2次</div>
+          <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-orange-500 mr-2"></span>P+$ 产品/价格衔接 1次</div>
+          <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-purple-500 mr-2"></span>C 学情参谋 1次</div>
+          <div class="text-xs text-slate-400 ml-5">$（价格课时）0次 · O（教务行政）0次</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="section-title">👤 用户活跃度</div>
+        <div class="space-y-2">
+          <div class="flex items-center justify-between p-3 bg-yellow-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥇</span><div><div class="font-medium">余姣（Yolanda）</div><div class="text-xs text-gray-500">沪北区·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">2次</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥈</span><div><div class="font-medium">邵炎</div><div class="text-xs text-gray-500">沪南区·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">2次</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥉</span><div><div class="font-medium">杨会云</div><div class="text-xs text-gray-500">沪东区·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">1次</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">—</span><div><div class="font-medium">马卫平 / Jason赵永刚</div><div class="text-xs text-gray-500">沪东·沪南·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">各1次</div>
+          </div>
+        </div>
+        <div class="mt-3 text-xs text-slate-400">注：本周5位顾问活跃，其中马卫平、Jason赵永刚为首次提问的新顾问，余姣Yolanda是沪北区久违回归，杨会云延续上周启航/领航话题继续深挖。</div>
+      </div>
+    </div>
+
+    <!-- 高频问题 TOP -->
+    <div class="card mb-8">
+      <div class="section-title">🔥 高频问题 TOP5</div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead><tr class="text-left text-xs text-slate-400 uppercase border-b"><th class="pb-3 pr-4">#</th><th class="pb-3 pr-4">分类</th><th class="pb-3 pr-4">提问人</th><th class="pb-3">问题</th></tr></thead>
+          <tbody class="divide-y divide-slate-50">
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">1</td><td class="py-2 pr-4"><span class="badge bg-green-50 text-green-700">T</span></td><td class="py-2 pr-4">余姣</td><td class="py-2">高一想「课题+综评比赛」规划→明确同济一附中冲比赛拿奖 — 已推竞赛营高中版¥49,800，给出高一→高三倒推时间线</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">2</td><td class="py-2 pr-4"><span class="badge bg-green-50 text-green-700">T</span></td><td class="py-2 pr-4">邵炎</td><td class="py-2">雏鹰杯「未来科学家/主要项目/专题项目」新划分 — 知识库暂无，已如实说明并请其提供内部文件待录入</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">3</td><td class="py-2 pr-4"><span class="badge bg-blue-50 text-blue-700">P</span><span class="badge bg-orange-50 text-orange-700 ml-1">$</span></td><td class="py-2 pr-4">Jason赵永刚</td><td class="py-2">初一生「领航+寒假竞赛营」10天集训是否合并、寒假可行性 — 已辨明两产品独立不覆盖，给错峰方案</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">4</td><td class="py-2 pr-4"><span class="badge bg-purple-50 text-purple-700">C</span></td><td class="py-2 pr-4">邵炎</td><td class="py-2">徐汇区青少年创意设计院性质、对标产品、报名频次 — 判断为区级年度人才池选拔，无直接对标产品</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">5</td><td class="py-2 pr-4"><span class="badge bg-blue-50 text-blue-700">P</span></td><td class="py-2 pr-4">杨会云 / 马卫平</td><td class="py-2">领航项目为何不能报青创/宋赛；秋季启航两个出口比赛时间（ICC明年3-4月、IEYI明年11-12月）</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 区域趋势 -->
+    <div class="grid md:grid-cols-3 gap-4 mb-8">
+      <div class="card bg-blue-50/50 border-blue-100">
+        <div class="font-semibold text-sm text-blue-700 mb-2">🔵 沪北区 · 久违回归</div>
+        <p class="text-xs text-blue-600">余姣（Yolanda）激活沪北群，本周2人次，聚焦高一「课题+综评/冲奖」规划。这是沪北区在历经多周静默后的明确回归信号，且提问落在高中线，值得关注沪北区是否正切入高中赛道客户。</p>
+      </div>
+      <div class="card bg-emerald-50/50 border-emerald-100">
+        <div class="font-semibold text-sm text-emerald-700 mb-2">🟢 沪南区 · 持续活跃</div>
+        <p class="text-xs text-emerald-600">邵炎、Jason赵永刚合计3人次，连续第二周活跃。邵炎聚焦雏鹰杯赛道口径与徐汇创意设计院（校情咨询），赵永刚聚焦产品连报规划，沪南区顾问的提问深度在提升。</p>
+      </div>
+      <div class="card bg-indigo-50/50 border-indigo-100">
+        <div class="font-semibold text-sm text-indigo-700 mb-2">📝 沪东区 · 延伸追问</div>
+        <p class="text-xs text-indigo-600">杨会云延续上周「启航vs领航」话题继续深挖「领航为何不能报青创/宋赛」，马卫平新接入问「秋季启航比赛时间」。产品边界类（能力课 vs 冲奖服务）是沪东区顾问的共性困惑点。</p>
+      </div>
+    </div>
+
+    <!-- 学生案例追踪 -->
+    <div class="card mb-8">
+      <div class="section-title">📋 学生案例追踪</div>
+      <div class="text-sm text-slate-500 mb-3">本周新增2个学生案例，此前跟踪案例无新动态：</div>
+      <div class="space-y-3">
+        <div class="p-3 border-l-4 border-indigo-400 bg-indigo-50/30 rounded-r-lg">
+          <div class="font-semibold text-sm text-indigo-700">余姣的高一学生 · 同济一附中 · 冲比赛拿奖</div>
+          <div class="text-xs text-indigo-600 mt-1">已推竞赛营高中版¥49,800，明确「课题+综评」主线，需确认学生项目基础与目标大学（是否偏同济方向/工科）。</div>
+          <div class="text-xs text-indigo-500 mt-1">🆕 新增（9/7）</div>
+        </div>
+        <div class="p-3 border-l-4 border-emerald-400 bg-emerald-50/30 rounded-r-lg">
+          <div class="font-semibold text-sm text-emerald-700">Jason赵永刚的初一学生 · 冲四校要奖项</div>
+          <div class="text-xs text-emerald-600 mt-1">家长要冲四校、要硬奖项，初一时间紧不能拖。顾纠结「领航+竞赛营」寒假连报10天可行性，已给错峰方案（竞赛营提前线上开题、或领航先上竞赛营放暑假）。</div>
+          <div class="text-xs text-emerald-500 mt-1">🆕 新增（9/2）</div>
+        </div>
+        <div class="p-3 border-l-4 border-rose-400 bg-rose-50/30 rounded-r-lg">
+          <div class="font-semibold text-sm text-rose-700">此前跟踪案例</div>
+          <div class="text-xs text-rose-500 mt-1">⏳ Coco三年级、邹灿阳（黄浦向明）、杨帆、陈思 本周均无新动态。</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 知识库更新建议 -->
+    <div class="card mb-8 bg-emerald-50/50 border-emerald-200">
+      <div class="section-title">✅ 本周知识库更新建议</div>
+      <div class="text-sm text-emerald-700 space-y-2">
+        <p><strong>1. 雏鹰杯新赛道口径（9/2 邵炎提问）：</strong>「未来科学家/主要项目/专题项目」的新划分知识库暂无，需等内部文件（SOP/通知/宣贯PPT）到位后系统录入，澄清三者界定、参赛对象、评审晋级差异。</p>
+        <p><strong>2. 「课题+综评」高中线决策卡（9/7 余姣提问）：</strong>「冲奖(竞赛营¥49,800) vs 综评课题(课题营¥29,800)」是高频决策，建议固化一张分年级×目标×产品的决策卡，明确「能力课 vs 冲奖服务」边界。</p>
+        <p><strong>3. 多产品连报关系卡（9/2 赵永刚提问）：</strong>「领航3天+竞赛营7天=10天是否合并」是典型产品衔接疑问，建议沉淀「多产品连报」的课时/集训/开题关系说明卡，明确「两产品独立、不覆盖」。</p>
+      </div>
+    </div>
+
+    <!-- 改进建议 -->
+    <div class="card">
+      <div class="section-title">💡 下周建议</div>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="p-4 bg-indigo-50 rounded-lg">
+          <div class="font-semibold text-sm text-indigo-700 mb-2">🔧 数据补充</div>
+          <ul class="text-xs text-indigo-600 space-y-1">
+            <li>• 雏鹰杯新赛道：待内部文件录入，澄清三层级界定</li>
+            <li>• 高中线决策卡：冲奖 vs 综评课题 标准对比</li>
+            <li>• 多产品连报关系卡：集训/开题是否合并的说明</li>
+            <li>• 徐汇创意设计院：需完整通知补录校情知识库</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-green-50 rounded-lg">
+          <div class="font-semibold text-sm text-green-700 mb-2">📋 激活建议</div>
+          <ul class="text-xs text-green-600 space-y-1">
+            <li>• 沪北区余姣回归，关注是否切入高中赛道客户，及时赋能</li>
+            <li>• 3D打印群长期零活动，建议重新定位或调整统计口径</li>
+            <li>• 新顾问马卫平、赵永刚接入，做好产品边界（能力课vs冲奖）培训</li>
+            <li>• 产品边界类困惑在沪东/沪南共性出现，建议统一口径话术</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-amber-50 rounded-lg">
+          <div class="font-semibold text-sm text-amber-700 mb-2">📊 数据趋势</div>
+          <ul class="text-xs text-amber-600 space-y-1">
+            <li>• W27:15→W28:5→W29:14→W30:5→W31:3→W32:4→W33:5→W34:3→W35:4→W36:7</li>
+            <li>• 本周7人次创近5周新高，三区同步活跃</li>
+            <li>• 赛事规划(T)连续第二周第一分类，冲奖/综评路径规划升温</li>
+            <li>• 沪北区久违回归，高中线需求显现</li>
+            <li>• 本周4位新顾问接入，团队持续扩容</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 pt-6 border-t border-slate-200 text-center text-xs text-slate-400">
+      <p>📳 数据来源：沪北区 · 沪东区 · 沪南区 · 3D培训对接群 | 🔐 仅供超级管理员内部查阅</p>
+      <p class="mt-1">🏷️ 生成于 2026-09-07（周一 9:00）| 下次周报：2026-09-14</p>
+    </div>
+  </div>
+
+  <script>
+    new Chart(document.getElementById('categoryChart'), {
+      type: 'doughnut',
+      data: {
+        labels: ['T 赛事规划', 'P 产品咨询', 'P+$ 产品/价格衔接', 'C 学情参谋'],
+        datasets: [{ data: [3, 2, 1, 1], backgroundColor: ['#22c55e', '#3b82f6', '#fb923c', '#a855f7'], borderWidth: 0, borderRadius: 4 }]
+      },
+      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, cutout: '55%' }
+    });
+  </script>
+</body>
+</html>
