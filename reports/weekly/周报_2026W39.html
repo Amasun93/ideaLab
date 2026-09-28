@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ideaLab 运营周报 W39 · 9月22日—9月28日</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    * { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .card { @apply bg-white rounded-2xl border border-slate-200/60 p-6 shadow-[0_1px_3px_rgba(0,0,0,0.04)]; }
+    .stat-number { @apply text-4xl font-bold tracking-tight; }
+    .stat-label { @apply text-sm text-slate-500 font-medium mt-1; }
+    .section-title { @apply text-lg font-semibold text-slate-800 tracking-tight mb-4 flex items-center gap-2; }
+    .badge { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen">
+
+  <div class="max-w-6xl mx-auto px-6 py-10">
+
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-10">
+      <div>
+        <div class="flex items-center gap-3 mb-1">
+          <div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-bold text-lg">芮</div>
+          <div>
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900">ideaLab 小芮运营周报</h1>
+            <p class="text-sm text-slate-500">2026年第39周 · 9月22日—9月28日</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="badge bg-indigo-50 text-indigo-700">🔐 超级管理员内部周报</span>
+        <span class="text-xs text-slate-400">生成于 2026-09-28</span>
+      </div>
+    </div>
+
+    <!-- Top Stats -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div class="card text-center">
+        <div class="stat-number text-indigo-600">5</div>
+        <div class="stat-label">总提问人次</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-emerald-600">5</div>
+        <div class="stat-label">活跃顾问数</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-amber-600">3</div>
+        <div class="stat-label">覆盖群数</div>
+      </div>
+      <div class="card text-center">
+        <div class="stat-number text-rose-600">2</div>
+        <div class="stat-label">本周新用户</div>
+      </div>
+    </div>
+
+    <!-- 分区域活跃度 -->
+    <div class="card mb-8">
+      <div class="section-title">📍 分区域活跃度</div>
+      <div class="space-y-4">
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">沪南区</span><span class="text-slate-500">3人次（60%）</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-indigo-500 h-3 rounded-full" style="width:60%"></div></div>
+          <div class="text-xs text-gray-400 mt-1">李涵（雏鹰杯话术）、张逸君（口径校准）、邵炎（获奖背书）</div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">沪北区</span><span class="text-slate-500">1人次（20%）</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-emerald-500 h-3 rounded-full" style="width:20%"></div></div>
+          <div class="text-xs text-gray-400 mt-1">田艳丽（ICC获奖喜报数据）</div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">沪东区</span><span class="text-slate-500">1人次（20%）</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-amber-500 h-3 rounded-full" style="width:20%"></div></div>
+          <div class="text-xs text-gray-400 mt-1">毛佳宁（ICC/IEYI申报时间）</div>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm mb-1"><span class="font-medium">3D打印群</span><span class="text-slate-500">0人次</span></div>
+          <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-gray-300 h-3 rounded-full" style="width:0%"></div></div>
+        </div>
+      </div>
+      <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-400">
+        🔔 本周活跃度回暖至 5 人次，沪南、沪北、沪东三区同步活跃。核心议题集中在「获奖数据背书」与「ICC/IEYI 赛事申报」，反映顾问已进入招生季冲刺阶段。
+      </div>
+    </div>
+
+    <!-- 分类饼图 + 活跃度 -->
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="card">
+        <div class="section-title">🎯 问题分类分布</div>
+        <div class="flex justify-center"><canvas id="categoryChart" width="280" height="280"></canvas></div>
+        <div class="mt-4 grid grid-cols-1 gap-2 text-xs">
+          <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-green-500 mr-2"></span>T 赛事规划 2次</div>
+          <div class="flex items-center"><span class="w-3 h-3 rounded-full bg-blue-500 mr-2"></span>TA 赛事分析 2次</div>
+          <div class="text-xs text-slate-400 ml-5">P（产品咨询）0次 · C（学情参谋）0次 · $（价格课时）0次 · O（教务行政）0次</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="section-title">👤 用户活跃度</div>
+        <div class="space-y-2">
+          <div class="flex items-center justify-between p-3 bg-yellow-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥇</span><div><div class="font-medium">邵炎</div><div class="text-xs text-gray-500">沪南区·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">2次</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥈</span><div><div class="font-medium">李涵（大力）</div><div class="text-xs text-gray-500">沪南区·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">1次</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥈</span><div><div class="font-medium">田艳丽</div><div class="text-xs text-gray-500">沪北区·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">1次</div>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
+            <div class="flex items-center"><span class="text-2xl mr-3">🥈</span><div><div class="font-medium">毛佳宁</div><div class="text-xs text-gray-500">沪东区·顾问</div></div></div>
+            <div class="text-sm font-semibold text-indigo-600">1次</div>
+          </div>
+        </div>
+        <div class="mt-3 text-xs text-slate-400">注：张逸君（Queena）本周做了一次重要的「产品口径校准」，纠正「启航作品只能报 ICC/IEYI、不能用于雏鹰杯/青创/宋赛」的边界，属教练级贡献，不计入提问分类但纳入活跃统计。</div>
+      </div>
+    </div>
+
+    <!-- 高频问题 TOP -->
+    <div class="card mb-8">
+      <div class="section-title">🔥 高频问题 TOP5</div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead><tr class="text-left text-xs text-slate-400 uppercase border-b"><th class="pb-3 pr-4">#</th><th class="pb-3 pr-4">分类</th><th class="pb-3 pr-4">提问人</th><th class="pb-3">问题</th></tr></thead>
+          <tbody class="divide-y divide-slate-50">
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">1</td><td class="py-2 pr-4"><span class="badge bg-blue-50 text-blue-700">TA</span></td><td class="py-2 pr-4">邵炎</td><td class="py-2">整理25年徐汇初中获奖学员明细（含来源校）— 知识库只有赛事维度聚合数据，无逐学员明细，已给脱敏版「徐汇初中获奖背书卡」，并说明青创/宋赛/明科缺区级统计</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">2</td><td class="py-2 pr-4"><span class="badge bg-green-50 text-green-700">T</span></td><td class="py-2 pr-4">李涵</td><td class="py-2">三年级雏鹰杯介绍话术（简版）— 已给「发明创造+动手+现场表达」口径，并据张逸君校准重新对齐启航→高含金量赛事路线</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">3</td><td class="py-2 pr-4"><span class="badge bg-blue-50 text-blue-700">TA</span></td><td class="py-2 pr-4">田艳丽</td><td class="py-2">ICC全球发明大会获奖喜报和数据 — 综合获奖率86%、省赛一等奖9人、国赛一等奖3人等历史服务结果</td></tr>
+            <tr><td class="py-2 pr-4 font-bold text-indigo-600">4</td><td class="py-2 pr-4"><span class="badge bg-green-50 text-green-700">T</span></td><td class="py-2 pr-4">毛佳宁</td><td class="py-2">ICC和IEYI比赛申报时间 — ICC 3-5月报名/7-8月国赛；IEYI 11月底初选/次年2月中国展/7月国际展</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 区域趋势 -->
+    <div class="grid md:grid-cols-3 gap-4 mb-8">
+      <div class="card bg-indigo-50/50 border-indigo-100">
+        <div class="font-semibold text-sm text-indigo-700 mb-2">📝 沪南区 · 获奖背书需求升温</div>
+        <p class="text-xs text-indigo-600">邵炎、李涵、张逸君三人活跃。邵炎连续追问「获奖学员明细」，反映招生季需要「获奖背书」材料；张逸君主动校准启航作品边界，教练级把关质量高。</p>
+      </div>
+      <div class="card bg-emerald-50/50 border-emerald-100">
+        <div class="font-semibold text-sm text-emerald-700 mb-2">🔵 沪北/沪东 · 赛事数据需求</div>
+        <p class="text-xs text-emerald-600">沪北田艳丽、沪东毛佳宁分别问 ICC 获奖数据和申报时间，均为赛事数据/时间类需求。两位均为本周新接入顾问，说明新顾问在快速补课赛事信息。</p>
+      </div>
+      <div class="card bg-amber-50/50 border-amber-100">
+        <div class="font-semibold text-sm text-amber-700 mb-2">⚠️ 3D打印群 · 持续无活动</div>
+        <p class="text-xs text-amber-600">该群连续多周无 session 记录，延续此前建议，需重新评估群定位或调整统计口径。</p>
+      </div>
+    </div>
+
+    <!-- 学生案例追踪 -->
+    <div class="card mb-8">
+      <div class="section-title">📋 学生案例追踪</div>
+      <div class="text-sm text-slate-500 mb-3">本周新增 1 个学生案例，此前跟踪案例无新动态：</div>
+      <div class="space-y-3">
+        <div class="p-3 border-l-4 border-indigo-400 bg-indigo-50/30 rounded-r-lg">
+          <div class="font-semibold text-sm text-indigo-700">李涵的三年级学生 · 已报启航</div>
+          <div class="text-xs text-indigo-600 mt-1">9月开课，家长想冲雏鹰杯。已校准口径：启航作品只用于 ICC/IEYI，冲雏鹰杯/青创/宋赛需按赛事标准独立孵化项目（走竞赛营）。</div>
+          <div class="text-xs text-indigo-500 mt-1">🆕 新增（9/22）</div>
+        </div>
+        <div class="p-3 border-l-4 border-rose-400 bg-rose-50/30 rounded-r-lg">
+          <div class="font-semibold text-sm text-rose-700">此前跟踪案例</div>
+          <div class="text-xs text-rose-500 mt-1">⏳ 马卫平（三年级）、胡海燕（七宝中学·目标交大）、边立华（七年级）、花花（民办位育六年级）、余姣（高一·同济一附中）、Jason赵永刚（初一·冲四校）、Coco三年级、邹灿阳（黄浦向明）、杨帆、陈思 本周均无新动态。</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 知识库更新建议 -->
+    <div class="card mb-8 bg-emerald-50/50 border-emerald-200">
+      <div class="section-title">✅ 本周知识库更新建议</div>
+      <div class="text-sm text-emerald-700 space-y-2">
+        <p><strong>1. 补充青创赛/宋赛/明科的区级获奖统计（9/26 邵炎追问）：</strong>目前只有「未来工程师」「长三角AI」有区级获奖数据，青创、宋赛、明科缺区级/学员维度统计，建议补充以支撑顾问的获奖背书需求。</p>
+        <p><strong>2. 「启航作品只能报 ICC/IEYI」口径固化（9/22 张逸君校准）：</strong>启航交付的作品/材料出口锁定 ICC/IEYI，不能用于雏鹰杯/青创/宋赛，建议写入产品卡片/FAQ，避免顾问重复纠错。</p>
+      </div>
+    </div>
+
+    <!-- 改进建议 -->
+    <div class="card">
+      <div class="section-title">💡 下周建议</div>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="p-4 bg-indigo-50 rounded-lg">
+          <div class="font-semibold text-sm text-indigo-700 mb-2">🔧 数据补充</div>
+          <ul class="text-xs text-indigo-600 space-y-1">
+            <li>• 青创/宋赛/明科区级获奖统计</li>
+            <li>• 「启航≠竞赛营」产品边界固化</li>
+            <li>• ICC/IEYI 申报时间轴卡片</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-green-50 rounded-lg">
+          <div class="font-semibold text-sm text-green-700 mb-2">📋 激活建议</div>
+          <ul class="text-xs text-green-600 space-y-1">
+            <li>• 招生季获奖背书材料补全</li>
+            <li>• 新顾问（毛佳宁/田艳丽）赛事信息补课</li>
+            <li>• 3D打印群连续多周零活动，重新评估定位</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-amber-50 rounded-lg">
+          <div class="font-semibold text-sm text-amber-700 mb-2">📊 数据趋势</div>
+          <ul class="text-xs text-amber-600 space-y-1">
+            <li>• W27:15→W28:5→W29:14→W30:5→W31:3→W32:4→W33:5→W34:3→W35:4→W36:7→W37:6→W38:1→W39:5</li>
+            <li>• 本周 5 人次，较上周（1）明显回暖</li>
+            <li>• 核心议题：获奖数据背书 + 赛事申报</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 pt-6 border-t border-slate-200 text-center text-xs text-slate-400">
+      <p>📳 数据来源：沪北区 · 沪东区 · 沪南区 · 3D培训对接群 | 🔐 仅供超级管理员内部查阅</p>
+      <p class="mt-1">🏷️ 生成于 2026-09-28（周一 9:00）| 下次周报：2026-10-05</p>
+    </div>
+  </div>
+
+  <script>
+    new Chart(document.getElementById('categoryChart'), {
+      type: 'doughnut',
+      data: {
+        labels: ['T 赛事规划', 'TA 赛事分析'],
+        datasets: [{ data: [2, 2], backgroundColor: ['#22c55e', '#3b82f6'], borderWidth: 0, borderRadius: 4 }]
+      },
+      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, cutout: '55%' }
+    });
+  </script>
+</body>
+</html>
