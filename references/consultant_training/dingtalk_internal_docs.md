@@ -73,3 +73,10 @@
 - 不要把钉钉内部材料原文直接复制给家长。
 - 不要把内部获奖率、奖金榜单、排班、占座或合同解释公开化。
 - 本文件只沉淀已确认的页面摘要和可见信息；若需要完整同步钉钉正文，应由有权限的同事导出 Markdown/PDF/Word 后再归档。
+
+## 2026-09-30 新版归档入口
+
+- 来源批次：`S21`，钉钉文档《ideaLab26年销售SOP-0805更新（上海）》；页面快照显示上次编辑为 `09-21`，正文标注“当月在售产品-8月”。
+- 原始归档：`D:\Projects\ideaLab竞赛工作台\local\archive\idealab-sales-sop-dingtalk\2026-09-30\`。
+- 清洗索引：`references/consultant_training/dingtalk_sop_0805_material_index.md`。
+- 使用规则：S21 用于定位材料、续费逻辑和内部培训候选内容；价格、合同、退费、当月在售、奖金和竞品判断仍按 `pending_updates.md` 的待确认状态处理。

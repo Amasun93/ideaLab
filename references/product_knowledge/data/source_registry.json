@@ -138,5 +138,17 @@
     "relative_path": "conversation:2026-06-26 产品体系金字塔更新",
     "use_for": "ideaLab六层产品体系金字塔、软实力/硬实力/创新体验/发明挑战/科研探究/顶尖发明家分层、Deepseek AI机器人营移除、卡丁车补充、启航领航/专项营/寒暑假竞赛营与赛事出口映射",
     "confidence": "user_confirmed_current_terms"
+  },
+  "S21": {
+    "title": "ideaLab26年销售SOP-0805更新（上海）及关联材料归档",
+    "type": "登录钉钉销售SOP导出与关联材料包",
+    "relative_path": "D:\\Projects\\ideaLab竞赛工作台\\local\\archive\\idealab-sales-sop-dingtalk\\2026-09-30",
+    "use_for": "8月在售材料索引、产品到物料映射、续费逻辑候选、内部宣传物料使用边界、合同解读候选和激励政策待确认项",
+    "source_url": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeDmDjOslg1lQEQJA7depqY",
+    "confidence": "logged_in_dingtalk_export",
+    "last_verified": "2026-09-30",
+    "risk_level": "mixed",
+    "public_safe": "conditional",
+    "update_policy": "pending_review"
   }
 }
