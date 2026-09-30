@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ideaLab Knowledge 知识地图</title>
+  <style>
+    :root { --ink:#17324d; --muted:#667085; --line:#cbd5e1; --blue:#e8f1fb; --orange:#fff1dc; --green:#e8f7ef; --gray:#f5f5f5; }
+    * { box-sizing:border-box; }
+    body { margin:0; padding:28px; font-family:"Microsoft YaHei",system-ui,sans-serif; color:var(--ink); background:#f7f9fc; }
+    header { max-width:1400px; margin:0 auto 22px; }
+    h1 { margin:0 0 8px; font-size:28px; }
+    p { margin:0; color:var(--muted); line-height:1.7; }
+    .board { max-width:1400px; margin:auto; display:grid; grid-template-columns:1fr 1.25fr 1fr; gap:16px; align-items:stretch; }
+    .column { display:flex; flex-direction:column; gap:12px; }
+    .column-title { font-size:13px; letter-spacing:.08em; color:var(--muted); font-weight:700; margin:4px 2px; }
+    .node { position:relative; padding:15px 16px; border:1px solid var(--line); border-radius:14px; background:white; box-shadow:0 5px 18px rgba(23,50,77,.06); }
+    .node h2 { margin:0 0 6px; font-size:16px; }
+    .node p { font-size:13px; }
+    .source { background:var(--gray); border-color:#b6bec8; }
+    .domain { background:var(--blue); border-color:#86a9d1; }
+    .output { background:var(--green); border-color:#8ac09b; }
+    .root { margin:0 auto 14px; max-width:420px; padding:18px; text-align:center; color:#fff; background:#16324f; border-color:#0b1f33; }
+    .root h2 { font-size:21px; }
+    .batch { grid-column:1 / -1; margin-top:10px; padding:18px; border:1px solid #e08a36; border-radius:16px; background:var(--orange); }
+    .batch h2 { margin:0 0 12px; font-size:18px; color:#6b3a00; }
+    .batch-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+    .batch-card { padding:12px; border:1px solid #efc38e; border-radius:11px; background:#fffaf2; font-size:13px; line-height:1.5; }
+    .batch-card strong { display:block; color:#6b3a00; margin-bottom:4px; }
+    .legend { max-width:1400px; margin:18px auto 0; padding:14px 16px; border:1px solid var(--line); border-radius:14px; background:#fff; color:var(--muted); font-size:13px; line-height:1.8; }
+    .legend b { color:var(--ink); }
+    @media (max-width:900px) { body { padding:18px; } .board { grid-template-columns:1fr; } .batch { grid-column:auto; } .batch-grid { grid-template-columns:repeat(2,1fr); } }
+    @media (max-width:520px) { .batch-grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="node root"><h2>ideaLab Knowledge</h2><p>来源 → 知识域 → S21 增量 → 使用出口</p></div>
+    <h1>知识地图（2026-09-30）</h1>
+    <p>这张图用于快速了解知识库的组成。橙色区域是本次新增的钉钉 SOP 清洗批次；它与长期知识域相连，但不覆盖实时价格、合同或政策。</p>
+  </header>
+  <main class="board">
+    <section class="column">
+      <div class="column-title">来源层 · 材料从哪里来</div>
+      <article class="node source"><h2>钉钉文档与关联材料</h2><p>SOP、PPT、PDF、DOCX、XLSX、公众号页面快照</p></article>
+      <article class="node source"><h2>官方赛事与区域通知</h2><p>赛事规则、时间节点、申报入口、区域赛情</p></article>
+      <article class="node source"><h2>已确认的用户口径</h2><p>产品体系、费用拆分、方案切换、边界校准</p></article>
+      <article class="node source"><h2>历史案例与素材索引</h2><p>课程资料、图片、视频、Logo、附件和规划案例</p></article>
+    </section>
+    <section class="column">
+      <div class="column-title">知识域 · 整理后回答什么</div>
+      <article class="node domain"><h2>产品与课程</h2><p>启航、领航、智造万物、MYO、竞赛营、专项营和课节级资料</p></article>
+      <article class="node domain"><h2>赛事与赛情</h2><p>青创赛、雏鹰杯、宋庆龄、Lab 赛事包和区域赛事情报</p></article>
+      <article class="node domain"><h2>学校与区域校情</h2><p>城市校情、学校资料卡、学校索引和获奖数据</p></article>
+      <article class="node domain"><h2>顾问训练与销售</h2><p>FAQ、规划逻辑、回复剧本、产品推荐和内部培训方法</p></article>
+      <article class="node domain"><h2>素材、竞品与规划案例</h2><p>多媒体检索、竞品卡片、历史案例和可外发边界</p></article>
+    </section>
+    <section class="column">
+      <div class="column-title">使用层 · 知识如何被调用</div>
+      <article class="node output"><h2>小芮 / ideaLab Skill</h2><p>回答产品、赛事、校情和顾问培训问题</p></article>
+      <article class="node output"><h2>工作台材料知识库</h2><p>按岗位检索、显示来源/风险、打开具体文件</p></article>
+      <article class="node output"><h2>钉钉原文链接</h2><p>发送给有对应钉钉权限的内部同事</p></article>
+      <article class="node output"><h2>本地归档文件</h2><p>PDF、DOCX、XLSX、图片和页面快照</p></article>
+    </section>
+    <section class="batch">
+      <h2>S21 · 本次新增的 8 条清洗知识</h2>
+      <div class="batch-grid">
+        <div class="batch-card"><strong>1. SOP 总览</strong>产品、获奖、师资、合同、竞品、宣传和激励的来源索引</div>
+        <div class="batch-card"><strong>2. 产品物料映射</strong>启航/领航、竞赛营、科创发明营、雏鹰杯和区域手册</div>
+        <div class="batch-card"><strong>3. 续费方法</strong>启航 → 启航、领航、竞赛营/专项营的阶段判断</div>
+        <div class="batch-card"><strong>4. 合同边界</strong>合同、退费、服务范围和需要回查的条款</div>
+        <div class="batch-card"><strong>5. 激励政策</strong>奖金、续费条件和内部运营政策，当前保留待确认</div>
+        <div class="batch-card"><strong>6. 占座材料</strong>竞赛营与专项营占座表，不能直接写入学生主数据</div>
+        <div class="batch-card"><strong>7. 竞品索引</strong>只作为内部来源标注，不把宣传判断当作公开事实</div>
+        <div class="batch-card"><strong>8. 使用边界</strong>公开安全、风险等级、来源版本和回查规则</div>
+      </div>
+    </section>
+  </main>
+  <div class="legend"><b>阅读提示：</b>蓝色是长期知识域，橙色是 S21 新增内容，灰色是材料来源，绿色是调用出口。价格、合同、退费、奖金、占座、当月在售和竞品判断必须回查当期 SOP、正式合同或官方来源。</div>
+</body>
+</html>
