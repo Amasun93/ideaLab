@@ -20,6 +20,7 @@ flowchart LR
     C["顾问训练与销售\nFAQ · 规划逻辑 · 回复剧本\n内部培训方法"]
     M["多媒体与附件\n图片 · 视频 · PPT · Logo\n可外发边界"]
     CI["竞品与规划案例\n竞品卡片 · 历史规划案例"]
+    G["治理与来源追踪\nsource registry · 更新策略\n待确认队列 · 字段规范"]
   end
 
   subgraph S21["S21：本次新增的 8 条清洗知识"]
@@ -52,6 +53,8 @@ flowchart LR
   C --> X
   M --> X
   CI --> X
+  G --> X
+  G --> W
   S21 --> C
   S21 --> M
   S21 --> W
