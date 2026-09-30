@@ -1,4 +1,4 @@
-# ideaLab 知识库与 Agent Skill
+# ideaLab knowledge（小芮知识库与 Agent Skill）
 
 这是给 ideaLab/斯坦星球科创业务使用的知识库包。它不是单纯的提示词,也不是把素材全部塞进 `SKILL.md` 的文档包。
 

@@ -4,7 +4,7 @@
   "description": "查询、表达和维护 ideaLab/斯坦星球课程产品，并把产品配图、视频、短视频和PPT素材请求路由到独立多媒体素材库；同时覆盖寒(暑)假竞赛营/Lab赛事包、青创赛、雏鹰杯、宋庆龄少年儿童发明奖、赛复创智杯、课程推荐、销售边界、官方赛事数据、区域赛事赛情、校情蓝皮书/学校科创资料卡/学校索引/班型资料卡、脱敏本地赛事资料索引、内部结果口径和知识库维护规范，以及顾问训练、模拟家长、标准回答示范、回复思路沉淀和100分制考核。",
   "version": "0.5.17",
   "author": "Amasun",
-  "repository": "https://github.com/Amasun93/ideaLab",
+  "repository": "https://github.com/Amasun93/ideaLab-knowledge",
   "category": "产品知识库",
   "keywords": [
     "ideaLab",

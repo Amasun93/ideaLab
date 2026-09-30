@@ -14,7 +14,7 @@
 
 ## 依赖
 
-- **ideaLab Skill**: 需从 GitHub (`Amasun93/ideaLab`) 安装
+- **ideaLab Skill**: 需从 GitHub (`Amasun93/ideaLab-knowledge`) 安装
 
 ## 版本
 

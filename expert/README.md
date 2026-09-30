@@ -20,4 +20,4 @@
 
 ## 依赖
 
-需要已安装 **ideaLab Skill**（GitHub: `Amasun93/ideaLab`），Expert 启动时会自动加载。
+需要已安装 **ideaLab Skill**（GitHub: `Amasun93/ideaLab-knowledge`），Expert 启动时会自动加载。
