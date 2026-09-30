@@ -55,3 +55,12 @@
 - 价格、合同和退费：读 `references/product_knowledge/销售与合同边界.md` 与 `口径冲突与待确认.md`，不直接使用本索引的高风险条款。
 - 续费表达：读本索引的方法摘要，再结合对应产品卡和 `response_playbook.md` 自行组织表达。
 - 图片、PPT、PDF 和可外发附件：先看本索引的边界，再定位工作台本地归档；未确认授权的材料不得对外发送。
+
+## 可发送的钉钉原文链接
+
+以下链接来自本批次已登录导出的钉钉节点。小芮回答内部同事时，如果问题对应这些材料，可以把原文链接一并发出；链接是否能打开仍取决于对方的钉钉权限。对外回答不要发送本地归档路径，也不要把未确认外发权限的附件直接转发。
+
+- [主 SOP：ideaLab26年销售SOP-0805更新（上海）](https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeDmDjOslg1lQEQJA7depqY)
+- [ideaLab宣传物料工具](https://alidocs.dingtalk.com/i/nodes/93NwLYZXWygv0vXlsnBYxen1JkyEqBQm)
+- [启航计划续费逻辑与参考话术](https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeDmDjOsGqzawOgJA7depqY)
+- [ideaLab激励政策](https://alidocs.dingtalk.com/i/nodes/mExel2BLV54KQKrXTv0PE9AlWgk9rpMq)
